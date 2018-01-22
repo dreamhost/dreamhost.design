@@ -1,4 +1,4 @@
 ---
 title: Product
-layout: product
+layout: page
 ---

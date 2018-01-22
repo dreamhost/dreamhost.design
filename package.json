@@ -1,0 +1,27 @@
+{
+  "name": "designsystem",
+  "version": "0.0.1",
+  "description": "DreamHost Design System",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dreamhost/design.git"
+  },
+  "scripts": {
+    "version": "gulp dist && git add -A"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-stylelint": "^3.7.0",
+    "gulp-uglify": "^2.0.1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dreamhost-css": "^0.2.5"
+  }
+}

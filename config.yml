@@ -1,0 +1,13 @@
+port: 6667
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - gulpfile.js
+baseurl: /design
+sass:
+  load_paths:
+    - assets/_scss
+    - node_modules
+  style: compressed

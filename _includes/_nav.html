@@ -1,0 +1,19 @@
+<div class="SideNav-mobile js-SideNav-mobile p-m">
+	<svg class="icon icon-hamburger" viewBox="0 0 24 18">
+	<path d="M0 5.9L0 7.1C0 7.1 0 7.1 0 7.1L24 7.1C24 7.1 24 7.1 24 7.1L24 5.9C24 5.9 24 5.9 24 5.9L0 5.9C0 5.9 0 5.9 0 5.9ZM0 0.9L0 2.1C0 2.1 0 2.1 0 2.1L24 2.1C24 2.1 24 2.1 24 2.1L24 0.9C24 0.9 24 0.9 24 0.9L0 0.9C0 0.9 0 0.9 0 0.9ZM0 15.9L0 17.1C0 17.1 0 17.1 0 17.1L24 17.1C24 17.1 24 17.1 24 17.1L24 15.9C24 15.9 24 15.9 24 15.9L0 15.9C0 15.9 0 15.9 0 15.9ZM0 12.2C0 12.2 24 12.2 24 12.2L24 10.9C24 10.9 0 10.9 0 10.9L0 12.2Z"></path>
+	</svg>
+</div>
+
+<div class="SideNav g-1_4__l">
+{% include _logo.html %}
+	<ul class="p-bottom-xl">
+		<li><a href="{{site.baseurl}}/brand" class="SideNav__nav-link p-x-s tr-easing-cb-scale-out{% if page.url contains "/brand/" %} is-active{% endif %}">Brand</a></li>
+		<li><a href="{{site.baseurl}}/marketing" class="SideNav__nav-link p-x-s tr-easing-cb-scale-out{% if page.url contains "/marketing/" %} is-active{% endif %}">Marketing</a></li>
+		<li><a href="{{site.baseurl}}/product" class="SideNav__nav-link p-x-s tr-easing-cb-scale-out{% if page.url contains "/product/" %} is-active{% endif %}">Product</a></li>
+	</ul>
+
+	{% if page.url contains "/brand/" %}{% include _brand-nav.html %}{% endif %}
+	{% if page.url contains "/marketing/" %}{% include _marketing-nav.html %}{% endif %}
+	{% if page.url contains "/product/" %}{% include _product-nav.html %}{% endif %}
+
+</div>

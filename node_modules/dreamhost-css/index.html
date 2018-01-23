@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dreamhost.css</title>
+	<link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+	<div class="PageHeader">
+		<div class="PageHeader__container">
+			<a class="PageHeader__logo" href="//www.dreamhost.com"></a>
+			<ul class="PageHeader__nav PageHeader__only-show-large">
+				<li><a class="PageHeader__nav-link is-active" href="/">Dashboard</a></li>
+				<li><a class="PageHeader__nav-link" href="/">Billing</a></li>
+				<li class="Popover-container on-click">
+					<button class="PageHeader__nav-link t-caret js-toggle-popover Button--unset">Support</button>
+					<div class="Popover Popover--1 Popover--bottom">
+						<div class="Popover__section">
+							<ul class="List List--padding List--small-bold">
+								<li><a href="#">Knowledge Base</a></li>
+								<li><a href="#">Community Forums</a></li>
+								<li><a href="#">Support Tickets</a></li>
+								<li><a href="#">Email Support</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="PageHeader__subnav PageHeader__only-show-large">
+				<li>
+					<button class="PageHeader__subnav-link">
+						<span class="PageHeader__notification-amount">3</span>
+						<svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.3 21.4c0 1.4 1.1 2.6 2.5 2.6s2.5-1.1 2.5-2.6v-.1h-5v.1zM22.2 16.7V12c0-3.1-2.2-5.8-5.2-6.3.3-.1.4-.3.4-.5 0-.4-.7-.7-1.6-.7-.9 0-1.6.3-1.6.7 0 .2.2.4.4.5-2.9.5-5.1 3.1-5.1 6.3v4.7c0 1.1-.9 1.9-1.9 1.9v2.1H24v-2.1c-1 0-1.8-.8-1.8-1.9z" fill="#e0e4e8"/></svg>
+					</button>
+				</li>
+				<li class="Popover-container on-click">
+					<button class="PageHeader__subnav-link t-caret js-toggle-popover">
+							<svg class="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12c0 3.2 1.2 6.2 3.5 8.4C5.7 22.7 8.8 24 12 24s6.3-1.3 8.5-3.6S24 15.1 24 12c0-6.6-5.4-12-12-12zm8.1 19.4c-1.1-.6-2.6-1.2-4.3-1.8-.4-.2-.8-.3-1.3-.5v-1.7c2.1-.9 3.5-3 3.5-5.5 0-3.3-2.7-6-6-6s-6 2.7-6 6c0 2.4 1.4 4.5 3.5 5.5v1.7c-.4.1-.8.3-1.2.4-1.6.6-3.3 1.2-4.4 1.9C2 17.4 1 14.8 1 12 1 5.9 5.9 1 12 1s11 4.9 11 11c0 2.8-1 5.4-2.9 7.4z" fill="#e0e4e8"/></svg>
+					</button>
+					<div class="Popover Popover--1 Popover--bottom Popover--flush-right">
+						<div class="Popover__section">
+							<ul class="List List--padding List--small-bold">
+								<li><a href="#">Employee</a></li>
+							</ul>
+							<ul class="List List--padding List--small-bold">
+								<li><a href="#">Your Account</a></li>
+								<li><a href="#">Manage Users</a></li>
+								<li><a href="#">Logout</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<ul class="PageHeader__subnav PageHeader__only-show-small PageHeader__mobile-button t-right">
+				<li><button class="PageHeader__subnav-link js-toggle-mobile-menu">
+					<svg class="Icon Icon-hamburger" viewBox="0 0 24 18">
+						<path d="M0 5.9L0 7.1C0 7.1 0 7.1 0 7.1L24 7.1C24 7.1 24 7.1 24 7.1L24 5.9C24 5.9 24 5.9 24 5.9L0 5.9C0 5.9 0 5.9 0 5.9ZM0 0.9L0 2.1C0 2.1 0 2.1 0 2.1L24 2.1C24 2.1 24 2.1 24 2.1L24 0.9C24 0.9 24 0.9 24 0.9L0 0.9C0 0.9 0 0.9 0 0.9ZM0 15.9L0 17.1C0 17.1 0 17.1 0 17.1L24 17.1C24 17.1 24 17.1 24 17.1L24 15.9C24 15.9 24 15.9 24 15.9L0 15.9C0 15.9 0 15.9 0 15.9ZM0 12.2C0 12.2 24 12.2 24 12.2L24 10.9C24 10.9 0 10.9 0 10.9L0 12.2Z"></path>
+					</svg>
+				</button></li>
+			</ul>
+		</div>
+	</div>
+
+<div class="container-m p-left-3 p-right-3">
+
+	<div class="Toaster-container w-25">
+		<div class="Toaster Toaster--persistent">
+				<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#837000" fill-rule="evenodd"><path d="M12 23.963C5.393 23.963.037 18.607.037 12 .037 5.393 5.393.037 12 .037 18.607.037 23.963 5.393 23.963 12c0 6.607-5.356 11.963-11.963 11.963zm0-1.772c5.628 0 10.19-4.563 10.19-10.191 0-5.628-4.562-10.19-10.19-10.19C6.372 1.81 1.81 6.371 1.81 12c0 5.628 4.562 10.19 10.19 10.19z" fill-rule="nonzero"/><path d="M12 14.88l-2.5 2.31.248-3.394-3.364-.514 2.808-1.923-1.695-2.95 3.253.996L12 6.24l1.25 3.165 3.253-.996-1.695 2.95 2.808 1.923-3.364.514.247 3.394z"/></g></svg></div>
+				<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+		</div>
+		<div class="Toaster Toaster--negative">
+			<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#FFCCCE" fill-rule="evenodd"><path d="M13.219 8.898c0 .862-.038 1.652-.113 2.368a44.352 44.352 0 0 1-.281 2.166h-1.612a32.878 32.878 0 0 1-.3-2.174 22.933 22.933 0 0 1-.113-2.36V6h2.419v2.898zm.281 6.871c0 .364-.144.66-.431.888-.288.229-.644.343-1.069.343-.413 0-.766-.114-1.06-.343a1.074 1.074 0 0 1-.44-.888c0-.363.147-.662.44-.896.294-.233.647-.35 1.06-.35.425 0 .781.117 1.069.35.287.234.431.533.431.896z"/><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" fill-rule="nonzero"/></g></svg></div>
+			<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+		</div>
+		<div class="Toaster Toaster--persistent Toaster--positive">
+			<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#E5FEFF" fill-rule="evenodd"><rect transform="rotate(-47 12.861 12.147)" x="6.698" y="10.552" width="12.326" height="3.191" rx="1.595"/><path d="M11.861 21.503a9.503 9.503 0 1 0 0-19.006 9.503 9.503 0 0 0 0 19.006zM12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" fill-rule="nonzero"/><rect transform="rotate(-135 8.664 14.351)" x="5.473" y="12.756" width="6.382" height="3.191" rx="1.595"/></g></svg></div>
+			<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+		</div>
+		<div class="Toaster">
+			<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#837000" fill-rule="evenodd"><path d="M12 23.963C5.393 23.963.037 18.607.037 12 .037 5.393 5.393.037 12 .037 18.607.037 23.963 5.393 23.963 12c0 6.607-5.356 11.963-11.963 11.963zm0-1.772c5.628 0 10.19-4.563 10.19-10.191 0-5.628-4.562-10.19-10.19-10.19C6.372 1.81 1.81 6.371 1.81 12c0 5.628 4.562 10.19 10.19 10.19z" fill-rule="nonzero"/><path d="M12 14.88l-2.5 2.31.248-3.394-3.364-.514 2.808-1.923-1.695-2.95 3.253.996L12 6.24l1.25 3.165 3.253-.996-1.695 2.95 2.808 1.923-3.364.514.247 3.394z"/></g></svg></div>
+			<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+		</div>
+		<div class="Toaster Toaster--persistent Toaster--negative">
+				<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#FFCCCE" fill-rule="evenodd"><path d="M13.219 8.898c0 .862-.038 1.652-.113 2.368a44.352 44.352 0 0 1-.281 2.166h-1.612a32.878 32.878 0 0 1-.3-2.174 22.933 22.933 0 0 1-.113-2.36V6h2.419v2.898zm.281 6.871c0 .364-.144.66-.431.888-.288.229-.644.343-1.069.343-.413 0-.766-.114-1.06-.343a1.074 1.074 0 0 1-.44-.888c0-.363.147-.662.44-.896.294-.233.647-.35 1.06-.35.425 0 .781.117 1.069.35.287.234.431.533.431.896z"/><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" fill-rule="nonzero"/></g></svg></div>
+				<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+			</div>
+		<div class="Toaster Toaster--persistent Toaster--positive">
+			<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#E5FEFF" fill-rule="evenodd"><rect transform="rotate(-47 12.861 12.147)" x="6.698" y="10.552" width="12.326" height="3.191" rx="1.595"/><path d="M11.861 21.503a9.503 9.503 0 1 0 0-19.006 9.503 9.503 0 0 0 0 19.006zM12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" fill-rule="nonzero"/><rect transform="rotate(-135 8.664 14.351)" x="5.473" y="12.756" width="6.382" height="3.191" rx="1.595"/></g></svg></div>
+			<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+		</div>
+	</div><!--toasters-->
+
+	<div class="Pagination">
+		<a class="Pagination__button" href="#"><svg class="Pagination__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path d="M4.5 0L2 1.8 5.8 6 2 10.2 4.5 12 10 6z"/></svg></a>
+		<p class="Pagination__status">Step <span>1</span> of <span>5</span></p>
+		<a  class="Pagination__button" href="#"><svg class="Pagination__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12"><path d="M4.5 0L2 1.8 5.8 6 2 10.2 4.5 12 10 6z"/></svg></a>
+	</div><!--Pagination-->
+
+	<section class="m-bottom-4">
+		<h2>Panel</h2>
+		<div class="w-50__m m-bottom-7">
+			<div class="Panel w-100">
+				<h3 class="Panel__heading">File Upload</h3>
+				<div class="Panel__tags">
+					<span class="Tag Tag--blue">Shell</span>
+					<span class="Tag Tag--blue">SFTP</span>
+					<span class="Tag Tag--blue">FTP</span>
+				</div>
+				<div class="m-bottom-2">
+					<span class="Panel__label">User</span>
+					<span class="Panel__code"><code>example</code></span>
+				</div>
+				<div class="m-bottom-4">
+					<span class="Panel__label">Server</span>
+					<span class="Panel__code"><code>example.server.com</code></span>
+				</div>
+				<a role="button" href="#" class="Button Button--text t-2">Call to action</a>
+			</div>
+		</div>
+
+		<div class="w-75__m m-bottom-7">
+			<div class="Panel--double w-100">
+				<div class="Panel__section">
+					<h3 class="Panel__heading">File Upload</h3>
+					<div class="Panel__tags">
+						<span class="Tag Tag--blue">Shell</span>
+						<span class="Tag Tag--blue">SFTP</span>
+						<span class="Tag Tag--blue">FTP</span>
+					</div>
+					<div class="m-bottom-2">
+						<span class="Panel__label">User</span>
+						<span class="Panel__code"><code>example</code></span>
+					</div>
+					<div class="m-bottom-4">
+						<span class="Panel__label">Server</span>
+						<span class="Panel__code"><code>example.server.com</code></span>
+					</div>
+					<a role="button" href="#" class="Button Button--text t-2">Call to action</a>
+				</div>
+				<div class="Panel__section">
+					<h3 class="Panel__heading">Database (MySQL)</h3>
+					<div class="m-bottom-2">
+						<span class="Panel__label">User</span>
+						<span class="Panel__code"><code>example</code></span>
+					</div>
+					<div class="m-bottom-4">
+						<span class="Panel__label">Server</span>
+						<span class="Panel__code"><code>example.server.com</code></span>
+					</div>
+					<a role="button" href="#" class="Button Button--text t-2">Call to action</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="box u-border-radius m-bottom-4" >
+		<h2>Modal</h2>
+		<p>DreamHost uses https://github.com/vodkabears/Remodal with some customized styling.</p>
+		<p>To call the modal, use</p>
+		<button class="Button" data-remodal-target="test-modal">Open modal</button>
+		<div class="remodal Modal" data-remodal-id="test-modal">
+			<p class="t-5">Modal Window Title</p>
+			<p>Modal window descriptive text.</p>
+			<div class="Modal__button-group">
+				<button class="Button Button--primary" data-remodal-action="close">Primary Button</button>
+				<button class="Button" data-remodal-action="close">Secondary Button</button>
+			</div>
+		</div>
+	</section>
+	<section class="box u-border-radius m-bottom-4">
+		<h2>Payment</h2>
+		<div class="Payment-container">
+			<ul>
+				<li class="Payment Payment--autopay ChoiceBox">
+					<input type="radio" class="ChoiceBox__radio"
+						name="example" id="example" value="example" />
+					<label for="example" class="ChoiceBox__label">
+						<div class="ChoiceBox__title">
+							Example Title
+						</div>
+						<div class="ChoiceBox__content">
+							This is one of two choice boxes that appear
+							next to each other.
+
+							<div class="Payment__actions">
+								<button class="Button Button--text Payment__actions--primary" data-remodal-target="test-modal">Edit</button>
+							</div>
+						</div>
+					</label>
+				</li>
+				<li class="Payment ChoiceBox">
+					<input type="radio" class="ChoiceBox__radio"
+						name="example" id="example2" value="example" />
+					<label for="example2" class="ChoiceBox__label">
+						<div class="ChoiceBox__title">
+							Example Title
+						</div>
+						<div class="ChoiceBox__content">
+							This is one of two choice boxes that appear
+							next to each other.
+
+							<div class="Payment__actions">
+								<a href="javascript:void(0)" class="Button Button--text Payment__actions--primary">Set as Autopay</a><br />
+								<a href="javascript:void(0)" class="Button Button--text Payment__actions--danger">Delete</a>
+							</div>
+						</div>
+					</label>
+				</li>
+			</ul>
+			<button class="Button Button--block">Add Payment Option</button>
+		</div>
+	</section>
+	<section class="box u-border-radius m-bottom-4 w-50">
+		<h2>Cart</h2>
+		<div class="Cart__wrapper">
+			<div class="Cart__header">
+				<h3>CART HEADER</h3>
+				<p>Cart Description</p>
+			</div><!--Cart__header-->
+			<div class="Cart__step Cart__step--complete">
+				<div class="Cart__actions">
+					<p class="Cart__heading">Cart step (Complete)</p>
+					<a href="#">Step Button</a><a href="#">Step Button</a>
+				</div><!--Cart__actions--><p class="Cart__step-price">$0.00 <span>Frequency</span></p>
+			</div><!--Cart__step-->
+			<div class="Cart__step">
+				<div class="Cart__actions">
+					<p class="Cart__heading">Cart step (Active)</p>
+					<a href"/">Step Button</a>
+				</div><!--Cart__actions--><p class="Cart__step-price">$0.00 <span>Frequency</span></p>
+			</div><!--Cart__step-->
+			<div class="Cart__step Cart__step--next">
+					<p class="Cart__heading">Cart step (Next)</p>
+					<span>Description</span>
+			</div><!--Cart__step-->
+			<div class="Cart__step Cart__step--incomplete">
+					<p class="Cart__heading">Cart step (Incomplete)</p>
+			</div><!--Cart__step-->
+			<div class="Cart__footer">
+				<div class="Cart__total-price"><p>Total amount due</p><span>$0.00</span></div>
+			</div><!--Cart__footer-->
+		</div><!--Cart__wrapper-->
+	</section>
+	<section class="box u-border-radius m-bottom-4">
+		<h2>Alerts</h2>
+		<div class="Alert Alert--error">
+			<p class="Alert__heading">Scary Alert</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+		</div>
+		<div class="Alert">
+			<p class="Alert__heading">Neutral Alert</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+		</div>
+		<div class="Alert Alert--success">
+			<p class="Alert__heading">Happy Alert</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+		</div>
+
+		<h2>Notifications</h2>
+		<div class="Notification Notification--negative">
+			<div class="Notification__wrapper">
+				<h3 class="Notification__heading">Warning notification</h3>
+				<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+				<button role="button" class="Button Button--text">Primary action</button>
+			</div><!--Notification__wrapper-->
+		</div><!--Notification-->
+
+		<div class="Notification">
+			<div class="Notification__wrapper">
+				<h3 class="Notification__heading">Neutral notification</h3>
+				<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+				<button role="button" class="Button Button--text">Primary action</button>
+			</div><!--Notification__wrapper-->
+		</div><!--Notification-->
+
+		<div class="Notification Notification--positive">
+			<div class="Notification__wrapper">
+				<h3 class="Notification__heading">Positive notification</h3>
+				<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+				<button role="button" class="Button Button--text">Primary action</button>
+			</div><!--Notification__wrapper-->
+		</div><!--Notification-->
+
+		<h2>Toaster Alerts</h2>
+		<div class="Toaster Toaster--persistent w-50">
+			<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#837000" fill-rule="evenodd"><path d="M12 23.963C5.393 23.963.037 18.607.037 12 .037 5.393 5.393.037 12 .037 18.607.037 23.963 5.393 23.963 12c0 6.607-5.356 11.963-11.963 11.963zm0-1.772c5.628 0 10.19-4.563 10.19-10.191 0-5.628-4.562-10.19-10.19-10.19C6.372 1.81 1.81 6.371 1.81 12c0 5.628 4.562 10.19 10.19 10.19z" fill-rule="nonzero"/><path d="M12 14.88l-2.5 2.31.248-3.394-3.364-.514 2.808-1.923-1.695-2.95 3.253.996L12 6.24l1.25 3.165 3.253-.996-1.695 2.95 2.808 1.923-3.364.514.247 3.394z"/></g></svg></div>
+			<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+		</div>
+		<div class="Toaster Toaster--persistent Toaster--positive w-50">
+			<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#E5FEFF" fill-rule="evenodd"><rect transform="rotate(-47 12.861 12.147)" x="6.698" y="10.552" width="12.326" height="3.191" rx="1.595"/><path d="M11.861 21.503a9.503 9.503 0 1 0 0-19.006 9.503 9.503 0 0 0 0 19.006zM12 24C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" fill-rule="nonzero"/><rect transform="rotate(-135 8.664 14.351)" x="5.473" y="12.756" width="6.382" height="3.191" rx="1.595"/></g></svg></div>
+			<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+		</div>
+		<div class="Toaster Toaster--persistent Toaster--negative w-50">
+			<div class="Toaster__type"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="#FFCCCE" fill-rule="evenodd"><path d="M13.219 8.898c0 .862-.038 1.652-.113 2.368a44.352 44.352 0 0 1-.281 2.166h-1.612a32.878 32.878 0 0 1-.3-2.174 22.933 22.933 0 0 1-.113-2.36V6h2.419v2.898zm.281 6.871c0 .364-.144.66-.431.888-.288.229-.644.343-1.069.343-.413 0-.766-.114-1.06-.343a1.074 1.074 0 0 1-.44-.888c0-.363.147-.662.44-.896.294-.233.647-.35 1.06-.35.425 0 .781.117 1.069.35.287.234.431.533.431.896z"/><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm0 2C5.373 24 0 18.627 0 12S5.373 0 12 0s12 5.373 12 12-5.373 12-12 12z" fill-rule="nonzero"/></g></svg></div>
+			<p class="Toaster__heading">Toaster notification<span>Click for more details</span></p>
+		</div>
+	</section>
+
+	<section class="box u-border-radius m-bottom-4">
+		<h2>Forms</h2>
+
+		<form class="Form">
+			<div class="Form__group">
+				<label for="textlabel1" class="Form__label">Text label</label>
+				<input id="textlabel1" type="text" class="Input" placeholder="Example placeholder content">
+			</div>
+
+			<div class="Form__inline">
+				<div class="Form__inline-grid">
+					<div class="Form__inline-row">
+						<div class="Form__group">
+							<label for="halflabel1" class="Form__label">Half label</label>
+							<input id="halflabel1" type="text" class="Input" placeholder="Example placeholder content">
+						</div>
+						<div class="Form__group">
+							<label for="halflabel2" class="Form__label">Half label</label>
+							<input id="halflabel2" type="text" class="Input" placeholder="Example placeholder content">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="Form__group Form__group--stacked">
+				<label for="stackedlabel" class="Form__label">Stacked label</label>
+				<input id="stackedlabel" type="text" class="Input" placeholder="Example placeholder content">
+				<input type="text" class="Input" placeholder="Example placeholder content">
+			</div>
+
+			<div class="Form__group">
+				<label for="textarealabel" class="Form__label">Text label</label>
+				<p class="Form__description">This caption supports a <strong>non-ludicrous</strong> amount of text. <a href="#">Learn more.</a></p>
+				<textarea id="textarealabel" class="Input" placeholder="Example placeholder content"></textarea>
+			</div>
+
+			<div class="container-full-width">
+				<div class="Form__group g-1_2">
+					<label class="Form__label">Radio label</label>
+					<label class="Choice">
+						<input type="radio" name="radio1" checked>
+						<span class="Choice__label">Example radio label</span>
+					</label>
+					<label class="Choice">
+						<input type="radio" name="radio1">
+						<span class="Choice__label">Example radio label</span>
+					</label>
+					<label class="Choice">
+						<input type="radio" name="radio1">
+						<span class="Choice__label">Example radio label</span>
+					</label>
+					<label class="Choice">
+						<input type="radio" name="radio1">
+						<span class="Choice__label">Example radio label</span>
+					</label>
+				</div>
+
+				<div class="Form__group g-1_2">
+					<label class="Form__label">Checkbox label</label>
+					<label class="Choice">
+						<input type="checkbox" name="check1" checked>
+						<span class="Choice__label">Example checkbox label</span>
+					</label>
+					<label class="Choice">
+						<input type="checkbox" name="check1">
+						<span class="Choice__label">Example checkbox label</span>
+					</label>
+					<label class="Choice">
+						<input type="checkbox" name="check1">
+						<span class="Choice__label">Example checkbox label</span>
+					</label>
+					<label class="Choice">
+						<input type="checkbox" name="check1">
+						<span class="Choice__label">Example checkbox label</span>
+					</label>
+				</div>
+			</div>
+
+			<div class="container-full-width">
+				<div class="Form__group g-1_2">
+					<label class="Form__label">Radio label</label>
+					<label class="Choice">
+						<input type="radio" name="radio1" checked>
+						<span class="Choice__label">Example radio label</span>
+						<span class="Choice__description">Help explain what this choice is</span>
+					</label>
+					<label class="Choice">
+						<input type="radio" name="radio1" checked>
+						<span class="Choice__label">Example radio label that is really long and probably wraps really awkwardly</span>
+						<span class="Choice__description">Help explain what this choice is in more text than should be necessary to see how text wraps</span>
+					</label>
+					<label class="Choice">
+						<input type="radio" name="radio1">
+						<span class="Choice__label">Example radio label</span>
+					</label>
+					<label class="Choice">
+						<input type="radio" name="radio1">
+						<span class="Choice__label">Example radio label</span>
+					</label>
+				</div>
+
+				<div class="Form__group g-1_2">
+					<label class="Form__label">Checkbox label</label>
+					<label class="Choice">
+						<input type="checkbox" name="check1" checked>
+						<span class="Choice__label">Example checkbox label that is really long and probably wraps really awkwardly</span>
+						<span class="Choice__description">Help explain what this choice is in more text than should be necessary to see how text wraps</span>
+					</label>
+					<label class="Choice">
+						<input type="checkbox" name="check1">
+						<span class="Choice__label">Example checkbox label that is really long and probably wraps really awkwardly</span>
+						<span class="Choice__description">Help explain what this choice is in more text than should be necessary to see how text wraps</span>
+					</label>
+				</div>
+			</div>
+
+			<div class="container-full-width">
+				<ul class="u-clearfix">
+					<li class="ChoiceBox g-1_2__m">
+						<input type="radio" class="ChoiceBox__radio hidden" name="example" id="example" value="example" />
+						<label for="example" class="ChoiceBox__label">
+							<div class="ChoiceBox__title">
+								Example Title
+							</div>
+							<div class="ChoiceBox__content">
+								Example Content
+							</div>
+						</label>
+					</li>
+					<li class="ChoiceBox g-1_2__m">
+						<input type="radio" class="ChoiceBox__radio hidden" name="example" id="example2" value="example2" />
+						<label for="example2" class="ChoiceBox__label">
+							<div class="ChoiceBox__title">
+								Example Title 2
+							</div>
+							<div class="ChoiceBox__content">
+								Example Content 2
+							</div>
+						</label>
+					</li>
+				</ul>
+			</div>
+
+			<div class="Toggle">
+				<input class="Toggle__input" type="checkbox" id="toggle" />
+				<label for="toggle" class="Toggle__label">
+					<span class="Toggle__description">
+						<span class="Toggle__checked">On</span>
+						<span class="Toggle__unchecked">Off</span>
+					</span>
+					<span class="Toggle__visible"></span>
+				</label>
+			</div>
+
+			<div class="Form__group Form__group--select">
+				<label for="selectlabel" class="Form__label">Select label</label>
+				<select id="selectlabel" class="Select">
+					<option>Option 1</option>
+					<option>Option 2</option>
+					<option>Option 3</option>
+					<option>Option 4</option>
+					<option>Option 5</option>
+				</select>
+			</div>
+
+			<div class="Form__group Form__group--actions">
+				<input type="submit" class="Button" value="Submit">
+				<input type="button" class="Button Button" value="Cancel">
+			</div>
+		</form>
+	</section>
+
+	<section class="box u-border-radius m-bottom">
+		<h2>Buttons</h2>
+
+		<div class="m-bottom-5">
+			<h4 class="m-bottom-1">Colors</h4>
+			<p><span role="button" class="Button">Default button</span>
+			<span role="button" class="Button Button--primary">Primary button</span>
+			<span role="button" class="Button Button--transaction">Transactional</span>
+			<span role="button" class="Button Button--danger">Danger!</span>
+			<span role="button" class="Button Button--disabled">Disabled</span></p>
+			<span role="button" class="Button Button--text">Text Button</span>
+		</div>
+		<div>
+			<h4 class="m-bottom-1">Tags</h4>
+			<p><span role="button" class="Button Button__tag" data-label="label">Tag button</span>
+			<span role="button" class="Button Button__tag Button__tag--positive" data-label="label">Positive Tag button </span>
+			<span role="button" class="Button Button__tag Button__tag--negative" data-label="label">Negative Tag button</span>
+			<span role="button" class="Button Button__tag Button--compact" data-label="label">Compact Tag</span></p>
+		</div>
+
+		<div class="m-bottom-5">
+			<h4 class="m-bottom-1">Sizes</h4>
+			<span role="button" class="Button">Default button</span>
+			<span role="button" class="Button Button--compact">Compact button</span>
+		</div>
+
+		<div class="m-bottom-5">
+			<h4 class="m-bottom-1">Shapes</h4>
+
+			<span role="button" class="Button">Default Button</span>
+			<span role="button" class="Button Button--text">Text Button</span>
+
+		</div>
+
+		<div class="m-bottom-5">
+			<h4 class="m-bottom-1">Widths</h4>
+			<p><span role="button" class="Button">Default Width</span></p>
+			<p><span role="button" class="Button Button--block">Block Width</span></p>
+			<p><span role="button" class="Button Button--primary Button--block">Block Width Primary button</span></p>
+			<p><span role="button" class="Button Button--transaction Button--block">Block Width Transaction button</span></p>
+			<p><span role="button" class="Button Button__tag Button--block" data-label="label">Block Width Tag button</span></p>
+		</div>
+	</section>
+
+	<section class="box u-border-radius m-bottom-4">
+		<h1>Colors</h1>
+
+		<h3>Site Panel Palette</h3>
+		<p>These can be used directly in sass with their variable names or in html via <strong>bg-</strong> for backgrounds or <strong>t-</strong> for text color.</p>
+
+		<h3>Default</h3>
+		<div class="u-clearfix m-bottom-7">
+			<div class="g-1_3 bg-c-b500 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Royal Blue</strong><br />Sass $c-b500<br />Hex #1176A5<br />rgb(17,118,165)</p>
+			</div><!--Royal Blue-->
+			<div class="g-1_3 bg-c-b300 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Sky Blue</strong><br />Sass $c-b300<br />Hex #2BADE9<br />rgb(43,173,233)</p>
+			</div><!--Sky Blue-->
+			<div class="g-1_3 bg-c-b100 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Baby Blue</strong><br />Sass $c-b100<br />Hex #CCEFFF<br />rgb(204,239,255)</p>
+			</div><!--Baby Blue-->
+		</div><!--Primary Accents-->
+
+		<h3>Transactional</h3>
+		<div class="u-clearfix m-bottom-7">
+			<div class="g-1_3 bg-c-o500 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Autumn</strong><br />Sass $c-o500<br />Hex #664200<br />rgb(102,66,0)</p>
+			</div><!--Autumn-->
+			<div class="g-1_3 bg-c-o300 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Orange</strong><br />Sass $c-o300<br />Hex #FFA700<br />rgb(255,167,0)</p>
+			</div><!--Orange-->
+			<div class="g-1_3 bg-c-o100 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Peach</strong><br />Sass $c-o100<br />Hex #FFE0A6<br />rgb(255,224,166)</p>
+			</div><!--Peach-->
+		</div><!--Transaction Accents-->
+
+		<h3>Positive</h3>
+		<div class="u-clearfix m-bottom-7">
+			<div class="g-1_3 bg-c-t500 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Marina</strong><br />Sass $c-t500<br />Hex #0D8288<br />rgb(13,130,136)</p>
+			</div><!--Marina-->
+			<div class="g-1_3 bg-c-t300 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Turtle</strong><br />Sass $c-t300<br />Hex #00CAAA<br />rgb(0,202,170)</p>
+			</div><!--Turtle-->
+			<div class="g-1_3 bg-c-t100 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Ice</strong><br />Sass $c-t100<br />Hex #E5FEFF<br />rgb(229,254,255)</p>
+			</div><!--Ice-->
+		</div><!--Positive Accents-->
+
+		<h3>Neutral</h3>
+		<div class="u-clearfix m-bottom-7">
+			<div class="g-1_3 bg-c-y500 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Leather</strong><br />Sass $c-y500<br />Hex #6F5F1B<br />rgb(111,95,27)</p>
+			</div><!--Leather-->
+			<div class="g-1_3 bg-c-y300 p-top-3">
+					<ul class="t-center p-2 u-clearfix">
+						<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+						<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+						<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+						<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+					</ul>
+					<p class="p-3 bg-c-g100 m-0"><strong>Sunflower</strong><br />Sass $c-y300<br />Hex #FFDA00<br />rgb(255,218,0)</p>
+			</div><!--Sunflower-->
+			<div class="g-1_3 bg-c-y100 p-top-3">
+					<ul class="t-center p-2 u-clearfix">
+						<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+						<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+						<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+						<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+					</ul>
+					<p class="p-3 bg-c-g100 m-0"><strong>Magnolia</strong><br />Sass $c-y100<br />Hex #FFF4B6<br />rgb(255,244,182)</p>
+			</div><!--Magnolia-->
+		</div><!--Neutral Accents-->
+
+		<h3>Negative</h3>
+		<div class="u-clearfix m-bottom-7">
+			<div class="g-1_3 bg-c-r500 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Rust</strong><br />Sass $c-r500<br />Hex #4F0703<br />rgb(79,7,3)</p>
+			</div><!--Rust-->
+			<div class="g-1_3 bg-c-r300 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Coral</strong><br />Sass $c-r300<br />Hex #FF4A48<br />rgb(255,74,72)</p>
+			</div><!--Coral-->
+			<div class="g-1_3 bg-c-r100 p-top-3">
+				<ul class="t-center p-2 u-clearfix">
+					<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
+					<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
+					<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+				</ul>
+				<p class="p-3 bg-c-g100 m-0"><strong>Rose</strong><br />Sass $c-r100<br />Hex #FFCCCE<br />rgb(255,204,206)</p>
+			</div><!--Coral-->
+		</div><!--Negative Accents-->
+
+		<h3>Full Dreamhost Brand Palette</h3>
+		<p>These can be used directly in sass with their variable names or in html via bg-color for backgrounds or t-color for text color.</p>
+
+		<div class="u-clearfix t-bold">
+			<div class="g-1_4 c-lightest-blue l-block p-3 m-bottom-3">$lightest-blue</div>
+			<div class="g-1_4 c-lighter-blue l-block p-3 m-bottom-3">$lighter-blue</div>
+			<div class="g-1_4 c-light-blue l-block p-3 m-bottom-3">$light-blue</div>
+			<div class="g-1_4 c-blue l-block p-3">$blue</div>
+			<div class="g-1_4 c-dark-blue l-block p-3 m-bottom-3">$dark-blue</div>
+			<div class="g-1_4 c-darker-blue l-block p-3 m-bottom-3">$darker-blue</div>
+			<div class="g-1_4 c-darkest-blue l-block p-3 m-bottom-3">$darkest-blue</div>
+		</div>
+
+		<div class="u-clearfix t-bold m-bottom-4">
+			<div class="g-1_3">
+				<div class="c-lighter-teal p-1 m-right-0">$lighter-teal</div>
+				<div class="c-light-teal p-1 m-right-0">$light-teal</div>
+				<div class="c-teal p-1 m-right-0">$teal</div>
+				<div class="c-dark-teal p-1 m-right-0">$dark-teal</div>
+				<div class="c-darker-teal p-1 m-right-0">$darker-teal</div>
+			</div>
+
+			<div class="g-1_3">
+				<div class="c-lighter-green p-1 m-right-0">$lighter-green</div>
+				<div class="c-light-green p-1 m-right-0">$light-green</div>
+				<div class="c-green p-1 m-right-0">$green</div>
+				<div class="c-dark-green p-1 m-right-0">$dark-green</div>
+				<div class="c-darker-green p-1 m-right-0">$darker-green</div>
+			</div>
+
+			<div class="g-1_3">
+				<div class="c-lighter-salmon p-1 m-right-0">$lighter-salmon</div>
+				<div class="c-light-salmon p-1 m-right-0">$light-salmon</div>
+				<div class="c-salmon p-1 m-right-0">$salmon</div>
+				<div class="c-dark-salmon p-1 m-right-0">$dark-salmon</div>
+				<div class="c-darker-salmon p-1 m-right-0">$darker-salmon</div>
+			</div>
+		</div>
+
+		<div class="u-clearfix t-bold m-bottom-4">
+			<div class="g-1_3">
+				<div class="c-lighter-orange p-1 m-right-0">$lighter-orange</div>
+				<div class="c-light-orange p-1 m-right-0">$light-orange</div>
+				<div class="c-orange p-1 m-right-0">$teal</div>
+				<div class="c-dark-orange p-1 m-right-0">$dark-orange</div>
+				<div class="c-darker-orange p-1 m-right-0">$darker-orange</div>
+			</div>
+
+			<div class="g-1_3">
+				<div class="c-lighter-yellow p-1 m-right-0">$lighter-yellow</div>
+				<div class="c-light-yellow p-1 m-right-0">$light-yellow</div>
+				<div class="c-yellow p-1 m-right-0">$yellow</div>
+				<div class="c-dark-yellow p-1 m-right-0">$dark-yellow</div>
+				<div class="c-darker-yellow p-1 m-right-0">$darker-yellow</div>
+			</div>
+
+			<div class="g-1_3">
+				<div class="c-lighter-red p-1 m-right-0">$lighter-red</div>
+				<div class="c-light-red p-1 m-right-0">$light-red</div>
+				<div class="c-red p-1 m-right-0">$red</div>
+				<div class="c-dark-red p-1 m-right-0">$dark-red</div>
+				<div class="c-darker-red p-1 m-right-0">$darker-red</div>
+			</div>
+		</div>
+
+		<div class="u-clearfix t-bold m-bottom-4">
+			<div class="g-1_6 c-lighter-grey p-2 m-bottom-3">$lighter-grey</div>
+			<div class="g-1_6 c-light-grey p-2 m-bottom-3">$light-grey</div>
+			<div class="g-1_6 c-grey p-2 m-bottom-3">$grey</div>
+			<div class="g-1_6 c-dark-grey p-2 m-bottom-3">$dark-grey</div>
+			<div class="g-1_6 c-darker-grey p-2 m-bottom-3">$darker-grey</div>
+			<div class="g-1_6 c-black p-2 m-bottom-3">$black</div>
+		</div>
+
+	</section>
+</div>
+
+
+<div class="container-l p-left-3 p-right-3">
+
+	<section class="u-clearfix">
+		<div class="g-1_3">
+			<div class="Popover-container on-click">
+				<div class="Popover Popover--max-height has-caret">
+					<div class="Popover__wrapper">
+						<div class="Popover__section">
+							<ul class="List List--padding">
+								<li><a href="/dreamhost.css/components/animations">Animations</a></li>
+								<li><a href="/dreamhost.css/components/alerts">Alerts</a></li>
+								<li><a href="/dreamhost.css/components/buttons">Buttons</a></li>
+								<li><a href="/dreamhost.css/components/form">Forms</a></li>
+								<li><a href="/dreamhost.css/components/table">Table</a></li>
+								<li><a href="/dreamhost.css/components/header">Header</a></li>
+								<li><a href="/dreamhost.css/components/lists">Lists</a></li>
+								<li><a href="/dreamhost.css/components/modals">Modals</a></li>
+								<li><a href="/dreamhost.css/components/popovers">Popovers</a></li>
+								<li><a href="/dreamhost.css/components/transitions">Transitions</a></li>
+								<li><a href="/dreamhost.css/components/animations">Animations</a></li>
+								<li><a href="/dreamhost.css/components/alerts">Alerts</a></li>
+								<li><a href="/dreamhost.css/components/buttons">Buttons</a></li>
+								<li><a href="/dreamhost.css/components/form">Forms</a></li>
+								<li><a href="/dreamhost.css/components/table">Table</a></li>
+								<li><a href="/dreamhost.css/components/header">Header</a></li>
+								<li><a href="/dreamhost.css/components/lists">Lists</a></li>
+								<li><a href="/dreamhost.css/components/popovers">Popovers</a></li>
+								<li><a href="/dreamhost.css/components/transitions">Transitions</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="Popover__section Popover__section--separator">
+						<ul class="List List--padding">
+							<li><a href="#">Contact us</a></li>
+						</ul>
+					</div>
+				</div>
+				<a class="Button js-toggle-popover">Top Popover</a>
+			</div>
+		</div>
+
+		<div class="g-1_3">
+			<div class="Popover-container">
+				<div class="Popover Popover--bottom Popover--1 Popover--flush-right t-left">
+					<div class="Popover__wrapper">
+						<div class="p-2">
+							<ul class="List List--small-bold m-bottom-0">
+								<li><a href="/dreamhost.css/components/animations">Animations</a></li>
+								<li><a href="/dreamhost.css/components/alerts">Alerts</a></li>
+								<li><a href="/dreamhost.css/components/buttons">Buttons</a></li>
+								<li><a href="/dreamhost.css/components/form">Forms</a></li>
+								<li><a href="/dreamhost.css/components/table">Table</a></li>
+								<li><a href="/dreamhost.css/components/header">Header</a></li>
+								<li><a href="/dreamhost.css/components/lists">Lists</a></li>
+								<li><a href="/dreamhost.css/components/modals">Modals</a></li>
+								<li><a href="/dreamhost.css/components/popovers">Popovers</a></li>
+								<li><a href="/dreamhost.css/components/transitions">Transitions</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<a href="javascript::" class="js-toggle-popover page-header__nav-link t-caret">Components</a>
+			</div>
+		</div>
+
+		<div class="g-1_3">
+			<div class="Popover-container on-click">
+				<div class="Popover Popover--max-height Popover--bottom Popover--5 Popover--flush-right">
+					<div class="Popover__wrapper">
+						<div class="Popover__section">
+							<ul class="List List__menu List--50 List--padding">
+								<li>
+									<a href="#">
+										<p class="List__menu--title">Register Domains</p>
+										<p class="List__menu--description">Register one or more domains.</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<p class="List__menu--title">Malware Remover</p>
+										<p class="List__menu--description">Scrubs your website for malware.</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<p class="List__menu--title">Add Hosting</p>
+										<p class="List__menu--description">Shared, VPS, Dedicated, Cloud, etc.</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<p class="List__menu--title">Add Security With SSL</p>
+										<p class="List__menu--description">Protect your website from nasties.</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<p class="List__menu--title">Transfer Domains</p>
+										<p class="List__menu--description">Transfer domains to DreamHost.</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<p class="List__menu--title">Add MySQL</p>
+										<p class="List__menu--description">Need a database? Sure you do.</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<p class="List__menu--title">Install WordPress</p>
+										<p class="List__menu--description">Quick, easy, 1-click WordPress.</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<p class="List__menu--title">Add Remixer</p>
+										<p class="List__menu--description">This won't play your MP3s.</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<a class="Button js-toggle-popover t-caret">Product Menu</a>
+			</div>
+		</div>
+	</section>
+
+	<h1>Page title</h1>
+	<ul class="list list--inline m-bottom-4">
+		<li><strong>IPv4:</strong> 208.113.135.188</li>
+		<li><strong>IPv6:</strong> 2607:f298:5:101d:f816:3eff:fe98:d242</li>
+	</ul>
+
+	<section class="container-m">
+		<div class="t-center g-1_2">
+			<div class="bg-blue p-3 m-bottom-0 t-darkest-blue is-active">Empty volume</div>
+			<p class="box">Creates a new volume/block device without anything on it</p>
+		</div>
+		<div class="t-center g-1_2">
+			<div class="bg-blue p-3 t-darkest-blue m-bottom-0">Bootable volume</div>
+			<p class="box">Creates a bootable volume pre-loaded with your operating system of choice.</p>
+		</div>
+	</section>
+
+	<section>
+		<h2 class="m-bottom-3">Name</h2>
+		<p class="m-bottom-3">This is what your volume will be called.</p>
+		<input type="text" class="Input" placeholder="My Volume Name" />
+	</section>
+
+	<section class="Tabs">
+		<ul>
+			<li class="Tabs__nav-item is-active" data-tab="caching">Caching</li>
+			<li class="Tabs__nav-item" data-tab="staging">Staging</li>
+			<li class="Tabs__nav-item" data-tab="backup">Backup</li>
+			<li class="Tabs__nav-item" data-tab="domain">Domain</li>
+			<li class="Tabs__nav-item" data-tab="advanced">Advanced</li>
+		</ul>
+		<div class="Tab" data-tab="caching">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet voluptate et quibusdam debitis saepe ab, ratione molestias! Error rem quos iure deserunt assumenda magni, veritatis tenetur, impedit repellat soluta numquam.</p>
+		</div>
+	</section>
+
+	<section class="box m-bottom-5">
+		<h1>Typography</h1>
+		<h2>Heading two</h2>
+		<h3>Heading three</h3>
+		<h4>Heading four</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quidem mollitia optio temporibus cum eius deserunt, eum tenetur minima nulla hic inventore quo tempore reprehenderit. Laboriosam maiores odio debitis, in?</p>
+
+		<hr />
+
+		<h2>Sizes</h2>
+		<p class="t-6">.t-6</p>
+		<p class="t-5">.t-5</p>
+		<p class="t-4">.t-4</p>
+		<p class="t-3">.t-3</p>
+		<p class="t-2">.t-2</p>
+		<p class="t-1">.t-1</p>
+		<ul class="List">
+			<li>List item</li>
+			<li>List item</li>
+			<li>List item</li>
+		</ul>
+		<ul class="List List-disc">
+			<li>List with bullets</li>
+			<li>List with bullets</li>
+			<li>List with bullets</li>
+		</ul>
+		<ul class="List List-inline">
+			<li>Inline list</li>
+			<li>Inline list</li>
+			<li>Inline list</li>
+		</ul>
+		<p><a href="javascript::" class="Button">Button</a></p>
+
+	</section>
+
+	<h2>Table</h2>
+	<table class="Table__m m-bottom-8">
+		<thead>
+			<th class="w-50">Name</th>
+			<th>Location</th>
+			<th>IP Address</th>
+			<th />
+		</thead>
+		<tbody>
+			<tr class="Table__row">
+				<td><a href="#">Server Name</a></td>
+				<td data-title="Location:"> US East-2</td>
+				<td data-title="IP Address:"> 208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact l-float-right">Manage</button>
+				</td>
+			</tr>
+			<tr class="Table__row">
+				<td><a href="#">Server Name</a></td>
+				<td data-title="Location:"> US East-2</td>
+				<td data-title="IP Address:"> 208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact l-float-right">Manage</button>
+				</td>
+			</tr>
+			<tr class="Table__row--parent">
+				<td><a href="#">Server Name</a></td>
+				<td data-title="Location:"> US East-2</td>
+				<td data-title="IP Address:"> 208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact l-float-right">Manage</button>
+				</td>
+			</tr>
+			<tr class="Table__row--child">
+				<td><a href="#">Server Name</a></td>
+				<td data-title="Location:"> US East-2</td>
+				<td data-title="IP Address:"> 208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact l-float-right">Manage</button>
+				</td>
+			</tr>
+			<tr class="Table__row--child">
+				<td><a href="#">Server Name</a></td>
+				<td data-title="Location:"> US East-2</td>
+				<td data-title="IP Address:"> 208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact l-float-right">Manage</button>
+				</td>
+			</tr>
+			<tr class="Table__row">
+				<td><a href="#">Server Name</a></td>
+				<td data-title="Location:"> US East-2</td>
+				<td data-title="IP Address:"> 208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact l-float-right">Manage</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2>Table Condensed</h2>
+	<table class="Table Table--striped Table--condensed">
+		<thead>
+			<th class="w-50">Name</th>
+			<th>Location</th>
+			<th>IP Address</th>
+			<th />
+		</thead>
+		<tbody>
+			<tr>
+				<td><a href="#">Server Name</a></td>
+				<td> US East-2</td>
+				<td>208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact">Manage</button>
+				</td>
+			</tr>
+			<tr>
+				<td><a href="#">Server Name</a></td>
+				<td> US East-2</td>
+				<td>208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact">Manage</button>
+				</td>
+			</tr>
+			<tr>
+				<td><a href="#">Server Name</a></td>
+				<td> US East-2</td>
+				<td>208.123.123.123</td>
+				<td>
+					<button class="Button Button--compact">Manage</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<section class="box u-border-radius m-bottom-4">
+		<h2>Item List</h2>
+		<div class="ItemList">
+			<h4 class="ItemList__heading">Item List</h4>
+			<ul>
+				<li class="ItemList__item">
+					<div class="ItemList__item-desc">Item1</div>
+					<div class="ItemList__item-btn">
+						<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+					</div>
+				</li>
+				<li class="ItemList__item">
+					<div class="ItemList__item-desc">Item2</div>
+					<div class="ItemList__item-btn">
+						<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="box u-border-radius m-bottom-4">
+		<h2>Item List (Responsive)</h2>
+		<div class="ItemList__m">
+			<h4 class="ItemList__heading">Item List</h4>
+			<ul>
+				<li class="ItemList__item">
+					<div class="ItemList__item-desc">Item1</div>
+					<div class="ItemList__item-btn">
+						<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+					</div>
+				</li>
+				<li class="ItemList__item">
+					<div class="ItemList__item-desc">Item2</div>
+					<div class="ItemList__item-btn">
+						<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="box u-border-radius m-bottom-4">
+		<h2>Settings List</h2>
+			<ul class="List__settings">
+				<li class="ItemList__item">
+					<div class="ItemList__item-desc">Setting one <span>Description of setting one</span></div>
+					<div class="ItemList__item-toggle">
+						<div class="Toggle">
+							<input class="Toggle__input" type="checkbox" id="toggle-one" />
+							<label for="toggle-one" class="Toggle__label">
+								<span class="Toggle__description">
+									<span class="Toggle__checked">On</span>
+									<span class="Toggle__unchecked">Off</span>
+								</span>
+								<span class="Toggle__visible"></span>
+							</label>
+						</div>
+					</div>
+				</li>
+				<li class="ItemList__item">
+						<div class="ItemList__item-desc">Setting two <span>Description of setting two</span></div>
+						<div class="ItemList__item-toggle">
+							<div class="Toggle">
+								<input class="Toggle__input" type="checkbox" id="toggle-two" />
+								<label for="toggle-two" class="Toggle__label">
+									<span class="Toggle__description">
+										<span class="Toggle__checked">On</span>
+										<span class="Toggle__unchecked">Off</span>
+									</span>
+									<span class="Toggle__visible"></span>
+								</label>
+							</div>
+						</div>
+					</li>
+			</ul><!--List__settings-->
+		</div>
+	</section>
+
+	<section class="container-m">
+		<div class="Card g-1_3">
+			<h3 class="Card__heading">Whatever</h3>
+			<p class="Card__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="#" class="Button">Go!</a>
+		</div>
+
+		<div class="Card g-1_3">
+			<h3 class="Card__heading">Whatever</h3>
+			<p class="Card__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="#" class="Button">Go!</a>
+		</div>
+
+		<div class="Card g-1_3 g-omega">
+			<h3 class="Card__heading">Whatever</h3>
+			<p class="Card__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="#" class="Button">Go!</a>
+		</div>
+
+		<div class="Card g-1_2">
+			<img src="./src/images/icon.reboot.svg" class="Card__icon" />
+			<h3 class="Card__heading">Whatever</h3>
+			<p class="Card__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="#" class="Button Button--text">Go!</a>
+		</div>
+
+		<div class="Card g-1_2 g-omega">
+			<img src="./src/images/icon.powercycle.svg" class="Card__icon" />
+			<h3 class="Card__heading">Whatever</h3>
+			<p class="Card__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="#" class="Button Button--text">Go!</a>
+		</div>
+
+		<div class="Card g-1_3__m">
+			<img src="./src/images/icon.hosting.svg" class="Card__large-icon" />
+			<label class="Card__super">Superscript</label>
+			<h3 class="Card__heading">Whatever</h3>
+			<p class="Card__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="#" class="Button">Go!</a>
+		</div>
+
+		<div class="Card g-1_3__m">
+			<img src="./src/images/icon.billing.svg" class="Card__large-icon" />
+			<label class="Card__super">Superscript</label>
+			<h3 class="Card__heading">Whatever</h3>
+			<p class="Card__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="#" class="Button">Go!</a>
+		</div>
+
+		<div class="Card g-1_3__m g-omega">
+			<img src="./src/images/icon.hosting.svg" class="Card__large-icon" />
+			<label class="Card__super">Superscript</label>
+			<h3 class="Card__heading">Whatever</h3>
+			<p class="Card__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="#" class="Button">Go!</a>
+		</div>
+
+	</section>
+
+	<section>
+		<h1>Borders</h1>
+		<div class="container-m">
+			<div class="g-1_4 box m-bottom-4 border-top">
+				<p>Top border</p>
+			</div>
+
+			<div class="g-1_4 box m-bottom-4 border-bottom">
+				<p>Bottom border</p>
+			</div>
+
+			<div class="g-1_4 box m-bottom-4 border-left">
+				<p>Left border</p>
+			</div>
+
+			<div class="g-1_4 g-omega box m-bottom-4 border-right">
+				<p>Right border</p>
+			</div>
+		</div>
+
+		<div class="container-m">
+			<div class="g-1_3 box m-bottom-4 border">
+				<p>Default/Solid border</p>
+			</div>
+
+			<div class="g-1_3 box m-bottom-4 border border-dashed">
+				<p>Dashed border</p>
+			</div>
+
+			<div class="g-1_3 g-omega box m-bottom-4 border border-dotted">
+				<p>Dotted border</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="container-m">
+		<h1>Border Radius</h1>
+		<div class="g-1_3 box m-bottom-4 bg-dark-grey">
+			<p class="t-white">No border</p>
+		</div>
+
+		<div class="g-1_3 box m-bottom-4 u-border-radius bg-dark-grey">
+			<p class="t-white">Normal rounded corners</p>
+		</div>
+
+		<div class="g-1_3 g-omega box m-bottom-4 u-border-radius bg-dark-grey">
+			<p class="t-white">Large rounded corners</p>
+		</div>
+	</section>
+
+</div>
+
+	<section class="box container-s u-border-radius m-bottom">
+		<h1>Tags</h1>
+		<div>
+			<p>Tags in every color of the rainbow! As far as the eye can see!</p>
+			<span class="Tag">Default ($c-b300)</span>
+			<span class="Tag Tag--red">Red ($c-r300)</span>
+			<span class="Tag Tag--teal">Teal ($c-t300)</span>
+			<span class="Tag Tag--yellow">Yellow ($c-y300)</span>
+		</div>
+
+		<div class="m-top">
+			<p>Also square!</p>
+			<span class="Tag Tag--square">Default ($c-b300)</span>
+			<span class="Tag Tag--square Tag--red">Red ($c-r300)</span>
+			<span class="Tag Tag--square Tag--teal">Teal ($c-t300)</span>
+			<span class="Tag Tag--square Tag--yellow">Yellow ($c-y300)</span>
+		</div>
+
+	</section>
+
+<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="./src/js/remodal.js"></script>
+<script src="./src/js/scripts.js"></script>
+
+</body>
+</html>

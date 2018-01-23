@@ -1,0 +1,34 @@
+$breakpoints: (
+  xs: null,
+  sm: 40rem,
+  md: 52rem,
+  lg: 64rem,
+);
+
+@mixin breakpoint ($breakpoint) {
+    @if (map-has-key($breakpoints, $breakpoint) != true) {
+      @error "breakpoint media query mixin requires a valid breakpoint";
+    }
+    @else if(map-get($breakpoints, $breakpoint)) == null {
+      @content;
+    }
+    @else {
+      @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+        @content;
+      }
+    }
+}
+
+@mixin generate-breakpoint-prefixes {
+    // generate prefixed classes
+  @each $breakpoint-name, $breakpoint-value in $breakpoints {
+    $breakpoint-prefix: "#{$breakpoint-name}-";
+
+    @include breakpoint($breakpoint-name) {
+      // Columns
+      .#{$breakpoint-prefix} {
+        @content;
+      }
+    }
+   }
+}

@@ -1,0 +1,39 @@
+@mixin createClasses( $props, $class, $responsive) {
+	@include createClass( #{$class}-0, $props, 0 );
+	@include createClass( #{$class}-half, $props, convertScaleToRem(.5) );
+	@include createClass( #{$class}-auto, $props, auto );
+	@for $i from 1 through $maxSize {
+		@include createClass( #{$class}-#{$i}, $props, convertScaleToRem($i) );
+	}
+	@if $responsive {
+		@media screen and (min-width: $medium-breakpoint){
+			@for $i from 1 through $maxSize {
+	 			@include createClass( #{$class}-#{$i}__m, $props, convertScaleToRem($i) );
+	 		}
+			@include createClass( #{$class}-0__m, $props, 0 );
+			@include createClass( #{$class}-half__m, $props, convertScaleToRem(.5) );
+			@include createClass( #{$class}-auto__m, $props, auto );
+	 	}
+	 	@media screen and (min-width: $large-breakpoint){
+	 		@for $i from 1 through $maxSize {
+	 			@include createClass( #{$class}-#{$i}__l, $props, convertScaleToRem($i) );
+	 		}
+			@include createClass( #{$class}-0__l, $props, 0 );
+			@include createClass( #{$class}-half__l, $props, convertScaleToRem(.5) );
+			@include createClass( #{$class}-auto__l, $props, auto );
+	 	}
+	}
+}
+@mixin createClass( $class, $props, $value ) {
+	.#{$class} {
+		@each $prop in $props {
+			#{$prop}: $value !important;
+		}
+	}
+}
+@function convertScaleToRem($value) {
+	 @return convertPxToRem($value * $baseScale);
+}
+@function convertPxToRem($value) {
+	 @return ($value / 16) * 1rem;
+}

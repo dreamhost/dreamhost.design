@@ -1,0 +1,118 @@
+// Deprecate tshirt classes
+.p-xs { @extend .p-1;}
+.p-s { @extend .p-3;}
+.p,.p-m { @extend .p-4;}
+.p-l { @extend .p-5;}
+.p-xl { @extend .p-6;}
+
+.m-xs { @extend .m-1;}
+.m-s { @extend .m-3;}
+.m,.m-m { @extend .m-4;}
+.m-l { @extend .m-5;}
+.m-xl { @extend .m-6;}
+
+.p-top-xs { @extend .p-top-1;}
+.p-top-s { @extend .p-top-3;}
+.p-top,.p-top-m { @extend .p-top-4;}
+.p-top-l { @extend .p-top-5;}
+.p-top-xl { @extend .p-top-6;}
+
+.m-top-xs { @extend .m-top-1;}
+.m-top-s { @extend .m-top-3;}
+.m-top,.m-top-m { @extend .m-top-4;}
+.m-top-l { @extend .m-top-5;}
+.m-top-xl { @extend .m-top-6;}
+
+.p-bottom-xs { @extend .p-bottom-1;}
+.p-bottom-s { @extend .p-bottom-3;}
+.p-bottom,.p-bottom-m { @extend .p-bottom-4;}
+.p-bottom-l { @extend .p-bottom-5;}
+.p-bottom-xl { @extend .p-bottom-6;}
+
+.m-bottom-xs { @extend .m-bottom-1;}
+.m-bottom-s { @extend .m-bottom-3;}
+.m-bottom,.m-bottom-m { @extend .m-bottom-4;}
+.m-bottom-l { @extend .m-bottom-5;}
+.m-bottom-xl { @extend .m-bottom-6;}
+
+.p-left-xs { @extend .p-left-1;}
+.p-left-s { @extend .p-left-3;}
+.p-left,.p-left-m { @extend .p-left-4;}
+.p-left-l { @extend .p-left-5;}
+.p-left-xl { @extend .p-left-6;}
+
+.m-left-xs { @extend .m-left-1;}
+.m-left-s { @extend .m-left-3;}
+.m-left,.m-left-m { @extend .m-left-4;}
+.m-left-l { @extend .m-left-5;}
+.m-left-xl { @extend .m-left-6;}
+
+.p-right-xs { @extend .p-right-1;}
+.p-right-s { @extend .p-right-3;}
+.p-right,.p-right-m { @extend .p-right-4;}
+.p-right-l { @extend .p-right-5;}
+.p-right-xl { @extend .p-right-6;}
+
+.m-right-xs { @extend .m-right-1;}
+.m-right-s { @extend .m-right-3;}
+.m-right,.m-right-m { @extend .m-right-4;}
+.m-right-l { @extend .m-right-5;}
+.m-right-xl { @extend .m-right-6;}
+
+.p-y-xs { @extend .p-y-1;}
+.p-y-s { @extend .p-y-3;}
+.p-y,.p-y-m { @extend .p-y-4;}
+.p-y-l { @extend .p-y-5;}
+.p-y-xl { @extend .p-y-6;}
+
+.m-y-xs { @extend .m-y-1;}
+.m-y-s { @extend .m-y-3;}
+.m-y,.m-y-m { @extend .m-y-4;}
+.m-y-l { @extend .m-y-5;}
+.m-y-xl { @extend .m-y-6;}
+
+.p-x-xs { @extend .p-x-1;}
+.p-x-s { @extend .p-x-3;}
+.p-y,.p-x-m { @extend .p-x-4;}
+.p-x-l { @extend .p-x-5;}
+.p-x-xl { @extend .p-x-6;}
+
+.m-x-xs { @extend .m-x-1;}
+.m-x-s { @extend .m-x-3;}
+.m-y,.m-x-m { @extend .m-x-4;}
+.m-x-l { @extend .m-x-5;}
+.m-x-xl { @extend .m-x-6;}
+
+// Deprecate 5px border-radius
+.u-border-radius-l {@extend .u-border-radius;}
+.u-border-radius-l--top-left {@extend .u-border-radius--top-left;}
+.u-border-radius-l--top-right {@extend .u-border-radius--top-right;}
+.u-border-radius-l--bottom-right {@extend .u-border-radius--bottom-right;}
+.u-border-radius-l--bottom-left {@extend .u-border-radius--bottom-left;}
+.u-border-radius-l--top {@extend .u-border-radius--top;}
+.u-border-radius-l--right {@extend .u-border-radius--right;}
+.u-border-radius-l--bottom {@extend .u-border-radius--bottom;}
+.u-border-radius-l--left {@extend .u-border-radius--left;}
+
+// Deprecate text-size tshirt classes
+.t-xs {@extend .t-1;}
+.t-s {@extend .t-2;}
+.t-m {@extend .t-3;}
+.t-l {@extend .t-4;}
+.t-xl {@extend .t-5;}
+.t-xxl {@extend .t-6;}
+
+// Deprecate animation tshirt classes
+.a-duration-none {@extend .a-duration-0;}
+.a-duration-xs {@extend .a-duration-1;}
+.a-duration-s {@extend .a-duration-2;}
+.a-duration, .a-duration-m {@extend .a-duration-3;}
+.a-duration-l {@extend .a-duration-4;}
+.a-duration-xl {@extend .a-duration-5;}
+
+// Deprecate transition tshirt classes
+.tr-duration-xs {@extend .tr-duration-1;}
+.tr-duration-s {@extend .tr-duration-2;}
+.tr-duration, .tr-duration-m {@extend .tr-duration-3;}
+.tr-duration-l {@extend .tr-duration-4;}
+.tr-duration-xl {@extend .tr-duration-5;}

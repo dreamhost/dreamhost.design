@@ -1,0 +1,20 @@
+	// Link
+
+	// Makes something act like a link. Use 'invert' as a paramater to invert the colours.
+
+@mixin link($invert: 'false'){
+	@if $invert == 'false'{
+		color: $black;
+		&:hover {
+			cursor: pointer;
+			color: $black;
+		}
+	} @else {
+		color: $black;
+		&:hover {
+			cursor: pointer;
+			color: $black;
+		}
+	}
+
+}

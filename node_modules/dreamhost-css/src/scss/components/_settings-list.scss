@@ -1,0 +1,21 @@
+// List settings
+
+.List__settings .ItemList__item-desc{
+	width: 75%;
+	vertical-align: middle;
+	font-weight: $t-bold;
+}
+
+.List__settings .ItemList__item-desc span{
+	font-weight: $t-regular;
+	margin-left: 2em;
+	display: inline-block;
+}
+
+
+.List__settings .ItemList__item-toggle{
+	width: 100%;
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}

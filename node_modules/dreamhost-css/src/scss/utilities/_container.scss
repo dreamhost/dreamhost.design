@@ -1,0 +1,5 @@
+// Container Sizes
+.container-s { @include outer-container(640px); } // 320 x 2
+.container-m { @include outer-container(960px); } // 320 x 3
+.container-l { @include outer-container(1280px); } // 320 x 4
+.container-full-width {@include outer-container(100%); } // 100%

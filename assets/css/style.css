@@ -1,0 +1,33 @@
+body { background: #fff; }
+
+hr { border-top: none; border-left: none; border-right: none; }
+
+.highlight code { color: #071C26; }
+
+.SideNav { background: #071C26; color: #fff; display: none; height: 100vh; overflow-y: scroll; position: fixed; width: 100vw; }
+
+@media (min-width: 1050px) { .SideNav { display: block; width: 23.23176%; } }
+
+.SideNav-mobile { position: fixed; cursor: pointer; top: 0; right: 0; z-index: 999; }
+
+@media (min-width: 1050px) { .SideNav-mobile { display: none; } }
+
+.SideNav-mobile--white .icon-hamburger path { fill: #fff; }
+
+.SideNav--show { display: block; }
+
+.SideNav__nav-link { color: #CCEFFF; text-decoration: none; display: block; padding: .75rem 0rem; transition: all .2s ease-in-out; }
+
+.SideNav__nav-link:hover { border-left: solid 3px #1176A5; padding: .75rem 1rem; text-decoration: none; }
+
+.SideNav__subnav-link { color: #fff; text-decoration: none; display: block; margin: 0; padding: .75rem 0rem; transition: all .2s ease-in-out; border-top: solid 1px rgba(0, 0, 0, 0.3); }
+
+.SideNav__subnav-link:hover, .SideNav__subnav-link.is-active { color: #2BADE9; border-left: solid 3px #2BADE9; padding: .75rem 1rem; text-decoration: none; }
+
+.SideNav__nav-link.is-active { background: #F4F6F9; color: #061C26; font-weight: bold; padding: .75rem 1rem; }
+
+.SideNav__label { font-family: 'Ubuntu', sans-serif; font-size: 1rem; text-transform: uppercase; letter-spacing: 1.5px; }
+
+.SideNav__subnav { box-shadow: inset 0 10px 10px 0px rgba(0, 0, 0, 0.3); }
+
+.SideNav__subnav li:first-of-type a { border-top: none; }

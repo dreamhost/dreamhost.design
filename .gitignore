@@ -5,3 +5,4 @@ node_modules/*
 !node_modules/dreamhost-css/
 *.DS_Store
 assets/css/style.css
+package-lock.json

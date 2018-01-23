@@ -1,5 +1,5 @@
-# sitepanel
+# DreamHost Design System
 
-This is the front end prototype for Sitepanel, using the latest release of DreamHost.css.
+This is where we catalogue our design work at DreamHost, using the latest release of DreamHost.css.
 
-This prototype is built on Jekyll, and is viewable at https://dreamhost.github.io/sitepanel/
+This prototype is built on Jekyll, and is viewable at https://dreamhost.github.io/design/

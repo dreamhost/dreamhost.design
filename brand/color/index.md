@@ -12,7 +12,7 @@ layout: page
 		<h2>WHY IS COLOR A BIG DEAL?</h2>
 		<p class="m-bottom-4">Our colors are important. They stir interest, add emphasis, and help provide a better user experience for our customers. When using our colors, rely on the primaries; our secondaries should be used sparingly, and only to compliment the primaries.</p>
 
-		<p class="bg-c-g100 p-2"><span class="t-3"><strong>Download Swatches</strong></span><br />Format: <a href="{{site.baseurl}}/assets/color/brand/dh-brand-ai.zip" download="dh-brand-ai.zip">AI</a>, <a href="{{site.baseurl}}/assets/color/brand/dh-brand-ps.zip" download="dh-brand-ps.zip">PS</a>, <a href="{{site.baseurl}}/assets/color/brand/dh-brand-sketch.zip" download="dh-brand-sketch.zip">Sketch</a></p>
+		<p class="bg-c-g100 p-2"><span class="t-3"><strong>Download Swatches</strong></span><br />Format: <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ai.zip" download="dh-brand-ai.zip">AI</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ps.zip" download="dh-brand-ps.zip">PS</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-sketch.zip" download="dh-brand-sketch.zip">Sketch</a></p>
 	</div>
 	<div class="g-1_3">
 		<img src="{{site.baseurl}}/assets/images/color/color-wheel.png" alt="color wheel" />

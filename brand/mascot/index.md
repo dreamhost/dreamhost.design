@@ -10,79 +10,79 @@ layout: page
 <div class="u-clearfix">
 <h3>Original Mascot</h3>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-1.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-1-1.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-1-1.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-2.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-1-2.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-1-2.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-3.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-1-3.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-1-3.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-4.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-1-4.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-1-4.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-5.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-1-5.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-1-5.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-6.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-1-6.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-1-6.eps">EPS</a></p>
 	</div>
 </div>
 
 <div class="u-clearfix m-bottom-4">
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-7.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-1-7.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-1-7.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-3-1.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-3-1.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-3-1.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-3-2.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-3-2.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-3-2.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-3-3.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-3-3.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-3-3.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-3-4.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-3-4.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-3-4.eps">EPS</a></p>
 	</div>
 	<div class="g-1_6">
-		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-3-5.png" alt="Dreamhost mascot" />
-		<p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p>
+		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-3-5.png" alt="Dreamhost mascot" />
+		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-3-5.eps">EPS</a></p>
 	</div>
 </div>
 <div class="u-clearfix m-bottom-4">
 <h3>Ninja Mascot</h3>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-1.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-2.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-3.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-4.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-5.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-6.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-2-1.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-2-1.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-2-2.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-2-2.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-2-3.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-2-3.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-2-4.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-2-4.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-2-5.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-2-5.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-2-6.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-2-6.eps">EPS</a></p></div>
 </div>
 
 <div class="u-clearfix">
 <h3>Alternative Mascots</h3>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-1.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-2.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-3.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-4.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-5.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-6.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-1.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-1.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-2.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-2.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-3.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-3.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-4.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-4.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-5.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-5.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-6.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-6.eps">EPS</a></p></div>
 </div>
 <div class="u-clearfix m-bottom-4">
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-7.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-8.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-9.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
-<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-10.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="/">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-7.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-7.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-8.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-8.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-9.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-9.eps">EPS</a></p></div>
+<div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/png/m-4-10.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/images/mascot/eps/m-4-10.eps">EPS</a></p></div>
 </div>

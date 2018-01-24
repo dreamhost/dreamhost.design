@@ -3,10 +3,6 @@ title: Mascot
 layout: page
 ---
 
-<p class="t-4">About Mascot. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis ipsum massa, vitae gravida sapien porttitor ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris dui nisl, aliquet sed faucibus sit amet, imperdiet nec quam. In in eleifend mauris, finibus feugiat libero.</p>
-
-<hr />
-
 <div class="u-clearfix">
 <h3>Original Mascot</h3>
 	<div class="g-1_6">

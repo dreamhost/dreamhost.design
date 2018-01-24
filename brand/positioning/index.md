@@ -3,10 +3,6 @@ title: Positioning
 layout: page
 ---
 
-<p class="t-4">What is positioning? In vel pellentesque magna, eu porta diam. Donec malesuada turpis lacus, nec fringilla nunc commodo vitae. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut fringilla tristique justo, et consectetur ex placerat nec. Ut sit amet nisl tortor. Praesent vel mi et tellus vehicula ultrices vel nec ligula.</p>
-
-<hr />
-
 <p class="m-bottom-4"><strong>Independent</strong> We control our own destiny, and we’re still run by the same team that founded the company all those years ago.  We’re not beholden to the whims of investors or some corner-cutting conglomerate.</p>
 
 <p class="m-bottom-4"><strong>Established</strong> We’ve been doing this for 20+ years. Over 400,000 customers worldwide call DreamHost home.</p>

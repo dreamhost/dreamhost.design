@@ -3,10 +3,6 @@ title: Brand Characteristics
 layout: page
 ---
 
-<p class="t-4">About Brand Characteristics Nam tempor accumsan justo. Donec pretium eget sapien eu interdum. Vivamus eu nisi odio. Fusce pharetra odio nec libero tempus faucibus. Nullam id odio a tellus finibus rhoncus</p>
-
-<hr />
-
 <h2>TONE</h2>
 
 <p class="m-bottom-4"><strong>Approachable.</strong> We’re here to help.  We take complicated technical concepts and distill them down into plain english, without judgment or condescension.  We speak to our customer’s experience level because we value them.</p>

@@ -12,7 +12,7 @@ layout: page
 		<h2>WHY IS COLOR A BIG DEAL?</h2>
 		<p class="m-bottom-4">Our colors are important. They stir interest, add emphasis, and help provide a better user experience for our customers. When using our colors, rely on the primaries; our secondaries should be used sparingly, and only to compliment the primaries.</p>
 
-		<p class="bg-c-g100 p-2"><span class="t-3"><strong>Download Swatches</strong></span><br />Format: <a href="/">AI</a>, <a href="/">PS</a>, <a href="/">Sketch</a></p>
+		<p class="bg-c-g100 p-2"><span class="t-3"><strong>Download Swatches</strong></span><br />Format: <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ai.zip" download="dh-brand-ai.zip">AI</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ps.zip" download="dh-brand-ps.zip">PS</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-sketch.zip" download="dh-brand-sketch.zip">Sketch</a></p>
 	</div>
 	<div class="g-1_3">
 		<img src="{{site.baseurl}}/assets/images/color/color-wheel.png" alt="color wheel" />
@@ -32,7 +32,7 @@ layout: page
 		Pantone 7546 C<br />
 		cmyk 89 72 49 48<br />
 		rgb 30 50 68<br />
-		Hex #1D3244</p>
+		Hex #1E3244</p>
 		</div><!--Primary 1-->
 	</div><!--grid-->
 	<div class="g-1_4">
@@ -62,7 +62,7 @@ layout: page
 		Pantone 805<br />
 		cmyk 0 75 49 0<br />
 		rgb 241 102 107<br />
-		Hex #F1666A</p>
+		Hex #F1666B</p>
 		</div><!--Secondary 1-->
 	</div><!--grid-->
 	<div class="g-1_4">
@@ -77,7 +77,7 @@ layout: page
 		Pantone 7549 C<br />
 		cmyk 0 42 96 0<br />
 		rgb 250 162 36<br />
-		Hex #F9A224</p>
+		Hex #FAA224</p>
 		</div><!--Primary 2-->
 	</div><!--grid-->
 </div>

@@ -71,3 +71,24 @@ Animation Utilities
 .a-repeat {
 	animation-iteration-count: infinite !important;
 }
+
+// Delay
+.a-delay-1 {
+	animation-delay: $a-1 !important;
+}
+
+.a-delay-2 {
+	animation-delay: $a-2 !important;
+}
+
+.a-delay-3 {
+	animation-delay: $a-3 !important;
+}
+
+.a-delay-4 {
+	animation-delay: $a-4 !important;
+}
+
+.a-delay-5 {
+	animation-delay: $a-5 !important;
+}

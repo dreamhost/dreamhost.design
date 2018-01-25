@@ -39,13 +39,13 @@ title: DreamHost Design System
 
 <p>How to work collaboratively with the framework</p>
 
-<ul class="m-bottom-3">
-	<li>1) Design a product or page using the existing Sketch pattern library.</li>
-	<li>2) Build product prototype &amp; production code using DreamHost.css existing components creating custom styles where needed for new components.</li>
-	<li>3) Release &amp; prove new components.</li>
-	<li>3) Add new components to Sketch pattern library.</li>
-	<li>4) Build new components into DreamHost.css framework.</li>
-	<li>5) Document new components and variants.</li>
-</ul>
+<ol class="m-bottom-3">
+	<li>Design a product or page using the existing Sketch pattern library.</li>
+	<li>Build product prototype &amp; production code using DreamHost.css existing components creating custom styles where needed for new components.</li>
+	<li>Release &amp; prove new components.</li>
+	<li>Add new components to Sketch pattern library.</li>
+	<li>Build new components into DreamHost.css framework.</li>
+	<li>Document new components and variants.</li>
+</ol>
 
 <p>By following this simple workflow we will only promote tried &amp; tested components into the living library.</p>

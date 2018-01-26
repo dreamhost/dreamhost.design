@@ -29,3 +29,5 @@ hr { border-top: none; border-left: none; border-right: none; }
 .SideNav__label { font-family: 'Ubuntu', sans-serif; font-size: 1rem; text-transform: uppercase; letter-spacing: 1.5px; }
 
 .SideNav__subnav { box-shadow: inset 0 10px 10px 0px rgba(0, 0, 0, 0.3); }
+
+.SideNav__label + li a { border-top: none; }

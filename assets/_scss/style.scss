@@ -1,4 +1,3 @@
-// TODO: Sitepanel based framework updates
 body {
     background: #fff;
 }
@@ -73,7 +72,7 @@ hr{
     margin: 0;
     padding: .75rem 0rem;
     transition: all .2s ease-in-out;
-    border-top:solid 1px rgba(0,0,0,0.3);
+    border-top:solid 1px rgba(255,255,255,0.1);
 
     &:hover, &.is-active {
         color:#2BADE9;
@@ -102,8 +101,4 @@ hr{
 .SideNav__subnav{
     //border-top:solid 1px #fff;
     box-shadow: inset 0 10px 10px 0px rgba(0,0,0,0.3);
-}
-
-.SideNav__subnav li:first-of-type a{
-    border-top:none;
 }

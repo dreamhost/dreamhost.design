@@ -31,3 +31,5 @@ hr { border-top: none; border-left: none; border-right: none; }
 .SideNav__subnav { box-shadow: inset 0 10px 10px 0px rgba(0, 0, 0, 0.3); }
 
 .SideNav__label + li a { border-top: none; }
+
+.hljs-string { color: #1176A5; }

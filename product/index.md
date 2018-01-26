@@ -8,7 +8,7 @@ layout: page
 		<p class="t-4">Heavily influenced by functional css frameworks like <a href="http://basscss.com/">BaseCSS</a>, <a href="http://tachyons.io">Tachyons</a> and <a href="http://solid.buzzfeed.com">Buzzfeed Solid</a>, DreamHost.css consists of a collection of single-purpose utility classes alongside DreamHost's branding and some common design patterns.</p>
 	</div>
 	<div class="g-1_4__m p bg-c-g200">
-		<h2>v 0.2.5</h2>
+		<h2>v 0.2.6</h2>
 		<ul class="List List--small-bold">
 			<li><a href="https://github.com/dreamhost/dreamhost.css/tree/master/framework">Source files</a></li> <!-- this should be a github release -->
 			<li><a href="https://github.com/dreamhost/dreamhost.css/blob/master/framework/dist/latest/dreamhost.css">Compiled CSS</a></li>

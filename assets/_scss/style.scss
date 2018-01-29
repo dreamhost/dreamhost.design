@@ -1,3 +1,4 @@
+//code area
 .highlight code {
 	color: #071C26;
 }
@@ -35,10 +36,6 @@
 
 .show .SideNav ul{
 	display: block;
-
-	@media (min-width: 750px) {
-		//display: none;
-	}
 }
 
 .SideNav__nav-link {

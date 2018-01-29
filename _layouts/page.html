@@ -3,19 +3,19 @@
 {% include _head.html %}
 <body>
 
-	<div class="container-1 u-clearfix">
-		<div class="g-1_4__l p-bottom-s">
-			{% include _nav.html %}
-		</div>
-		<div class="g-3_4__l">
-			<main class="container-m p-top p-left p-right-8 bg-c-w100 m-bottom-l">
-				<h1>{{page.title}}</h1>
-				{{content}}
-			</main>
-		</div>
+<div class="Grid">
+	<div class="SideNav g-12-12 g-3-12__m">
+	{% include _nav.html %}
 	</div>
+	<div class="g-12-12 bg-c-w100">
+		<main class="p-top p-left-8 p-right-8 bg-c-w100 m-bottom-l">
+			<h1>{{page.title}}</h1>
+			{{content}}
+		</main>
+	</div>
+</div>
 
-	{% include _footer.html %}
+{% include _footer.html %}
 
 </body>
 </html>

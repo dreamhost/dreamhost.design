@@ -1,111 +1,172 @@
-body {
-    background: #fff;
-}
-
-hr{
-    border-top:none;
-    border-left:none;
-    border-right:none;
-}
-
 .highlight code {
-    color: #071C26;
+	color: #071C26;
+}
+
+//Main container
+@media (min-width: 750px) {
+	main{
+		margin:0 0 0 24%!important;
+	}
 }
 
 // SideNav styles
 .SideNav {
-    background: #071C26;
-    color: #fff;
-    display: none;
-    height: 100vh;
-    overflow-y: scroll;
-    position: fixed;
-    width: 100vw;
+	background: #071C26;
+	color: #fff;
+	overflow-y: scroll;
+	height:100%;
 
-    @media (min-width: 1050px) {
-        display: block;
-        width: 23.23176%;
-    }
+	ul{
+		display: none;
+	}
+
+	@media (min-width: 750px) {
+		position: fixed;
+		top:0;
+		width:24%;
+		height:100vh;
+		overflow-y: scroll;
+
+		ul{
+		display: block;
+		}
+	}
 }
 
-.SideNav-mobile {
-    position: fixed;
-    cursor: pointer;
-    top: 0;
-    right: 0;
-    z-index: 999;
+.show .SideNav ul{
+	display: block;
 
-    @media (min-width: 1050px) {
-        display: none;
-    }
-}
-
-.SideNav-mobile--white {
-    .icon-hamburger path {
-        fill: #fff;
-    }
-}
-
-.SideNav--show {
-    display: block;
+	@media (min-width: 750px) {
+		//display: none;
+	}
 }
 
 .SideNav__nav-link {
-    color: #CCEFFF;
-    text-decoration: none;
-    display: block;
-    padding: .75rem 0rem;
-    transition: all .2s ease-in-out;
+	color: #CCEFFF;
+	text-decoration: none;
+	display: block;
+	padding: .75rem 0rem;
+	transition: all .2s ease-in-out;
 
-    &:hover {
-        //background: #073F59;
-        border-left:solid 3px #1176A5;
-        padding: .75rem 1rem;
-        text-decoration: none;
-    }
+	&:hover {
+		border-left:solid 3px #1176A5;
+		padding: .75rem 1rem;
+		text-decoration: none;
+	}
 }
 
 .SideNav__subnav-link{
-    color:#fff;
-    text-decoration: none;
-    display: block;
-    margin: 0;
-    padding: .75rem 0rem;
-    transition: all .2s ease-in-out;
-    border-top:solid 1px rgba(255,255,255,0.1);
+	color:#fff;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	padding: .75rem 0rem;
+	transition: all .2s ease-in-out;
+	border-top:solid 1px rgba(255,255,255,0.1);
 
-    &:hover, &.is-active {
-        color:#2BADE9;
-        border-left:solid 3px #2BADE9;
-        padding: .75rem 1rem;
-        text-decoration: none;
-    }
+	&:hover, &.is-active {
+		color:#2BADE9;
+		border-left:solid 3px #2BADE9;
+		padding: .75rem 1rem;
+		text-decoration: none;
+	}
 }
 
-
 .SideNav__nav-link.is-active, {
-    background: #F4F6F9;
-    color:#061C26;
-    font-weight: bold;
-    padding: .75rem 1rem;
+	background: #F4F6F9;
+	color:#061C26;
+	font-weight: bold;
+	padding: .75rem 1rem;
 }
 
 .SideNav__label {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
 }
 
-
 .SideNav__subnav{
-    box-shadow: inset 0 10px 10px 0px rgba(0,0,0,0.3);
+	background: #071C26;
+	box-shadow: inset 0 10px 10px 0px rgba(0,0,0,0.3);
 }
 
 .SideNav__label + li a{
-    border-top:none;
+	border-top:none;
 }
 
 .hljs-string{
-    color:#1176A5;
+	color:#1176A5;
+}
+
+/* Menu Toggle Switch */
+.menutoggle{
+	position: absolute;
+	top:4rem;
+	right:2rem;
+	margin:0;
+	padding:0;
+	width: 30px;
+	height: 30px;
+	display: block;
+	cursor: pointer;
+
+	span{
+		display: block;
+		position: absolute;
+		height: 2px;
+		width: 100%;
+		background: #fff;
+		border-radius: 9px;
+		opacity: 1;
+		left: 0;
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		-webkit-transition: .3s ease-in-out;
+		-moz-transition: .3s ease-in-out;
+		-o-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+		&:nth-child(1) {
+			top: 0px;
+		}
+		&:nth-child(2){
+			top: 5px;
+			left:0;
+			opacity:1;
+		}
+		&:nth-child(3){
+			top: 10px;
+		}
+	}
+	
+	@media (min-width: 750px) {
+		display: none;
+	}
+}
+
+.show .menutoggle span{
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	top: 5px;
+
+	&:nth-child(1) {
+		-webkit-transform: rotate(135deg);
+		-moz-transform: rotate(135deg);
+		-o-transform: rotate(135deg);
+		transform: rotate(135deg);
+	}
+	&:nth-child(2) {
+		opacity:0;
+	}
+	&:nth-child(3) {
+		-webkit-transform: rotate(-135deg);
+		-moz-transform: rotate(-135deg);
+		-o-transform: rotate(-135deg);
+		transform: rotate(-135deg);
+	}
 }

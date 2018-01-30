@@ -36,6 +36,20 @@ layout: page
 {% endhighlight%}
 
 <hr />
+## Numbered
+<ol class="List List--dec m-bottom">
+	<li>list item</li>
+	<li>list item</li>
+</ol>
+
+{% highlight html %}
+<ol class="List List--dec">
+	<li>list item</li>
+	<li>list item</li>
+</ol>
+{% endhighlight%}
+
+<hr />
 ## Inline
 <ul class="List List--inline m-bottom">
 	<li>list item</li>
@@ -147,3 +161,157 @@ Adds default padding around the list items for larger click areas.
 </ul>
 {% endhighlight%}
 
+<hr />
+
+## Advanced Lists
+
+### Item List
+<div class="ItemList m-bottom">
+	<h4 class="ItemList__heading">Item List</h4>
+	<ul>
+		<li class="ItemList__item">
+			<div class="ItemList__item-desc">Item1</div>
+			<div class="ItemList__item-btn">
+				<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+			</div>
+		</li>
+		<li class="ItemList__item">
+			<div class="ItemList__item-desc">Item2</div>
+			<div class="ItemList__item-btn">
+				<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+			</div>
+		</li>
+	</ul>
+</div>
+
+{% highlight html %}
+<div class="ItemList">
+	<h4 class="ItemList__heading">Item List</h4>
+	<ul>
+		<li class="ItemList__item">
+			<div class="ItemList__item-desc">Item1</div>
+			<div class="ItemList__item-btn">
+				<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+			</div>
+		</li>
+		<li class="ItemList__item">
+			<div class="ItemList__item-desc">Item2</div>
+			<div class="ItemList__item-btn">
+				<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+			</div>
+		</li>
+	</ul>
+</div>
+{% endhighlight%}
+
+<hr />
+
+### Item List (Responsive)
+<div class="ItemList__m m-bottom">
+	<h4 class="ItemList__heading">Item List</h4>
+	<ul>
+		<li class="ItemList__item">
+			<div class="ItemList__item-desc">Item1</div>
+			<div class="ItemList__item-btn">
+				<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+			</div>
+		</li>
+		<li class="ItemList__item">
+			<div class="ItemList__item-desc">Item2</div>
+			<div class="ItemList__item-btn">
+				<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+			</div>
+		</li>
+	</ul>
+</div>
+
+{% highlight html %}
+<div class="ItemList__m">
+	<h4 class="ItemList__heading">Item List</h4>
+	<ul>
+		<li class="ItemList__item">
+			<div class="ItemList__item-desc">Item1</div>
+			<div class="ItemList__item-btn">
+				<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+			</div>
+		</li>
+		<li class="ItemList__item">
+			<div class="ItemList__item-desc">Item2</div>
+			<div class="ItemList__item-btn">
+				<button class="Button Button__tag Button__tag--positive" data-label="label">Button</button>
+			</div>
+		</li>
+	</ul>
+</div>
+{% endhighlight%}
+
+<hr />
+
+### Settings List
+<ul class="List__settings m-bottom-8">
+	<li class="ItemList__item">
+		<div class="ItemList__item-desc">Setting one <span>Description of setting one</span></div>
+		<div class="ItemList__item-toggle">
+			<div class="Toggle">
+				<input class="Toggle__input" type="checkbox" id="toggle-one" />
+				<label for="toggle-one" class="Toggle__label">
+					<span class="Toggle__description">
+						<span class="Toggle__checked">On</span>
+						<span class="Toggle__unchecked">Off</span>
+					</span>
+					<span class="Toggle__visible"></span>
+				</label>
+			</div>
+		</div>
+	</li>
+	<li class="ItemList__item">
+		<div class="ItemList__item-desc">Setting two <span>Description of setting two</span></div>
+		<div class="ItemList__item-toggle">
+			<div class="Toggle">
+				<input class="Toggle__input" type="checkbox" id="toggle-two" />
+				<label for="toggle-two" class="Toggle__label">
+					<span class="Toggle__description">
+						<span class="Toggle__checked">On</span>
+						<span class="Toggle__unchecked">Off</span>
+					</span>
+					<span class="Toggle__visible"></span>
+				</label>
+			</div>
+		</div>
+	</li>
+</ul>
+
+{% highlight html %}
+<ul class="List__settings">
+	<li class="ItemList__item">
+		<div class="ItemList__item-desc">Setting one <span>Description of setting one</span></div>
+		<div class="ItemList__item-toggle">
+			<div class="Toggle">
+				<input class="Toggle__input" type="checkbox" id="toggle-one" />
+				<label for="toggle-one" class="Toggle__label">
+					<span class="Toggle__description">
+						<span class="Toggle__checked">On</span>
+						<span class="Toggle__unchecked">Off</span>
+					</span>
+					<span class="Toggle__visible"></span>
+				</label>
+			</div>
+		</div>
+	</li>
+	<li class="ItemList__item">
+		<div class="ItemList__item-desc">Setting two <span>Description of setting two</span></div>
+		<div class="ItemList__item-toggle">
+			<div class="Toggle">
+				<input class="Toggle__input" type="checkbox" id="toggle-two" />
+				<label for="toggle-two" class="Toggle__label">
+					<span class="Toggle__description">
+						<span class="Toggle__checked">On</span>
+						<span class="Toggle__unchecked">Off</span>
+					</span>
+					<span class="Toggle__visible"></span>
+				</label>
+			</div>
+		</div>
+	</li>
+</ul>
+{% endhighlight%}

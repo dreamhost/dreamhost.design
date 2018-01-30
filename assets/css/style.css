@@ -30,22 +30,22 @@
 .hljs-string { color: #1176A5; }
 
 /* Menu Toggle Switch */
-.menutoggle { position: absolute; top: 4rem; right: 2rem; margin: 0; padding: 0; width: 30px; height: 30px; display: block; cursor: pointer; }
+.js-menutoggle { position: absolute; top: 4rem; right: 2rem; margin: 0; padding: 0; width: 30px; height: 30px; display: block; cursor: pointer; }
 
-.menutoggle span { display: block; position: absolute; height: 2px; width: 100%; background: #fff; border-radius: 9px; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out; }
+.js-menutoggle span { display: block; position: absolute; height: 2px; width: 100%; background: #fff; border-radius: 9px; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out; }
 
-.menutoggle span:nth-child(1) { top: 0px; }
+.js-menutoggle span:nth-child(1) { top: 0px; }
 
-.menutoggle span:nth-child(2) { top: 5px; left: 0; opacity: 1; }
+.js-menutoggle span:nth-child(2) { top: 5px; left: 0; opacity: 1; }
 
-.menutoggle span:nth-child(3) { top: 10px; }
+.js-menutoggle span:nth-child(3) { top: 10px; }
 
-@media (min-width: 750px) { .menutoggle { display: none; } }
+@media (min-width: 750px) { .js-menutoggle { display: none; } }
 
-.show .menutoggle span { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); top: 5px; }
+.show .js-menutoggle span { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); top: 5px; }
 
-.show .menutoggle span:nth-child(1) { -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+.show .js-menutoggle span:nth-child(1) { -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
 
-.show .menutoggle span:nth-child(2) { opacity: 0; }
+.show .js-menutoggle span:nth-child(2) { opacity: 0; }
 
-.show .menutoggle span:nth-child(3) { -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg); }
+.show .js-menutoggle span:nth-child(3) { -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg); }

@@ -97,7 +97,7 @@
 }
 
 /* Menu Toggle Switch */
-.menutoggle{
+.js-menutoggle{
 	position: absolute;
 	top:4rem;
 	right:2rem;
@@ -144,7 +144,7 @@
 	}
 }
 
-.show .menutoggle span{
+.show .js-menutoggle span{
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
 	-o-transform: rotate(0deg);

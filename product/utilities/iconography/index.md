@@ -21,7 +21,7 @@ seperate color options to modify fill color. Icon colors are prefixed with <code
     </div>
     <div class="t-center">
         <svg class="m-bottom-2 icon--size-4 i-c-y300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M15.8 28.7c7 0 12.7-5.7 12.7-12.7S22.8 3.3 15.8 3.3 3.1 9 3.1 16s5.7 12.7 12.7 12.7zM16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16z"/><path d="M16 19.8l-3.3 3.1.3-4.5-4.5-.7 3.8-2.6-2.3-3.9 4.3 1.3L16 8.3l1.7 4.2 4.3-1.3-2.3 3.9 3.8 2.6-4.5.7.3 4.5z"/></svg>
-        <p>Notification <br /><strong>(y300)</strong></p>
+        <p>Notification <br /><strong>(y300 + y500)</strong></p>
     </div>
     <div class="t-center">
         <svg class="m-bottom-2 icon--size-4 i-c-b300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16zm0-29C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13S23.2 3 16 3z"/><path d="M21 12.6v-1.1c0-.1 0-.1-.1-.1h-1.8c-1.2 0-2.2.7-2.4 2-.1.2-.1.5-.1.8v1.4h-1.7c-.1 0-.2 0-.2.2v1.8c0 .1 0 .2.2.2h1.5c.1 0 .1 0 .1.1V23H9.9c-.5.1-.8-.2-.8-.8V10c0-.6.3-.9.9-.9h12.2c.6 0 .9.3.9.9v12.2c0 .5-.3.9-.9.9h-3.3c-.1 0-.2 0-.2-.2v-5.1c0-.1 0-.2.2-.2h1.7l.3-2.1h-2c-.1 0-.1 0-.1-.1V14c0-.5.3-.8.8-.8H21v-.6z"/></svg>
@@ -84,5 +84,5 @@ seperate color options to modify fill color. Icon colors are prefixed with <code
 
 
 {% highlight html %}
-<svg class="icon--size-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8h32L16 24z"/></svg>
+<svg class="icon--size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8h32L16 24z"/></svg>
 {% endhighlight %}

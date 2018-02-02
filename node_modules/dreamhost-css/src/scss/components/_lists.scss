@@ -3,6 +3,7 @@
 
 	.List is for a general purpose list of text
 	.List--disc gives the list dots, for an unordered list
+	.List--dec give the list numbered value for an ordered list
 	.List--inline makes the list horizontal
 	.List--50 makes list items 50% width
 	.List__menu formats list item links like a product menu
@@ -11,8 +12,11 @@
 .List > li {margin-bottom: convertScaleToRem(1);}
 .List > li:last-child {margin-bottom: 0;}
 
-.List--disc {list-style-type: disc; list-style-position: outside}
+.List--disc {list-style-type: disc; list-style-position: outside;}
 .List--disc > li {margin-left: convertScaleToRem(4);}
+
+.List--dec {list-style-type: decimal-leading-zero;}
+.List--dec > li {margin-left: convertScaleToRem(4);}
 
 .List--inline > li {
 	padding: 0;

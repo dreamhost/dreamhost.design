@@ -81,6 +81,7 @@ p, section, img {
 
 hr {
 	margin: convertScaleToRem(4) 0;
+	border:none;
 	border-bottom: 1px solid $c-g200;
 }
 

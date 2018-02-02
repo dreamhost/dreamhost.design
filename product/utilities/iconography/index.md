@@ -5,7 +5,7 @@ layout: page
 
 <p class="t-4">Below is the current collection of icons used throughout our applications.
 Icons are to be displayed at one of four different sizes <code>icon--size-x</code> (x = 1 - 4). Icons have
-seperate color options to modify fill color. Icon colors are prefixed with <code>i-c-</code>. Colors are used to give meaning appropriate codes are documented below.
+seperate color options to modify fill color. Icon colors are prefixed with <code>i-c-</code>. Colors are used to give meaning. Appropriate codes are documented below, you can also click the icon to download as an .SVG file.
 </p>
 
 <hr />

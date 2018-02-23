@@ -31,7 +31,7 @@ layout: page
 	</div>
 </div>
 
-<p class="m-bottom-8 bg-c-g100 p-2"><span class="t-3"><strong>Download Font</strong></span><br />Format: <a href="{{site.baseurl}}/assets/fonts/proxima-nova/pn-r.zip">Regular TTF</a></p>
+<p class="m-bottom-8 bg-c-g100 p-2"><span class="t-3"><strong>Download Font</strong></span><br />Format: <a href="{{site.baseurl}}/assets/fonts/proxima-nova/ProximaNova.zip">Regular TTF</a></p>
 
 <h3>Hierarchy</h3>
 

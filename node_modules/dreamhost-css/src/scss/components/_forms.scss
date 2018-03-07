@@ -10,6 +10,13 @@ Form Component
 	font-size: $t-3;
 }
 %form-no-outline { outline: none; }
+
+%form-input-appearance-none{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
 %form-text-style {
 	color: $black;
 	font-size: $t-3;
@@ -178,20 +185,84 @@ textarea.Input {
 // Choice: styles both radios and checkboxes
 .Choice {
 	@extend %form-text-style;
-
 	cursor: pointer;
 	display: block;
 	padding-left: 1.4rem;
 	position: relative;
-
 	margin-bottom: convertScaleToRem(1);
+
+	&:hover input{
+		border-color: $c-b500;
+	}
 
 	input {
 		@extend %form-no-outline;
+		@extend %form-input-appearance-none;
+		@include transition (all $tr-3 ease-in-out);
 		position: absolute;
 		left: 0;
-		top: 2px;
+		top: 4px;
+		border:solid $c-g300 1px;
+		background: $c-w100;
+		padding:6px;
+		margin:0;
+
+		&:checked{
+			border-color: $c-b500;
+			cursor: pointer;
+		}
+
+		&:before{
+			content:'';
+			background: url('../images/icon.tick.svg') no-repeat;
+			opacity: 0;
+			position: absolute; 
+			top:1px;
+			left: 1px;
+			height: 100%;
+			width: 80%;
+		}
+
+		&:checked:before{
+			opacity: 1;
+			@extend .zoom-in;
+			@extend .a-easing-cb-scale-up;
+			@extend .a-duration-1;
+		}
+
 	}
+
+	input[type='radio'] {
+		border-radius: 50px;
+
+		&:before{
+			animation:none;
+			@include transition (all $tr-5 ease-in-out);
+			background: $c-b300;
+			width: 50%;
+			height: 50%;
+			position: absolute;
+			top:50%;
+			left:50%;
+			margin:-25% 0 0 -25%;
+			border-radius: 50px;
+			transform: scale(0);
+		}
+
+		&:hover:before{
+			transform: scale(0.5);
+		}
+
+		&:checked{
+			border-color:$c-b500;
+		}
+
+		&:checked:before{
+			transform: scale(1);
+		}
+	}
+
+	
 }
 
 .Choice__label {

@@ -41,7 +41,7 @@
 .Tabs__nav-item {
 	@include link(dark);
 	margin:0 convertScaleToRem(2.5);
-	padding:0;
+	padding:0 0 1rem 0;
 	font-size: $t-2;
 	font-weight: $t-bold;
 	color: $c-g400;
@@ -52,7 +52,6 @@
 	a {
 		display: block;
 		color: $c-g400;
-		padding:0 0 1em 0;
 
 		&:hover {
 			text-decoration: none;
@@ -65,7 +64,6 @@
 	&:after{
 		content: "";
 		position: absolute;
-		z-index: $z-0;
 		left: 0;
 		right: 100%;
 		bottom: 0;

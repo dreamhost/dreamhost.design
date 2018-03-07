@@ -22,6 +22,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "dreamhost-css": "^0.2.7"
+    "dreamhost-css": "^0.2.8"
   }
 }

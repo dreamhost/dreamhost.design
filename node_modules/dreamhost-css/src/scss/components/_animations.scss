@@ -28,6 +28,13 @@ Animation Components
 	animation-fill-mode: forwards;
 }
 
+// Zoom
+.zoom-in,
+.zoom-in-hover {
+	animation: zoomIn $a-3 1 cubic-bezier(.075,.82,.165,1);
+	animation-fill-mode: forwards;
+}
+
 // Bounce
 .bounce,
 .bounce-hover:hover {
@@ -180,5 +187,14 @@ Animation Components
 	}
 	100% {
 		transform: translateX(-5px);
+	}
+}
+
+@keyframes zoomIn {
+	0% {
+		transform: scale(0);
+	}
+	100% {
+		transform: scale(1);
 	}
 }

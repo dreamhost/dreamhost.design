@@ -108,7 +108,14 @@ layout: page
       </div>
       <p class="m-top-1 m-bottom-0 l-pos-relative"><code class="t-1 t-center bg-c-g100 t-c-g500">.slide-left</code></p>
     </div>
-
+  </div>
+  <div class="container u-clearfix bg-c-g100 p-s">
+      <div class="g-1_6">
+      <div class="bg-c-b300 zoom-in a-duration a-repeat p-3 p-y-1 m-3 h-0 w-0 u-border-radius">
+        &nbsp;
+      </div>
+      <p class="m-top-1 m-bottom-0 l-pos-relative"><code class="t-1 t-center bg-c-g100 t-c-g500">.zoom-in</code></p>
+    </div>
   </div>
 
   {% highlight html %}
@@ -147,6 +154,9 @@ layout: page
 
   <!-- Animation: slide-left -->
   <div class="slide-left"></div>
+
+  <!-- Animation: zoom-in -->
+  <div class="zoom-in"></div>
 
   {% endhighlight %}
 

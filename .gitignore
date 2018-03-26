@@ -2,6 +2,5 @@
 .jekyll-metadata
 _site/
 node_modules/*
-!node_modules/dreamhost-css/
 *.DS_Store
 package-lock.json

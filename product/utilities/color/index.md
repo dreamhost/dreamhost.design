@@ -24,8 +24,8 @@ layout: page
 			<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Sky Blue</strong><br />Sass $c-b300<br />Hex #2BADE9<br />rgb(43,173,233)</p>
-	</div><!--SkyBlue-->
+		<p class="p-3 bg-c-g100 m-0"><strong>Azure</strong><br />Sass $c-b300<br />Hex #00AFEF<br />rgb(0,175,239)</p>
+	</div><!--Azure-->
 	<div class="g-1_3 bg-c-b700 p-top-12">
 	<ul class="t-center p-2 u-clearfix">
 			<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128515;</li>
@@ -73,8 +73,8 @@ layout: page
 		<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
 		<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 	</ul>
-	<p class="p-3 bg-c-g100 m-0"><strong>Orange</strong><br />Sass $c-o300<br />Hex #FFA700<br />rgb(255,167,0)</p>
-</div><!--Orange-->
+	<p class="p-3 bg-c-g100 m-0"><strong>Tangerine</strong><br />Sass $c-o300<br />Hex #F59D00<br />rgb(206,21,47)</p>
+</div><!--Tangerine-->
 <div class="g-1_4 bg-c-y300 p-top-12">
 	<ul class="t-center p-2 u-clearfix">
 		<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
@@ -195,8 +195,8 @@ layout: page
 			<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Sky Blue</strong><br />Sass $c-b300<br />Hex #2BADE9<br />rgb(43,173,233)</p>
-	</div><!--Sky Blue-->
+		<p class="p-3 bg-c-g100 m-0"><strong>Azure</strong><br />Sass $c-b300<br />Hex #00AFEF<br />rgb(0,175,239)</p>
+	</div><!--Azure-->
 	<div class="g-1_3 bg-c-b100 p-top-3">
 		<ul class="t-center p-2 u-clearfix">
 			<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
@@ -226,8 +226,8 @@ layout: page
 			<li class="t-center g-1_4 t-c-b700"><span class="t-3">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Orange</strong><br />Sass $c-o300<br />Hex #FFA700<br />rgb(255,167,0)</p>
-	</div><!--Orange-->
+		<p class="p-3 bg-c-g100 m-0"><strong>Tangerine</strong><br />Sass $c-o300<br />Hex #F59D00<br />rgb(206,21,47)</p>
+	</div><!--Tangerine-->
 	<div class="g-1_3 bg-c-o100 p-top-3">
 		<ul class="t-center p-2 u-clearfix">
 			<li class="t-center t-c-w100 g-1_4"><span class="t-3">A</span><br />&#128557;</li>
@@ -335,7 +335,7 @@ layout: page
 <h2 class="m-bottom-1">Usage example</h2>
 
 {% highlight html %}
-<div class="bg-c-b300">Sky Blue background</div>
-<div class="t-c-b300">Sky Blue text</div>
-<div class="i-c-b300">Sky Blue icon</div>
+<div class="bg-c-b300">Azure background</div>
+<div class="t-c-b300">Azure text</div>
+<div class="i-c-b300">Azure icon</div>
 {% endhighlight %}

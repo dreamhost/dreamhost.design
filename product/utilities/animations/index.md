@@ -215,7 +215,6 @@ layout: page
       </div>
       <p class="m-top-1 m-bottom-0 l-pos-relative w-100"><code class="t-1 w-100 t-center bg-c-g100 t-c-g500">.fade-out-hover</code></p>
     </div>
-
   </div>
 
   <div class="container u-clearfix bg-c-g100 p-s">
@@ -260,6 +259,17 @@ layout: page
         &nbsp;
       </div>
       <p class="m-top-1 m-bottom-0 l-pos-relative w-100"><code class="t-1 w-100 t-center bg-c-g100 t-c-g500">.slide-left-hover</code></p>
+    </div>
+
+  </div>
+
+   <div class="container u-clearfix bg-c-g100 p-s">
+
+    <div class="g-1_6">
+      <div class="bg-c-b300 zoom-in-hover a-repeat p-3 p-y-1 m-3 h-0 w-0 u-border-radius">
+        &nbsp;
+      </div>
+      <p class="m-top-1 m-bottom-0 l-pos-relative w-100"><code class="t-1 w-100 t-center bg-c-g100 t-c-g500">.zoom-in-hover</code></p>
     </div>
 
   </div>

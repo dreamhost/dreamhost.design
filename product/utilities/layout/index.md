@@ -107,6 +107,8 @@ These classes can be used for positioning specific elements in relation to their
 <div class="l-pos-all">Position all corners</div>
 {% endhighlight %}
 
+<hr />
+
 ## Box Sizing
 
 {% highlight html %}
@@ -118,3 +120,66 @@ These classes can be used for positioning specific elements in relation to their
 
 ## Responsive
 All layout classes are responsive and can use the __m and __l modifier classes, e.g `l-block___m`.
+
+<hr />
+## Vertical Align
+
+<div class="u-clearfix bg-c-g100 t-center p-3 m-bottom-2">
+		<div class="g-1_4__m border p-2 t-c-g200">
+				<p class="t-2 t-c-g500"><strong>.u-vertical-align-top</strong></p>
+				<img src="https://www.dreamhost.com/assets/images/robot.presents.right.svg" class="u-vertical-align-top" style="height: 200px;" />
+				<img src="https://www.dreamhost.com/assets/images/logo.symbol.svg" class="u-vertical-align-top" style="height: 50px;" />
+		</div>
+		<div class="g-1_4__m border p-2 t-c-g200">
+				<p class="t-2 t-c-g500"><strong>.u-vertical-align-middle</strong></p>
+				<img src="https://www.dreamhost.com/assets/images/robot.presents.right.svg" class="u-vertical-align-middle" style="height: 200px;" />
+				<img src="https://www.dreamhost.com/assets/images/logo.symbol.svg" class="u-vertical-align-middle" style="height: 50px;" />
+		</div>
+		<div class="g-1_4__m border p-2 t-c-g200">
+				<p class="t-2 t-c-g500"><strong>.u-vertical-align-bottom</strong></p>
+				<img src="https://www.dreamhost.com/assets/images/robot.presents.right.svg" class="u-vertical-align-bottom" style="height: 200px;" />
+				<img src="https://www.dreamhost.com/assets/images/logo.symbol.svg" class="u-vertical-align-bottom" style="height: 50px;" />
+		</div>
+		<div class="g-1_4__m border p-2 t-c-g200">
+				<p class="t-2 t-c-g500"><strong>.u-vertical-align-text-bottom</strong></p>
+				<img src="https://www.dreamhost.com/assets/images/robot.presents.right.svg" class="u-vertical-align-text-bottom" style="height: 200px;" />
+				<img src="https://www.dreamhost.com/assets/images/logo.symbol.svg" class="u-vertical-align-text-bottom" style="height: 50px;" />
+		</div>
+</div>
+
+{% highlight html %}
+<div>
+	<h3>Top</h3>
+	<img src="robot.svg" class="u-vertical-align-top" />
+	<img src="moon.svg" class="u-vertical-align-top" />
+</div>
+<div>
+	<h3>Middle</h3>
+	<img src="robot.svg" class="u-vertical-align-middle" />
+	<img src="moon.svg" class="u-vertical-align-middle" />
+</div>
+<div>
+	<h3>Bottom</h3>
+	<img src="robot.svg" class="u-vertical-align-bottom" />
+	<img src="moon.svg" class="u-vertical-align-bottom" />
+</div>
+<div>
+	<h3>Text Bottom</h3>
+	<img src="robot.svg" class="u-vertical-align-text-bottom" />
+	<img src="moon.svg" class="u-vertical-align-text-bottom" />
+</div>
+{% endhighlight %}
+
+<hr />
+
+## Z-index
+There are 5 levels of z-index that have classes for use, which correspond to z- variables in <a href="{{site.baseurl}}/utilities/sass/variables/">Variables</a>.
+
+{% highlight html %}
+.z-0 { z-index: $z-0; }
+.z-1 { z-index: $z-1; }
+.z-2 { z-index: $z-2; }
+.z-3 { z-index: $z-3; }
+.z-4 { z-index: $z-4; }
+.z-5 { z-index: $z-5; }
+{% endhighlight %}

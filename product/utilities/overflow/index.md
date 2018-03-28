@@ -3,7 +3,7 @@ title: Overflow
 layout: page
 ---
 
-<p class="t-4">Set overflow to scroll, hidden, or visible.</p>
+<p class="t-4">Set overflow to scroll, hidden, or visible. Modifiers for overflow on a single axis are also available by adding <code>-x</code> or <code>-y</code> e.g <code>u-overflow-x-scroll</code>.</p>
 
 <hr />
 

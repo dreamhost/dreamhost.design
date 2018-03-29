@@ -18,7 +18,7 @@ CSS Grid is used by the <code>.Grid--auto</code> class. It can be used to evenly
 </div><!--Grid-->
 {% endhighlight %}
 
-There are also 2 column layout modifiers for auto grid layouts. <code>.Grid-1-3</code> <em>(2 column left aligned)</em> <code>.Grid-3-1</code> <em>(2 column right aligned)</em>. 
+There are also 2 column layout modifiers for auto grid layouts. <code>.Grid-1-3</code> <em>(2 column left aligned)</em> <code>.Grid-3-1</code> <em>(2 column right aligned)</em>.
 
 {% highlight html %}
 <div class="Grid--auto .Grid-1-3">
@@ -49,31 +49,31 @@ Auto CSS grid layouts can also be nested.
 For more specific grid requirements there is also a 12 column grid layout system.
 
 <div class="Grid m-bottom-2">
-	<div class="g-12-12 bg-c-g200 t-center p-2 u-border-radius">.g-12-12</div>
-	<div class="g-6-12 bg-c-g200 t-center p-2 u-border-radius">.g-6-12</div>
-	<div class="g-6-12 bg-c-g200 t-center p-2 u-border-radius">.g-6-12</div>
-	<div class="g-3-12 bg-c-g200 t-center p-2 u-border-radius">.g-3-12</div>
-	<div class="g-3-12 bg-c-g200 t-center p-2 u-border-radius">.g-3-12</div>
-	<div class="g-3-12 bg-c-g200 t-center p-2 u-border-radius">.g-3-12</div>
-	<div class="g-3-12 bg-c-g200 t-center p-2 u-border-radius">.g-3-12</div>
-	<div class="g-2-12 bg-c-g200 t-center p-2 u-border-radius">.g-2-12</div>
-	<div class="g-2-12 bg-c-g200 t-center p-2 u-border-radius">.g-2-12</div>
-	<div class="g-2-12 bg-c-g200 t-center p-2 u-border-radius">.g-2-12</div>
-	<div class="g-2-12 bg-c-g200 t-center p-2 u-border-radius">.g-2-12</div>
-	<div class="g-2-12 bg-c-g200 t-center p-2 u-border-radius">.g-2-12</div>
-	<div class="g-2-12 bg-c-g200 t-center p-2 u-border-radius">.g-2-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
-	<div class="g-1-12 bg-c-g200 t-center p-2 u-border-radius">.g-1-12</div>
+	<div class="g-12-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-12-12</strong></div>
+	<div class="g-6-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-6-12</strong></div>
+	<div class="g-6-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-6-12</strong></div>
+	<div class="g-3-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-3-12</strong></div>
+	<div class="g-3-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-3-12</strong></div>
+	<div class="g-3-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-3-12</strong></div>
+	<div class="g-3-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-3-12</strong></div>
+	<div class="g-2-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-2-12</strong></div>
+	<div class="g-2-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-2-12</strong></div>
+	<div class="g-2-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-2-12</strong></div>
+	<div class="g-2-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-2-12</strong></div>
+	<div class="g-2-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-2-12</strong></div>
+	<div class="g-2-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-2-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
+	<div class="g-1-12__m bg-c-g200 t-center p-2 u-border-radius"><strong>.g-1-12</strong></div>
 </div><!--Grid-->
 
 {% highlight html %}
@@ -99,24 +99,22 @@ For more specific grid requirements there is also a 12 column grid layout system
 
 <h2>Legacy grid</h2>
 
-<p class="t-4">DreamHost legacy floated grid uses Bourbon's Neat Sass grid alongside some helper classes from the most common layouts we need to create.</p>
+<p class="t-4">DreamHost legacy floated grid uses <a href="https://neat.bourbon.io/" target="_blank">Bourbon's Neat Sass grid</a> alongside some helper classes from the most common layouts we need to create.</p>
 
 <hr />
 
-<img src="{{site.baseurl}}/assets/images/neat.png" alt="" class="m-bottom-0" />
-
 <div class="m-bottom">
 	<div class="u-clearfix m-bottom-2">
-		<div class="bg-c-g300 p-2 t-center g-1_2">.g-1_2</div>
-		<div class="bg-c-g300 p-2 t-center g-1_2">.g-1_2</div>
+		<div class="bg-c-g200 border-radius p-2 t-center g-1_2"><strong>.g-1_2</strong></div>
+		<div class="bg-c-g200 border-radius p-2 t-center g-1_2"><strong>.g-1_2</strong></div>
 	</div>
 	<div class="u-clearfix m-bottom-2">
-		<div class="bg-c-g300 p-2 t-center g-1_3">.g-1_3</div>
-		<div class="bg-c-g300 p-2 t-center g-2_3">.g-2_3</div>
+		<div class="bg-c-g200 border-radius p-2 t-center g-1_3"><strong>.g-1_3</strong></div>
+		<div class="bg-c-g200 border-radius p-2 t-center g-2_3"><strong>.g-2_3</strong></div>
 	</div>
 	<div class="u-clearfix m-bottom-2">
-		<div class="bg-c-g300 p-2 t-center g-1_4">.g-1_4</div>
-		<div class="bg-c-g300 p-2 t-center g-3_4">.g-3_4</div>
+		<div class="bg-c-g200 border-radius p-2 t-center g-1_4"><strong>.g-1_4</strong></div>
+		<div class="bg-c-g200 border-radius p-2 t-center g-3_4"><strong>.g-3_4</strong></div>
 	</div>
 </div>
 
@@ -165,13 +163,13 @@ All helper classes are mobile-first responsive and can be modified by adding `__
 For example, the following will only have columns on screens larger than 750px.
 
 <div class="u-clearfix m-bottom">
-	<div class="bg-c-g300 p-1 g-1_2__m">responsive</div>
-	<div class="bg-c-g300 p-1 g-1_2__m">responsive</div>
+	<div class="bg-c-g200 border-radius p-1 g-1_2__m"><strong>.g-1_2__m</strong> Responsive</div>
+	<div class="bg-c-g200 border-radius p-1 g-1_2__m"><strong>.g-1_2__m</strong> Responsive</div>
 </div>
 
 {% highlight css %}
 <div class="u-clearfix">
-	<div class="g-1_2__m">responsive</div>
-	<div class="g-1_2__m">responsive</div>
+	<div class="g-1_2__m">Responsive</div>
+	<div class="g-1_2__m">Responsive</div>
 </div>
 {% endhighlight %}

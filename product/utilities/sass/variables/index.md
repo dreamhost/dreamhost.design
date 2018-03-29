@@ -152,7 +152,7 @@ $t-6: 2.5rem; // 40px
 $t-5: 2rem; // 32px
 $t-4: 1.5rem; // 24px
 $t-3: 1rem; // 16px
-$t-2: .875rem; // 14px. legibility at small sizes > adhering to scales
+$t-2: .875rem; // 14px - legibility at small sizes > adhering to scales
 $t-1: .75em; // 12px
 $t-0: .688em; //11px
 {% endhighlight %}

@@ -9,7 +9,8 @@ layout: page
 
 ## Floats
 
-Floats must have a wrapper with the <code>u-clearfix</code> class attached to float without breaking layouts.
+<p class="Alert">
+<strong>Please Note:</strong> Floats must have a wrapper with the <code>u-clearfix</code> class attached so they avoid breaking layouts.</p>
 
 <div class="bg-c-g100 m-bottom">
 	<div class="u-clearfix">
@@ -56,11 +57,7 @@ Floats must have a wrapper with the <code>u-clearfix</code> class attached to fl
 <p class="l-none">None</p>
 {% endhighlight %}
 
-<hr />
-
-## Table
-
-<div class="l-table bg-c-g100 w-100 m-bottom"> <p class="p-top-2 p-left-2"><strong>.l-table</strong> Table</p>
+<div class="l-table bg-c-g100 w-100 m-top-4 m-bottom"> <p class="p-top-2 p-left-2"><strong>.l-table</strong> Table</p>
 	<div class="l-table-row bg-c-g300"><p class="p-left-2"><strong>.l-table-row</strong> Table Row</p>
 		<div class="l-table-cell bg-c-g200 p-2"><strong>.l-table-cell</strong> Table Cell</div>
 		<div class="l-table-cell bg-c-g200 p-2"><strong>.l-table-cell</strong> Table Cell</div>

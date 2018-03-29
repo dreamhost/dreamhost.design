@@ -11,16 +11,13 @@ layout: page
 DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-heading</p>
-	<p class="t-heading">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-heading t-5"><strong>(.t-heading)</strong> The quick brown fox jumps over the lazy dog.</p>
 </div>
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-body</p>
-	<p class="t-body">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-body"><strong>(.t-body)</strong> The quick brown fox jumps over the lazy dog.</p>
 </div>
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-mono</p>
-	<p class="t-mono">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-mono"><strong>(.t-mono)</strong>The quick brown fox jumps over the lazy dog.</p>
 </div>
 
 {% highlight html %}
@@ -33,25 +30,25 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 
 ## Sizes
 
-<div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-5  <span class="p-left-s t-light t-c-g500">2rem, 32px</span></p>
-	<p class="t-5">The quick brown fox jumps over the lazy dog.</p>
+<div class="m-bottom-2">
+	<p class="t-5 m-bottom-0"><strong>(.t-5)</strong> The quick brown fox jumps over the lazy dog.</p>
+	<span class="t-light t-c-g500">2rem, 32px</span>
 </div>
-<div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-4  <span class="p-left-s t-light t-c-g500">1.5rem, 24px</span></p>
-	<p class="t-4">The quick brown fox jumps over the lazy dog.</p>
+<div class="m-bottom-2">
+	<p class="t-4 m-bottom-0"><strong>(.t-4)</strong> The quick brown fox jumps over the lazy dog.</p>
+	<span class="t-light t-c-g500">1.5rem, 24px</span>
 </div>
-<div>
-	<p class="m-bottom-0 t-2 t-c-g500">.t-3 (default)  <span class="p-left-s t-light t-c-g500">1rem, 16px</span></p>
-	<p>The quick brown fox jumps over the lazy dog.</p>
+<div class="m-bottom-2">
+	<p class="t-3 m-bottom-0"><strong>(.t-3 - default)</strong> The quick brown fox jumps over the lazy dog.</p>
+	<span class="t-light t-c-g500">1rem, 16px</span>
 </div>
-<div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-2 <span class="p-left-s t-light t-c-g500">0.875rem, 14px</span></p>
-	<p class="t-2">The quick brown fox jumps over the lazy dog.</p>
+<div class="m-bottom-2">
+	<p class="t-2 m-bottom-0"><strong>(.t-2)</strong> The quick brown fox jumps over the lazy dog.</p>
+	<span class="t-light t-c-g500">0.875rem, 14px</span>
 </div>
-<div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-1 <span class="p-left-s t-light t-c-g500">0.75rem, 12px</span></p>
-	<p class="t-1">The quick brown fox jumps over the lazy dog.</p>
+<div class="m-bottom-2">
+	<p class="t-1 m-bottom-0"><strong>(.t-1)</strong> The quick brown fox jumps over the lazy dog.</p>
+	<span class="t-light t-c-g500">0.75rem, 12px</span>
 </div>
 
 {% highlight html %}
@@ -67,16 +64,13 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 ## Alignment
 
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-left</p>
-	<p class="t-left p-1 border">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-left p-1 bg-c-g100"><strong>(.t-left)</strong> The quick brown fox jumps over the lazy dog.</p>
 </div>
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-right</p>
-	<p class="t-right p-1 border">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-right p-1 bg-c-g100"><strong>(.t-right)</strong> The quick brown fox jumps over the lazy dog.</p>
 </div>
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-center</p>
-	<p class="t-center p-1 border">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-center p-1 bg-c-g100"><strong>(.t-center)</strong> The quick brown fox jumps over the lazy dog.</p>
 </div>
 
 
@@ -91,20 +85,16 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 ## Weight
 
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-bold</p>
-	<p class="t-bold">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-bold"><strong>(.t-bold)</strong> The quick brown fox jumps over the lazy dog.</p>
 </div>
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-regular</p>
-	<p class="t-regular">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-regular">(.t-regular) The quick brown fox jumps over the lazy dog.</p>
 </div>
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-light</p>
-	<p class="t-light">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-light">(.t-light) The quick brown fox jumps over the lazy dog.</p>
 </div>
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-lighter</p>
-	<p class="t-lighter">The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-lighter">(.t-lighter) The quick brown fox jumps over the lazy dog.</p>
 </div>
 
 {% highlight html %}
@@ -117,27 +107,25 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 <hr />
 
 ## White space
-<div class="u-clearfix">
-    <div class="g-1_2__m">
-        <p class="m-bottom-0 t-2 t-red t-bold">.u-ws-normal</p>
-        <div class="border u-ws-normal m-bottom" style="width: 170px;">
-            All work and no play makes Jack a dull boy.
-        </div>
-    </div>
-    <div class="g-1_2__m">
-        <p class="m-bottom-0 t-2 t-red t-bold">.u-ws-nowrap</p>
-        <div class="border u-ws-nowrap m-bottom" style="width: 170px;">
-            All work and no play makes Jack a dull boy.
-        </div>
-    </div>
+<div class="u-clearfix m-bottom-2">
+	<div class="g-1_2__m bg-c-g100 p-2">
+		<div class="g-1_2 bg-c-g200 u-ws-normal m-bottom-0 p-2">
+			<strong>(.u-ws-normal)</strong> All work and no play makes Jack a dull boy.
+		</div>
+	</div>
+	<div class="g-1_2__m bg-c-g100 p-2">
+				<div class="g-1_2 bg-c-g200 u-ws-nowrap m-bottom-0 p-2">
+						<strong>(.u-ws-nowrap)</strong> All work and no play makes Jack a dull boy.
+				</div>
+		</div>
 </div>
 
 {% highlight html %}
 <div class="border u-ws-normal m-bottom">
-    normal
+		normal
 </div>
 <div class="border u-ws-nowrap m-bottom">
-    nowrap
+		nowrap
 </div>
 {% endhighlight %}
 
@@ -146,26 +134,24 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 ## Wordbreak
 
 <div class="u-clearfix">
-    <div class="g-1_2__m">
-        <p class="m-bottom-0 t-2 t-red t-bold">.u-wb-normal</p>
-        <div class="border u-wb-normal m-bottom" style="width: 170px;">
-            j3894jrerwfv98cqh3x498ryq349fq38mrf9q3948rymx93q8yf9
-        </div>
-    </div>
-    <div class="g-1_2__m">
-        <p class="m-bottom-0 t-2 t-red t-bold">.u-wb-break-all</p>
-        <div class="border u-wb-break-all m-bottom" style="width: 170px;">
-            j3894jrerwfv98cqh3x498ryq349fq38mrf9q3948rymx93q8yf9
-        </div>
-    </div>
+	<div class="g-1_2__m bg-c-g100 p-2">
+		<div class="bg-c-g200 g-1_2 p-2 u-wb-normal m-bottom-0 border-radius">
+				<strong>(.u-wb-normal)</strong> j3894jrerwfv98cqh3x498ryq349fq38mrf9q3948rymx93q8yf9
+		</div>
+	</div>
+	<div class="g-1_2__m bg-c-g100 p-2 m-bottom-2">
+		<div class="bg-c-g200 g-1_2 p-2 u-wb-break-all m-bottom-0 border-radius">
+				<strong>(.u-wb-break-all)</strong> j3894jrerwfv98cqh3x498ryq349fq38mrf9q3948rymx93q8yf9
+		</div>
+	</div>
 </div>
 
 {% highlight html %}
 <div class="border u-wb-normal m-bottom">
-    normal
+	normal
 </div>
 <div class="border u-wb-break-all m-bottom">
-    break-all
+	break-all
 </div>
 {% endhighlight %}
 
@@ -174,8 +160,7 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 ## Text Caret
 
 <div>
-	<p class="m-bottom-0 t-2 t-c-r300 t-bold">.t-caret</p>
-	<p class="t-caret">This text has a caret.</p>
+	<p class="t-caret"><strong>(.t-caret)</strong> This text has a caret.</p>
 </div>
 
 {% highlight html %}

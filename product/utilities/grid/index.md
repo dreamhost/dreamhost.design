@@ -101,6 +101,8 @@ For more specific grid requirements there is also a 12 column grid layout system
 
 <p class="t-4">DreamHost legacy floated grid uses <a href="https://neat.bourbon.io/" target="_blank">Bourbon's Neat Sass grid</a> alongside some helper classes from the most common layouts we need to create.</p>
 
+<p class="Alert"><strong>Please note:</strong> Each legacy grid row must have a wrapper with the <code>u-clearfix</code> class attached as it is based on a float model.</p>
+
 <hr />
 
 <div class="m-bottom">

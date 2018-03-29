@@ -106,6 +106,64 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 
 <hr />
 
+## Styles
+
+<div>
+	<p class="t-decoration-underline"><strong>(.t-decoration-underline)</strong> The quick brown fox jumps over the lazy dog.</p>
+</div>
+<div>
+	<p class="t-decoration-none"><strong>(.t-decoration-none)</strong> The quick brown fox jumps over the lazy dog.</p>
+</div>
+<div>
+	<p class="t-style-italic"><strong>(.t-style-italic)</strong> The quick brown fox jumps over the lazy dog.</p>
+</div>
+
+{% highlight html %}
+<p class="t-decoration-underline">The quick brown fox jumps over the lazy dog.</p>
+<p class="t-decoration-none">The quick brown fox jumps over the lazy dog.</p>
+<p class="t-style-italic">The quick brown fox jumps over the lazy dog.</p>
+{% endhighlight %}
+
+
+<hr />
+
+## Transform
+<div>
+	<p><strong>(.t-transform-uppercase)</strong> <span class="t-transform-uppercase">The quick brown fox jumps over the lazy dog.</span></p>
+</div>
+<div>
+	<p><strong>(.t-transform-capitalize)</strong> <span class="t-transform-capitalize">The quick brown fox jumps over the lazy dog.</span></p>
+</div>
+<div>
+	<p class="t-transform-lowercase"><strong>(.t-transform-lowercase)</strong>  The quick brown fox jumps over the lazy dog.</p>
+</div>
+<div>
+	<p class="t-transform-none"><strong>(.t-transform-none)</strong>  The quick brown fox jumps over the lazy dog.</p>
+</div>
+
+{% highlight html %}
+<p class="t-transform-uppercase">The quick brown fox jumps over the lazy dog.</p>
+<p class="t-transform-capitalize">The quick brown fox jumps over the lazy dog.</p>
+<p class="t-transform-lowercase">The quick brown fox jumps over the lazy dog.</p>
+<p class="t-transform-none">The quick brown fox jumps over the lazy dog.</p>
+{% endhighlight %}
+
+<hr />
+
+## Line Heights
+
+<p class="m-bottom-4">The default line height is set at a <strong>1.4</strong> scale. An optional <strong>1</strong> value scale (<span class="t-style-italic">current font-size</span>) line height is available for use with larger header point sizes.</p>
+
+<div>
+	<p class="t-6 m-bottom-6 t-line-height-1"><strong>(.t-line-height-1)</strong> The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
+</div>
+
+{% highlight html %}
+<p class="t-line-height-1">The quick brown fox jumps over the lazy dog.</p>
+{% endhighlight %}
+
+<hr />
+
 ## White space
 <div class="u-clearfix m-bottom-2">
 	<div class="g-1_2__m bg-c-g100 p-2">

@@ -4,16 +4,16 @@
 
 @mixin link($invert: 'false'){
 	@if $invert == 'false'{
-		color: $black;
+		color: $c-black;
 		&:hover {
 			cursor: pointer;
-			color: $black;
+			color: $c-black;
 		}
 	} @else {
-		color: $black;
+		color: $c-black;
 		&:hover {
 			cursor: pointer;
-			color: $black;
+			color: $c-black;
 		}
 	}
 

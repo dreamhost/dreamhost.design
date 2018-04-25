@@ -30,7 +30,7 @@ Animation Components
 
 // Zoom
 .zoom-in,
-.zoom-in-hover {
+.zoom-in-hover:hover {
 	animation: zoomIn $a-3 1 cubic-bezier(.075,.82,.165,1);
 	animation-fill-mode: forwards;
 }

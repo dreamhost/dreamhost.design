@@ -31,7 +31,57 @@
 .l-border-box {box-sizing: border-box !important}
 .l-content-box {box-sizing: content-box !important}
 
-@media screen and (min-width: $medium-breakpoint){
+.l-flex {display: flex !important}
+
+// sets horizonal positioning of items within the flex container
+.l-flex-row {flex-direction: row !important}
+.l-flex-row-reverse {flex-direction: row-reverse !important}
+.l-flex-col {flex-direction: column !important}
+.l-flex-col-reverse {flex-direction: column-reverse !important}
+
+// sets vertical alignment of ALL ITEMS AS A SINGLE UNIT within the flex container
+.l-flex-start {align-content: flex-start !important}
+.l-flex-end {align-content: flex-end !important}
+.l-flex-center {align-content: center !important}
+.l-flex-stretch {align-content: stretch !important}
+.l-flex-between {align-content: space-between !important}
+.l-flex-around {align-content: space-around !important}
+
+// sets horizontal spacing of individual flex items
+.l-flex-x-start {justify-content: flex-start !important}
+.l-flex-x-end {justify-content: flex-end !important}
+.l-flex-x-center {justify-content: center !important}
+.l-flex-x-between {justify-content: space-between !important}
+.l-flex-x-around {justify-content: space-around !important}
+.l-flex-x-even {justify-content: space-evenly !important}
+
+// sets vertical alignment of content within each item
+.l-flex-y-start {align-items: flex-start !important}
+.l-flex-y-end {align-items: flex-end !important}
+.l-flex-y-center {align-items: center !important}
+.l-flex-y-baseline {align-items: baseline !important}
+.l-flex-y-stretch {align-items: stretch !important}
+
+// force flex items to wrap. usually only needed when items used fixed size
+.l-flex-wrap {flex-wrap: wrap !important}
+.l-flex-wrap-reverse {flex-wrap: wrap-reverse !important}
+.l-flex-nowrap {flex-wrap: nowrap !important}
+
+// manually set flex item sizing based on ratios
+// e.g. 1-1-2 items will be a 25% 25% 50% row, 1-2 items a 33% 66% row, 1-3 25% 75%
+.l-flex-grow-0 {flex-grow: 0}
+.l-flex-grow-1 {flex-grow: 1}
+.l-flex-grow-2 {flex-grow: 2}
+.l-flex-grow-3 {flex-grow: 3}
+.l-flex-grow-4 {flex-grow: 4}
+.l-flex-grow-6 {flex-grow: 6}
+.l-flex-grow-7 {flex-grow: 7}
+.l-flex-grow-8 {flex-grow: 8}
+.l-flex-grow-9 {flex-grow: 9}
+.l-flex-grow-10 {flex-grow: 10}
+.l-flex-grow-11 {flex-grow: 11}
+
+@media screen and (min-width: $medium-breakpoint) {
 	.l-float-right__m {float: right !important}
 	.l-float-left__m {float: left !important}
 	.l-float-none__m {float: none !important}
@@ -54,6 +104,49 @@
 	.l-pos-bottom__m {bottom: 0 !important}
 	.l-pos-left__m {left: 0 !important}
 	.l-pos-right__m {right: 0 !important}
+
+	.l-flex__m {display: flex !important}
+
+	.l-flex-row__m {flex-direction: row !important}
+	.l-flex-row-reverse__m {flex-direction: row-reverse !important}
+	.l-flex-col__m {flex-direction: column !important}
+	.l-flex-col-reverse__m {flex-direction: column-reverse !important}
+
+	.l-flex-x-start__m {justify-content: flex-start !important}
+	.l-flex-x-end__m {justify-content: flex-end !important}
+	.l-flex-x-center__m {justify-content: center !important}
+	.l-flex-x-between__m {justify-content: space-between !important}
+	.l-flex-x-around__m {justify-content: space-around !important}
+	.l-flex-x-even__m {justify-content: space-evenly !important}
+
+	.l-flex-y-start__m {align-items: flex-start !important}
+	.l-flex-y-end__m {align-items: flex-end !important}
+	.l-flex-y-center__m {align-items: center !important}
+	.l-flex-y-baseline__m {align-items: baseline !important}
+	.l-flex-y-stretch__m {align-items: stretch !important}
+
+	.l-flex-start__m {align-content: flex-start !important}
+	.l-flex-end__m {align-content: flex-end !important}
+	.l-flex-center__m {align-content: center !important}
+	.l-flex-stretch__m {align-content: stretch !important}
+	.l-flex-between__m {align-content: space-between !important}
+	.l-flex-around__m {align-content: space-around !important}
+
+	.l-flex-wrap__m {flex-wrap: wrap !important}
+	.l-flex-wrap-reverse__m {flex-wrap: wrap-reverse !important}
+	.l-flex-nowrap__m {flex-wrap: nowrap !important}
+
+	.l-flex-grow-0__m {flex-grow: 0}
+	.l-flex-grow-1__m {flex-grow: 1}
+	.l-flex-grow-2__m {flex-grow: 2}
+	.l-flex-grow-3__m {flex-grow: 3}
+	.l-flex-grow-4__m {flex-grow: 4}
+	.l-flex-grow-6__m {flex-grow: 6}
+	.l-flex-grow-7__m {flex-grow: 7}
+	.l-flex-grow-8__m {flex-grow: 8}
+	.l-flex-grow-9__m {flex-grow: 9}
+	.l-flex-grow-10__m {flex-grow: 10}
+	.l-flex-grow-11__m {flex-grow: 11}
 }
 
 
@@ -80,4 +173,47 @@
 	.l-pos-bottom__l {bottom: 0 !important}
 	.l-pos-left__l {left: 0 !important}
 	.l-pos-right__l {right: 0 !important}
+
+	.l-flex__l {display: flex !important}
+
+	.l-flex-row__l {flex-direction: row !important}
+	.l-flex-row-reverse__l {flex-direction: row-reverse !important}
+	.l-flex-col__l {flex-direction: column !important}
+	.l-flex-col-reverse__l {flex-direction: column-reverse !important}
+
+	.l-flex-x-start__l {justify-content: flex-start !important}
+	.l-flex-x-end__l {justify-content: flex-end !important}
+	.l-flex-x-center__l {justify-content: center !important}
+	.l-flex-x-between__l {justify-content: space-between !important}
+	.l-flex-x-around__l {justify-content: space-around !important}
+	.l-flex-x-even__l {justify-content: space-evenly !important}
+
+	.l-flex-y-start__l {align-items: flex-start !important}
+	.l-flex-y-end__l {align-items: flex-end !important}
+	.l-flex-y-center__l {align-items: center !important}
+	.l-flex-y-baseline__l {align-items: baseline !important}
+	.l-flex-y-stretch__l {align-items: stretch !important}
+
+	.l-flex-start__l {align-content: flex-start !important}
+	.l-flex-end__l {align-content: flex-end !important}
+	.l-flex-center__l {align-content: center !important}
+	.l-flex-stretch__l {align-content: stretch !important}
+	.l-flex-between__l {align-content: space-between !important}
+	.l-flex-around__l {align-content: space-around !important}
+
+	.l-flex-wrap__l {flex-wrap: wrap !important}
+	.l-flex-wrap-reverse__l {flex-wrap: wrap-reverse !important}
+	.l-flex-nowrap__l {flex-wrap: nowrap !important}
+
+	.l-flex-grow-0__l {flex-grow: 0}
+	.l-flex-grow-1__l {flex-grow: 1}
+	.l-flex-grow-2__l {flex-grow: 2}
+	.l-flex-grow-3__l {flex-grow: 3}
+	.l-flex-grow-4__l {flex-grow: 4}
+	.l-flex-grow-6__l {flex-grow: 6}
+	.l-flex-grow-7__l {flex-grow: 7}
+	.l-flex-grow-8__l {flex-grow: 8}
+	.l-flex-grow-9__l {flex-grow: 9}
+	.l-flex-grow-10__l {flex-grow: 10}
+	.l-flex-grow-11__l {flex-grow: 11}
 }

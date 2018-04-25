@@ -3,12 +3,13 @@
 .t-heading {font-family: $heading !important}
 .t-mono {font-family: $mono !important}
 
-.t-1 {font-size: $t-1 !important}
-.t-2 {font-size: $t-2 !important}
-.t-3 {font-size: $t-3 !important}
-.t-4 {font-size: $t-4 !important}
-.t-5 {font-size: $t-5 !important}
-.t-6 {font-size: $t-6 !important}
+//Sizes
+.t-0 {font-size: $t-0 !important; @extend .t-line-height-1;}
+.t-1 {font-size: $t-1 !important; @extend .t-line-height-2;}
+.t-2 {font-size: $t-2 !important; @extend .t-line-height-3;}
+.t-3 {font-size: $t-3 !important; @extend .t-line-height-3;}
+.t-4 {font-size: $t-4 !important; @extend .t-line-height-4;}
+.t-5, .t-6 {font-size: $t-5 !important; @extend .t-line-height-5;}
 
 // Alignment
 .t-left {text-align: left !important}
@@ -36,7 +37,14 @@
 .t-transform-none {text-transform: none !important}
 
 // Line Height
-.t-line-height-1 {line-height: 1 !important}
+.t-line-height-5 {line-height: $t-h-5 !important}
+.t-line-height-4 {line-height: $t-h-4 !important}
+.t-line-height-3 {line-height: $t-h-3 !important}
+.t-line-height-2 {line-height: $t-h-2 !important}
+.t-line-height-1 {line-height: $t-h-1 !important}
+
+.t-line-height-double {line-height: $t-h-double !important}
+.t-line-height-single {line-height: $t-h-single !important}
 
 // Caret
 .t-caret:after {

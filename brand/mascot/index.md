@@ -4,7 +4,7 @@ layout: page
 ---
 
 <div class="u-clearfix">
-<h3>Original Mascot</h3>
+<h3 class="m-bottom-2">Original Mascot</h3>
 	<div class="g-1_6">
 		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-1.png" alt="Dreamhost mascot" />
 		<p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/downloads/mascot/m-1-1.eps">EPS</a></p>
@@ -58,7 +58,7 @@ layout: page
 	</div>
 </div>
 <div class="u-clearfix m-bottom-4">
-<h3>Ninja Mascot</h3>
+<h3 class="m-bottom-2">Ninja Mascot</h3>
 <div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-1.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/downloads/mascot/m-2-1.eps">EPS</a></p></div>
 <div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-2.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/downloads/mascot/m-2-2.eps">EPS</a></p></div>
 <div class="g-1_6"><img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-2-3.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/downloads/mascot/m-2-3.eps">EPS</a></p></div>

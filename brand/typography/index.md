@@ -9,7 +9,7 @@ layout: page
 
 <div class="u-clearfix">
 	<div class="g-1_3">
-		<h3>Ubuntu</h3>
+		<h3 class="m-bottom-3">Ubuntu</h3>
 		<p>Ubuntu is a versatile display font that we use for headlines on our website, blog and printed collateral.</p>
 		<p>Note that we only use the ‘Medium’ weight of the Ubuntu font family. If you feel the need to use a thinner or heavier weight, please contact the brand team before doing so.</p>
 	</div>
@@ -22,7 +22,7 @@ layout: page
 
 <div class="u-clearfix">
 	<div class="g-1_3">
-		<h3>Proxima Nova</h3>
+		<h3 class="m-bottom-3">Proxima Nova</h3>
 		<p>Proxima Nova is a light, easy to read font that we use for written content on our website, blog and printed collateral.</p>
 		<p>Note that we only use the ‘Regular’ weight of the Ubuntu font family. If you feel the need to use a thinner or heavier weight, please contact the brand team before doing so.</p>
 	</div>
@@ -33,7 +33,7 @@ layout: page
 
 <p class="m-bottom-8 bg-c-g100 p-2"><span class="t-3"><strong>Download Font</strong></span><br />Format: <a href="{{site.baseurl}}/assets/fonts/proxima-nova/ProximaNova.zip">Regular TTF</a></p>
 
-<h3>Hierarchy</h3>
+<h3 class="m-bottom-3">Hierarchy</h3>
 
 <p>Big and bold, or small and italicized, everyone relies on the hierarchy of text.</p>
 <p class="m-bottom-8" >Hierarchy is the organization of text. It’s how we establish an order of importance within our communications, allowing the reader to easily  nd what they are looking for and navigate the content.</p>

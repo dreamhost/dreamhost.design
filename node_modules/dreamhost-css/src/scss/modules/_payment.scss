@@ -57,7 +57,8 @@ Payment Module
 	.Payment__actions--secondary,
 	.Payment__actions--danger {
 		margin-bottom: convertScaleToRem(1);
-		font-size: $t-2;
+		font-size: $t-1;
+		line-height: $t-h-2;
 		color: $c-g300;
 	}
 

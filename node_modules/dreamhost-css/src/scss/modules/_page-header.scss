@@ -108,13 +108,16 @@ Page Header Component
 .PageHeader__nav {
 	@extend .List;
 	@extend .List--inline;
+	font-size: $t-1;
+	line-height: $t-h-1;
 }
 
 .PageHeader__nav-link {
 	text-decoration: none;
-	font-weight: 700;
+	font-weight: $t-bold;
 	color: $c-g200;
-	font-size: $t-2;
+	font-size: $t-1;
+	line-height: $t-h-1;
 	display: inline-block;
 	outline: none;
 	position: relative;
@@ -245,12 +248,12 @@ button.PageHeader__subnav-link {
 			text-align: center;
 			width: 100%;
 
-			> li {
-				display: block;
-				margin: 0 0 1.5rem !important;
-			}
+		> li {
+			display: block;
+			margin: 0 0 1.5rem !important;
 		}
 	}
+}
 
 	.PageHeader__subnav {
 		padding: 0;

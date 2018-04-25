@@ -19,7 +19,7 @@
 	// 	}
 
 
-@mixin box($color: #fff){
+@mixin box($color: $c-w100){
 	padding: convertScaleToRem(4);
 	background: $color;
 

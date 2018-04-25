@@ -1,11 +1,27 @@
 // Class for SVG icons to make them work inline with text
 .Icon {
 	vertical-align: middle;
-	width: 1.45em;
-	height: 1.45em;
-	margin-right: .75em;
+	width:convertScaleToRem(4);
+	height:convertScaleToRem(4);
 
-	path {
+	> *{
 		fill: currentColor;
+	}
+
+	&.Icon--size-4{
+		width:convertScaleToRem(8);
+		height:convertScaleToRem(8);
+	}
+	&.Icon--size-3{
+		width:convertScaleToRem(4);
+		height:convertScaleToRem(4);
+	}
+	&.Icon--size-2{
+		width:convertScaleToRem(3);
+		height:convertScaleToRem(3);
+	}
+	&.Icon--size-1{
+		width:convertScaleToRem(2);
+		height:convertScaleToRem(2);
 	}
 }

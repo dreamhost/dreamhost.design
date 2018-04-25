@@ -61,7 +61,7 @@
 
 .ChoiceBox {
 	display: inline-block;
-	font-size: convertScaleToRem(2); // Weird inline-block gap fix
+	@include font-size($t-1);
 	margin-bottom: convertScaleToRem(1);
 	margin-right: convertScaleToRem(1);
 	vertical-align: top;

@@ -1,5 +1,4 @@
 // TODO make this better
-
 var $link = $('.Tabs__nav-item');
 
 $('.Tab').hide();
@@ -51,6 +50,13 @@ $(document).on('click', '.js-toggle-mobile-menu', function(e) {
 
 // Make closing Toaster animation controllable with JS
 // Example shown here using jQuery
-$('.js-toaster-close').on('click', function () {
-	$(this).closest('.Toaster--persistent').addClass('Toaster--is-closing');
+$('.Toaster').on('click', function () {
+	var that = this;
+	$(this).addClass('Toaster--is-closing');
+	if($('.Toaster').hasClass('Toaster--is-closing')) {
+		// KILL! - Add timer to remove whitespace left behind
+		setTimeout( function() {
+			$(that).addClass("Toaster--killed");
+		}, 300);
+	}
 });

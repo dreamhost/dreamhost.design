@@ -18,10 +18,6 @@
 
 module.exports = {
 	"rules": {
-		// disallow id, type, and attribute selectors, e.g. #idname, a {}, or [type="text"] {} will fail
-		"selector-no-id": true,
-		"selector-no-type": true,
-		"selector-no-attribute": true,
 
 		// disallow qualifying a selector with a type, e.g a.foo {} or input#domain {} will fail
 		"selector-no-qualifying-type": true,
@@ -38,13 +34,6 @@ module.exports = {
 
 		// disallow non-space characters for descendant combinators, e.g. .a   .b {} fails, .a .b {} passes
 		"selector-descendant-combinator-no-non-space": true,
-
-		// disallow empty lines before nested rules
-		"rule-nested-empty-line-before": "never-multi-line",
-
-		"rule-non-nested-empty-line-before": ["always-multi-line", {
-			ignore: ["after-comment"]
-		}],
 
 		// disallow missing end of source newline
 		"no-missing-end-of-source-newline": true,
@@ -74,9 +63,6 @@ module.exports = {
 		// require whitespace inside comment markers, e.g. /**comment**/ fails /** comment **/ passes
 		"comment-whitespace-inside": "always",
 
-		// disallow animations and transitions less than or equal to 100 ms (0.1s)
-		"time-no-imperceptible": true,
-
 		// disallow space before style declaration colon, require space after colon
 		// e.g. width:0, width :0 fails; width: 0 passes
 		"declaration-colon-space-after": "always",
@@ -94,10 +80,6 @@ module.exports = {
 
 		// disallow duplicate props in the same declaration block, e.g. {color: #fff; width: 100%; color: #000;}
 		"declaration-block-no-duplicate-properties": true,
-
-		// disallow property values that get ignored because another prop in the same rule
-		// e.g. {position: absolute; vertical-align: baseline;}
-		"declaration-block-no-ignored-properties": true,
 
 		// disallow shorthand properties that override a longhand one same block
 		// e.g. {padding-left: 5px; padding: 2px;} fails, {padding: 2px; padding-left: 5px} passes

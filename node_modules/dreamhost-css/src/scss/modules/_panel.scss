@@ -40,18 +40,20 @@ Panel
 }
 
 .Panel .Panel__tags {
-	top: convertScaleToRem(4);
+	top: convertScaleToRem(4.4);
 	right: convertScaleToRem(4);
 }
 
 .Panel--double .Panel__tags {
-	top: convertScaleToRem(.4);
-	right: convertScaleToRem(4);
+	top: convertScaleToRem(1);
+	right: convertScaleToRem(0);
 }
 
 .Panel__label {
+	font-size: $t-1;
+	line-height: $t-h-1;
 	display: inline-block;
-	width: convertScaleToRem(12);
+	min-width: convertScaleToRem(10);
 	font-weight: $t-bold;
 }
 

@@ -4,12 +4,12 @@
 .t-mono {font-family: $mono !important}
 
 //Sizes
-.t-0 {font-size: $t-0 !important; @extend .t-line-height-1;}
-.t-1 {font-size: $t-1 !important; @extend .t-line-height-2;}
-.t-2 {font-size: $t-2 !important; @extend .t-line-height-3;}
-.t-3 {font-size: $t-3 !important; @extend .t-line-height-3;}
-.t-4 {font-size: $t-4 !important; @extend .t-line-height-4;}
-.t-5, .t-6 {font-size: $t-5 !important; @extend .t-line-height-5;}
+.t-0 {font-size: $t-0 !important; line-height: $t-h-1;}
+.t-1 {font-size: $t-1 !important; line-height: $t-h-2;}
+.t-2 {font-size: $t-2 !important; line-height: $t-h-3;}
+.t-3 {font-size: $t-3 !important; line-height: $t-h-3;}
+.t-4 {font-size: $t-4 !important; line-height: $t-h-4;}
+.t-5, .t-6 {font-size: $t-5 !important; line-height: $t-h-5;}
 
 // Alignment
 .t-left {text-align: left !important}

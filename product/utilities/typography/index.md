@@ -7,45 +7,6 @@ layout: page
 
 <hr />
 
-<h2 class="m-bottom-4">Default Headings</h2>
-<p class="m-bottom-7">Also included are heading classes, in case a different element needs to be styled as a heading.</p>
-
-<div>
-	<h1>h1 - Heading One - Ubuntu Regular - 40px / 48px</h1>
-	<h2>h2 - Heading Two - Ubuntu Regular - 32px / 40px</h2>
-	<h3>h3 - Heading Three - Ubuntu Regular - 24px / 32px</h3>
-	<h4>h4 - Heading Four - Ubuntu Regular - 20px / 32px</h4>
-</div>
-
-{% highlight html %}
-<h1>Heading One</h1>
-<h2>Heading Two</h2>
-<h3>Heading Three</h3>
-<h4>Heading Four</h4>
-{% endhighlight %}
-
-<h2 class="m-top-7 m-bottom-4">Default Text</h2>
-
-<div>
-	<p>Paragraph text &lt;p&gt;</p>
-	<p><strong>Strong text &lt;strong&gt;&lt;p&gt;</strong></p>
-	<p><a href="#"> A Link text &lt;a&gt;</a></p>
-	<p><code>Code text</code> &lt;code&gt;</p>
-</div>
-<div>
-	<p><label>Label text</label> &lt;label&gt;</p>
-</div>
-
-{% highlight html %}
-<p>Paragraph text</p>
-<p><strong>Strong paragraph text</strong></p>
-<a href="#">Link text</a>
-<code>Code text</code>
-<label>Label text</label>
-{% endhighlight %}
-
-<hr />
-
 ## Fonts
 DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 
@@ -67,27 +28,62 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 
 <hr />
 
-## Sizes
+<h2 class="m-bottom-4">Defaults</h2>
+
+<div>
+	<h1>H1 - Ubuntu Regular <span class="t-light">- 2.5rem / 40px / 48px</span></h1>
+	<h2>H2 - Ubuntu Regular <span class="t-light">- 2rem / 32px / 40px</span></h2>
+	<h3>H3 - Ubuntu Regular <span class="t-light">- 1.5rem / 24px / 32px</span></h3>
+	<h4>H4 - Ubuntu Regular <span class="t-light">- 1.25rem / 20px / 32px</span></h4>
+</div>
+
+<div>
+	<p>Paragraph text - Promixa Nova <span class="t-light">- 1rem / 16px / 24px</span></p>
+	<p><strong>Strong text - Promixa Nova <span class="t-light">- 1rem / 16px / 24px</span></strong></p>
+	<p><a href="#"> A Link text - Promixa Nova <span class="t-light">- 1rem / 16px / 24px</span></a></p>
+	<p><label>Label text</label> - Promixa Nova <span class="t-light">- 1rem / 16px / 24px</span></p>
+	<p><code>Code text</code> - Monospace <span class="t-light">- 1rem / 16px / 16px</span></p>
+</div>
+
+{% highlight html %}
+<h1>Heading One</h1>
+<h2>Heading Two</h2>
+<h3>Heading Three</h3>
+<h4>Heading Four</h4>
+<p>Paragraph text</p>
+<p><strong>Strong paragraph text</strong></p>
+<a href="#">Link text</a>
+<code>Code text</code>
+<label>Label text</label>
+{% endhighlight %}
+
+<hr />
+
+## Custom Sizes
 
 <div class="m-bottom-2">
 	<p class="t-5 m-bottom-0"><strong>(.t-5)</strong> The quick brown fox jumps over the lazy dog.</p>
-	<span class="t-light t-c-g500">2rem, 32px</span>
+	<span class="t-light t-c-g500">2.5rem, 40px</span>
 </div>
 <div class="m-bottom-2">
 	<p class="t-4 m-bottom-0"><strong>(.t-4)</strong> The quick brown fox jumps over the lazy dog.</p>
-	<span class="t-light t-c-g500">1.5rem, 24px</span>
+	<span class="t-light t-c-g500">2rem, 32px</span>
 </div>
 <div class="m-bottom-2">
 	<p class="t-3 m-bottom-0"><strong>(.t-3 - default)</strong> The quick brown fox jumps over the lazy dog.</p>
-	<span class="t-light t-c-g500">1rem, 16px</span>
+	<span class="t-light t-c-g500">1.5rem, 24px</span>
 </div>
 <div class="m-bottom-2">
 	<p class="t-2 m-bottom-0"><strong>(.t-2)</strong> The quick brown fox jumps over the lazy dog.</p>
-	<span class="t-light t-c-g500">0.875rem, 14px</span>
+	<span class="t-light t-c-g500">1.25rem, 20px</span>
 </div>
 <div class="m-bottom-2">
 	<p class="t-1 m-bottom-0"><strong>(.t-1)</strong> The quick brown fox jumps over the lazy dog.</p>
-	<span class="t-light t-c-g500">0.75rem, 12px</span>
+	<span class="t-light t-c-g500">1rem, 16px</span>
+</div>
+<div class="m-bottom-2">
+	<p class="t-0 m-bottom-0"><strong>(.t-0)</strong> The quick brown fox jumps over the lazy dog.</p>
+	<span class="t-light t-c-g500">0.875rem, 14px</span>
 </div>
 
 {% highlight html %}
@@ -193,9 +189,13 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 
 <p class="m-bottom-4">The default line height is set at a <strong>1.4</strong> scale. An optional <strong>1</strong> value scale (<span class="t-style-italic">current font-size</span>) line height is available for use with larger header point sizes.</p>
 
-<div>
-	<p class="t-6 m-bottom-6 t-line-height-1"><strong>(.t-line-height-1)</strong> The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
-</div>
+<p class="t-5 m-bottom-4 t-line-height-5"><strong>.t-line-height-5 / 3rem, 48px</strong> - The quick brown fox jumps over the lazy dog.</p>
+<p class="t-5 m-bottom-4 t-line-height-4"><strong>.t-line-height-4 / 2.5rem, 40px</strong> - The quick brown fox jumps over the lazy dog.</p>
+<p class="t-4 m-bottom-4 t-line-height-3"><strong>.t-line-height-3 / 2rem, 32px</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
+<p class="t-3 m-bottom-4 t-line-height-2"><strong>.t-line-height-2 / 1.5rem, 24px</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
+<p class="t-1 m-bottom-4 t-line-height-1"><strong>.t-line-height-1 / 1rem, 16px</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
+<p class="t-1 m-bottom-4 t-line-height-single"><strong>.t-line-height-single / Current font size</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
+<p class="t-1 m-bottom-4 t-line-height-double"><strong>.t-line-height-double / Double current font size</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
 
 {% highlight html %}
 <p class="t-line-height-1">The quick brown fox jumps over the lazy dog.</p>

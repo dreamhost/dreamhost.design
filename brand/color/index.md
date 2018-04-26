@@ -32,8 +32,8 @@ layout: page
 	<div class="g-1_4">
 		<div class="p-top-4 bg-c-b300">
 		<ul class="t-center p-2 u-clearfix">
-			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
-			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 		</ul>
@@ -44,31 +44,31 @@ layout: page
 		</div><!--Primary 2-->
 	</div><!--grid-->
 	<div class="g-1_4">
-		<div class="p-top-4 bg-c-r300">
+		<div class="bg-c-p300 p-top-4">
 		<ul class="t-center p-2 u-clearfix">
-			<li class="t-center t-c-w100 g-1_4"><span>A</span><br />&#128515;</li>
-			<li class="t-center t-c-w100 g-1_4"><span>A</span><br />&#128557;</li>
-			<li class="t-center g-1_4 t-c-b700"><span>A</span><br />&#128515;</li>
-			<li class="t-center g-1_4 t-c-b700"><span>A</span><br />&#128515;</li>
+			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128515;</li>
+			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong class="p-bottom-4">Coral</strong><br />
-		cmyk 0 85 70 0<br />
-		rgb 255 74 72<br />
-		Hex #FF4A48</p>
-		</div><!--Secondary 1-->
+		<p class="p-3 bg-c-g100 m-0"><strong>Prince</strong><br />
+		cmyk 53 77 0 0<br />
+		rgb 166 68 229<br />
+		Hex #A644E5</p>
+</div><!--Prince-->
 	</div><!--grid-->
 	<div class="g-1_4">
-		<div class="p-top-4 bg-c-o300">
+		<div class="bg-c-w100 p-top-4">
 		<ul class="t-center p-2 u-clearfix">
 			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
-			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
+			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong class="p-bottom-4">Tangerine</strong><br />
-		cmyk 2 44 100 0<br />
-		rgb 206 21 47<br />
-		Hex #F59D00</p>
-		</div><!--Primary 2-->
+		<p class="p-3 bg-c-g100 m-0"><strong>White</strong><br />
+		cmyk 0 0 0 0<br />
+		rgb 255 255 255<br />
+		Hex #FFFFFF</p>
+	</div><!--White-->
 	</div><!--grid-->
 </div>

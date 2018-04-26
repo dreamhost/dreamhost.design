@@ -17,16 +17,7 @@ layout: page
 
 <h3 class="m-bottom-3">Primary Palette</h3>
 <div class="u-clearfix m-bottom-7">
-	<div class="g-1_3 bg-c-b300 p-top-12">
-		<ul class="t-center p-2 u-clearfix">
-			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
-			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
-		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Azure</strong><br />Sass $c-b300<br />Hex #00AFEF<br />rgb(0,175,239)</p>
-	</div><!--Azure-->
-	<div class="g-1_3 bg-c-b700 p-top-12">
+<div class="g-1_4 bg-c-b700 p-top-12">
 	<ul class="t-center p-2 u-clearfix">
 			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128515;</li>
@@ -35,7 +26,25 @@ layout: page
 		</ul>
 		<p class="p-3 bg-c-g100 m-0"><strong>Midnight</strong><br />Sass $c-b700<br />Hex #071C26<br />rgb(7,28,38)</p>
 	</div><!--Midnight-->
-	<div class="g-1_3 bg-c-w100 p-top-12">
+	<div class="g-1_4 bg-c-b300 p-top-12">
+		<ul class="t-center p-2 u-clearfix">
+			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128515;</li>
+			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
+		</ul>
+		<p class="p-3 bg-c-g100 m-0"><strong>Azure</strong><br />Sass $c-b300<br />Hex #00AFEF<br />rgb(0,175,239)</p>
+	</div><!--Azure-->
+	<div class="g-1_4 bg-c-p300 p-top-12">
+		<ul class="t-center p-2 u-clearfix">
+			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
+			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128515;</li>
+			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
+			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
+		</ul>
+		<p class="p-3 bg-c-g100 m-0"><strong>Prince</strong><br />Sass $c-p300<br />Hex #A644E5<br />rgb(166,68,229)</p>
+	</div><!--Prince-->
+	<div class="g-1_4 bg-c-w100 p-top-12">
 		<ul class="t-center p-2 u-clearfix">
 			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
 			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
@@ -48,16 +57,7 @@ layout: page
 
 <h3 class="m-bottom-3">Secondary Palette</h3>
 <div class="u-clearfix m-bottom-3">
-	<div class="g-1_2 bg-c-p300 p-top-12">
-		<ul class="t-center p-2 u-clearfix">
-			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
-			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
-		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Prince</strong><br />Sass $c-p300<br />Hex #A644E5<br />rgb(166,68,229)</p>
-</div><!--Prince-->
-<div class="g-1_2 bg-c-t300 p-top-12">
+<div class="g-1_4 bg-c-t300 p-top-12">
 	<ul class="t-center p-2 u-clearfix">
 		<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
 		<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
@@ -65,10 +65,8 @@ layout: page
 		<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 	</ul>
 	<p class="p-3 bg-c-g100 m-0"><strong>Turtle</strong><br />Sass $c-t300<br />Hex #00CAAA<br />rgb(0,202,170)</p>
-</div><!--Turtle-->
-</div>
-<div class="u-clearfix m-bottom-7">
-	<div class="g-1_3 bg-c-r300 p-top-12">
+	</div><!--Turtle-->
+	<div class="g-1_4 bg-c-r300 p-top-12">
 		<ul class="t-center p-2 u-clearfix">
 			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
@@ -76,8 +74,8 @@ layout: page
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
 		<p class="p-3 bg-c-g100 m-0"><strong>Coral</strong><br />Sass $c-r300<br />Hex #FF4A48<br />rgb(255,74,72)</p>
-</div><!--Coral-->
-<div class="g-1_3 bg-c-o300 p-top-12">
+	</div><!--Coral-->
+	<div class="g-1_4 bg-c-o300 p-top-12">
 	<ul class="t-center p-2 u-clearfix">
 		<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
 		<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
@@ -85,8 +83,8 @@ layout: page
 		<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 	</ul>
 	<p class="p-3 bg-c-g100 m-0"><strong>Tangerine</strong><br />Sass $c-o300<br />Hex #F59D00<br />rgb(206,21,47)</p>
-</div><!--Tangerine-->
-<div class="g-1_3 bg-c-y300 p-top-12">
+	</div><!--Tangerine-->
+	<div class="g-1_4 bg-c-y300 p-top-12">
 	<ul class="t-center p-2 u-clearfix">
 		<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
 		<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
@@ -94,39 +92,8 @@ layout: page
 		<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 	</ul>
 	<p class="p-3 bg-c-g100 m-0"><strong>Sunflower</strong><br />Sass $c-y300<br />Hex #FFDA00<br />rgb(255,218,0)</p>
-</div><!--Sunflower-->
+	</div><!--Sunflower-->
 </div><!--Secondary-->
-<h3 class="m-bottom-3">Backgrounds</h3>
-<div class="u-clearfix m-bottom-7">
-	<div class="g-1_3 bg-c-b700 p-top-3">
-		<ul class="t-center p-2 u-clearfix">
-			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128515;</li>
-			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128515;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128557;</li>
-		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Midnight</strong><br />Sass $c-b700<br />Hex #071C26<br />rgb(7,28,38)</p>
-	</div><!--Midnight-->
-	<div class="g-1_3 bg-c-g100 p-top-3">
-		<ul class="t-center p-2 u-clearfix">
-			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
-			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
-		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Off White</strong><br />Sass $c-g100<br />Hex #F4F6F9<br />rgb(244,246,249)</p>
-	</div><!--Off White-->
-	<div class="g-1_3 bg-c-w100 p-top-3">
-		<ul class="t-center p-2 u-clearfix">
-			<li class="t-center t-c-w100 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
-			<li class="t-center t-c-w100 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
-			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
-		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>White</strong><br />Sass $c-w100<br />Hex #FFFFFF<br />rgb(255,255,255)</p>
-	</div><!--White-->
-</div><!--Backgrounds-->
-
 <h3 class="m-bottom-3">Grayscale</h3>
 <div class="u-clearfix m-bottom-3">
 	<div class="g-1_2 bg-c-g500 p-top-3">

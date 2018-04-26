@@ -7,6 +7,45 @@ layout: page
 
 <hr />
 
+<h2 class="m-bottom-4">Default Headings</h2>
+<p class="m-bottom-7">Also included are heading classes, in case a different element needs to be styled as a heading.</p>
+
+<div>
+	<h1>h1 - Heading One - Ubuntu Regular - 40px / 48px</h1>
+	<h2>h2 - Heading Two - Ubuntu Regular - 32px / 40px</h2>
+	<h3>h3 - Heading Three - Ubuntu Regular - 24px / 32px</h3>
+	<h4>h4 - Heading Four - Ubuntu Regular - 20px / 32px</h4>
+</div>
+
+{% highlight html %}
+<h1>Heading One</h1>
+<h2>Heading Two</h2>
+<h3>Heading Three</h3>
+<h4>Heading Four</h4>
+{% endhighlight %}
+
+<h2 class="m-top-7 m-bottom-4">Default Text</h2>
+
+<div>
+	<p>Paragraph text &lt;p&gt;</p>
+	<p><strong>Strong text &lt;strong&gt;&lt;p&gt;</strong></p>
+	<p><a href="#"> A Link text &lt;a&gt;</a></p>
+	<p><code>Code text</code> &lt;code&gt;</p>
+</div>
+<div>
+	<p><label>Label text</label> &lt;label&gt;</p>
+</div>
+
+{% highlight html %}
+<p>Paragraph text</p>
+<p><strong>Strong paragraph text</strong></p>
+<a href="#">Link text</a>
+<code>Code text</code>
+<label>Label text</label>
+{% endhighlight %}
+
+<hr />
+
 ## Fonts
 DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 

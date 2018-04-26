@@ -22,17 +22,17 @@ layout: page
 </div>
 
 {% highlight html %}
-<div class="g-1_3 box m-bottom-4 border">
-		<p>Default/Solid border</p>
-</div>
+	<div class="g-1_3 box m-bottom-4 border">
+			<p>Default/Solid border</p>
+	</div>
 
-<div class="g-1_3 box m-bottom-4 border border-dashed">
-		<p>Dashed border</p>
-</div>
+	<div class="g-1_3 box m-bottom-4 border border-dashed">
+			<p>Dashed border</p>
+	</div>
 
-<div class="g-1_3 g-omega box m-bottom-4 border border-dotted">
-		<p>Dotted border</p>
-</div>
+	<div class="g-1_3 g-omega box m-bottom-4 border border-dotted">
+			<p>Dotted border</p>
+	</div>
 {% endhighlight %}
 
 <hr />
@@ -56,26 +56,26 @@ layout: page
 </div>
 
 {% highlight html %}
-<div class="g-1_4__m box m-bottom-4 border-top">
-		<p>Top border</p>
-</div>
+	<div class="g-1_4__m box m-bottom-4 border-top">
+			<p>Top border</p>
+	</div>
 
-<div class="g-1_4__m box m-bottom-4 border-bottom">
-		<p>Bottom border</p>
-</div>
+	<div class="g-1_4__m box m-bottom-4 border-bottom">
+			<p>Bottom border</p>
+	</div>
 
-<div class=" g-1_4__m box m-bottom-4 border-left">
-		<p>Left border</p>
-</div>
+	<div class=" g-1_4__m box m-bottom-4 border-left">
+			<p>Left border</p>
+	</div>
 
-<div class="g-1_4__m g-omega box m-bottom-4 border-right">
-		<p>Right border</p>
-</div>
+	<div class="g-1_4__m g-omega box m-bottom-4 border-right">
+			<p>Right border</p>
+	</div>
 {% endhighlight %}
 
 <hr />
 
-<h2>Border Sizes</h2>
+<h2 class="m-bottom-4">Border Sizes</h2>
 
 <div class="container-m">
 	<div class="g-1_3__m box m-bottom-4 bg-c-g100 border border-0">
@@ -105,7 +105,7 @@ layout: page
 
 <hr />
 
-<h2>Border Radius</h2>
+<h2 class="m-bottom-4">Border Radius</h2>
 
 <p class="t-4 m-bottom">You can specify each corner individually by using any <code>--x-y</code> combination, or <code>--top|bottom|left|right</code> respectively. All corners are specified by default.</p>
 
@@ -142,40 +142,40 @@ layout: page
 </div>
 
 {% highlight html %}
-<div class="box border u-border-radius">
-	<p>Border radius</p>
-</div>
+	<div class="box border u-border-radius">
+		<p>Border radius</p>
+	</div>
 
-<div class="box border u-border-radius--top-left">
-	<p>Border radius top left</p>
-</div>
+	<div class="box border u-border-radius--top-left">
+		<p>Border radius top left</p>
+	</div>
 
-<div class="box border u-border-radius--top-right">
-	<p>Border radius top right</p>
-</div>
+	<div class="box border u-border-radius--top-right">
+		<p>Border radius top right</p>
+	</div>
 
-<div class="box border u-border-radius--bottom-right">
-	<p>Border radius bottom right</p>
-</div>
+	<div class="box border u-border-radius--bottom-right">
+		<p>Border radius bottom right</p>
+	</div>
 
-<div class="box border u-border-radius--bottom-left">
-	<p>Border radius bottom left</p>
-</div>
+	<div class="box border u-border-radius--bottom-left">
+		<p>Border radius bottom left</p>
+	</div>
 
-<div class="box border u-border-radius--top">
-	<p>Border radius top </p>
-</div>
+	<div class="box border u-border-radius--top">
+		<p>Border radius top </p>
+	</div>
 
-<div class="box border u-border-radius--right">
-	<p>Border radius right</p>
-</div>
+	<div class="box border u-border-radius--right">
+		<p>Border radius right</p>
+	</div>
 
-<div class="box border u-border-radius--bottom">
-	<p>Border radius bottom </p>
-</div>
+	<div class="box border u-border-radius--bottom">
+		<p>Border radius bottom </p>
+	</div>
 
-<div class="box border u-border-radius--left">
-	<p>Border radius left</p>
-</div>
+	<div class="box border u-border-radius--left">
+		<p>Border radius left</p>
+	</div>
 {% endhighlight %}
 

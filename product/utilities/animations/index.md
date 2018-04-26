@@ -13,10 +13,10 @@ layout: page
 
 <section class="animations p-bottom-5">
 
-	<h2>Basic Usage</h2>
 
-	<p>
-		Adding animations to an element is simple. Here is a small collection of predefined and reusable animations, useful for loading spinners, carousels, validation states, notices, etc.
+	<h2 class="m-bottom-4">Basic Usage</h2>
+
+	<p>Adding animations to an element is simple. Here is a small collection of predefined and reusable animations, useful for loading spinners, carousels, validation states, notices, etc.
 	</p>
 
 	<div class="container u-clearfix bg-c-g100 p-2">
@@ -166,7 +166,7 @@ layout: page
 
 <section class="animations p-bottom-larger">
 
-	<H2>Hover Animations</h2>
+	<h2 class="m-bottom-4">Hover Animations</h2>
 
 	<p>
 		Animations trigger on page load, but can be set to trigger on hover by appending <code>-hover</code> to the class name. For example, <code>.bounce</code> will trigger on page load, whereas <code>.bounce-hover</code> will trigger on hover.
@@ -319,7 +319,7 @@ layout: page
 
 <section class="animations-duration p-bottom-larger">
 
-	<H2>Duration</h2>
+	<h2 class="m-bottom-4">Duration</h2>
 
 	<p>
 		There are 5 different, t-shirt sized animation durations. <code>.a-duration-1</code>, <code>.a-duration-s</code>, <code>.a-duration-m</code>, <code>.a-duration-l</code>, and <code>.a-duration-xl</code>.
@@ -407,7 +407,7 @@ layout: page
 
 <section class="animations-easing">
 
-	<h2>Easing</h2>
+	<h2 class="m-bottom-4">Easing</h2>
 
 	<p>
 		Easing defines the curve on which the animation takes place. Each of the 5 easing options provide a different feel to the animation.
@@ -478,7 +478,7 @@ layout: page
 <hr />
 
 <section class="animations-delay">
-	<h2>Delay</h2>
+	<h2 class="m-bottom-4">Delay</h2>
 	<p>
 		There is no delay by default. Use <code>.a-delay-x</code>, where <code>x</code> is any number between 1 and 5.
 	</p>
@@ -550,7 +550,7 @@ layout: page
 
 <section class="animations-repeat">
 
-	<h2>Repeat</h2>
+	<h2 class="m-bottom-4">Repeat</h2>
 	<p>
 		By default, animations run only once. Animations can also be set to repeat once <code>.a-repeat-once</code>, or repeat indefinitely <code>.a-repeat</code>.
 	</p>

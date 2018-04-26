@@ -1,6 +1,21 @@
+//body
+body{
+	color: #071C26 !important;
+}
+
+.hljs-type, .hljs-string, .hljs-number, .hljs-selector-id, .hljs-selector-class, .hljs-quote, .hljs-template-tag, .hljs-deletion{
+	color: #0073EC!important;
+}
+
 //code area
 .highlight code {
-	color: #071C26;
+	color: #071C26!important;
+}
+
+code.hljs, code{
+	border: none!important;
+	color: #ffffff!important;
+	background: #071C26!important;
 }
 
 //Main container
@@ -12,10 +27,11 @@
 
 // SideNav styles
 .SideNav {
-	background: #071C26;
 	color: #fff;
 	overflow-y: scroll;
 	height:100%;
+	background: rgb(0,69,162);
+	background: linear-gradient(141deg, rgba(0,69,162,1) 0%, rgba(166,68,229,1) 100%);
 
 	ul{
 		display: none;
@@ -39,21 +55,21 @@
 }
 
 .SideNav__nav-link {
-	color: #CCEFFF;
+	color: #fff;
 	text-decoration: none;
 	display: block;
 	padding: .75rem 0rem;
 	transition: all .2s ease-in-out;
 
 	&:hover {
-		border-left:solid 3px #1176A5;
+		border-left:solid 3px #0073EC;
 		padding: .75rem 1rem;
 		text-decoration: none;
 	}
 }
 
 .SideNav__subnav-link{
-	color:#fff;
+	color: #fff;
 	text-decoration: none;
 	display: block;
 	margin: 0;
@@ -62,16 +78,17 @@
 	border-top:solid 1px rgba(255,255,255,0.1);
 
 	&:hover, &.is-active {
-		color:#2BADE9;
-		border-left:solid 3px #2BADE9;
+		color: #fff;
+		border-left:solid 3px #0073EC;
+		font-weight: bold;
 		padding: .75rem 1rem;
 		text-decoration: none;
 	}
 }
 
 .SideNav__nav-link.is-active, {
-	background: #F4F6F9;
-	color:#061C26;
+	background: #fff;
+	color: #071C26;
 	font-weight: bold;
 	padding: .75rem 1rem;
 }
@@ -84,8 +101,9 @@
 }
 
 .SideNav__subnav{
-	background: #071C26;
-	box-shadow: inset 0 10px 10px 0px rgba(0,0,0,0.3);
+	background: rgba(255,255,255,0.05);
+	min-height:100vh;
+	//box-shadow: inset 0 10px 10px 0px rgba(0,0,0,0.3);
 }
 
 .SideNav__label + li a{

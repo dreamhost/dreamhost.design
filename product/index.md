@@ -5,10 +5,10 @@ layout: page
 
 <div class="u-clearfix m-bottom-2">
 	<div class="g-3_4__m">
-		<p class="t-4">Heavily influenced by functional css frameworks like <a href="http://basscss.com/">BaseCSS</a>, <a href="http://tachyons.io">Tachyons</a> and <a href="http://solid.buzzfeed.com">Buzzfeed Solid</a>, DreamHost.css consists of a collection of single-purpose utility classes alongside DreamHost's branding and some common design patterns.</p>
+		<p class="t-4">Heavily influenced by functional css frameworks like <a class="t-4" href="http://basscss.com/">BaseCSS</a>, <a class="t-4" href="http://tachyons.io">Tachyons</a> and <a class="t-4" href="http://solid.buzzfeed.com">Buzzfeed Solid</a>, DreamHost.css consists of a collection of single-purpose utility classes alongside DreamHost's branding and some common design patterns.</p>
 	</div>
-	<div class="g-1_4__m p bg-c-g200">
-		<h2>v 0.2.6</h2>
+	<div class="g-1_4__m p bg-c-g100">
+		<h2 class="m-bottom-3"><a class="t-4" href="https://github.com/dreamhost/dreamhost.css">v 0.3.0</a></h2>
 		<ul class="List List--small-bold">
 			<li><a href="https://github.com/dreamhost/dreamhost.css/tree/master/framework">Source files</a></li> <!-- this should be a github release -->
 			<li><a href="https://github.com/dreamhost/dreamhost.css/blob/master/framework/dist/latest/dreamhost.css">Compiled CSS</a></li>
@@ -19,7 +19,7 @@ layout: page
 
 <hr />
 
-<h2>Including in your project</h2>
+<h2 class="m-bottom-4">Including in your project</h2>
 <p>There are two ways to use DreamHost.css. The fastest way is to just download and link to the <a href="https://github.com/dreamhost/dreamhost.css/blob/master/framework/dist/latest/dreamhost.css">compiled css</a>. This will give you access to all the utilities and components necessary to create a DreamHost application.</p>
 
 {% highlight html %}

@@ -21,26 +21,27 @@ h1, h2, h3, h4{
 }
 
 h1 {
-	font-size: $t-5; //40px
-	line-height: $t-h-5; //40px
+	@include font-size($t-5);
+	margin-bottom: convertScaleToRem(4);
 }
 
 h2 {
-	font-size: $t-4; //32px
+	@include font-size($t-4);
+	margin-bottom: convertScaleToRem(3);
 }
 
 h3 {
-	font-size: $t-3; //24px
+	@include font-size($t-3);
+	margin-bottom: convertScaleToRem(3);
 }
 
 h4 {
-	font-size: $t-2; //20px
-	line-height: $t-h-3; //32px
+	@include font-size($t-2);
+	margin-bottom: convertScaleToRem(2);
 }
 
 a {
 	color: $c-b300;
-	font-size: $t-1; //16px
 	text-decoration: none;
 
 	&:hover, &.is-open {
@@ -79,8 +80,7 @@ hr {
 
 code {
 	padding: 0.4375rem;
-	font-size: $t-1;
-	line-height: $t-h-1;
+	@include font-size($t-1, $t-h-1);
 	display: inline-block;
 	border: 1px solid $lighter-grey;
 	border-radius: $border-radius;

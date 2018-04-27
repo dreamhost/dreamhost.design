@@ -24,7 +24,7 @@ layout: page
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128557;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Midnight</strong><br />Sass $c-b700<br />Hex #071C26<br />rgb(7,28,38)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Midnight</strong><br />Sass $c-b700<br />Hex #071C26<br />rgb(0,115,236)</p>
 	</div><!--Midnight-->
 	<div class="g-1_4 bg-c-b300 p-top-12">
 		<ul class="t-center p-2 u-clearfix">
@@ -33,7 +33,7 @@ layout: page
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Azure</strong><br />Sass $c-b300<br />Hex #00AFEF<br />rgb(0,175,239)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Azure</strong><br />Sass $c-b300<br />Hex #0073EC<br />rgb(0,175,239)</p>
 	</div><!--Azure-->
 	<div class="g-1_4 bg-c-p300 p-top-12">
 		<ul class="t-center p-2 u-clearfix">

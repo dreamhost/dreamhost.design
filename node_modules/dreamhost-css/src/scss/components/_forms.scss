@@ -6,7 +6,7 @@ Form Component
 
 %form-border { border: 1px solid $light-grey; }
 %form-description {
-	color: $dark-grey;
+	color: $c-g500;
 	@include font-size($t-1);
 }
 %form-no-outline { outline: none; }
@@ -18,7 +18,7 @@ appearance: none;
 }
 
 %form-text-style {
-	color: $black;
+	color: $c-g500;
 	@include font-size($t-1);
 	font-family: $body;
 }
@@ -69,19 +69,19 @@ appearance: none;
 		position: absolute;
 		top: 2.7rem;
 		right: 1rem;
-		border-color: $grey transparent;
+		border-color: $c-g300 transparent;
 		border-style: solid;
 		border-width: .35rem .35rem 0 .35rem;
 		transition: all .2s ease-in-out;
 	}
 
 	&:hover:after {
-		border-color: $dark-grey transparent;
+		border-color: $c-g500 transparent;
 	}
 }
 
 .Form__label {
-	color: $darker-grey;
+	color: $c-g500;
 	display: block;
 	@include font-size($t-1);
 	font-weight: $t-bold;
@@ -113,7 +113,7 @@ appearance: none;
 
 	&:active,
 	&:focus {
-		box-shadow: 2px 2px 0 0 $light-grey;
+		box-shadow: 2px 2px 0 0 $c-g300;
 		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 			color: $white;
 		}
@@ -129,7 +129,7 @@ appearance: none;
 	}
 
 	&::placeholder {
-		color: $dark-grey;
+		color: $c-g500;
 	}
 }
 
@@ -171,14 +171,14 @@ textarea.Input {
 
 	&:hover,
 	&:focus {
-		background: $lighter-grey;
+		background: $c-g300;
 	}
 }
 
 .Select--error,
 .Select--error:hover,
 .Select--error:focus {
-	border-color: $red;
+	border-color: $c-r300;
 }
 
 
@@ -192,7 +192,7 @@ textarea.Input {
 	margin-bottom: convertScaleToRem(1);
 
 	&:hover input{
-		border-color: $c-b500;
+		border-color: $c-b300;
 	}
 
 	input {

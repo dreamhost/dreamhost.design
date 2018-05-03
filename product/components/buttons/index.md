@@ -9,7 +9,6 @@ layout: page
 <div class="m-bottom-5">
 	<span role="button" class="m-bottom-2 Button">Default Button</span>
 	<span role="button" class="m-bottom-2 Button Button--primary">Primary Button</span>
-	<span role="button" class="m-bottom-2 Button Button--transaction">Transactional</span>
 	<span role="button" class="m-bottom-2 Button Button--danger">Danger</span>
 	<span role="button" class="m-bottom-2 Button Button--disabled">Disabled</span>
 </div>
@@ -17,7 +16,6 @@ layout: page
 {% highlight html %}
 <span role="button" class="Button">Default Button</span>
 <span role="button" class="Button Button--primary">Primary Button</span>
-<span role="button" class="Button Button--transaction">Transactional</span>
 <span role="button" class="Button Button--danger">Danger</span>
 <span role="button" class="Button Button--disabled">Disabled</span>
 {% endhighlight %}
@@ -41,11 +39,13 @@ layout: page
 ## Sizes
 
 <div class="m-bottom-5">
+	<span role="button" class="m-bottom-2 Button Button--hero">Hero Size</span>
 	<span role="button" class="m-bottom-2 Button">Default Size</span>
 	<span role="button" class="m-bottom-2 Button Button--compact">Compact Size</span>
 </div>
 
 {% highlight html %}
+<span role="button" class="m-bottom-2 Button Button--hero">Hero Size</span>
 <span role="button" class="Button">Default Size</span>
 <span role="button" class="Button Button--compact">Compact Size</span>
 {% endhighlight %}

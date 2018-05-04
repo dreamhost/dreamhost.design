@@ -714,7 +714,7 @@ code.hljs { font-family: monospace; background-color: #F4F6F9; padding: 0.5rem; 
 Form Component
 
 */
-.Input, .Select { border: 1px solid #E0E4E8; }
+.Input, .Select { border: 1px solid #AFBFC9; }
 
 .Form__description, .Choice__description { color: #434F58; font-size: 1rem; line-height: calc(1em + 8px); }
 
@@ -742,7 +742,7 @@ Form Component
 
 .Form__group--select:after { content: ''; position: absolute; top: 2.7rem; right: 1rem; border-color: #AFBFC9 transparent; border-style: solid; border-width: .35rem .35rem 0 .35rem; transition: all .2s ease-in-out; }
 
-.Form__group--select:hover:after { border-color: #434F58 transparent; }
+.Form__group--select:hover:after { border-color: #677983 transparent; }
 
 .Form__label { color: #434F58; display: block; font-size: 1rem; line-height: calc(1em + 8px); font-weight: 600; cursor: pointer; max-width: 35rem; }
 
@@ -750,7 +750,7 @@ Form Component
 
 .Input { display: block; margin: 0; margin-top: .5rem; width: 100%; transition: all .2s ease-in-out; border-radius: 3px; padding: 0.4375rem; }
 
-.Input:active, .Input:focus { box-shadow: 2px 2px 0 0 #AFBFC9; }
+.Input:active, .Input:focus { box-shadow: 0 0 5px 0 #AFBFC9; }
 
 .Input:active::-webkit-input-placeholder, .Input:focus::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #fff; }
 
@@ -770,7 +770,7 @@ textarea.Input { min-height: 140px; }
 
 .Select { border-radius: 3px; -webkit-appearance: none; -moz-appearance: none; padding: 0 0 0 .75rem; background: #fff; display: block; width: 100%; height: 42px; line-height: 42px; cursor: pointer; transition: all .2s ease-in-out; }
 
-.Select:hover, .Select:focus { background: #AFBFC9; }
+.Select:hover, .Select:focus { background: #F4F6F9; }
 
 .Select--error, .Select--error:hover, .Select--error:focus { border-color: #FF4A48; }
 

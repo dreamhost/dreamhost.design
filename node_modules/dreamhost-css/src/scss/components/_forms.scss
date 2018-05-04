@@ -4,7 +4,7 @@ Form Component
 
 */
 
-%form-border { border: 1px solid $light-grey; }
+%form-border { border: 1px solid $c-g300; }
 %form-description {
 	color: $c-g500;
 	@include font-size($t-1);
@@ -76,7 +76,7 @@ appearance: none;
 	}
 
 	&:hover:after {
-		border-color: $c-g500 transparent;
+		border-color: $c-g400 transparent;
 	}
 }
 
@@ -113,7 +113,7 @@ appearance: none;
 
 	&:active,
 	&:focus {
-		box-shadow: 2px 2px 0 0 $c-g300;
+		box-shadow: 0 0 5px 0 $c-g300;
 		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 			color: $white;
 		}
@@ -171,7 +171,7 @@ textarea.Input {
 
 	&:hover,
 	&:focus {
-		background: $c-g300;
+		background: $c-g100;
 	}
 }
 

@@ -64,14 +64,14 @@ Payment Module
 
 	.Payment:hover {
 		.Payment__actions--primary {
-			color: $c-b500;
+			color: $c-b300;
 		}
 
 		.Payment__actions--secondary {
 			color: $c-g400;
 
 			&:hover {
-				color: $c-b500;
+				color: $c-b300;
 			}
 		}
 

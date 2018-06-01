@@ -6,18 +6,25 @@ layout: page
 <hr />
 
 ## Colors
-<div class="m-bottom-5">
+<div class="">
 	<span role="button" class="m-bottom-2 Button">Default Button</span>
 	<span role="button" class="m-bottom-2 Button Button--primary">Primary Button</span>
 	<span role="button" class="m-bottom-2 Button Button--danger">Danger</span>
 	<span role="button" class="m-bottom-2 Button Button--disabled">Disabled</span>
 </div>
+<div class="m-bottom-5">
+	<span role="button" class="Button Button--dark">Dark Button</span>
+	<div class="p-1 bg-c-b700 l-inline-block">
+		<span role="button" class="Button Button--light">Light Button</span>
+	</div>
+</div>
 
-{% highlight html %}
-<span role="button" class="Button">Default Button</span>
+{% highlight html %}<span role="button" class="Button">Default Button</span>
 <span role="button" class="Button Button--primary">Primary Button</span>
 <span role="button" class="Button Button--danger">Danger</span>
 <span role="button" class="Button Button--disabled">Disabled</span>
+<span role="button" class="Button Button--dark">Dark</span>
+<span role="button" class="Button Button--light">Light</span>
 {% endhighlight %}
 
 <hr />

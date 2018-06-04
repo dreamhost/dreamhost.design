@@ -5,24 +5,30 @@ layout: page
 
 <hr />
 
-## Colors
-<div class="">
+## Styles
+<div class="m-bottom-5">
 	<span role="button" class="m-bottom-2 Button">Default Button</span>
 	<span role="button" class="m-bottom-2 Button Button--primary">Primary Button</span>
 	<span role="button" class="m-bottom-2 Button Button--danger">Danger</span>
 	<span role="button" class="m-bottom-2 Button Button--disabled">Disabled</span>
-</div>
-<div class="m-bottom-5">
-	<span role="button" class="Button Button--dark">Dark Button</span>
-	<div class="p-1 bg-c-b700 l-inline-block">
-		<span role="button" class="Button Button--light">Light Button</span>
-	</div>
 </div>
 
 {% highlight html %}<span role="button" class="Button">Default Button</span>
 <span role="button" class="Button Button--primary">Primary Button</span>
 <span role="button" class="Button Button--danger">Danger</span>
 <span role="button" class="Button Button--disabled">Disabled</span>
+{% endhighlight %}
+
+<div class="Grid--auto m-bottom-5 m-top-3">
+	<div class="p-2 u-border-radius border border-c-g200 t-center">
+		<span role="button" class="Button Button--dark">Dark Button</span>
+	</div>
+		<div class="p-2 u-border-radius bg-c-b700 t-center">
+			<span role="button" class="Button m-0 Button--light">Light Button</span>
+	</div>
+</div>
+
+{% highlight html %}
 <span role="button" class="Button Button--dark">Dark</span>
 <span role="button" class="Button Button--light">Light</span>
 {% endhighlight %}

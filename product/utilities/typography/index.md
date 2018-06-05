@@ -70,7 +70,7 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 	<span class="t-light t-c-g500">2rem, 32px</span>
 </div>
 <div class="m-bottom-2">
-	<p class="t-3 m-bottom-0"><strong>(.t-3 - default)</strong> The quick brown fox jumps over the lazy dog.</p>
+	<p class="t-3 m-bottom-0"><strong>(.t-3)</strong> The quick brown fox jumps over the lazy dog.</p>
 	<span class="t-light t-c-g500">1.5rem, 24px</span>
 </div>
 <div class="m-bottom-2">
@@ -187,11 +187,11 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 
 ## Line Heights
 
-<p class="m-bottom-4">The default line height is set to align with our 8px baseline grid. An optional <strong>1-5</strong> value line height is available for use to override defaults.</p>
+<p class="m-bottom-4">Default line heights are set to align with our 8px baseline grid. An optional <strong>1-5</strong> value line height is available for use to override defaults.</p>
 
-<p class="t-2 m-bottom-4 t-line-height-5"><strong>.t-line-height-5 / 3rem, 48px</strong> - The quick brown fox jumps over the lazy dog.</p>
-<p class="t-2 m-bottom-4 t-line-height-4"><strong>.t-line-height-4 / 2.5rem, 40px</strong> - The quick brown fox jumps over the lazy dog.</p>
-<p class="t-2 m-bottom-4 t-line-height-3"><strong>.t-line-height-3 / 2rem, 32px</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
+<p class="t-5 m-bottom-4 t-line-height-5"><strong>.t-line-height-5 / 3rem, 48px</strong> - The quick brown fox jumps over the lazy dog.</p>
+<p class="t-4 m-bottom-4 t-line-height-4"><strong>.t-line-height-4 / 2.5rem, 40px</strong> - The quick brown fox jumps over the lazy dog.</p>
+<p class="t-3 m-bottom-4 t-line-height-3"><strong>.t-line-height-3 / 2rem, 32px</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
 <p class="t-2 m-bottom-4 t-line-height-2"><strong>.t-line-height-2 / 1.5rem, 24px</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
 <p class="t-1 m-bottom-4 t-line-height-1"><strong>.t-line-height-1 / 1rem, 16px</strong> - The quick brown fox jumps over the lazy dog and feels as if he were in the seventh heaven of typography together with Hermann Zapf.</p>
 

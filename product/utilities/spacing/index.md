@@ -3,7 +3,7 @@ title: Spacing
 layout: page
 ---
 
-<p class="t-4">All spacing is done using an 8pt scale. Starting with n-half at 8px and going to n-16 at 128px.</p>
+<p class="t-4">All spacing is done using an 8px scale. Starting with n-half at 4px and going to n-16 at 128px.</p>
 
 <hr />
 

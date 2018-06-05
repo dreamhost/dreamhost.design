@@ -7,6 +7,6 @@ Design System Scripts
 
 */
 
-$("body").on("click.js-menutoggle", function () {
-    $(this).toggleClass("show");
+$(".js-menutoggle").click(function() {
+    $("body").toggleClass("show");
 });

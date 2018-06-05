@@ -227,7 +227,7 @@ layout: page
 	<li>Both nav and subnav supports lists within a <a href="{{site.baseurl}}/product/components/popovers/"><code>.Popover</code></a> as a dropdown</li>
 </ul>
 
-<p class="t-2 m-bottom">Add <code>.PageHeader__logo--internal</code> to <code>.PageHeader__logo</code> for internal facing pages or when a user is logged into the Dreamhost systems. Add <code>.PageHeader--light</code> to <code>.PageHeader</code> for a white background header &amp; <code>.PageHeader--transparent</code> for a transparent background, so that the header may be overlayed on top of an image or gradient.</p>
+<p class="t-2 m-bottom">Add <code>.PageHeader__logo--internal</code> to <code>.PageHeader__logo</code> for internal facing pages or when a user is logged into any Dreamhost system. Add <code>.PageHeader--light</code> to <code>.PageHeader</code> for a white background header &amp; <code>.PageHeader--transparent</code> for a transparent background, so that the header may be overlayed on top of an image or gradient.</p>
 
 {% highlight html %}
 <div class="PageHeader">

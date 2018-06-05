@@ -141,7 +141,7 @@ layout: page
 <div class="l-flex l-flex-nowrap">Flex No Wrap</div>
 {% endhighlight %}
 
-#### Set horizontal spacing of individual flex items.
+#### Set **horizontal alignment of content** within the flex container.
 
 <div class="l-flex l-flex-x-start bg-c-g100 m-bottom">
 <div class="bg-c-g200 p-2"><strong>.l-flex-x-start</strong> Justify Flex Start</div>
@@ -173,7 +173,7 @@ layout: page
 <div class="l-flex l-flex-x-even">Flex X Evenly Space</div>
 {% endhighlight %}
 
-#### Set vertical alignment of content within each item.
+#### Set **vertical alignment of content** within the flex container.
 
 <div class="Grid--auto">
 	<div class="l-flex l-flex-col l-flex-y-start bg-c-g100 m-bottom">
@@ -204,13 +204,13 @@ layout: page
 <div class="l-flex l-flex-y-stretch">Flex Y Stretch</div>
 {% endhighlight %}
 
-#### Set vertical alignment of **all items as a single unit** within the flex container.
+#### Set **alignment of a single item** within the flex container.
 
-<div class="l-flex l-flex-col l-flex-y-end bg-c-g100 m-bottom">
-	<div class="bg-c-g200 p-2"><strong>.l-flex-end</strong> Flex Align End</div>
-	<div class="bg-c-g100 p-2 l-flex-center">Item 1</div>
-	<div class="bg-c-g300 p-2">Item 2</div>
-	<div class="bg-c-g400 p-2"><strong>.l-flex-end</strong> Flex Align End</div>
+<div class="l-flex bg-c-g100 m-bottom">
+	<div class="bg-c-g200 p-2">Item 1</div>
+	<div class="bg-c-g200 p-2">Item 2</div>
+	<div class="bg-c-g200 p-2">Item 3</div>
+	<div class="bg-c-g200 l-flex-end p-2"><strong>.l-flex-end</strong> Item 4</div>
 </div>
 
 **Implementation example:**
@@ -266,44 +266,7 @@ layout: page
 	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 3</span>
 </div>
 <div class="l-flex bg-c-g100 m-bottom">
-	<div class="bg-c-g200 l-flex-grow-5 p-2"><strong>.l-flex-grow-5</strong> Flex Grow 5</div>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 1</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 2</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 3</span>
-</div>
-<div class="l-flex bg-c-g100 m-bottom">
 	<div class="bg-c-g200 l-flex-grow-6 p-2"><strong>.l-flex-grow-6</strong> Flex Grow 6</div>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 1</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 2</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 3</span>
-</div>
-<div class="l-flex bg-c-g100 m-bottom">
-	<div class="bg-c-g200 l-flex-grow-7 p-2"><strong>.l-flex-grow-7</strong> Flex Grow 7</div>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 1</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 2</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 3</span>
-</div>
-<div class="l-flex bg-c-g100 m-bottom">
-	<div class="bg-c-g200  l-flex-grow-8 p-2"><strong>.l-flex-grow-8</strong> Flex Grow 8</div>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 1</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 2</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 3</span>
-</div>
-<div class="l-flex bg-c-g100 m-bottom">
-	<div class="bg-c-g200 l-flex-grow-9 p-2"><strong>.l-flex-grow-9</strong> Flex Grow 9</div>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 1</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 2</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 3</span>
-</div>
-<div class="l-flex bg-c-g100 m-bottom">
-	<div class="bg-c-g200 l-flex-grow-10 p-2"><strong>.l-flex-grow-10</strong> Flex Grow 10</div>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 1</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 2</span>
-	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 3</span>
-</div>
-
-<div class="l-flex bg-c-g100 m-bottom">
-	<div class="bg-c-g200 l-flex-grow-11 p-2"><strong>.l-flex-grow-11</strong> Flex Grow 11</div>
 	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 1</span>
 	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 2</span>
 	<span class="bg-c-g100 l-flex-grow-1 p-2">Item 3</span>
@@ -325,11 +288,6 @@ layout: page
 <div class="l-flex-grow-4">Flex Grow 4</div>
 <div class="l-flex-grow-5">Flex Grow 5</div>
 <div class="l-flex-grow-6">Flex Grow 6</div>
-<div class="l-flex-grow-7">Flex Grow 7</div>
-<div class="l-flex-grow-8">Flex Grow 8</div>
-<div class="l-flex-grow-9">Flex Grow 9</div>
-<div class="l-flex-grow-10">Flex Grow 10</div>
-<div class="l-flex-grow-11">Flex Grow 11</div>
 {% endhighlight %}
 
 <hr />

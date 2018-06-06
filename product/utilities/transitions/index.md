@@ -20,8 +20,8 @@ layout: page
 </p>
 
 <div class="container u-clearfix m-y-4">
-	<a class="Button t-center scale-up-hover">Scale up</a>
-	<a class="Button t-center scale-down-hover">Scale down</a>
+	<a class="Button m-0 scale-up-hover">Scale up</a>
+	<a class="Button m-0 scale-down-hover">Scale down</a>
 </div>
 
 {% highlight html %}
@@ -45,12 +45,24 @@ layout: page
 </p>
 
 <div class="container u-clearfix m-y-4">
-	<a class="Button t-center scale-up-hover tr-duration-0">0 duration</a>
-	<a class="Button t-center scale-up-hover tr-duration-1">1 duration</a>
-	<a class="Button t-center scale-up-hover tr-duration-2">2 duration</a>
-	<a class="Button t-center scale-up-hover tr-duration-3">3 duration</a>
-	<a class="Button t-center scale-up-hover tr-duration-4">4 duration</a>
-	<a class="Button t-center scale-up-hover tr-duration-5">5 duration</a>
+	<div class="g-1_2 g-1_6__l">
+	<a class="Button m-0 m-y-2 scale-up-hover tr-duration-0">0 duration</a>
+	</div>
+	<div class="g-1_2 g-1_6__l g-omega">
+	<a class="Button m-0 m-y-2 scale-up-hover tr-duration-1">1 duration</a>
+	</div>
+	<div class="g-1_2 g-1_6__l">
+	<a class="Button m-0 m-y-2 scale-up-hover tr-duration-2">2 duration</a>
+	</div>
+	<div class="g-1_2 g-1_6__l g-omega">
+	<a class="Button m-0 m-y-2 scale-up-hover tr-duration-3">3 duration</a>
+	</div>
+	<div class="g-1_2 g-1_6__l">
+	<a class="Button m-0 m-y-2 scale-up-hover tr-duration-4">4 duration</a>
+	</div>
+	<div class="g-1_2 g-1_6__l">
+	<a class="Button m-0 m-y-2 scale-up-hover tr-duration-5">5 duration</a>
+	</div>
 </div>
 
 {% highlight html %}
@@ -87,11 +99,21 @@ layout: page
 </p>
 
 <div class="container u-clearfix m-y-4">
+	<div class="g-1_2 m-y-1 g-1_6__l">
 	<a class="Button t-center scale-up-hover tr-duration-5 tr-easing-linear">Linear</a>
+	</div>
+	<div class="g-1_2 m-y-1 g-omega g-1_6__l">
 	<a class="Button t-center scale-up-hover tr-duration-5 tr-easing-ease">Ease</a>
+	</div>
+	<div class="g-1_2 m-y-1 g-1_6__l">
 	<a class="Button t-center scale-up-hover tr-duration-5 tr-easing-cb-scale-up">Scale Up</a>
+	</div>
+	<div class="g-1_2 m-y-1 g-omega g-1_6__l">
 	<a class="Button t-center scale-up-hover tr-duration-5 tr-easing-cb-scale-in">Scale In</a>
+	</div>
+	<div class="g-1_2 m-y-1 g-1_6__l">
 	<a class="Button t-center scale-up-hover tr-duration-5 tr-easing-cb-scale-out">Scale Out</a>
+	</div>
 </div>
 
 {% highlight html %}

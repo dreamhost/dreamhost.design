@@ -7,7 +7,7 @@ Form Component
 %form-border { border: 1px solid $c-g300; }
 %form-description {
 	color: $c-g500;
-	@include font-size($t-1);
+	@include fontsize($t-1);
 }
 %form-no-outline { outline: none; }
 
@@ -19,7 +19,7 @@ appearance: none;
 
 %form-text-style {
 	color: $c-g500;
-	@include font-size($t-1);
+	@include fontsize($t-1);
 	font-family: $body;
 }
 
@@ -83,7 +83,7 @@ appearance: none;
 .Form__label {
 	color: $c-g500;
 	display: block;
-	@include font-size($t-1);
+	@include fontsize($t-1);
 	font-weight: $t-bold;
 	cursor: pointer;
 	max-width: 35rem;

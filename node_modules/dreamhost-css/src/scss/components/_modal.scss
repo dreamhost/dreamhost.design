@@ -15,7 +15,7 @@
 @media screen and (min-width: $medium-breakpoint) {
 	.Modal { padding: convertScaleToRem(9) }
 	.Modal__heading {
-		@include font-size($t-5);
+		@include fontsize($t-5);
 	}
 }
 

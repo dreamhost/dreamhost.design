@@ -50,6 +50,34 @@ layout: page
 {% endhighlight%}
 
 <hr />
+## Check
+<ol class="List List--check m-bottom">
+	<li>list item</li>
+	<li>list item</li>
+</ol>
+
+{% highlight html %}
+<ol class="List List--check">
+	<li>list item</li>
+	<li>list item</li>
+</ol>
+{% endhighlight%}
+
+<hr />
+## Double Space
+<ol class="List List--double m-bottom">
+	<li>list item</li>
+	<li>list item</li>
+</ol>
+
+{% highlight html %}
+<ol class="List List--double">
+	<li>list item</li>
+	<li>list item</li>
+</ol>
+{% endhighlight%}
+
+<hr />
 ## Inline
 <ul class="List List--inline m-bottom">
 	<li>list item</li>

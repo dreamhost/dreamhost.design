@@ -311,6 +311,9 @@ layout: page
 	<!-- Hover animation: slide-left -->
 	<div class="slide-left-hover"></div>
 
+	<!-- Hover animation: zoom-in -->
+	<div class="zoom-in-hover"></div>
+
 	{% endhighlight %}
 
 </section>

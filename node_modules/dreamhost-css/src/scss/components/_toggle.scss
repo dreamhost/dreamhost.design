@@ -156,6 +156,6 @@ Usage:
 
 	&:checked + .Toggle__label .Toggle__visible,
 	&:checked + .Toggle__label .Toggle__visible:before {
-		background-color: darken($c-b100, 50%);
+		background-color: darken($c-b300, 10%);
 	}
 }

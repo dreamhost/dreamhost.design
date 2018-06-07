@@ -7,7 +7,7 @@ layout: page
 
 <hr />
 
-<div class="w-50 m-bottom-7">
+<div class="w-50__m m-bottom-7">
 
 <div class="Cart__wrapper">
     <div class="Cart__header">

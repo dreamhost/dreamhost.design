@@ -104,7 +104,7 @@ layout: page
 <h2 class="m-bottom-1">Toaster Alerts</h2>
 <p class="m-bottom-7">Useful for in-the-moment contextual notification, such as successful form submission, feature turned on/off, momentary errors, new messages recieved, etc. By default, toasters animate in, and disappear after 3 seconds. They can be made persistent by adding <code>.Toaster--persistent</code>.</p>
 
-<div class="w-50 m-bottom-7">
+<div class="w-50__m m-bottom-7">
 <div class="Toaster Toaster--persistent">
 	<div class="Toaster__type"><svg class="icon--size-2 i-c-y500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M15.8 28.7c7 0 12.7-5.7 12.7-12.7S22.8 3.3 15.8 3.3 3.1 9 3.1 16s5.7 12.7 12.7 12.7zM16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16z"/><path d="M16 19.8l-3.3 3.1.3-4.5-4.5-.7 3.8-2.6-2.3-3.9 4.3 1.3L16 8.3l1.7 4.2 4.3-1.3-2.3 3.9 3.8 2.6-4.5.7.3 4.5z"/></svg></div>
 	<p class="Toaster__heading">Neutral toaster notification<span>Click for more details</span></p>

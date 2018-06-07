@@ -4,7 +4,7 @@ layout: page
 ---
 
 <p class="t-4">Choice Boxes can add visual emphasis to radio buttons and checkboxes. <br />
-Use along with the <a href="{{site.baseurl}}/utilities/grid/">grid</a> for positioning.</p>
+Use along with the <a href="{{site.baseurl}}/product/utilities/grid/">grid</a> for positioning.</p>
 
 <hr />
 

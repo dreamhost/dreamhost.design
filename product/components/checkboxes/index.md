@@ -8,7 +8,7 @@ layout: page
 <hr />
 
 <div class="container-full-width">
-	<div class="Form__group g-1_2">
+	<div class="Form__group g-1_2__m">
 		<label class="Form__label">Checkbox label</label>
 		<label class="Choice">
 			<input type="checkbox" name="check1" checked>

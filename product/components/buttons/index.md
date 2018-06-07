@@ -6,11 +6,11 @@ layout: page
 <hr />
 
 ## Styles
-<div class="m-bottom-5">
-	<span role="button" class="m-bottom-2 Button">Default Button</span>
-	<span role="button" class="m-bottom-2 Button Button--primary">Primary Button</span>
-	<span role="button" class="m-bottom-2 Button Button--danger">Danger</span>
-	<span role="button" class="m-bottom-2 Button Button--disabled">Disabled</span>
+<div class="m-bottom-3">
+	<span role="button" class="m-0 t-center m-right-2__m m-bottom-2 Button">Default Button</span>
+	<span role="button" class="m-0 t-center m-right-2__m m-bottom-2 Button Button--primary">Primary Button</span>
+	<span role="button" class="m-0 t-center m-right-2__m m-bottom-2 Button Button--danger">Danger</span>
+	<span role="button" class="m-0 t-center m-bottom-2 Button Button--disabled">Disabled</span>
 </div>
 
 {% highlight html %}<span role="button" class="Button">Default Button</span>
@@ -36,9 +36,9 @@ layout: page
 <hr />
 ## Tags
 
-<div class="m-bottom-5">
-	<span role="button" class="m-bottom-2 Button Button__tag Button__tag" data-label="label">Positive Tag Button</span>
-	<span role="button" class="m-bottom-2 Button Button__tag Button__tag--negative" data-label="label">Negative Tag Button</span>
+<div class="m-bottom-3 t-center t-left__m">
+	<span role="button" class="m-0 m-left-4__m m-right-5__m m-bottom-2 Button Button__tag Button__tag" data-label="label">Positive Tag Button</span>
+	<span role="button" class="m-0 m-bottom-2 Button Button__tag Button__tag--negative" data-label="label">Negative Tag Button</span>
 </div>
 
 {% highlight html %}
@@ -49,10 +49,10 @@ layout: page
 <hr />
 ## Sizes
 
-<div class="m-bottom-5">
-	<span role="button" class="m-bottom-2 Button Button--hero">Hero Size</span>
-	<span role="button" class="m-bottom-2 Button">Default Size</span>
-	<span role="button" class="m-bottom-2 Button Button--compact">Compact Size</span>
+<div class="m-bottom-3 u-clearfix">
+		<span role="button" class="m-0 m-right-2__m m-bottom-2 Button Button--hero">Hero Size</span>
+		<span role="button" class="m-0 m-right-2__m m-bottom-2 Button">Default Size</span>
+		<span role="button" class="m-0 m-bottom-2 Button Button--compact">Compact Size</span>
 </div>
 
 {% highlight html %}

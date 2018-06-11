@@ -789,7 +789,9 @@ Form Component
 
 .Form__group--select { position: relative; }
 
-.Form__group--select:after { content: ''; position: absolute; top: 2.7rem; right: 1rem; border-color: #AFBFC9 transparent; border-style: solid; border-width: .35rem .35rem 0 .35rem; transition: all .2s ease-in-out; }
+.Form__group--select, .Form__group--select > * { cursor: pointer; }
+
+.Form__group--select:after { content: ''; position: absolute; pointer-events: none; bottom: 1rem; height: 0.5rem; right: 1rem; border-color: #AFBFC9 transparent; border-style: solid; border-width: .35rem .35rem 0 .35rem; transition: all .2s ease-in-out; }
 
 .Form__group--select:hover:after { border-color: #677983 transparent; }
 
@@ -797,7 +799,7 @@ Form Component
 
 .Form__description { font-weight: 400; margin-bottom: 0; }
 
-.Input { display: block; margin: 0; margin-top: .5rem; width: 100%; transition: all .2s ease-in-out; border-radius: 3px; padding: 0.4375rem; }
+.Input { display: block; margin: 0; margin-top: 0.5rem; width: 100%; transition: all .2s ease-in-out; border-radius: 3px; padding: 0.4375rem 0.5rem; /* to ensure align with baseline grid. */ }
 
 .Input:active, .Input:focus { box-shadow: 0 0 5px 0 #AFBFC9; }
 
@@ -817,7 +819,7 @@ Form Component
 
 textarea.Input { min-height: 140px; }
 
-.Select { border-radius: 3px; -webkit-appearance: none; -moz-appearance: none; padding: 0 0 0 .75rem; background: #fff; display: block; width: 100%; height: 42px; line-height: 42px; cursor: pointer; transition: all .2s ease-in-out; }
+.Select { margin-top: 0.5rem; border-radius: 3px; -webkit-appearance: none; -moz-appearance: none; padding: 0.4375rem 0.5rem; background: #fff; display: block; width: 100%; cursor: pointer; transition: all .2s ease-in-out; }
 
 .Select:hover, .Select:focus { background: #F4F6F9; }
 
@@ -1386,7 +1388,7 @@ Transition Components
 
 .scale-down-hover:hover, .scale-down-hover.is-open { transform: scale(0.95); }
 
-.Carousel { color: #ffffff; font-size: 1rem; line-height: calc(1em + 8px); text-align: center; padding: 1rem; }
+.Carousel { color: #ffffff; overflow: hidden; font-size: 1rem; line-height: calc(1em + 8px); text-align: center; padding: 1rem; }
 
 .Carousel .Carousel__item-content { width: 95%; height: 100%; margin: 0 auto; border: solid 1px #E0E4E8; padding: 3rem 4rem; color: #071c26; }
 
@@ -2507,17 +2509,17 @@ Combo Colors
 
 .l-flex-col-reverse { flex-direction: column-reverse !important; }
 
-.l-flex-start { align-content: flex-start !important; }
+.l-flex-start { align-self: flex-start !important; }
 
-.l-flex-end { align-content: flex-end !important; }
+.l-flex-end { align-self: flex-end !important; }
 
-.l-flex-center { align-content: center !important; }
+.l-flex-center { align-self: center !important; }
 
-.l-flex-stretch { align-content: stretch !important; }
+.l-flex-stretch { align-self: stretch !important; }
 
-.l-flex-between { align-content: space-between !important; }
+.l-flex-between { align-self: space-between !important; }
 
-.l-flex-around { align-content: space-around !important; }
+.l-flex-around { align-self: space-around !important; }
 
 .l-flex-x-start { justify-content: flex-start !important; }
 
@@ -2557,17 +2559,9 @@ Combo Colors
 
 .l-flex-grow-4 { flex-grow: 4; }
 
+.l-flex-grow-5 { flex-grow: 5; }
+
 .l-flex-grow-6 { flex-grow: 6; }
-
-.l-flex-grow-7 { flex-grow: 7; }
-
-.l-flex-grow-8 { flex-grow: 8; }
-
-.l-flex-grow-9 { flex-grow: 9; }
-
-.l-flex-grow-10 { flex-grow: 10; }
-
-.l-flex-grow-11 { flex-grow: 11; }
 
 @media screen and (min-width: 750px) { .l-float-right__m { float: right !important; }
   .l-float-left__m { float: left !important; }
@@ -2603,12 +2597,12 @@ Combo Colors
   .l-flex-y-center__m { align-items: center !important; }
   .l-flex-y-baseline__m { align-items: baseline !important; }
   .l-flex-y-stretch__m { align-items: stretch !important; }
-  .l-flex-start__m { align-content: flex-start !important; }
-  .l-flex-end__m { align-content: flex-end !important; }
-  .l-flex-center__m { align-content: center !important; }
-  .l-flex-stretch__m { align-content: stretch !important; }
-  .l-flex-between__m { align-content: space-between !important; }
-  .l-flex-around__m { align-content: space-around !important; }
+  .l-flex-start__m { align-self: flex-start !important; }
+  .l-flex-end__m { align-self: flex-end !important; }
+  .l-flex-center__m { align-self: center !important; }
+  .l-flex-stretch__m { align-self: stretch !important; }
+  .l-flex-between__m { align-self: space-between !important; }
+  .l-flex-around__m { align-self: space-around !important; }
   .l-flex-wrap__m { flex-wrap: wrap !important; }
   .l-flex-wrap-reverse__m { flex-wrap: wrap-reverse !important; }
   .l-flex-nowrap__m { flex-wrap: nowrap !important; }
@@ -2658,12 +2652,12 @@ Combo Colors
   .l-flex-y-center__l { align-items: center !important; }
   .l-flex-y-baseline__l { align-items: baseline !important; }
   .l-flex-y-stretch__l { align-items: stretch !important; }
-  .l-flex-start__l { align-content: flex-start !important; }
-  .l-flex-end__l { align-content: flex-end !important; }
-  .l-flex-center__l { align-content: center !important; }
-  .l-flex-stretch__l { align-content: stretch !important; }
-  .l-flex-between__l { align-content: space-between !important; }
-  .l-flex-around__l { align-content: space-around !important; }
+  .l-flex-start__l { align-self: flex-start !important; }
+  .l-flex-end__l { align-self: flex-end !important; }
+  .l-flex-center__l { align-self: center !important; }
+  .l-flex-stretch__l { align-self: stretch !important; }
+  .l-flex-between__l { align-self: space-between !important; }
+  .l-flex-around__l { align-self: space-around !important; }
   .l-flex-wrap__l { flex-wrap: wrap !important; }
   .l-flex-wrap-reverse__l { flex-wrap: wrap-reverse !important; }
   .l-flex-nowrap__l { flex-wrap: nowrap !important; }

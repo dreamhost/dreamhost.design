@@ -39,15 +39,15 @@
 .l-flex-col {flex-direction: column !important}
 .l-flex-col-reverse {flex-direction: column-reverse !important}
 
-// sets vertical alignment of ALL ITEMS AS A SINGLE UNIT within the flex container
-.l-flex-start {align-content: flex-start !important}
-.l-flex-end {align-content: flex-end !important}
-.l-flex-center {align-content: center !important}
-.l-flex-stretch {align-content: stretch !important}
-.l-flex-between {align-content: space-between !important}
-.l-flex-around {align-content: space-around !important}
+// set alignment of a single item within the flex container
+.l-flex-start {align-self: flex-start !important}
+.l-flex-end {align-self: flex-end !important}
+.l-flex-center {align-self: center !important}
+.l-flex-stretch {align-self: stretch !important}
+.l-flex-between {align-self: space-between !important}
+.l-flex-around {align-self: space-around !important}
 
-// sets horizontal spacing of individual flex items
+// sets horizontal alignment of content within the flex container
 .l-flex-x-start {justify-content: flex-start !important}
 .l-flex-x-end {justify-content: flex-end !important}
 .l-flex-x-center {justify-content: center !important}
@@ -55,7 +55,7 @@
 .l-flex-x-around {justify-content: space-around !important}
 .l-flex-x-even {justify-content: space-evenly !important}
 
-// sets vertical alignment of content within each item
+// sets vertical alignment of content within the flex container
 .l-flex-y-start {align-items: flex-start !important}
 .l-flex-y-end {align-items: flex-end !important}
 .l-flex-y-center {align-items: center !important}
@@ -74,12 +74,8 @@
 .l-flex-grow-2 {flex-grow: 2}
 .l-flex-grow-3 {flex-grow: 3}
 .l-flex-grow-4 {flex-grow: 4}
+.l-flex-grow-5 {flex-grow: 5}
 .l-flex-grow-6 {flex-grow: 6}
-.l-flex-grow-7 {flex-grow: 7}
-.l-flex-grow-8 {flex-grow: 8}
-.l-flex-grow-9 {flex-grow: 9}
-.l-flex-grow-10 {flex-grow: 10}
-.l-flex-grow-11 {flex-grow: 11}
 
 @media screen and (min-width: $medium-breakpoint) {
 	.l-float-right__m {float: right !important}
@@ -125,12 +121,12 @@
 	.l-flex-y-baseline__m {align-items: baseline !important}
 	.l-flex-y-stretch__m {align-items: stretch !important}
 
-	.l-flex-start__m {align-content: flex-start !important}
-	.l-flex-end__m {align-content: flex-end !important}
-	.l-flex-center__m {align-content: center !important}
-	.l-flex-stretch__m {align-content: stretch !important}
-	.l-flex-between__m {align-content: space-between !important}
-	.l-flex-around__m {align-content: space-around !important}
+	.l-flex-start__m {align-self: flex-start !important}
+	.l-flex-end__m {align-self: flex-end !important}
+	.l-flex-center__m {align-self: center !important}
+	.l-flex-stretch__m {align-self: stretch !important}
+	.l-flex-between__m {align-self: space-between !important}
+	.l-flex-around__m {align-self: space-around !important}
 
 	.l-flex-wrap__m {flex-wrap: wrap !important}
 	.l-flex-wrap-reverse__m {flex-wrap: wrap-reverse !important}
@@ -194,12 +190,12 @@
 	.l-flex-y-baseline__l {align-items: baseline !important}
 	.l-flex-y-stretch__l {align-items: stretch !important}
 
-	.l-flex-start__l {align-content: flex-start !important}
-	.l-flex-end__l {align-content: flex-end !important}
-	.l-flex-center__l {align-content: center !important}
-	.l-flex-stretch__l {align-content: stretch !important}
-	.l-flex-between__l {align-content: space-between !important}
-	.l-flex-around__l {align-content: space-around !important}
+	.l-flex-start__l {align-self: flex-start !important}
+	.l-flex-end__l {align-self: flex-end !important}
+	.l-flex-center__l {align-self: center !important}
+	.l-flex-stretch__l {align-self: stretch !important}
+	.l-flex-between__l {align-self: space-between !important}
+	.l-flex-around__l {align-self: space-around !important}
 
 	.l-flex-wrap__l {flex-wrap: wrap !important}
 	.l-flex-wrap-reverse__l {flex-wrap: wrap-reverse !important}

@@ -3,7 +3,7 @@ title: Panel Module
 layout: page
 ---
 
-<p class="t-4">Useful for displaying login credentials to users. Makes use of the <a href="{{site.baseurl}}/components/tags/">Tags</a> and <a href="{{site.baseurl}}/components/buttons/">Buttons</a> components.</p>
+<p class="t-4">Useful for displaying login credentials to users. Makes use of the <a href="{{site.baseurl}}/product/components/tags/">Tags</a> and <a href="{{site.baseurl}}/product/components/buttons/">Buttons</a> components.</p>
 
 <hr />
 

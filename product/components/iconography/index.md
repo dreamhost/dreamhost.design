@@ -3,90 +3,513 @@ title: Iconography
 layout: page
 ---
 
-<p class="t-4">Below is the current collection of icons used throughout our applications.
-Icons are to be displayed at one of four different sizes <code>Icon Icon--size-x</code>(1 - 4). Icons will adopt the current text color as the fill color. Colors are used to give meaning. Appropriate codes are documented below, you can also click the icon to download as an .SVG file.
-</p>
+<p class="t-4">Below is the current collection of single color icons used throughout our applications.
+Icons are deployed in two ways detailed below. All Icons require the <code>.Icon</code> class to render correctly, All Icons will also adopt the current text color <code>.t-c-</code> as the fill color. Colors are used to give meaning.
+<hr />
+
+<h3>Decorative Icons</h3>
+<p>For decorative non critical icons our icon font should be used. The additional name classes detailed below <code>.Icon--account</code> are required to envoke the DH icon font glyphs. The icon font sizes should use our exisiting <a href="{{site.baseurl}}/product/utilities/typography/">type scale</a> <code>.t-1</code>-<code>.t-6</code>. Download our icon font <a href="{{site.baseurl}}/assets/downloads/icons/dh-icon.zip" download>here</a> (Containes .EOT, .SVG, .TFF, .WOFF, .WOFF2)</p>
+
+<h3>Critical Icons</h3>
+<p>For any interface crtical icons, inline SVG must be used for accessibility purposes. .SVG icons should use one of four different sizes modifiers <code>.Icon .Icon--size-x</code> (1 - 4). Click on the icons below to download as .SVG files.
 
 <hr />
-<h2 class="m-bottom-6">Icon Set (.Icon--size-4) 64px</h2>
-<div class="Grid--auto m-bottom-4">
-    <div class="t-center">
-       <a href="{{site.baseurl}}/assets/downloads/icons/account-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-g200 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="a" d="M16 31.9c-8.8 0-16-7.1-16-16S7.2 0 16 0s16 7.1 16 16-7.2 15.9-16 15.9zm0-3.3c7 0 12.7-5.7 12.7-12.6C28.7 9 23 3.3 16 3.3S3.3 9 3.3 16C3.3 23 9 28.6 16 28.6z"/></defs><use xlink:href="#a" overflow="visible"/><g><defs><path id="b" d="M19.3 22.1v2.1l4.6 1.9v3.3H8.4V26l4.3-1.7V22C9.9 20.8 8 18 8 14.8c0-4.4 3.6-8 8-8s8 3.6 8 8c0 3.2-1.9 6-4.7 7.3z"/></defs><use xlink:href="#b" overflow="visible"/></g></svg></a>
-        <p>Account <br /><strong>(g200 + w100)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/messages-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-g200 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 27.7c0 2.3 1.7 4.3 4 4.3s4-1.8 4-4.3v-.2h-8v.2zM26.1 20v-7.7c0-5.1-3.5-9.5-8.2-10.3.5-.2.6-.5.6-.8C18.5.5 17.4 0 16 0s-2.5.5-2.5 1.1c0 .3.3.7.6.8C9.5 2.8 6 7.1 6 12.3V20c0 1.8-1.4 3.1-3 3.1v3.4h26v-3.4c-1.6 0-2.9-1.3-2.9-3.1z"/></svg></a>
-        <p>Messages <br /><strong>(g200 + w100)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/notification-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-y300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M15.8 28.7c7 0 12.7-5.7 12.7-12.7S22.8 3.3 15.8 3.3 3.1 9 3.1 16s5.7 12.7 12.7 12.7zM16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16z"/><path d="M16 19.8l-3.3 3.1.3-4.5-4.5-.7 3.8-2.6-2.3-3.9 4.3 1.3L16 8.3l1.7 4.2 4.3-1.3-2.3 3.9 3.8 2.6-4.5.7.3 4.5z"/></svg></a>
-        <p>Notification <br /><strong>(y300 + y500)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/facebook-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16zm0-29C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13S23.2 3 16 3z"/><path d="M21 12.6v-1.1c0-.1 0-.1-.1-.1h-1.8c-1.2 0-2.2.7-2.4 2-.1.2-.1.5-.1.8v1.4h-1.7c-.1 0-.2 0-.2.2v1.8c0 .1 0 .2.2.2h1.5c.1 0 .1 0 .1.1V23H9.9c-.5.1-.8-.2-.8-.8V10c0-.6.3-.9.9-.9h12.2c.6 0 .9.3.9.9v12.2c0 .5-.3.9-.9.9h-3.3c-.1 0-.2 0-.2-.2v-5.1c0-.1 0-.2.2-.2h1.7l.3-2.1h-2c-.1 0-.1 0-.1-.1V14c0-.5.3-.8.8-.8H21v-.6z"/></svg></a>
-        <p>Facebook <br /><strong>(b300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/twitter-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16zm0-29C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13S23.2 3 16 3z"/><path d="M9.1 20.3c1.6.1 3-.2 4.2-1.2-.6 0-1.2-.2-1.6-.6-.5-.3-.9-.8-1.1-1.4h.7c.2 0 .4 0 .6-.1-.9-.2-1.5-.7-1.9-1.4-.3-.5-.4-1-.4-1.4.2.1.4.2.6.2.2.1.4.1.6.1-1.2-1.1-1.5-2.4-.8-3.9 1.6 1.9 3.5 2.9 6 3 0-.2 0-.4-.1-.5 0-.9.3-1.7.9-2.3.7-.7 1.6-.9 2.5-.7.6.1 1 .4 1.4.8.1.1.1.1.2.1.5-.1 1.1-.3 1.5-.6 0 0 .1 0 .2-.1-.2.7-.6 1.2-1.2 1.6.5 0 1-.2 1.6-.4-.3.4-.6.7-.9 1l-.4.4c-.1.1-.1.1-.1.2 0 .8-.1 1.6-.3 2.4-.2.7-.5 1.3-.8 2-.4.7-.8 1.3-1.4 1.8-.7.7-1.6 1.3-2.5 1.7-.9.4-1.8.6-2.8.6-.7 0-1.4 0-2-.2-.7-.1-1.3-.3-1.9-.7-.3-.1-.5-.2-.8-.4"/></svg></a>
-        <p>Twitter <br /><strong>(b300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/powercycle-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="e" d="M18 3.3c0 .2 0 .4-.2.5l-2.7 3.4c-.3.3-.8.4-1.1.1-.3-.3-.4-.7-.1-1.1 0 0 .3-.4.8-1.1-5.8.8-10.4 5.8-10.4 11.8 0 6.5 5.3 11.8 11.7 11.8.9 0 1.6.7 1.6 1.6S16.9 32 16 32C7.7 32 1 25.2 1 16.9 1 9.3 6.7 2.9 14.1 2c-.2-.2-.5-.4-.8-.6-.3-.3-.4-.7-.1-1.1.3-.3.7-.4 1.1-.1 0 0 1.2.9 3.4 2.6.1.1.2.3.3.5"/></defs><use xlink:href="#e" overflow="visible"/><defs><path id="f" d="M23 28.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#f" overflow="visible"/><defs><path id="g" d="M29 24.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#g" overflow="visible"/><defs><path id="h" d="M31 17.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#h" overflow="visible"/><g><defs><path id="i" d="M28 9.5c0-.8-.7-1.5-1.5-1.5S25 8.7 25 9.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#i" overflow="visible"/></g><g><path d="M16.5 9c.8 0 1.5.7 1.5 1.5v4c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5v-4c0-.8.7-1.5 1.5-1.5z"/></g><g><path d="M21.6 12.7s-.1 0 0 0l-.2-.2c-.4-.4-1.5-1.2-2.3-.4-.9.9.2 2.5.4 2.8.6.7.9 1.6.9 2.6 0 2.2-1.7 4-4 4-2.2 0-4-1.8-4-4 0-1 .4-2 1-2.7 0 0 1.5-1.8.5-2.8s-2.4.6-2.4.6c-1.3 1.3-2.1 3-2.1 4.9 0 3.9 3.1 7 7 7s7-3.1 7-7c.1-1.9-.6-3.6-1.8-4.8z"/></g></svg></a>
-        <p>Powercycle <br /><strong>(b300)</strong></p>
-    </div>
+
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-account.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="a" d="M16 31.9c-8.8 0-16-7.1-16-16S7.2 0 16 0s16 7.1 16 16-7.2 15.9-16 15.9zm0-3.3c7 0 12.7-5.7 12.7-12.6C28.7 9 23 3.3 16 3.3S3.3 9 3.3 16C3.3 23 9 28.6 16 28.6z"/></defs><use xlink:href="#a" overflow="visible"/><g><defs><path id="b" d="M19.3 22.1v2.1l4.6 1.9v3.3H8.4V26l4.3-1.7V22C9.9 20.8 8 18 8 14.8c0-4.4 3.6-8 8-8s8 3.6 8 8c0 3.2-1.9 6-4.7 7.3z"/></defs><use xlink:href="#b" overflow="visible"/></g></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--account</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-accounts.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M21.9 7.2h9.2c.6 0 1.2-.5 1.2-1.2s-.5-1.2-1.2-1.2h-9.2c-.6 0-1.2.5-1.2 1.2s.6 1.2 1.2 1.2zM32.3 10.7c0-.6-.5-1.2-1.2-1.2h-9.2c-.6 0-1.2.5-1.2 1.2 0 .6.5 1.2 1.2 1.2h9.2c.6 0 1.2-.6 1.2-1.2zM36.9 40.7c0 .6.5 1.2 1.2 1.2h9.2c.6 0 1.2-.5 1.2-1.2s-.5-1.2-1.2-1.2H38c-.6 0-1.1.5-1.1 1.2zM47.2 44.1H38c-.6 0-1.2.5-1.2 1.2s.5 1.2 1.2 1.2h9.2c.6 0 1.2-.5 1.2-1.2s-.5-1.2-1.2-1.2zM15 44.1H5.8c-.6 0-1.2.5-1.2 1.2s.5 1.2 1.2 1.2H15c.6 0 1.2-.5 1.2-1.2s-.6-1.2-1.2-1.2zM15 39.5H5.8c-.6 0-1.2.5-1.2 1.2s.5 1.2 1.2 1.2H15c.6 0 1.2-.5 1.2-1.2s-.6-1.2-1.2-1.2z"/><path d="M2.3 37.2h16.1v11.5H2.3V37.2zM18.4 2.6h16.1v11.5H18.4V2.6zm32.3 46.1H34.6V37.2h16.1v11.5zM1.2 51h18.4c.6 0 1.2-.5 1.2-1.2V36.1c0-.6-.5-1.2-1.2-1.2h-8.1V28h30v6.9h-8.1c-.6 0-1.2.5-1.2 1.2v13.8c0 .6.5 1.2 1.2 1.2h18.4c.6 0 1.2-.5 1.2-1.2V36.1c0-.6-.5-1.2-1.2-1.2h-8.1v-8.1c0-.6-.5-1.2-1.2-1.2h-15v-9.2h8.1c.6 0 1.2-.5 1.2-1.2V1.5c0-.6-.5-1.2-1.2-1.2H17.3c-.6 0-1.2.5-1.2 1.2v13.8c0 .6.5 1.2 1.2 1.2h8.1v9.2h-15c-.6 0-1.2.5-1.2 1.2V35h-8c-.6 0-1.2.5-1.2 1.2V50c0 .5.5 1 1.2 1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--accounts</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-aid.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 34"><path d="M3.5 23c-.4 0-.7.3-.7.7v6.7c0 .2.1.5.3.6 3 1.9 6.9 2.9 11 2.9s8.1-1 11-2.9c.2-.1.3-.4.3-.6v-6.7c0-.4-.3-.7-.7-.7-.4 0-.7.3-.7.7V30c-2.7 1.6-6.2 2.5-9.9 2.5s-7.2-.9-9.9-2.5v-6.3c0-.4-.3-.7-.7-.7zm21.3-12c.4 0 .7-.3.7-.7V3.5c0-.2-.1-.5-.3-.6-3-1.9-6.9-2.9-11-2.9-4.2 0-8.1 1-11 2.9-.2.2-.4.4-.4.6v6.7c0 .4.3.7.7.7.4 0 .7-.3.7-.7V3.9c2.7-1.6 6.2-2.5 9.9-2.5s7.2.9 9.9 2.5v6.3c.1.5.4.8.8.8zm2.8 9.5c.5-.5.7-1.1.7-1.8v-3.5c0-.7-.3-1.3-.7-1.8-.5-.5-1.1-.7-1.8-.7H2.5c-.7 0-1.3.3-1.8.7-.4.5-.7 1.2-.7 1.8v3.5c0 .7.3 1.3.7 1.8.5.5 1.1.7 1.8.7h23.4c.6.1 1.2-.2 1.7-.7zm-25.9-1c-.2-.2-.3-.5-.3-.8v-3.5c0-.3.1-.6.3-.8.2-.2.5-.3.8-.3h23.4c.3 0 .6.1.8.3.2.2.3.5.3.8v3.5c0 .3-.1.5-.3.8-.2.2-.5.3-.8.3H2.5c-.3 0-.6-.1-.8-.3z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--aid</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-alarm.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><path d="M25.5 2.1c-2 0-3.8.7-5.2 1.8-.6-.3-1.3-.6-1.9-.7v-.4c0-1.6-1.3-2.8-2.8-2.8s-2.8 1.3-2.8 2.8v.4c-1.7.5-3.2 1.4-4.5 2.6-2 2-3.2 4.6-3.2 7.3V21c0 .9-.3 1.7-1 2.3l-3.7 4c-.4.4-.5 1-.3 1.5s.8.9 1.3.9h8.7c.6 2.5 2.9 4.2 5.5 4.2s4.8-1.8 5.5-4.2h8.7c.6 0 1.1-.3 1.3-.9.2-.5.1-1.1-.3-1.5l-3.8-4c-.6-.7-1-1.5-1-2.3v-2c4.4-.3 7.9-4 7.9-8.5.1-4.6-3.7-8.4-8.4-8.4zm-11.3.7c0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4v.1c-.4 0-.7-.1-1.1-.1-.6 0-1.1.1-1.7 0 0 .1 0 .1 0 0zm1.4 29.8c-1.8 0-3.4-1.2-4-2.8h8c-.6 1.6-2.2 2.8-4 2.8zm14.1-4.3h-19-9.2l3.8-4c.9-.9 1.3-2.1 1.3-3.3v-7.9c0-2.3 1-4.6 2.7-6.3 1.8-1.7 4.1-2.7 6.6-2.6 1.2 0 2.3.3 3.3.7-1.4 1.6-2.2 3.5-2.2 5.7 0 4.4 3.4 8 7.6 8.5v2c0 1.2.5 2.4 1.3 3.3l3.8 3.9zm-3.6-10.6V17c0-.4-.3-.7-.7-.7-.4 0-.7.3-.7.7v.6c-3.3-.4-5.8-3-6.2-6.3h.6c.4 0 .7-.3.7-.7s-.3-.7-.7-.7h-.6c.3-3.3 3-6 6.3-6.3v.6c0 .4.3.7.7.7s.7-.3.7-.7v-.6c3.3.3 6 3 6.3 6.3h-.6c-.4 0-.7.3-.7.7s.3.7.7.7h.6c-.3 3.4-3 6.1-6.4 6.4z"/><path d="M26.2 10.3V7.8c0-.4-.3-.7-.7-.7s-.7.3-.7.7v2.8c0 .1 0 .2.1.3 0 .1.1.2.2.2L28 14c.1.1.3.2.5.2s.4-.1.5-.2c.3-.3.3-.7 0-1l-2.8-2.7zM12.6 6.3c-.9.4-1.7.9-2.4 1.6-.7.7-1.3 1.5-1.7 2.4-.4.9-.6 1.9-.6 2.9 0 .4.3.7.7.7s.7-.3.7-.7c0-.8.2-1.6.5-2.3.3-.7.8-1.4 1.4-1.9.6-.6 1.3-1 2-1.3.4-.2.5-.6.4-.9-.2-.5-.6-.7-1-.5z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--alarm</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-alert.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 28.7c7 0 12.7-5.7 12.7-12.7S23 3.3 16 3.3 3.3 9 3.3 16 9 28.7 16 28.7zm0 3.3C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16z"/><path d="M16 7c1.1 0 2 .9 2 2v9c0 1.1-.9 2-2 2s-2-.9-2-2V9c0-1.1.9-2 2-2z"/><circle cx="16" cy="23" r="2"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--alert</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-automate.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M49.2 28.9c0 .5-.4 1-1 1h-4.9c-.4 0-.8.3-1 .7-.3 1-.7 1.9-1.2 2.8-.2.4-.1.9.2 1.2l3.5 3.5c.2.2.3.4.3.7 0 .3-.1.5-.3.7l-4.4 4.4c-.4.4-1 .4-1.4 0l-3.5-3.5c-.3-.3-.8-.4-1.2-.2-.9.5-1.9.9-2.8 1.2-.4.1-.7.5-.7 1v4.9c0 .5-.4 1-1 1h-6.2c-.5 0-1-.4-1-1v-4.9c0-.4-.3-.8-.7-1-1-.3-1.9-.7-2.8-1.2-.1-.1-.3-.1-.5-.1-.3 0-.5.1-.7.3l-3.5 3.5c-.4.4-1 .4-1.4 0l-4.4-4.4c-.2-.2-.3-.4-.3-.7 0-.3.1-.5.3-.7l3.5-3.5c.3-.3.4-.8.2-1.2-.5-.9-.9-1.9-1.2-2.8-.1-.4-.5-.7-1-.7H5.3c-.5 0-1-.4-1-1v-6.2c0-.5.4-1 1-1h4.9c.4 0 .8-.3 1-.7.3-1 .7-1.9 1.2-2.8.2-.4.1-.9-.2-1.2l-3.5-3.5c-.2-.2-.3-.4-.3-.7 0-.3.1-.5.3-.7l4.4-4.4c.4-.4 1-.4 1.4 0l3.5 3.5c.3.3.8.4 1.2.2.9-.5 1.9-.9 2.8-1.2.4-.1.7-.5.7-1V4.3c0-.5.4-1 1-1h6.2c.5 0 1 .4 1 1v4.9c0 .4.3.8.7 1 1 .3 1.9.7 2.8 1.2.4.2.9.1 1.2-.2l3.5-3.5c.4-.4 1-.4 1.4 0l4.4 4.4c.2.2.3.4.3.7 0 .3-.1.5-.3.7L41.4 17c-.3.3-.4.8-.2 1.2.5.9.9 1.9 1.2 2.8.1.4.5.7 1 .7h4.9c.5 0 1 .4 1 1v6.2zm-1-9.3H44c-.2-.6-.5-1.2-.7-1.8l2.9-2.9c.6-.6.9-1.3.9-2.1s-.3-1.6-.9-2.1l-4.4-4.4c-1.1-1.1-3.1-1.1-4.3 0l-2.9 2.9c-.6-.3-1.2-.5-1.8-.7V4.3c0-1.7-1.4-3-3-3h-6.2c-1.7 0-3 1.4-3 3v4.2c-.6.2-1.2.5-1.8.7l-2.9-2.9c-1.1-1.1-3.1-1.1-4.3 0l-4.4 4.4c-.6.6-.9 1.3-.9 2.1s.3 1.6.9 2.1l2.9 2.9c-.3.6-.5 1.2-.7 1.8H5.3c-1.7 0-3 1.4-3 3v6.2c0 1.7 1.4 3 3 3h4.2c.2.6.5 1.2.7 1.8l-2.9 2.9c-.6.6-.9 1.3-.9 2.1s.3 1.6.9 2.1l4.4 4.4c1.1 1.1 3.1 1.1 4.3 0l2.9-2.9c.6.3 1.2.5 1.8.7v4.2c0 1.7 1.4 3 3 3h6.2c1.7 0 3-1.4 3-3v-4.2c.6-.2 1.2-.5 1.8-.7l2.9 2.9c1.1 1.1 3.1 1.1 4.3 0l4.4-4.4c.6-.6.9-1.3.9-2.1s-.3-1.6-.9-2.1l-2.9-2.9c.3-.6.5-1.2.7-1.8h4.2c1.7 0 3-1.4 3-3v-6.2c-.1-1.6-1.4-3-3.1-3z"/><path d="M26.8 38c-6.8 0-12.2-5.5-12.2-12.2S20 13.5 26.8 13.5 39 19 39 25.8 33.5 38 26.8 38zm0-26.5c-7.9 0-14.3 6.4-14.3 14.3s6.4 14.3 14.3 14.3S41 33.6 41 25.8c0-7.9-6.4-14.3-14.2-14.3z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--automate</code></p>
+	</div>
 </div>
-<div class="Grid--auto m-bottom-4">
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/alert-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-r300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><g><path d="M15.9 28.5c7 0 12.6-5.6 12.6-12.6S22.9 3.3 15.9 3.3 3.3 9 3.3 15.9s5.6 12.6 12.6 12.6zm0 3.4C7.1 31.9 0 24.7 0 15.9S7.1 0 15.9 0s15.9 7.1 15.9 15.9-7.1 16-15.9 16z"/><path d="M16 7c1.1 0 2 .9 2 2v9c0 1.1-.9 2-2 2s-2-.9-2-2V9c0-1.1.9-2 2-2z"/><circle cx="16" cy="23" r="2"/></g></svg></a>
-    <p>Negative Alert <br /><strong>(r300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/weight-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 28.6c7 0 12.7-5.7 12.7-12.6S23 3.3 16 3.3 3.3 9 3.3 16 9 28.6 16 28.6zm0 3.3c-8.8 0-16-7.1-16-16S7.2 0 16 0s16 7.1 16 16-7.2 15.9-16 15.9z"/><path d="M20.2 13.9l-.2.3c-.2.3-.6.4-.9.2l-1.3-.9c-.3-.2-.4-.6-.2-.9l.2-.3c.6-.9.4-2.1-.4-2.8-.8-.7-2-.7-2.8 0-.8.7-1 1.9-.4 2.8l.2.3c.2.3.1.7-.2.9l-1.3.9c-.3.2-.7.1-.9-.2l-.2-.3c-1.4-2.1-1-5 .9-6.6 1-.9 2.1-1.3 3.3-1.3h.4c1.1.1 2 .5 2.8 1.3 2 1.6 2.3 4.5 1 6.6z"/><path d="M11 11.5h10c.9 0 1.6.6 1.8 1.5l1.7 9.4c.2 1.1-.7 2.1-1.8 2.1H9.3c-1.1 0-2-1-1.8-2.1L9.2 13c.2-.9 1-1.5 1.8-1.5zm1 3l-1.3 7h10.5l-1.3-7H12z"/></svg></a>
-    <p>Weight <br /><strong>(b300 + r300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/traffic-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm0 3.3c4.2 0 7.9 2 10.2 5.1l-.1.1-7.7 8L15 13l-.3-.3c-.3-.3-.8-.5-1.2-.5-.4 0-.9.2-1.2.6l-.2.2-7.7 8c-.7-1.5-1-3.3-1-5C3.3 9 9 3.3 16 3.3zm0 25.4c-3.9 0-7.4-1.8-9.7-4.6l7.3-7.6 3.6 3.9c.7.7 1.8.6 2.4-.1 0-.1.1-.1.1-.2l8.2-8.5c.5 1.4.8 2.8.8 4.3C28.7 23 23 28.7 16 28.7z"/></svg></a>
-    <p>Traffic <br /><strong>(b300 + r300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/cross-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-r300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M13.1 16l-2.8-3c-.8-.9-.8-2.2.1-3 .9-.8 2.2-.8 3 .1l2.6 2.8 2.6-2.8c.8-.9 2.1-.9 3-.1.9.8.9 2.1.1 3l-2.8 3 2.8 3c.8.9.8 2.2-.1 3-.9.8-2.2.8-3-.1L16 19.1l-2.6 2.8c-.8.9-2.1.9-3 .1-.9-.8-.9-2.1-.1-3l2.8-3z"/><path d="M15.8 28.7c7 0 12.7-5.7 12.7-12.7S22.8 3.3 15.8 3.3 3.1 9 3.1 16s5.7 12.7 12.7 12.7zM16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16z"/></svg></a>
-    <p>Cross <br /><strong>(r300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/tick-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M20.2 9.7l-7 7.6-1.5-1.5c-.9-.9-2.2-.9-3.1 0-.9.9-.9 2.3 0 3.1l2.7 2.8.4.4c1.7 1.5 3.2-.2 3.4-.4.1-.1 2.8-3 8.3-9 .8-.9.8-2.3-.1-3.1-.9-.8-2.3-.8-3.1.1z"/><path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm-.2 28.7C8.8 28.7 3.1 23 3.1 16S8.8 3.3 15.8 3.3c7 0 12.7 5.7 12.7 12.7s-5.7 12.7-12.7 12.7z"/></svg></a>
-    <p>Tick <br /><strong>(b300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/stopwatch-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><path d="M13.1 0h4c1 0 1.8.8 1.8 1.8s-.8 1.8-1.8 1.8h-4c-1 0-1.8-.8-1.8-1.8C11.2.8 12 0 13.1 0z"/><path d="M15 17.1l4.6-4.6c.7-.7 1.9-.7 2.6 0 .7.7.7 1.9 0 2.6l-5.8 5.8-.1.1c-.7.7-1.9.7-2.6 0l-3.4-3.4c-.7-.7-.7-1.9 0-2.6s1.9-.7 2.6 0l2.1 2.1z"/><path d="M23.8 7.5l1.1-1.1c.7-.7 1.9-.8 2.6-.1.7.7.8 1.9.1 2.6L26.5 10c-.7.7-1.9.8-2.6.1-.8-.7-.8-1.8-.1-2.6z"/><path d="M15 29.1c6.3 0 11.5-4.9 11.5-11s-5.1-11-11.5-11S3.5 12 3.5 18.1s5.2 11 11.5 11zm0 2.9C7 32 .5 25.8.5 18.2S7 4.3 15 4.3s14.5 6.2 14.5 13.8S23 32 15 32z"/></svg></a>
-    <p>Stopwatch <br /><strong>(b300 + r300)</strong></p></div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-bandwidth.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 46 46"><defs><path id="bandwidth" d="M1.2 28.7h5.7c.4 0 .7-.2.8-.5l2.9-5.8 6.8 15.2c.2.3.5.6.9.6h.1c.4 0 .7-.3.8-.7L26 11.8l8.4 21.9c.1.3.4.6.8.6s.7-.1.9-.4l3.5-5.3h5.2c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-5.7c-.3 0-.6.2-.8.4l-2.8 4.2-8.7-23c-.1-.4-.5-.6-.9-.6s-.8.3-.9.7l-6.9 25.8-6.5-14.6c-.1-.3-.5-.6-.8-.6-.4 0-.7.2-.9.5l-3.5 7.1H1.2c-.5 0-.9.4-.9.9 0 .7.4 1.1.9 1.1z"/></defs><use xlink:href="#bandwidth" overflow="visible"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--bandwidth</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-biz.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M29.9 5.3l-2.5-5c-.1-.2-.3-.3-.5-.3H3.1c-.2 0-.4.1-.5.3l-2.5 5c-.1.1-.1.2-.1.3v6.3c0 .3.3.6.6.6.9 0 1.4-.4 1.9-.9v17.8c0 .3.3.6.6.6h23.8c.3 0 .6-.3.6-.6V11.6c.4.5 1 .9 1.9.9.3 0 .6-.3.6-.6V5.6c0-.1 0-.2-.1-.3 0 .1 0 .1 0 0zM3.5 1.2h23L28.4 5H1.6l1.9-3.8zm14 27.6V17.5h6.2v11.2h-6.2zm7.5 0V16.9c0-.3-.3-.6-.6-.6h-7.5c-.3 0-.6.3-.6.6v11.9H3.8V10.1c.1-.1.3-.1.4-.1.6 0 .8.4 1.3 1 .5.7 1.1 1.5 2.3 1.5s1.8-.8 2.3-1.5c.5-.6.7-1 1.3-1 .6 0 .8.4 1.3 1 .5.7 1.1 1.5 2.3 1.5 1.2 0 1.8-.8 2.3-1.5.5-.6.7-1 1.3-1 .5 0 .8.4 1.3 1 .5.7 1.1 1.5 2.3 1.5 1.2 0 1.8-.8 2.3-1.5.5-.6.7-1 1.3-1 .2 0 .3 0 .5.1v18.6H25zm3.1-18.5c-.2-.3-.5-.6-.8-.9-.4-.4-1-.6-1.5-.6-1.2 0-1.8.8-2.3 1.5-.5.6-.7 1-1.3 1-.5 0-.8-.4-1.3-1-.5-.7-1.1-1.5-2.3-1.5-1.2 0-1.8.8-2.3 1.5-.5.6-.7 1-1.3 1-.6 0-.8-.4-1.3-1-.5-.7-1.1-1.5-2.3-1.5-1.2 0-1.8.8-2.3 1.5-.5.6-.7 1-1.3 1-.6 0-.8-.4-1.3-1-.5-.7-1.1-1.5-2.3-1.5-.6 0-1.1.2-1.5.5h-.1c-.2.3-.5.7-.7 1-.2.3-.4.6-.7.8V6.2h27.5V11c-.2-.1-.4-.4-.6-.7z"/><path d="M14.4 16.2H5.6c-.3 0-.6.3-.6.6V23c0 .3.3.6.6.6h8.8c.3 0 .6-.3.6-.6v-6.2c0-.3-.3-.6-.6-.6zm-.6 6.3H6.2v-5h7.5v5zm8.1-1.3c-.3 0-.6.3-.6.6v2.5c0 .3.3.6.6.6s.6-.3.6-.6v-2.5c0-.3-.3-.6-.6-.6z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--biz</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-build.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M4.7 41.7l23.2-23.2c1.2 2.4 3.2 4.4 5.6 5.6L10.3 47.3c-1.5 1.5-4.1 1.5-5.6 0-.7-.7-1.2-1.7-1.2-2.8.1-1 .5-2 1.2-2.8zm24-30.2c.6-4.7 4.4-8.5 9.2-9 .7-.1 1.4-.1 2.1 0l-5.4 5.4c-1.2 1.2-1.2 3.2 0 4.4l5.1 5.1c1.2 1.2 3.3 1.2 4.4 0l5.4-5.4c.1.7 0 1.4 0 2.1-.5 4.7-4.3 8.6-9 9.1-1.7.2-3.3 0-4.8-.5-3-1-5.4-3.4-6.4-6.4-.6-1.5-.8-3.1-.6-4.8zM3.3 48.7c1.1 1.1 2.6 1.8 4.3 1.8s3.1-.6 4.3-1.8l23.8-23.8c1.1.3 2.3.5 3.5.5.5 0 1.1 0 1.6-.1 5.6-.7 10.2-5.3 10.8-11 .2-1.6.1-3.2-.4-4.8-.1-.4-.4-.6-.7-.7-.4-.1-.7 0-1 .3l-6.8 6.8c-.4.4-1.1.4-1.5 0l-5.1-5.1c-.4-.4-.4-1.1 0-1.5l6.8-6.8c.3-.3.4-.6.3-1-.1-.4-.4-.6-.7-.7-1.6-.4-3.2-.6-4.8-.4-5.7.6-10.3 5.2-11 10.8-.2 1.8-.1 3.5.4 5.1L3.3 40.2c-1.1 1.2-1.8 2.7-1.8 4.3 0 1.6.6 3.1 1.8 4.2z"/><circle cx="7.8" cy="44.2" r="2.1"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--build</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-cache.svg" download>
+		<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 36"><path d="M28 29.6V6.2C28 2.7 22 0 14 0S0 2.7 0 6.2v23.3c0 3.5 6 6.2 14 6.2s14-2.6 14-6.1zM26.4 14c0 2.2-5.1 4.7-12.4 4.7S1.6 16.2 1.6 14V9.2c2.3 2 6.9 3.3 12.4 3.3s10.2-1.3 12.4-3.3V14zM1.6 16.9c2.3 2 6.9 3.3 12.4 3.3s10.2-1.3 12.4-3.3v4.8c0 2.2-5.1 4.7-12.4 4.7S1.6 24 1.6 21.8v-4.9zM14 1.6c7.3 0 12.4 2.5 12.4 4.7S21.3 11 14 11 1.6 8.4 1.6 6.2 6.7 1.6 14 1.6zm-12.4 28v-4.8C3.8 26.7 8.4 28 14 28s10.2-1.3 12.4-3.3v4.8c0 2.2-5.1 4.7-12.4 4.7S1.6 31.8 1.6 29.6z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--cache</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-cart.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 28"><path d="M36.2 4.6H7.8L6.1.5C6 .2 5.7 0 5.4 0H.8C.3 0 0 .3 0 .8c0 .4.3.8.8.8h4.1l1.7 4.2 3.9 9.2 1.9 4.6c.1.3.5.5.8.5h18.4c.4 0 .8-.3.8-.8 0-.4-.3-.8-.8-.8h-18l-1.3-3.1h20.8c.4 0 .8-.3.8-.8 0-.4-.3-.8-.8-.8H11.7l-1.3-3.1h24.3c.4 0 .8-.3.8-.8 0-.4-.3-.8-.8-.8H10.1c-.1 0-.2 0-.3.1l-1.3-3h27.8c.4 0 .8-.4.7-.8 0-.4-.4-.8-.8-.8zM18.5 24.7c0-1.7-1.4-3.1-3.1-3.1-1.7 0-3.1 1.4-3.1 3.1 0 1.7 1.4 3.1 3.1 3.1 1.7 0 3.1-1.4 3.1-3.1zm-4.6 0c0-.9.7-1.5 1.5-1.5.9 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5zm16.9 0c0-1.7-1.4-3.1-3.1-3.1-1.7 0-3.1 1.4-3.1 3.1 0 1.7 1.4 3.1 3.1 3.1s3.1-1.4 3.1-3.1zm-4.6 0c0-.9.7-1.5 1.5-1.5.9 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--cart</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-cartarrow.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--cartarrow</code></p>
+	</div>
 </div>
-<div class="Grid--auto m-bottom-4">
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/restore-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 30"><path d="M17.1 0c2.3 0 4.5.5 6.4 1.4.2.1.3.2.5.3 0 0 .1 0 .1.1.2.1.4.2.5.2.1 0 .1.1.2.1.1.1.3.2.4.3.1 0 .1.1.2.1.1.1.3.2.4.3.1 0 .1.1.2.1.1.1.3.2.4.3l.1.1c.1.1.3.2.4.3l.1.1c3.1 2.7 5 6.7 5 11.1v.2c0 3.8-1.4 7.3-3.8 9.9l-.1.1-.3.3-.1.1C25 28.3 21.3 30 17.1 30H16.8c-3.8 0-7.6-1.4-10.5-4.3C6 23.6 8 22.9 9 23.8c2.2 2 5 3 7.8 2.9H18c.2 0 .3 0 .5-.1h.1c5.2-.8 9.6-5 10.1-10.3 0-.4.1-.8.1-1.2v-.2c0-3.5-1.6-6.7-4.1-8.8-.1-.1-.2-.1-.3-.2l-.2-.2c-.1-.1-.2-.1-.2-.2-.1-.1-.2-.1-.2-.2-.1 0-.1-.1-.2-.1-.1-.1-.2-.1-.3-.2-.1 0-.1-.1-.2-.1-.1-.1-.2-.1-.3-.2-.1 0-.1-.1-.2-.1s-.2-.1-.3-.1c-.1 0-.2-.1-.2-.1-.1 0-.1-.1-.2-.1-.9-.4-1.9-.7-2.8-.9-.2 0-.3-.1-.5-.1H18h-.6-1.8c-.2 0-.3 0-.5.1H15c-5.2.8-9.6 5-10.1 10.3.7-.5 1-.8 1-.8.7-.3 1.1-.2 1.4.1.3.3.2.8-.1 1.1-2.1 1.7-3.2 2.6-3.3 2.7-.2.1-.4.2-.5.2-.2 0-.4-.1-.5-.3C1.2 14.5.3 13.3.3 13.3c-.4-.5 0-1.4 1-1.2.3.4.6.7.8 1.1.3-3.2 1.6-6 3.5-8.2C7.8 2.5 11 .9 14.1.3H14.4c.9-.2 1.8-.3 2.7-.3z"/><path d="M18.6 15.1V8.6c0-1-.8-1.8-1.8-1.8S15 7.6 15 8.6V17c0 1 .8 1.8 1.8 1.8h4.9c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8h-3.1z"/></svg></a>
-    <p>Restore<br /><strong>(b300 + r300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/reload-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><path d="M12.1 28.3c.1-.1 1-1.1 2.8-2.9.3-.3.8-.3 1.1-.1.3.3.4.7.1 1l-.9.9c5.3-.3 10.1-4.1 11.2-8.8v-.1c0-.1.1-.3.1-.4v-.2-.3-.3-.2c.2-2.6-.7-5.2-2.5-7.3-.6-.6-.4-1.6.3-2.1.7-.6 1.7-.5 2.3.1 2.4 2.7 3.4 6 3.2 9.3 0 .8-.2 1.7-.4 2.4 0 .1 0 .1-.1.2v.1c-.8 2.8-2.5 5.5-5.1 7.5-2.3 1.7-5.6 2.8-8.6 3 .2.2.5.4.8.6.3.3.4.7.1 1-.3.3-.8.3-1.1.1 0 0-1.1-.9-3.2-2.5-.2-.1-.3-.3-.3-.5s.1-.4.2-.5"/><path d="M.2 13.6v-.2-.1C.8 10.4 2.4 7.5 5 5.4c2.2-1.8 5-3.1 8.1-3.4-.2-.2-.5-.4-.8-.6-.3-.2-.4-.7-.1-1 .4-.3.8-.4 1.2-.2 0 0 1.2.8 3.4 2.4.2.2.3.4.3.5 0 .2 0 .4-.2.5-.1.1-1 1.1-2.7 3.1-.3.3-.8.4-1.1.1-.3-.2-.4-.7-.1-1 0 0 .3-.3.8-1-5.3.7-9.6 4.8-10.4 9.6v.1c0 .1 0 .3-.1.4v1c0 2.6 1 5.2 3 7.3.6.6.5 1.6-.1 2.2s-1.8.6-2.4 0c-2.5-2.7-3.8-6-3.8-9.3 0-.9.1-1.7.2-2.5"/></svg></a>
-    <p>Reload <br /><strong>(b300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/globe-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" enable-background="new 0 0 32 32"><defs><filter id="a" filterUnits="userSpaceOnUse" x="0" y="0" width="32" height="32"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32" id="b"><path fill="#fff" d="M0 0h32v32H0z" filter="url(#a)"/></mask><path d="M16 28.7c-.6 0-1.1 0-1.7-.1 0-.1-.1-.2-.1-.3-1.1-2-2-3.9-2.5-5.8 1.4.1 2.8.2 4.4.2 5 0 8.8-.7 11.7-2-1.9 4.7-6.5 8-11.8 8m-11.8-8c1.1.5 2.4.9 3.8 1.3.4 1.7.9 3.3 1.7 5-2.5-1.4-4.4-3.7-5.5-6.3m7.3-6.8c.2-.8.5-1.6.9-2.3 1.1.1 2.3.1 3.7.1 5.2 0 8.8-.7 10.8-2.2 1.1 1.9 1.8 4.1 1.8 6.5-2 2.2-6.2 3.4-12.6 3.4-1.9 0-3.6-.1-5.1-.3-.1-1.9 0-3.6.5-5.2m-1-6c-1.6-.3-2.6-.7-3.2-1.1 1.9-1.8 4.4-3 7.1-3.4-1.3 1.2-2.7 2.7-3.9 4.5m14.2-1.1c-1 .7-3.4 1.5-8.7 1.5h-1.6c2.1-2.6 4.5-4.1 5.1-4.4 2 .5 3.8 1.6 5.2 2.9M3.3 15.9c0-2.4.7-4.6 1.8-6.5.9.7 2.2 1.2 3.7 1.6-.2.6-.5 1.2-.7 1.9-.5 1.8-.7 3.6-.7 5.4-1.7-.6-3.1-1.3-4.1-2.4M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0" mask="url(#b)" /></svg></a>
-    <p>Globe<br /><strong>(b300 + r300)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/tickalone-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-t300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M10.4 18.8l14-15.4c1.7-1.8 4.5-1.9 6.3-.1 1.7 1.7 1.8 4.5.2 6.3L14.3 27.9c-1.3 2.1-4 2.8-6.1 1.4-.4-.3-.8-.6-1.1-1l-5.8-6c-1.7-1.8-1.6-4.7.1-6.5 1.7-1.7 4.4-1.7 6.2 0l2.8 3z"/></svg></a>
-    <p>Tick Alone<br /><strong>(t300 + t100)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/cartarrow-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-b300 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"/></svg></a>
-    <p>Cart Arrow <br /><strong>(b300 + g200)</strong></p>
-    </div>
-    <div class="t-center">
-        <a href="{{site.baseurl}}/assets/downloads/icons/dropdown-icon.svg" download><svg class="m-bottom-2 Icon Icon--size-4 t-c-g200 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8h32L16 24z"/></svg></a>
-    <p>Dropdown Arrow <br /><strong>(g200 + b300)</strong></p>
-    </div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+	<a href="{{site.baseurl}}/assets/downloads/icons/icon-certificate.svg" download>
+		<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.8 45"><path d="M1.9 3.8h7.5v.9c0 .5.4.9.9.9h13.1c.5 0 .9-.4.9-.9v-.9h7.5v39.4h-30V3.8zm9.3-1.9h11.2v1.9H11.2V1.9zM0 44.1c0 .5.4.9.9.9h31.9c.5 0 .9-.4.9-.9V2.8c0-.5-.4-.9-.9-.9h-8.4v-1c0-.5-.4-.9-1-.9H10.3c-.5 0-.9.4-.9.9v.9H.9c-.5.1-.9.5-.9 1v41.3z"/><path d="M27.2 11.2H6.6c-.5 0-.9.4-.9.9s.4.9.9.9h20.6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9zm0 5.7H6.6c-.5 0-.9.4-.9.9s.4.9.9.9h20.6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9zm0 5.6H6.6c-.5 0-.9.4-.9.9s.4.9.9.9h20.6c.5 0 .9-.4.9-.9s-.4-.9-.9-.9zm0 5.6H6.6c-.5 0-.9.4-.9.9s.3 1 .9 1h20.6c.5 0 .9-.4.9-.9s-.4-1-.9-1zm0 5.7c-1.1 0-1.6.9-2 1.4-.1.2-.3.5-.4.5-.1 0-.3-.3-.4-.5-.3-.5-.9-1.4-2-1.4s-1.6.9-2 1.4c-.1.2-.3.5-.4.5-.1 0-.3-.3-.4-.5-.3-.5-.9-1.4-2-1.4-.5 0-.9.4-.9.9s.4.9.9.9c.1 0 .3.3.4.5.3.5.9 1.4 2 1.4s1.6-.9 2-1.4c.1-.2.3-.5.4-.5.1 0 .3.3.4.5.3.5.9 1.4 2 1.4s1.6-.9 2-1.4c.1-.2.3-.5.4-.5.5 0 .9-.4.9-.9s-.4-.9-.9-.9z"/></svg>
+	</a>
+	<p class="p-top-2"><code>.Icon--certificate</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-chat.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 42"><path d="M47 0H17c-.6 0-1 .4-1 1v9H1c-.6 0-1 .4-1 1v22c0 .6.4 1 1 1h3v7c0 .6.4 1 1 1 .3 0 .5-.1.7-.3l7.7-7.7H31c.6 0 1-.4 1-1v-9h2.6l7.7 7.7c.4.4 1 .4 1.4 0 .2-.2.3-.4.3-.7v-7h3c.6 0 1-.4 1-1V1c0-.6-.4-1-1-1zM30 32H13c-.3 0-.5.1-.7.3L6 38.6V33c0-.6-.4-1-1-1H2V12h14v11c0 .6.4 1 1 1h13v8zm16-10h-3c-.6 0-1 .4-1 1v5.6l-6.3-6.3c-.2-.2-.4-.3-.7-.3H18V2h28v20z"/><path d="M23 10h18c.6 0 1-.4 1-1s-.4-1-1-1H23c-.6 0-1 .4-1 1s.4 1 1 1zm0 6h18c.6 0 1-.4 1-1s-.4-1-1-1H23c-.6 0-1 .4-1 1s.4 1 1 1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--chat</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-check.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M20.2 9.7l-7 7.6-1.5-1.5c-.9-.9-2.2-.9-3.1 0-.9.9-.9 2.3 0 3.1l2.7 2.8.4.4c1.7 1.5 3.2-.2 3.4-.4.1-.1 2.8-3 8.3-9 .8-.9.8-2.3-.1-3.1s-2.3-.8-3.1.1z"/><path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm-.2 28.7C8.8 28.7 3.1 23 3.1 16S8.8 3.3 15.8 3.3 28.5 9 28.5 16s-5.7 12.7-12.7 12.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--check</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-check-solo.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M10.4 18.8l14-15.4c1.7-1.8 4.5-1.9 6.3-.1 1.7 1.7 1.8 4.5.2 6.3L14.3 27.9c-1.3 2.1-4 2.8-6.1 1.4-.4-.3-.8-.6-1.1-1l-5.8-6c-1.7-1.8-1.6-4.7.1-6.5 1.7-1.7 4.4-1.7 6.2 0l2.8 3z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--check-solo</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-chef.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 38"><path d="M20.2 23.6c1.3-1.7 2-3.8 2-6.2 0-1.6-.4-3.3-1.1-4.8h.3c.4 0 .8-.4.8-.8V8.7c1-.7 1.6-1.9 1.6-3.2 0-2.2-1.8-4-4-4-.6 0-1.2.1-1.7.4-.9-1.2-2.3-2-3.8-2s-3 .7-3.8 2c-.6-.2-1.2-.3-1.8-.3-2.2 0-4 1.8-4 4 0 1.3.6 2.4 1.6 3.2V12c0 .4.4.8.8.8h.3c-.7 1.5-1.1 3.1-1.1 4.8 0 2.3.7 4.5 2 6.2C3.3 26 0 31.3 0 37.2c0 .4.4.8.8.8h26.9c.4 0 .8-.4.8-.8 0-5.9-3.3-11.2-8.3-13.6zM6.3 5.5c0-1.3 1.1-2.4 2.4-2.4.7 0 1.2.3 1.5.5.3.4.8.3 1.1 0 0 0 .1-.1.1-.2.5-1.1 1.6-1.8 2.9-1.8 1.2 0 2.3.7 2.9 1.8.2.4.7.6 1.1.4.1 0 .1-.1.2-.1.3-.2.8-.5 1.5-.5 1.3 0 2.4 1.1 2.4 2.4 0 .9-.4 1.6-1.2 2.1-.2.1-.4.4-.4.7v2.8H7.9V8.3c0-.3-.1-.5-.4-.7-.7-.4-1.2-1.2-1.2-2.1zm2.9 7.2h10.1c.8 1.4 1.3 3 1.3 4.8 0 2.3-.8 4.4-2.2 5.9-2.3 2.6-6 2.6-8.3 0-1.4-1.5-2.2-3.6-2.2-5.9 0-1.8.5-3.5 1.3-4.8zM1.6 36.4c.3-5.1 3.3-9.6 7.8-11.6 1.4 1.3 3.1 2.1 4.9 2.1 1.8 0 3.5-.8 4.9-2.1 4.4 2 7.5 6.5 7.8 11.6H1.6z"/><path d="M10.3 31.7H7.1c-.4 0-.8.4-.8.8s.3.7.8.8h3.2c.4 0 .8-.4.8-.8-.1-.5-.4-.8-.8-.8z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--chef</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-clock.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 33"><path d="M23.6 8l-6.4 6.4c-.6-.3-1.2-.3-1.8 0l-3.8-3.8c-.3-.3-.7-.3-1 0-.3.3-.3.7 0 1l3.8 3.8c-.4.8-.2 1.8.4 2.4.4.4.9.6 1.5.6s1.1-.2 1.5-.6c.6-.6.8-1.6.4-2.4L24.6 9c.3-.3.2-.7-.1-1-.2-.2-.6-.2-.9 0zm-6.8 8.8c-.3.3-.7.3-1 0-.1-.1-.2-.3-.2-.5 0-.4.3-.7.7-.7.2 0 .4.1.5.2.1.1.2.3.2.5s-.1.4-.2.5z"/><path d="M33.3 25.5h-3.6c.6-.9 1.2-1.9 1.6-2.9.8-2 1.3-4.2 1.3-6.3 0-2.2-.4-4.3-1.3-6.3-.8-1.9-2-3.7-3.5-5.2s-3.2-2.7-5.2-3.5C20.6.5 18.5 0 16.3 0S12 .4 10 1.3c-2 .8-3.7 2-5.2 3.5S2.1 8 1.3 10C.4 12 0 14.1 0 16.3s.4 4.3 1.3 6.3c.8 1.9 2 3.7 3.5 5.2S8 30.5 10 31.3c2 .8 4.2 1.3 6.3 1.3 2.2 0 4.3-.4 6.3-1.3.4-.2.5-.6.4-.9-.2-.4-.6-.5-.9-.4-1.6.7-3.3 1-5.1 1.1v-3.5c0-.4-.3-.7-.7-.7-.4 0-.7.3-.7.7v3.5c-1.7-.1-3.5-.5-5.1-1.1-1.5-.7-3-1.6-4.2-2.7l1.5-1.5c.3-.3.2-.7-.1-1-.3-.2-.7-.2-.9 0l-1.5 1.5c-1.1-1.3-2.1-2.7-2.7-4.2-.7-1.6-1.1-3.3-1.1-5.1H5c.4 0 .7-.3.7-.7s-.4-.7-.7-.7H1.5c.1-1.8.4-3.5 1.1-5.1.6-1.5 1.6-2.9 2.7-4.2l1.5 1.5c.3.3.7.3 1 0 .3-.3.3-.7 0-1L6.3 5.3C7.6 4.2 9 3.2 10.5 2.6c1.6-.7 3.3-1 5.1-1.1V5c0 .4.3.7.7.7.4-.1.7-.4.7-.7V1.5c1.7.1 3.5.4 5.1 1.1 1.5.7 3 1.6 4.2 2.7l-1.5 1.5c-.3.3-.3.7 0 1 .3.3.7.3 1 0l1.5-1.5c1.1 1.3 2.1 2.7 2.7 4.2.7 1.6 1.1 3.3 1.1 5.1H29c-.4 0-.7.3-.7.7 0 .4.3.7.7.7h2.1c-.1 1.7-.5 3.5-1.1 5.1-.4 1-1 2-1.7 2.9v-4.4c0-.4-.4-.7-.8-.7s-.6.3-.7.7v5.7c0 .4.3.7.7.7h5.7c.4 0 .7-.3.7-.7.1-.5-.2-.8-.6-.8z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--clock</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-comp.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 25"><path d="M1.4 25h30.2c.5 0 .9-.2 1.2-.6.3-.4.3-.9.1-1.3l-2.6-5.8V2.1c0-1.1-.9-2.1-2.1-2.1H4.8c-1.1 0-2.1.9-2 2.1v15.1L.2 23.1c-.3.7.1 1.5.8 1.8 0 .1.2.1.4.1zm11.4-1.4l.7-1.4h6l.7 1.4h-7.4zM4.1 2.1c0-.4.3-.7.7-.7h23.4c.4 0 .7.3.7.7v14.6H4.1V2.1zm-.2 16h25.2l2.5 5.6h-9.9l-1.2-2.4c-.1-.2-.4-.4-.6-.4H13c-.3 0-.5.1-.6.4l-1.2 2.4H1.3l2.6-5.6z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--comp</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-dedicated.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 38"><path d="M.8 36.3h15.8C17 37.3 18 38 19 38s2-.7 2.3-1.7h15.8c.5 0 .8-.4.8-.8s-.4-.8-.8-.8H21.3c-.2-.7-.8-1.3-1.5-1.5v-1.8h10.7c1.4 0 2.5-1.1 2.5-2.5v-6.6c0-.6-.2-1.2-.6-1.7.4-.4.6-1 .6-1.7v-6.6c0-.6-.2-1.2-.6-1.7.4-.4.6-1 .6-1.7V2.5C33 1.1 31.9 0 30.6 0H7.4C6.1 0 5 1.1 5 2.5v6.6c0 .6.2 1.2.6 1.7-.4.5-.6 1-.6 1.7V19c0 .6.2 1.2.6 1.7-.4.5-.6 1-.6 1.7V29c0 1.4 1.1 2.5 2.5 2.5h10.7v1.8c-.7.2-1.2.8-1.5 1.5H.8c-.5 0-.8.4-.8.8s.4.7.8.7zM6.6 19v-6.6c0-.5.4-.8.8-.8h23.1c.5 0 .8.4.8.8V19c0 .5-.4.8-.8.8H7.4c-.4 0-.8-.3-.8-.8zm0-16.5c0-.5.4-.8.8-.8h23.1c.5 0 .8.4.8.8v6.6c0 .5-.4.8-.8.8H7.4c-.4 0-.8-.4-.8-.8V2.5zm0 26.4v-6.6c0-.5.4-.8.8-.8h23.1c.5 0 .8.4.8.8v6.6c0 .5-.4.8-.8.8H7.4c-.4 0-.8-.3-.8-.8zM19 34.7c.5 0 .8.4.8.8 0 .5-.4.8-.8.8-.5 0-.8-.4-.8-.8s.3-.8.8-.8z"/><path d="M9.1 8.3c.5 0 .8-.4.8-.8V4.1c0-.5-.4-.8-.8-.8s-.8.4-.8.8v3.3c0 .5.3.9.8.9zm0 4.9c-.5 0-.8.4-.8.8v3.3c0 .5.4.8.8.8s.8-.4.8-.8V14c0-.4-.4-.8-.8-.8zm0 9.9c-.5 0-.8.4-.8.8v3.3c0 .5.4.8.8.8s.8-.4.8-.8V24c0-.5-.4-.9-.8-.9zM28.9 6.6c.5 0 .8-.4.8-.8 0-.2-.1-.4-.2-.6-.3-.3-.8-.3-1.2 0-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.1.4.2.6.2zm-3.3 0c.2 0 .4-.1.6-.2.3-.3.3-.8 0-1.1-.3-.3-.8-.3-1.2 0-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2 0 .4.1.6.1zm-3.3 0c.5 0 .8-.4.8-.8 0-.2-.1-.4-.2-.6-.3-.3-.8-.3-1.2 0-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.1.4.2.6.2zm6 8.5c-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.1.4.2.6.2.5 0 .8-.4.8-.8 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0zm-3.3 0c-.1.2-.2.4-.2.6 0 .2.1.4.2.6.1.2.4.2.6.2.5 0 .8-.4.8-.8 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0zm-3.3 0c-.2.2-.2.4-.2.6 0 .2.1.4.2.6.1.2.4.2.6.2.5 0 .8-.4.8-.8 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0zm7.2 11.3c.2 0 .4-.1.6-.2.2-.1.3-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.8-.3-1.2 0-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.2.4.2.6.2zm-3.3 0c.5 0 .8-.4.8-.8 0-.2-.1-.4-.2-.6-.3-.3-.8-.3-1.2 0-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.2.4.2.6.2zm-3.3 0c.2 0 .4-.1.6-.2.2-.1.2-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.8-.3-1.2 0-.2.2-.2.4-.2.6 0 .2.1.4.2.6.2.2.4.2.6.2z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--dedicated</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-doc.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 34"><path d="M17.4 33.3c.2 0 .4-.1.5-.2l6.9-6.9c.1-.1.2-.3.2-.5V2.1C25 .9 24.1 0 22.9 0H2.1C.9 0 0 .9 0 2.1v29.2c0 1.1.9 2.1 2.1 2.1h15.3zm.7-2.3v-3.9c0-.4.3-.7.7-.7h3.9L18.1 31zm-16.7.3V2.1c0-.4.3-.7.7-.7h20.8c.4 0 .7.3.7.7V25h-4.9c-1.1 0-2.1.9-2.1 2.1V32H2.1c-.4-.1-.7-.4-.7-.7z"/><path d="M4.9 6.9h15.3c.4 0 .7-.3.7-.7 0-.4-.3-.6-.7-.7H4.9c-.4 0-.7.3-.7.7 0 .4.3.7.7.7zm0 4.2h15.3c.4 0 .7-.3.7-.7 0-.4-.3-.7-.7-.7H4.9c-.4 0-.7.3-.7.7 0 .4.3.7.7.7zm0 4.2h15.3c.4 0 .7-.3.7-.7 0-.4-.3-.7-.7-.7H4.9c-.4 0-.7.3-.7.7 0 .4.3.7.7.7zm0 4.1h15.3c.4 0 .7-.3.7-.7 0-.4-.3-.6-.7-.7H4.9c-.4 0-.7.3-.7.7 0 .4.3.7.7.7zm0 4.2h15.3c.4 0 .7-.3.7-.7 0-.4-.3-.7-.7-.7H4.9c-.4 0-.7.3-.7.7 0 .4.3.7.7.7zm0 4.2h8.3c.4 0 .7-.3.7-.7 0-.4-.3-.7-.7-.7H4.9c-.4 0-.7.3-.7.7 0 .4.3.7.7.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--doc</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-dropdown.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="dropdown" d="M0 8h32L16 24z"/></defs><use xlink:href="#dropdown" overflow="visible"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--dropdown</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-email.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 23"><path d="M34 .5s0-.1-.1-.1V.3l-.1-.1s-.1 0-.1-.1h-.1H.7C.6 0 .6 0 .5 0H.4S.3 0 .3.1L.2.2v.1L.1.4v21.8s0 .1.1.1v.1c.1.1.1.1.2.1h.1c.1 0 .2.1.3.1h32.6c.1 0 .2 0 .3-.1h.1c.1 0 .1-.1.2-.1v-.1l.1-.1v-.1V.7.6c-.1 0-.1-.1-.1-.1zM1.4 2.3l10.4 9.1-10.4 9V2.3zM17 13.9L2.6 1.4h28.8L17 13.9zm-4.1-1.6l3.6 3.1c.3.2.7.2.9 0l3.6-3.1 10.3 9H2.6l10.3-9zm9.3-1l10.4-9.1v18.1c0 .1-10.4-9-10.4-9z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--email</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-facebook.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16zm0-29C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13S23.2 3 16 3z"/><path d="M21 12.6v-1.1c0-.1 0-.1-.1-.1h-1.8c-1.2 0-2.2.7-2.4 2-.1.2-.1.5-.1.8v1.4h-1.7c-.1 0-.2 0-.2.2v1.8c0 .1 0 .2.2.2h1.5c.1 0 .1 0 .1.1V23H9.9c-.5.1-.8-.2-.8-.8V10c0-.6.3-.9.9-.9h12.2c.6 0 .9.3.9.9v12.2c0 .5-.3.9-.9.9h-3.3c-.1 0-.2 0-.2-.2v-5.1c0-.1 0-.2.2-.2h1.7l.3-2.1h-2c-.1 0-.1 0-.1-.1V14c0-.5.3-.8.8-.8H21v-.6z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--facebook</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-facebook.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 36.7"><path d="M30 31.7c0 .9-.7 1.6-1.6 1.6h-7.7V21.7h3.9l.6-4.5h-4.5v-2.9c0-1.3.4-2.2 2.2-2.2h2.4V8c-1.2-.1-2.3-.2-3.5-.2-3.5 0-5.8 2.1-5.8 6v3.4h-3.9v4.5H16v11.6H1.6c-.9 0-1.6-.7-1.6-1.6V5c0-.9.7-1.6 1.6-1.6h26.7c1 0 1.7.7 1.7 1.6v26.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--facebook-solo</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-folders.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 30"><path d="M.8 29.3h32.4c.4 0 .8-.3.8-.8v-20c0-.4-.3-.8-.8-.8H14.4l-5-4.4c-.2-.1-.3-.2-.5-.2H.8c-.5 0-.8.3-.8.8v24.7c0 .3.3.7.8.7zm.7-24.7h7L13.6 9c.1.1.3.2.5.2h18.2v18.5H1.5V4.6z"/><path d="M36.2 4.6H16L10.9.2c-.1-.1-.3-.2-.5-.2H4.6c-.4 0-.7.3-.7.8 0 .4.3.8.8.8h5.5l5 4.4c.1.1.3.2.5.2h19.8v18.5c0 .4.4.8.8.7.4 0 .7-.3.7-.7V5.4c0-.4-.3-.8-.8-.8z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--folders</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-forward.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><path d="M17 9.9c-3.9 0-7.1 3.2-7.1 7.1s3.2 7.1 7.1 7.1 7.1-3.2 7.1-7.1-3.2-7.1-7.1-7.1zm0 12.8c-3.1 0-5.7-2.5-5.7-5.7s2.5-5.7 5.7-5.7 5.7 2.5 5.7 5.7-2.6 5.7-5.7 5.7zM33.3 22.7h-9.9c-.1 0-.2 0-.3.1-.2.1-.3.2-.4.4 0 .1-.1.2-.1.3v9.9c0 .4.3.7.7.7s.7-.3.7-.7v-8.2l8.6 8.6c.1.1.3.2.5.2s.4-.1.5-.2c.3-.3.3-.7 0-1L25 24.2h8.2c.4 0 .7-.3.7-.7s-.2-.8-.6-.8zM.7 11.3h9.9c.1 0 .2 0 .3-.1.2-.1.3-.2.4-.4 0-.1.1-.2.1-.3V.7c-.1-.4-.4-.7-.8-.7s-.7.3-.7.7v8.2L1.3.3C1 0 .6 0 .3.3s-.3.7 0 1l8.6 8.6H.7c-.4 0-.7.3-.7.7s.3.7.7.7zM33.3 9.9h-8.2l8.6-8.6c.3-.3.3-.7 0-1s-.7-.3-1 0l-8.6 8.6V.7c0-.4-.3-.7-.7-.7s-.7.3-.7.7v9.9c0 .1 0 .2.1.3.1.2.2.3.4.4.1 0 .2.1.3.1h9.9c.4 0 .7-.3.7-.7s-.4-.8-.8-.8zM.7 24.1h8.2L.3 32.7c-.3.3-.3.7 0 1 .1.1.3.2.5.2s.4-.1.5-.2l8.6-8.6v8.2c0 .4.3.7.7.7s.7-.3.7-.7v-9.9c0-.1 0-.2-.1-.3-.1-.2-.2-.3-.4-.4-.1 0-.2-.1-.3-.1H.7c-.4.1-.7.4-.7.8s.3.7.7.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--forward</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-glass.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><path d="M22.4 26.3l6.9 6.9c.5.5 1.2.8 1.9.8s1.4-.3 1.9-.8c1.1-1.1 1.1-2.8 0-3.9l-6.9-6.9c-.8-.8-2.2-1-3.2-.5l-2.7-2.7c4-4.5 3.8-11.5-.6-15.8C17.6 1.2 14.6 0 11.5 0c-3.1 0-6 1.2-8.2 3.4C1.2 5.6 0 8.5 0 11.6c0 3.1 1.2 6 3.4 8.2 2.2 2.2 5.1 3.4 8.2 3.4 2.8 0 5.5-1 7.6-2.9l2.7 2.7c-.5 1.1-.3 2.4.5 3.3zm2.8-2.8l6.9 6.9c.5.5.5 1.2 0 1.7-.4.4-1.2.4-1.7 0l-6.9-6.9c-.5-.5-.5-1.2 0-1.7.2-.2.5-.3.8-.3.4 0 .7.1.9.3zM4.5 18.7c-1.9-1.9-3-4.4-3-7.1 0-2.7 1-5.2 2.9-7.1 1.9-1.9 4.4-2.9 7.1-2.9 2.7 0 5.2 1.1 7.1 3 3.9 3.9 3.9 10.3.1 14.2-1.9 1.9-4.4 2.9-7 2.9-2.7-.1-5.3-1.1-7.2-3z"/><path d="M8.3 3.7c-1 .4-1.9 1-2.7 1.8-1.6 1.6-2.5 3.7-2.5 6 0 .4.3.8.8.8.4 0 .8-.3.8-.8 0-1.9.7-3.6 2-4.9C7.3 6 8 5.5 8.9 5.2c.4-.2.6-.6.4-1-.2-.4-.6-.6-1-.5z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--glass</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-globe.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46"><path d="M5.6 38c2.6 3 5.9 5.3 9.6 6.6.1 0 .1 0 .2.1 2.4.8 4.9 1.3 7.6 1.3 2.7 0 5.3-.5 7.7-1.4 4.1-1.5 7.6-4 10.2-7.3l.1-.1c3.1-3.9 5-8.8 5-14.2 0-5.4-1.9-10.3-4.9-14.2-2.4-3.1-5.6-5.5-9.2-7-.1 0-.1-.1-.2-.1C29 .6 26.1 0 23 0c-3.1 0-6 .6-8.7 1.7h-.1C11 3 8.2 5.1 5.9 7.6c-.1.2-.2.3-.3.4C2.1 12 0 17.3 0 23s2.1 11 5.6 15zM6.7 9.8c.9.5 1.9 1 2.9 1.4C8.6 14.6 8 18.3 8 22H2c.3-4.6 2-8.9 4.7-12.2zM22 2v9.9c-3.4-.2-6.7-.8-9.9-2 .8-2.2 1.9-4.4 3.1-6.4 2.1-.8 4.4-1.3 6.8-1.5zm8.8 1.5c1.4 2.2 2.5 4.5 3.3 7-3.3 1-6.7 1.5-10.1 1.4V2c2.4.2 4.7.7 6.8 1.5zM44 22h-6c0-3.4-.5-6.9-1.4-10.2 1.1-.4 2.1-.8 3.2-1.3 2.4 3.2 3.9 7.2 4.2 11.5zm-4.2 13.5c-1.2-.6-2.4-1.1-3.7-1.5 1-3.1 1.6-6.6 1.8-10h6c-.2 4.3-1.7 8.3-4.1 11.5zm-10.2 7.4c-1.8.6-3.6.9-5.6 1V34c3.2 0 6.4.4 9.6 1.3-.8 2.1-1.9 3.9-3.2 6.2l-.8 1.4zm-13.2 0c-.5-.9-1-1.7-1.4-2.5-.9-1.6-1.7-3-2.4-4.5 3-1 6.2-1.6 9.4-1.8V44c-1.9-.1-3.8-.5-5.6-1.1zm5.6-29V22H10c0-3.5.5-6.9 1.5-10.2 3.4 1.2 6.9 1.9 10.5 2.1zm12.7-1.5c.9 3.1 1.3 6.3 1.3 9.6H24v-8h.1c3.6 0 7.1-.5 10.6-1.6zM24 32v-8h11.9c-.2 3.3-.8 6.6-1.7 9.4-3.3-.9-6.7-1.4-10.2-1.4zm-2-8v8.1c-3.4.2-6.8.8-10.1 1.9-1-3-1.7-6.6-1.9-10h12zM8.1 24c.2 3.7.9 7.5 2 10.7-1.1.5-2.3 1-3.3 1.5C4 32.9 2.3 28.6 2 24h6.1zm0 13.8c.9-.4 1.7-.8 2.6-1.2.7 1.7 1.6 3.2 2.5 4.9 0 .1.1.1.1.2-1.9-1.1-3.7-2.4-5.2-3.9zm24.5 3.8c1.1-1.9 2.1-3.7 2.9-5.7 1 .3 2 .7 3 1.2-1.7 1.8-3.6 3.4-5.9 4.5zm5.9-32.7c-.9.4-1.7.7-2.5 1-.6-1.6-1.2-3.2-2-4.8 1.7 1.1 3.2 2.3 4.5 3.8zM12 5.1c-.7 1.3-1.3 2.7-1.8 4.1-.7-.3-1.4-.6-2.1-1C9.3 7 10.6 6 12 5.1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--globe</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-globe-3d.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" enable-background="new 0 0 32 32"><defs><filter id="a" filterUnits="userSpaceOnUse" x="0" y="0" width="32" height="32"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32" id="b"><path fill="#fff" d="M0 0h32v32H0z" filter="url(#a)"/></mask><path d="M16 28.7c-.6 0-1.1 0-1.7-.1 0-.1-.1-.2-.1-.3-1.1-2-2-3.9-2.5-5.8 1.4.1 2.8.2 4.4.2 5 0 8.8-.7 11.7-2-1.9 4.7-6.5 8-11.8 8m-11.8-8c1.1.5 2.4.9 3.8 1.3.4 1.7.9 3.3 1.7 5-2.5-1.4-4.4-3.7-5.5-6.3m7.3-6.8c.2-.8.5-1.6.9-2.3 1.1.1 2.3.1 3.7.1 5.2 0 8.8-.7 10.8-2.2 1.1 1.9 1.8 4.1 1.8 6.5-2 2.2-6.2 3.4-12.6 3.4-1.9 0-3.6-.1-5.1-.3-.1-1.9 0-3.6.5-5.2m-1-6c-1.6-.3-2.6-.7-3.2-1.1 1.9-1.8 4.4-3 7.1-3.4-1.3 1.2-2.7 2.7-3.9 4.5m14.2-1.1c-1 .7-3.4 1.5-8.7 1.5h-1.6c2.1-2.6 4.5-4.1 5.1-4.4 2 .5 3.8 1.6 5.2 2.9M3.3 15.9c0-2.4.7-4.6 1.8-6.5.9.7 2.2 1.2 3.7 1.6-.2.6-.5 1.2-.7 1.9-.5 1.8-.7 3.6-.7 5.4-1.7-.6-3.1-1.3-4.1-2.4M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0" mask="url(#b)"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--globe-3d</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-http.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 33"><path d="M33.3 31.2H.7c-.4 0-.7.4-.7.7 0 .4.3.7.7.7h32.6c.4 0 .7-.4.7-.7-.1-.4-.3-.7-.7-.7zM2.1 29.8c.9 0 1.8-.6 2-1.5 1.6-.1 3.2-.4 4.7-.8.4.6 1.1.9 1.8.9 1.2 0 2.1-1 2.1-2.1V26c2-.9 3.8-2.1 5.4-3.5.3.1.6.2 1 .2 1.2 0 2.1-1 2.1-2.1 0-.3-.1-.7-.2-1 1.4-1.7 2.6-3.5 3.5-5.4h.3c1 .7 2.3.4 2.9-.6.7-1 .4-2.3-.6-2.9-.4-.2-.8-.4-1.2-.4.6-2.2.9-4.4.9-6.7V2.4l3 3c.3.3.7.3 1 0 .3-.3.3-.7 0-1L26.5.2c-.3-.3-.7-.3-1 0l-4.2 4.2c-.3.3-.2.7.1 1 .3.2.7.2.9 0l3-3v1.1c0 2.2-.3 4.3-.9 6.4-1.1.1-1.9 1-1.9 2.1 0 .6.2 1.1.6 1.5-.9 1.8-2 3.6-3.3 5.1-.3-.1-.6-.2-.9-.2-1.2 0-2.1 1-2.1 2.1 0 .3.1.6.2.9-1.5 1.3-3.3 2.4-5.1 3.3-.4-.4-.9-.6-1.5-.6-1.1 0-2 .9-2.1 1.9-1.5.4-2.9.7-4.4.8-.3-.8-1.1-1.3-2-1.3-1.2 0-2.1 1-2.1 2.1.2 1.2 1.2 2.2 2.3 2.2zm22.7-18.5c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-.3.3-.7.7-.7zm-5.7 8.5c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-.3.3-.7.7-.7zm-8.5 5.7c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7zm-8.5 1.4c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--http</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-http.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 32"><path d="M34.2 30.4H.8c-.4 0-.8.3-.8.8 0 .4.3.8.8.8h33.5c.4 0 .8-.3.8-.8-.1-.4-.4-.8-.9-.8zM2.3 21.3c-1.3 0-2.3 1-2.3 2.3v3c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3v-3c0-1.3-1.1-2.3-2.3-2.3zm.7 5.3c0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8v-3c0-.4.3-.8.8-.8s.8.4.8.8v3zm4.6-12.1v12.2c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3V14.5c0-1.3-1-2.3-2.3-2.3-1.3 0-2.3 1-2.3 2.3zm3.1 0v12.2c0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8V14.5c0-.4.4-.7.8-.7s.7.3.8.7zm4.5 6v6.1c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3v-6.1c0-1.3-1-2.3-2.3-2.3-1.3.1-2.3 1.1-2.3 2.3zm3.1 0v6.1c0 .4-.4.7-.8.7s-.7-.3-.7-.7v-6.1c0-.4.4-.7.8-.7.3 0 .6.4.7.7zm4.5-10.6v16.7c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3V9.9c0-1.3-1-2.3-2.3-2.3-1.3 0-2.3 1-2.3 2.3zm3.1 0v16.7c0 .4-.4.7-.8.7s-.7-.3-.7-.7V9.9c0-.4.3-.8.8-.8s.7.4.7.8zM32.7 0c-1.3 0-2.3 1-2.3 2.3v24.3c0 1.3 1 2.3 2.3 2.3 1.3 0 2.3-1 2.3-2.3V2.3C35 1 34 0 32.7 0zm.8 26.6c0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8V2.3c0-.4.4-.7.8-.7s.7.3.7.7c.1 0 .1 24.3.1 24.3z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--http2</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-instagram.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30.1"><path d="M15 .1c4.1 0 4.6 0 6.2.1 1.2 0 2.5.3 3.6.7 1 .4 1.9 1 2.7 1.7.8.7 1.4 1.7 1.7 2.7.4 1.2.7 2.4.7 3.6.1 1.6.1 2.1.1 6.2s0 4.6-.1 6.2c0 1.2-.3 2.5-.7 3.6-.8 2-2.4 3.6-4.4 4.4-1.2.4-2.4.7-3.6.7-1.6.1-2.1.1-6.2.1s-4.6 0-6.2-.1c-1.2 0-2.5-.3-3.6-.7-1-.4-1.9-1-2.7-1.7-.8-.8-1.4-1.7-1.7-2.7-.4-1.2-.7-2.4-.7-3.6-.1-1.7-.1-2.2-.1-6.2s0-4.6.1-6.2c0-1.2.3-2.5.7-3.6.4-1 1-1.9 1.7-2.7.8-.8 1.7-1.4 2.7-1.7C6.4.5 7.6.2 8.8.2 10.4.1 10.9.1 15 .1zm0 2.7c-4 0-4.5 0-6.1.1-.9 0-1.9.1-2.7.5-.7.2-1.3.6-1.8 1.1-.5.5-.9 1.1-1.1 1.7-.3.9-.5 1.9-.5 2.8-.1 1.6-.1 2.1-.1 6.1s0 4.5.1 6.1c0 1 .2 1.9.5 2.8.2.7.6 1.2 1.1 1.7.5.5 1.1.9 1.7 1.1.9.3 1.9.5 2.8.5 1.6.1 2.1.1 6.1.1s4.5 0 6.1-.1c1 0 1.9-.2 2.8-.5 1.3-.5 2.3-1.5 2.8-2.8.3-.9.5-1.8.5-2.8.1-1.6.1-2.1.1-6.1s0-4.5-.1-6.1c0-1-.2-1.9-.5-2.8-.2-.7-.6-1.2-1.1-1.7-.5-.5-1.1-.9-1.7-1.1-.9-.4-1.9-.5-2.8-.5-1.6-.1-2.1-.1-6.1-.1zm0 4.6c4.3 0 7.7 3.4 7.7 7.7s-3.4 7.7-7.7 7.7-7.7-3.4-7.7-7.7 3.4-7.7 7.7-7.7zm0 12.7c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5c0 2.7 2.2 5 5 5zm9.8-13c0 1-.8 1.8-1.8 1.8s-1.8-.8-1.8-1.8.8-1.8 1.8-1.8 1.8.8 1.8 1.8z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--instagram</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-joystick.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 34"><path d="M.7 34H29c.4 0 .7-.3.7-.7V29c0-.4-.3-.7-.7-.7h-2.1v-2.1c0-.4-.3-.7-.7-.7h-2.1v-2.1c0-.4-.3-.7-.7-.7H17V12.4c2.5-.9 4.2-3.2 4.2-6 0-3.5-2.9-6.4-6.4-6.4-3.5 0-6.4 2.9-6.4 6.4 0 2.8 1.8 5.1 4.2 6v10.3H6.4c-.4 0-.7.3-.7.7v2.1H3.5c-.4 0-.7.3-.7.7v2.1H.7c-.4 0-.7.4-.7.7v4.2c0 .5.3.8.7.8zM9.9 6.4c0-2.7 2.2-5 5-5 2.7 0 5 2.2 5 5 0 2.7-2.2 5-5 5-2.8-.1-5-2.3-5-5zm4.3 6.3c.2 0 .5.1.7.1.2 0 .5 0 .7-.1v10h-1.4v-10zM7.1 24.1h15.6v1.4H7.1v-1.4zm-2.9 2.8h21.2v1.4H4.2v-1.4zm-2.8 2.9h26.9v2.8H1.4v-2.8z"/><path d="M15.6 3.5c0-.4-.3-.7-.7-.7-2 0-3.5 1.6-3.5 3.5 0 .4.3.7.7.7.4 0 .7-.3.7-.7 0-1.2 1-2.1 2.1-2.1.4 0 .7-.3.7-.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--joystick</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-joystick.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 42"><path d="M2.6 42h29.8c1.4 0 2.6-1.2 2.6-2.6V21.9c0-1.4-1.2-2.6-2.6-2.6h-2.6v-7C29.8 5.5 24.3 0 17.5 0S5.2 5.5 5.2 12.2v7H2.6c-1.4 0-2.6 1.2-2.6 2.6v17.5C0 40.8 1.2 42 2.6 42zM7 12.2C7 6.5 11.7 1.8 17.5 1.8S28 6.5 28 12.2v7h-3.5v-6.9c0-3.9-3.1-7.1-7-7.1s-7 3.2-7 7.1v6.9H7v-7zm15.8 7H12.2v-6.9c0-2.9 2.4-5.3 5.2-5.3s5.2 2.4 5.2 5.3v6.9zm-21 2.7c0-.5.4-.9.9-.9h29.8c.5 0 .9.4.9.9v17.5c0 .5-.4.9-.9.9H2.6c-.5 0-.9-.4-.9-.9V21.9zm13.3 8.6l-1 5.2c-.1.5.2.9.7 1h5.5c.5 0 .9-.4.9-.9 0-.1 0-.3-.1-.4l-1-5c1.4-1.3 1.4-3.6.1-4.9-.7-.7-1.6-1.1-2.5-1.1-1.9 0-3.5 1.6-3.5 3.5-.2 1.1.2 2 .9 2.6z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--lock</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-message.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M12 27.7c0 2.3 1.7 4.3 4 4.3s4-1.8 4-4.3v-.2h-8v.2zM26.1 20v-7.7c0-5.1-3.5-9.5-8.2-10.3.5-.2.6-.5.6-.8C18.5.5 17.4 0 16 0s-2.5.5-2.5 1.1c0 .3.3.7.6.8C9.5 2.8 6 7.1 6 12.3V20c0 1.8-1.4 3.1-3 3.1v3.4h26v-3.4c-1.6 0-2.9-1.3-2.9-3.1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--message</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-mouse.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 37"><path d="M23 25.3v-9.2C23 10 18.2 5 12.3 4.6V.8c0-.4-.3-.8-.8-.8s-.8.3-.8.8v3.9C4.8 5 0 10 0 16.1v9.2c0 6.3 5.2 11.5 11.5 11.5S23 31.6 23 25.3zM11.5 10.7c.4 0 .8.3.8.8V13c0 .4-.3.8-.8.8s-.8-.3-.8-.8v-1.5c0-.4.4-.8.8-.8zm0 24.6c-5.5 0-10-4.5-10-10v-9.2c0-5.2 4.1-9.5 9.2-9.9v3.2c-.9.3-1.5 1.2-1.5 2.2V13c0 1.3 1 2.3 2.3 2.3s2.3-1 2.3-2.3v-1.5c0-1-.6-1.8-1.5-2.2V6.2c5.1.4 9.2 4.7 9.2 9.9v9.2c0 5.5-4.5 10-10 10z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--mouse</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-network.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 30"><path d="M1 25c-.6 0-1-.5-1-1C0 10.8 10.8 0 24 0s24 10.8 24 24c0 .6-.5 1-1 1h-4.2c-.6 0-1-.5-1-1.1 0-.5.5-1 1-1h3.1C45.3 11.4 35.7 2.1 24 2.1S2.7 11.4 2.1 23h3.1c.6 0 1 .5 1 1.1 0 .5-.5 1-1 1C5.2 25 1 25 1 25zM25 5.2c0 .6-.5 1-1 1-2.4 0-4.7.5-6.9 1.4-2.1.9-4 2.2-5.6 3.8C9.9 13 8.6 14.9 7.7 17c-.2.4-.6.6-1 .6-.6 0-1-.5-1-1 0-.1 0-.3.1-.4 1-2.4 2.4-4.5 4.2-6.3 1.8-1.8 3.9-3.3 6.3-4.2 2.4-1 5.1-1.6 7.7-1.6.6.1 1 .5 1 1.1zm10.1 5.5c.4.4.5 1 .1 1.5L28 20.8c.7.9 1.1 2.1 1.2 3.2 0 2.9-2.3 5.2-5.2 5.2-2.9 0-5.2-2.3-5.2-5.2 0-2.9 2.3-5.2 5.2-5.2.9 0 1.7.2 2.5.6l7.2-8.6c.3-.4 1-.5 1.4-.1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--network</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-node.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M43 35c-.4.4-.4 1.1 0 1.6.2.2.5.3.8.3.3 0 .6-.1.8-.3 4.8-4.8 7.5-11.2 7.5-18S49.4 5.4 44.6.6c-.4-.4-1.1-.4-1.6 0-.4.4-.4 1.1 0 1.6 4.4 4.4 6.8 10.2 6.8 16.5S47.4 30.6 43 35zM8.5.5C3.7 5.3 1 11.7 1 18.5s2.7 13.2 7.5 18c.2.2.5.3.8.3s.6-.1.8-.3c.4-.4.4-1.1 0-1.6-4.4-4.4-6.8-10.2-6.8-16.5S5.6 6.5 10 2.1c.4-.4.4-1.1 0-1.6C9.6.1 8.9.1 8.5.5z"/><path d="M38.3 5.2c-.4.4-.4 1.1 0 1.6 3.1 3.1 4.9 7.3 4.9 11.8s-1.7 8.6-4.9 11.8c-.4.4-.4 1.1 0 1.6.2.2.5.3.8.3.3 0 .6-.1.8-.3 3.6-3.6 5.5-8.3 5.5-13.3s-2-9.8-5.5-13.3c-.5-.6-1.2-.6-1.6-.2zm-25.1 0c-3.6 3.6-5.5 8.3-5.5 13.3s2 9.8 5.5 13.3c.2.2.5.3.8.3s.6-.1.8-.3c.4-.4.4-1.1 0-1.6-3.1-3.1-4.9-7.3-4.9-11.8s1.7-8.6 4.9-11.8c.4-.4.4-1.1 0-1.6-.5-.2-1.2-.2-1.6.2z"/><path d="M33.6 27.1c.2.2.5.3.8.3s.6-.1.8-.3c2.3-2.3 3.6-5.4 3.6-8.6s-1.3-6.3-3.6-8.6c-.4-.4-1.1-.4-1.6 0s-.4 1.1 0 1.6c1.9 1.9 2.9 4.4 2.9 7.1s-1 5.2-2.9 7.1c-.5.3-.5 1 0 1.4zM19.4 9.9c-.4-.4-1.1-.4-1.6 0-2.3 2.3-3.6 5.4-3.6 8.6s1.3 6.3 3.6 8.6c.2.2.5.3.8.3.3 0 .6-.1.8-.3.4-.4.4-1.1 0-1.6-1.9-1.9-2.9-4.4-2.9-7.1s1-5.2 2.9-7.1c.5-.3.5-1 0-1.4zm3.8 8.6c0-1.8 1.5-3.3 3.3-3.3s3.3 1.5 3.3 3.3c0 1.8-1.5 3.3-3.3 3.3s-3.3-1.5-3.3-3.3zm8.8 0c0-3.1-2.5-5.5-5.5-5.5S21 15.5 21 18.5c0 2.7 1.9 4.9 4.4 5.4v25.6c0 .6.5 1.1 1.1 1.1s1.1-.5 1.1-1.1V23.9c2.5-.5 4.4-2.7 4.4-5.4z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--node</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-notification.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M15.8 28.7c7 0 12.7-5.7 12.7-12.7S22.8 3.3 15.8 3.3 3.1 9 3.1 16s5.7 12.7 12.7 12.7zM16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16z"/><path d="M16 19.8l-3.3 3.1.3-4.5-4.5-.7 3.8-2.6-2.3-3.9 4.3 1.3L16 8.3l1.7 4.2 4.3-1.3-2.3 3.9 3.8 2.6-4.5.7.3 4.5-3.3-3.1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--notification</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-pencil.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27"><path d="M4.7 14.9l.5-.5L16 25.2c.1.1.2.1.3.2l9.9 1.4c.4.1.7-.2.8-.6V26l-1.4-9.9c0-.1-.1-.2-.2-.3L14.6 5l.5-.5c.3-.3.3-.7 0-.9l-1.9-1.9c-.3-.3-.7-.3-.9 0l-.5.5L10.4.8c-.8-.8-2-.8-2.8 0L.9 7.3c-.8.8-.8 2 0 2.8l1.4 1.4-.4.5c-.3.3-.3.7 0 .9l1.9 1.9c.2.3.6.3.9.1zM8 11.6L18.4 22l-1.9 1.9L6.1 13.5 8 11.6zm2.8-2.9l10.4 10.4-1.9 1.9L8.9 10.6l1.9-1.9zm14.4 13.9L22.8 25l-4.9-.7 6.6-6.6.7 4.9zm.4 2.8l-1.1-.2.9-.9.2 1.1zM24 16.3l-1.9 1.9L11.8 7.8l1.9-1.9L24 16.3zM1.9 9.2c-.3-.2-.3-.7 0-.9l6.6-6.6c.3-.3.7-.3.9 0l1.4 1.4-7.5 7.5-1.4-1.4zm1.4 3.3l9.4-9.4.9.9-9.4 9.4c0 .1-.9-.9-.9-.9z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--pencil</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-port.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M31.6 5.4c-.2-.1-.5 0-.7.1l-4.2 4.2C26.2 4.3 21.6 0 16 0 10.1 0 5.3 4.8 5.3 10.7H.7c-.4 0-.7.3-.7.6v20c0 .4.3.7.7.7h20c.4 0 .7-.3.7-.7v-4.7h10c.4 0 .7-.3.7-.7V6c-.1-.3-.3-.5-.5-.6zM16 1.3c5.1 0 9.3 4.2 9.3 9.3v.4l-8.9 9H16c-4.9 0-9-3.8-9.3-8.7v-.6c0-5.2 4.2-9.4 9.3-9.4zm4 29.4H1.3V12h4.1c.6 5 4.7 8.9 9.7 9.3l-4.2 4.2c-.2.2-.2.5-.1.7.1.2.3.4.6.4H20v4.1zm10.7-5.4H12.9l13.4-13.4 4.3-4.3c.1 0 .1 17.7.1 17.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--port</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-powercycle.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="powercycle-a" d="M18 3.3c0 .2 0 .4-.2.5l-2.7 3.4c-.3.3-.8.4-1.1.1-.3-.3-.4-.7-.1-1.1 0 0 .3-.4.8-1.1-5.8.8-10.4 5.8-10.4 11.8 0 6.5 5.3 11.8 11.7 11.8.9 0 1.6.7 1.6 1.6S16.9 32 16 32C7.7 32 1 25.2 1 16.9 1 9.3 6.7 2.9 14.1 2c-.2-.2-.5-.4-.8-.6-.3-.3-.4-.7-.1-1.1.3-.3.7-.4 1.1-.1 0 0 1.2.9 3.4 2.6.1.1.2.3.3.5"/></defs><use xlink:href="#powercycle-a" overflow="visible"/><defs><path id="powercyclce-b" d="M23 28.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-b" overflow="visible"/><defs><path id="powercycle-c" d="M29 24.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-c" overflow="visible"/><defs><path id="powercycle-d" d="M31 17.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-d" overflow="visible"/><defs><path id="powercycle-e" d="M28 9.5c0-.8-.7-1.5-1.5-1.5S25 8.7 25 9.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-e" overflow="visible"/><path d="M16.5 9c.8 0 1.5.7 1.5 1.5v4c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5v-4c0-.8.7-1.5 1.5-1.5z"/><path d="M21.6 12.7s-.1 0 0 0l-.2-.2c-.4-.4-1.5-1.2-2.3-.4-.9.9.2 2.5.4 2.8.6.7.9 1.6.9 2.6 0 2.2-1.7 4-4 4-2.2 0-4-1.8-4-4 0-1 .4-2 1-2.7 0 0 1.5-1.8.5-2.8s-2.4.6-2.4.6c-1.3 1.3-2.1 3-2.1 4.9 0 3.9 3.1 7 7 7s7-3.1 7-7c.1-1.9-.6-3.6-1.8-4.8z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--powercycle</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-proof.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M11.6.7C6.4.7 2.3 5 2.3 10.2V18c0 .6.5 1 1 1s1-.5 1-1v-7.9c0-4.1 3.3-7.4 7.3-7.4s7.3 3.3 7.3 7.4v16.3c0 2.9-2.3 5.3-5.2 5.3s-5.2-2.4-5.2-5.3V10.2C8.5 8.4 9.8 7 11.6 7s3.1 1.4 3.1 3.2V18c0 .6.5 1 1 1 .6 0 1-.5 1-1v-7.9c0-2.9-2.3-5.3-5.2-5.3s-5.2 2.4-5.2 5.3v16.3c0 4.1 3.3 7.4 7.3 7.4s7.3-3.3 7.3-7.4V10.2c0-5.3-4.2-9.5-9.3-9.5z"/><path d="M37.5 4.2l8.9 8.9h-8.9V4.2zm12.2 9.2L37.2 1c-.1-.1-.2-.2-.3-.2-.1-.1-.3-.1-.4-.1H19.9c-.6 0-1 .5-1 1s.5 1 1 1h15.6v11.4c0 .6.5 1 1 1h11.4v33.2H14.7V37c0-.6-.5-1-1-1-.6 0-1 .5-1 1v12.5c0 .6.5 1 1 1H49c.6 0 1-.5 1-1V14.2c0-.1 0-.3-.1-.4-.1-.2-.1-.3-.2-.4z"/><path d="M42.7 40.1H19.9c-.6 0-1 .5-1 1s.5 1 1 1h22.8c.6 0 1-.5 1-1s-.4-1-1-1zm-23.9-5.2c0 .6.5 1 1 1h22.8c.6 0 1-.5 1-1 0-.6-.5-1-1-1H19.9c-.6 0-1.1.5-1.1 1zm7.3-5.2h16.6c.6 0 1-.5 1-1 0-.6-.5-1-1-1H26.1c-.6 0-1 .5-1 1 0 .6.4 1 1 1zm0-6.2h16.6c.6 0 1-.5 1-1s-.5-1-1-1H26.1c-.6 0-1 .5-1 1s.4 1 1 1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--proof</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-protection.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M3.9 5.8h21.3v11.8H3.9V5.8zm45 11.9H27.6V5.8h21.3v11.9zm0 28.4H27.6V34.3H49v11.8zm-45-11.8h21.4v11.8H3.9V34.3zm9.4-2.4H3.9V20.1h9.5v11.8zm35.6-11.8v11.8h-9.5V20.1h9.5zm-22.5 0H37v11.8H15.7V20.1h10.7zM2.7 48.5h47.4c.7 0 1.2-.5 1.2-1.2V4.7c0-.7-.5-1.2-1.2-1.2H2.7c-.7 0-1.2.5-1.2 1.2v42.6c0 .7.5 1.2 1.2 1.2z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--protection</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-ram.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M51.5 13.1H1.4c-.6 0-1.1.6-1.1 1.1v17.5c0 .6.6 1.1 1.1 1.1h3.2V36c0 .6.6 1.1 1.1 1.1h41.5c.6 0 1.1-.6 1.1-1.1v-3.2h3.2c.6 0 1.1-.6 1.1-1.1V14.3c0-.6-.5-1.2-1.1-1.2zm-1.1 17.6h-3.2c-.6 0-1.1.6-1.1 1.1V35h-4.3v-1.1c0-.6-.6-1.1-1.1-1.1s-1.1.6-1.1 1.1V35h-2.3v-1.1c0-.6-.6-1.1-1.1-1.1s-1.1.6-1.1 1.1V35h-2.3v-1.1c0-.6-.6-1.1-1.1-1.1s-1.1.6-1.1 1.1V35h-1.9v-1.1c0-.6-.6-1.1-1.1-1.1s-1.1.6-1.1 1.1V35H24v-1.1c0-.6-.6-1.1-1.1-1.1s-1.1.6-1.1 1.1V35h-4v-1.1c0-.6-.6-1.1-1.1-1.1s-1.1.6-1.1 1.1V35h-2.3v-1.1c0-.6-.6-1.1-1.1-1.1s-1.2.5-1.2 1.1V35H6.8v-3.4c0-.6-.6-1.1-1.1-1.1H2.5V15.4h47.9v15.3z"/><path d="M7.8 26.1c.6 0 1.1-.6 1.1-1.1v-3.2h2.3V25c0 .6.6 1.1 1.1 1.1s1.1-.6 1.1-1.1v-4.3c0-.6-.6-1.1-1.1-1.1H7.8c-.6.2-.9.6-.9 1.1V25c-.1.8.3 1.1.9 1.1zm32.8 0c.6 0 1.1-.6 1.1-1.1v-3.2H44V25c0 .6.6 1.1 1.1 1.1s1.1-.6 1.1-1.1v-4.3c0-.6-.6-1.1-1.1-1.1h-4.3c-.6 0-1.1.6-1.1 1.1V25c-.3.8.3 1.1.9 1.1zm-11 0c.6 0 1.1-.6 1.1-1.1v-3.2H33V25c0 .6.6 1.1 1.1 1.1s1.1-.6 1.1-1.1v-4.3c0-.6-.6-1.1-1.1-1.1h-4.3c-.8.2-1.3.6-1.3 1.1V25c0 .8.6 1.1 1.1 1.1zm-10.9 0c.6 0 1.1-.6 1.1-1.1v-3.2h2.3V25c0 .6.6 1.1 1.1 1.1s1.1-.6 1.1-1.1v-4.3c0-.6-.6-1.1-1.1-1.1h-4.5c-.6.2-.9.6-.9 1.1V25c0 .8.4 1.1.9 1.1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--ram</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-raw.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 37.7 51"><path d="M37.4 11.4l-.2-.2L26.3.3c-.1-.1-.3-.2-.5-.3H1.1C.5 0 0 .5 0 1.1v48.8c0 .6.5 1.1 1.1 1.1h35.5c.6 0 1.1-.5 1.1-1.1V12.2c0-.3-.1-.6-.3-.8zM26.6 3.8l7.3 7.3h-7.3V3.8zm8.9 45H2.2V2.2h22.2v10c0 .6.5 1.1 1.1 1.1h10v35.5z"/><defs><path id="raw-a" d="M29.9 39.9H7.8c-.6 0-1.1.5-1.1 1.1s.5 1.1 1.1 1.1H30c.6 0 1.1-.5 1.1-1.1s-.6-1.1-1.2-1.1z"/></defs><use xlink:href="#raw-a" overflow="visible"/><defs><path id="raw-b" d="M29.9 33.3H7.8c-.6 0-1.1.5-1.1 1.1s.5 1.1 1.1 1.1H30c.6 0 1.1-.5 1.1-1.1s-.6-1.1-1.2-1.1z"/></defs><use xlink:href="#raw-b" overflow="visible"/><defs><path id="raw-c" d="M29.9 26.6H7.8c-.6 0-1.1.5-1.1 1.1 0 .6.5 1.1 1.1 1.1H30c.6 0 1.1-.5 1.1-1.1-.1-.6-.6-1.1-1.2-1.1z"/></defs><use xlink:href="#raw-c" overflow="visible"/><g><defs><path id="raw-d" d="M29.9 20H7.8c-.6 0-1.1.5-1.1 1.1 0 .6.5 1.1 1.1 1.1H30c.6 0 1.1-.5 1.1-1.1-.1-.6-.6-1.1-1.2-1.1z"/></defs><use xlink:href="#raw-d" overflow="visible"/></g></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--raw</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-reload.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><path d="M12.1 28.3c.1-.1 1-1.1 2.8-2.9.3-.3.8-.3 1.1-.1.3.3.4.7.1 1l-.9.9c5.3-.3 10.1-4.1 11.2-8.8v-.1c0-.1.1-.3.1-.4v-1c.2-2.6-.7-5.2-2.5-7.3-.6-.6-.4-1.6.3-2.1.7-.6 1.7-.5 2.3.1 2.4 2.7 3.4 6 3.2 9.3 0 .8-.2 1.7-.4 2.4 0 .1 0 .1-.1.2v.1c-.8 2.8-2.5 5.5-5.1 7.5-2.3 1.7-5.6 2.8-8.6 3 .2.2.5.4.8.6.3.3.4.7.1 1s-.8.3-1.1.1c0 0-1.1-.9-3.2-2.5-.2-.1-.3-.3-.3-.5s.1-.4.2-.5M.2 13.6v-.3C.8 10.4 2.4 7.5 5 5.4c2.2-1.8 5-3.1 8.1-3.4-.2-.2-.5-.4-.8-.6s-.4-.7-.1-1c.4-.3.8-.4 1.2-.2 0 0 1.2.8 3.4 2.4.2.2.3.4.3.5 0 .2 0 .4-.2.5-.1.1-1 1.1-2.7 3.1-.3.3-.8.4-1.1.1-.3-.2-.4-.7-.1-1 0 0 .3-.3.8-1-5.3.7-9.6 4.8-10.4 9.6v.1c0 .1 0 .3-.1.4v1c0 2.6 1 5.2 3 7.3.6.6.5 1.6-.1 2.2s-1.8.6-2.4 0c-2.5-2.7-3.8-6-3.8-9.3 0-.9.1-1.7.2-2.5"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--reload</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-restore.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 30"><path d="M17.1 0c2.3 0 4.5.5 6.4 1.4.2.1.3.2.5.3 0 0 .1 0 .1.1.2.1.4.2.5.2s.1.1.2.1c.1.1.3.2.4.3.1 0 .1.1.2.1.1.1.3.2.4.3.1 0 .1.1.2.1.1.1.3.2.4.3l.1.1c.1.1.3.2.4.3l.1.1c3.1 2.7 5 6.7 5 11.1v.2c0 3.8-1.4 7.3-3.8 9.9l-.1.1-.3.3-.1.1C25 28.3 21.3 30 17.1 30h-.3c-3.8 0-7.6-1.4-10.5-4.3C6 23.6 8 22.9 9 23.8c2.2 2 5 3 7.8 2.9H18c.2 0 .3 0 .5-.1h.1c5.2-.8 9.6-5 10.1-10.3 0-.4.1-.8.1-1.2v-.2c0-3.5-1.6-6.7-4.1-8.8-.1-.1-.2-.1-.3-.2l-.2-.2c-.1-.1-.2-.1-.2-.2-.1-.1-.2-.1-.2-.2-.1 0-.1-.1-.2-.1-.1-.1-.2-.1-.3-.2-.1 0-.1-.1-.2-.1-.1-.1-.2-.1-.3-.2-.1 0-.1-.1-.2-.1s-.2-.1-.3-.1c-.1 0-.2-.1-.2-.1-.1 0-.1-.1-.2-.1-.9-.4-1.9-.7-2.8-.9-.2 0-.3-.1-.5-.1h-3c-.2 0-.3 0-.5.1H15c-5.2.8-9.6 5-10.1 10.3.7-.5 1-.8 1-.8.7-.3 1.1-.2 1.4.1s.2.8-.1 1.1c-2.1 1.7-3.2 2.6-3.3 2.7-.2.1-.4.2-.5.2-.2 0-.4-.1-.5-.3C1.2 14.5.3 13.3.3 13.3c-.4-.5 0-1.4 1-1.2.3.4.6.7.8 1.1.3-3.2 1.6-6 3.5-8.2C7.8 2.5 11 .9 14.1.3h.3c.9-.2 1.8-.3 2.7-.3z"/><path d="M18.6 15.1V8.6c0-1-.8-1.8-1.8-1.8S15 7.6 15 8.6V17c0 1 .8 1.8 1.8 1.8h4.9c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8l-3.1-.1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--restore</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-ribbon.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 39"><path d="M.9 34.4l4.5-.7 1.7 4.2c.2.4.6.6 1 .5.2-.1.3-.2.4-.3l7.2-12.4h.6L23.5 38c.1.2.4.4.7.4h.1c.3 0 .6-.2.7-.5l1.7-4.2 4.5.7c.3 0 .6-.1.8-.3.2-.3.2-.6 0-.9l-6.7-11.5c2.3-2.4 3.6-5.6 3.6-8.9C28.8 5.7 23.1 0 16 0S3.2 5.7 3.2 12.8c0 3.5 1.4 6.6 3.6 8.9L.1 33.2c-.2.4-.1.9.3 1.1.2.1.3.1.5.1zM26.2 32c-.4-.1-.7.2-.9.5L24 35.7l-6-10.3c2.2-.3 4.2-1.3 6-2.6l5.7 9.8c0-.1-3.5-.6-3.5-.6zM16 1.6c6.2 0 11.2 5 11.2 11.2S22.2 24 16 24 4.8 19 4.8 12.8 9.8 1.6 16 1.6zM8 22.8c1.7 1.4 3.8 2.3 6 2.6L8 35.7l-1.3-3.3c-.2-.2-.5-.4-.9-.4l-3.5.5L8 22.8z"/><path d="M16 20.8c4.4 0 8-3.6 8-8s-3.6-8-8-8-8 3.6-8 8 3.6 8 8 8zm0-14.4c3.5 0 6.4 2.9 6.4 6.4s-2.9 6.4-6.4 6.4-6.4-2.9-6.4-6.4 2.9-6.4 6.4-6.4z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--ribbon</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-ruby.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M51.7 16.2c-.1-.1 0-.1 0 0-.1-.1-.1-.1 0 0-.1-.1-.1-.1 0 0L45 2.7l-.1-.1-.3-.3-.1-.1s-.1 0-.1-.1c-.1-.1-.3-.1-.4-.1H8.5c-.1 0-.3 0-.4.1 0 0-.1 0-.1.1l-.1.1c-.2.1-.3.3-.4.4l-.1.1L.8 16.1v.1c-.1.2-.1.3-.1.5 0 .1 0 .1.1.2 0 .1 0 .2.1.3v.1l24.4 31.1c0 .1.1.1.2.1l.1.1c.2.1.4.2.6.2.2 0 .4-.1.6-.2.1 0 .1-.1.1-.1.1 0 .1-.1.2-.1l24.4-31.1v-.1c.1-.1.1-.2.1-.3 0-.1.1-.1.1-.2.1-.2 0-.4 0-.5zM42.3 4.3l-4.2 10.2-9.4-10.2h13.6zm-6.4 11.2H16.5l9.7-10.6 9.7 10.6zM23.7 4.3l-9.3 10.2-4.3-10.2h13.6zM8.4 5.9l4 9.5H3.6l4.8-9.5zM4.1 17.7h9.2L22.4 41 4.1 17.7zm22.1 26.9L15.6 17.7h21.2L26.2 44.6zM30 41l9.2-23.4h9.2L30 41zm10.1-25.5l4-9.5 4.8 9.5h-8.8z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--ruby</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-scale.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 35"><path d="M26 .2c-.3-.3-.7-.3-1 0l-4.4 4.4c-.3.3-.3.8 0 1 .3.3.7.3 1 0l3.2-3.2v31.8c0 .4.4.7.8.7s.7-.3.7-.7V2.6l3 3c.3.3.7.3 1 0 .3-.3.3-.7 0-1L26 .2zM15.8 8.9c-.3-.3-.7-.3-1 0l-4.4 4.4c-.3.3-.3.8 0 1 .3.3.7.3 1 0l3.2-3.2v23c0 .4.4.7.8.7s.7-.3.7-.7V11.3l3 3.1c.3.3.7.3 1 0 .3-.3.3-.7 0-1l-4.3-4.5zM5.6 17.7c-.3-.3-.7-.3-1 0L.2 22c-.3.3-.2.8.1 1 .3.2.7.2 1 0l3.2-3.2v14.3c0 .4.4.7.8.7s.7-.3.7-.7V20l3.1 3c.3.3.7.3 1 0 .3-.3.3-.7 0-1-.1 0-4.5-4.3-4.5-4.3z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--scale</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-search.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.9 8.4c0 2.9-2.4 5.3-5.3 5.3s-5.3-2.4-5.3-5.3 2.4-5.3 5.3-5.3c3 .1 5.3 2.4 5.3 5.3zm-.2-6.7C17-1 11.8-.3 9 3.4c-2.3 3-2.3 7.1 0 10.1l-1.4 1.4c-.6-.4-1.4-.3-1.9.2L.5 20.3c-.6.6-.6 1.6 0 2.2l.9.9c.6.6 1.6.6 2.2 0l5.2-5.2c.5-.5.6-1.1.3-1.7l1.5-1.5c3.6 2.8 8.9 2.2 11.7-1.4s2.2-8.9-1.4-11.7c-.1 0-.1-.1-.2-.2z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--search</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-search.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M32.1 45.1l-5.3 3-5.3-3C13.8 40.9 9.2 32.9 9.2 24.3V5.6c10.3-3.9 24.8-3.9 35.2 0v18.7c-.1 8.6-4.8 16.6-12.3 20.8zM46.3 4.6v-.1l-.1-.1c0-.1-.1-.2-.1-.2H46c-.1-.2-.2-.2-.3-.3-11-4.4-27-4.4-38 0-.1.1-.2.1-.2.2h-.1c-.1.1-.1.2-.2.3l-.1.1v.1c0 .1-.1.2-.1.3v19.4c0 9.4 5.1 18 13.3 22.6l5.9 3.2c.2.1.3.1.5.1s.3 0 .5-.1l5.9-3.2c8.2-4.6 13.3-13.2 13.3-22.6V4.9c0-.1-.1-.2-.1-.3z"/><path d="M30.9 24.9c-.4.3-.5.7-.4 1.2l1.9 5.7-5.1-3.5c-.4-.2-.8-.2-1.2 0L21 31.9l1.9-5.8c.1-.4 0-.9-.4-1.2l-5-3.6h6.2c.4 0 .8-.3 1-.7l1.9-5.7 1.9 5.7c.1.4.5.7 1 .7h6.3l-4.9 3.6zm8.2-5.6h-8.7l-2.7-7.8c-.3-.8-1.7-.8-2 0L23 19.3h-8.7c-.4 0-.8.3-1 .7-.1.4 0 .9.4 1.2l7 5-2.7 8c-.1.4 0 .9.4 1.2.2.1.4.2.6.2.2 0 .4-.1.6-.2l7.1-4.9 7.1 4.8c.4.3.9.2 1.2 0 .4-.3.5-.7.4-1.2l-2.7-7.9 7-5c.4-.3.5-.7.4-1.2-.1-.4-.5-.7-1-.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--secure</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-security.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 43"><path d="M34 3.4c-.1 0-.1 0 0 0 0-.1-.1-.2-.1-.2 0-.1-.1-.1-.1-.2h-.1l-.2-.2C24-1 10.2-1 .6 2.8c-.1.1-.2.1-.3.2H.2c0 .1 0 .2-.1.2 0 0 0 .1-.1.1v17.1C0 28.6 4.4 36.1 11.5 40l5.1 2.8c.3.1.6.1.9 0l5.1-2.8c7.1-4 11.5-11.4 11.5-19.6V3.7c-.1-.1-.1-.2-.1-.3zM21.6 38.5L17 41l-4.6-2.6a20.61 20.61 0 0 1-10.6-18V4.3C10.7 1 23.3 1 32.2 4.3v16.1c0 7.5-4 14.4-10.6 18.1z"/><path d="M25.3 12.8L15.2 24.6l-4.7-4.7c-.4-.3-.9-.3-1.3 0-.3.3-.3.9 0 1.2l5.4 5.4c.2.2.4.3.6.3.2 0 .5-.1.6-.3L26.6 14c.3-.4.3-.9-.1-1.3-.3-.3-.9-.2-1.2.1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--security</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-sftp.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 41"><path d="M40.1 3.4h-11L25.7.2c-.1-.1-.3-.2-.5-.2h-5.6c-.5 0-.9.4-.9.9v15.4c0 .5.4.9.9.9h20.5c.5 0 .9-.4.9-.9v-12c0-.5-.4-.9-.9-.9zm-.8 12H20.5V1.7h4.4l3.4 3.2c.2.2.4.2.6.2h10.5v10.3zM21.4 27.3h-11L7 24.2c-.2-.2-.4-.2-.6-.2H.9c-.5 0-.9.4-.9.9v15.4c0 .3.4.7.9.7h20.5c.5 0 .9-.4.9-.9v-12c-.1-.4-.5-.8-.9-.8zm-.9 12H1.7V25.6h4.4l3.4 3.2c.1.2.3.2.5.2h10.5v10.3zM.9 15.4c.5 0 .9-.4.9-.9 0-4.2 3.5-7.7 7.7-7.7h3.1l-3.7 3.7c-.3.3-.3.9 0 1.2s.9.3 1.2 0l5.1-5.1c.2-.2.3-.6.2-.9 0-.1-.1-.2-.2-.3L10 .2c-.3-.3-.9-.2-1.2.1-.3.3-.3.8 0 1.2l3.7 3.7H9.4C4.2 5.1 0 9.3 0 14.5c0 .5.4.9.9.9zm39.2 10.2c-.5 0-.9.4-.9.9 0 4.2-3.5 7.7-7.7 7.7h-3.1l3.7-3.7c.3-.3.3-.9 0-1.2-.3-.3-.8-.3-1.2 0l-5.1 5.1c-.3.3-.3.9 0 1.2l5.1 5.1c.3.3.9.3 1.2 0 .3-.3.3-.9 0-1.2l-3.7-3.7h3.1c5.2 0 9.4-4.2 9.4-9.4.1-.4-.3-.8-.8-.8z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--sftp</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-shared.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 35"><path d="M40.1 32.5h-9.4v-6.8h6c.5 0 .9-.4.9-.9V.9c0-.5-.4-.9-.9-.9H23.1c-.5 0-.9.4-.9.9v23.9c0 .5.4.9.9.9h6v6.8H12v-6.8h6c.5 0 .9-.4.9-.9V.9c0-.5-.4-.9-.9-.9H4.3c-.5 0-.9.4-.9.9v23.9c0 .5.4.9.9.9h6v6.8H.9c-.5 0-.9.4-.9.9s.4.9.9.9h39.3c.5 0 .9-.4.9-.9s-.5-.9-1-.9zM23.9 1.7h12v22.2h-12V1.7zm-18.8 0h12v22.2h-12V1.7z"/><path d="M13.7 19.6c0-1.4-1.1-2.6-2.6-2.6-1.4 0-2.6 1.1-2.6 2.6 0 1.4 1.1 2.6 2.6 2.6 1.4 0 2.6-1.1 2.6-2.6zm-3.5 0c0-.5.4-.9.9-.9s.9.4.9.9-.4.9-.9.9-.9-.4-.9-.9zm22.3 0c0-1.4-1.1-2.6-2.6-2.6-1.4 0-2.6 1.1-2.6 2.6 0 1.4 1.1 2.6 2.6 2.6 1.4 0 2.6-1.1 2.6-2.6zm-3.5 0c0-.5.4-.9.9-.9s.9.4.9.9-.4.9-.9.9-.9-.4-.9-.9zM7.7 6.8h6.8c.5 0 .9-.4.9-.9s-.4-.8-.9-.8H7.7c-.5 0-.9.4-.9.9s.4.8.9.8zm7.7 2.6c0-.5-.4-.9-.9-.9H7.7c-.5 0-.9.4-.9.9s.4.9.9.9h6.8c.5-.1.9-.4.9-.9zm11.1-2.6h6.8c.5 0 .9-.4.9-.9s-.4-.9-.9-.9h-6.8c-.5 0-.9.4-.9.9s.4.9.9.9zm7.7 2.6c0-.5-.4-.9-.9-.9h-6.8c-.5 0-.9.4-.9.9s.4.9.9.9h6.8c.5-.1.9-.4.9-.9z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--shared</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-ssd.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 32"><path d="M22 0H2C.9 0 0 .9 0 2v28c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm.7 30c0 .4-.3.7-.7.7H2c-.4 0-.7-.3-.7-.7V2c0-.4.3-.7.7-.7h20c.4 0 .7.3.7.7v28z"/><path d="M4.9 13.3H6c.4 0 .7.3.7.7 0 .4.3.7.7.6.3 0 .6-.3.6-.6 0-1.1-.9-2-2-2H4.9c-1.2 0-2.2 1-2.2 2.2 0 1 .6 1.8 1.5 2.1l1.9.6c.5.2.7.7.6 1.1-.1.4-.5.6-.8.6H4.7c-.4.1-.7-.2-.7-.6 0-.4-.3-.7-.7-.6-.3 0-.6.3-.6.6 0 1.1.9 2 2 2h1.1C7 20 8 19 8 17.8c0-1-.6-1.8-1.5-2.1l-1.9-.6c-.5-.2-.7-.7-.6-1.1.2-.4.5-.7.9-.7zm6.6 0h1.1c.4 0 .7.3.7.7 0 .4.3.7.7.7.4 0 .7-.3.7-.7 0-1.1-.9-2-2-2h-1.1c-1.2 0-2.2 1-2.2 2.2 0 1 .6 1.8 1.5 2.1l1.9.6c.5.2.7.7.6 1.1-.1.4-.5.6-.8.6h-1.1c-.4 0-.7-.3-.7-.7 0-.4-.3-.7-.7-.7-.4 0-.7.3-.7.7 0 1.1.9 2 2 2h1.1c1.2 0 2.2-1 2.2-2.2 0-1-.6-1.8-1.5-2.1l-1.9-.6c-.5-.2-.7-.7-.6-1.1.1-.3.5-.6.8-.6zm5.8-1.3h-.7c-.4 0-.7.3-.7.7v6.7c0 .4.3.7.7.7h.7c2.2 0 4-1.8 4-4s-1.8-4.1-4-4.1zm0 6.7v-5.3c1.5 0 2.7 1.2 2.7 2.7 0 1.4-1.2 2.6-2.7 2.6zM4.7 6.7c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0-2.7c.3 0 .6.3.6.7 0 .3-.3.6-.6.6-.4 0-.7-.3-.7-.7.1-.3.3-.6.7-.6zm14.6-1.3c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 2.6c-.4 0-.6-.3-.6-.7 0-.3.3-.6.6-.6.4 0 .7.3.7.7-.1.3-.3.6-.7.6zm-14.6 20c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 2.7c-.4 0-.7-.3-.7-.7 0-.3.3-.6.6-.6.4 0 .6.3.6.7.1.3-.2.6-.5.6zm14.6-2.7c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 2.7c-.4 0-.6-.3-.6-.7 0-.3.3-.6.6-.6.4 0 .6.3.6.7 0 .3-.2.6-.6.6z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--ssd</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-stack.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 35"><path d="M3.4 14.7l-3 1.9c-.2.1-.4.4-.4.7 0 .3.2.6.4.7l3 1.9-3 1.9c-.2.1-.4.4-.4.7 0 .3.2.6.4.7l18.1 11.2c.1.1.3.1.5.1s.3 0 .5-.1l18.1-11.2c.3-.2.4-.4.4-.7 0-.3-.2-.6-.4-.7l-3-1.9 3-1.9c.3-.2.4-.4.4-.7 0-.3-.2-.6-.4-.7l-3-1.9 3-1.9c.3-.2.4-.4.4-.7 0-.3-.2-.6-.4-.7L19.5.1c-.3-.2-.6-.2-.9 0L.4 11.4c-.2.1-.4.4-.4.7 0 .3.2.6.4.7l3 1.9zm32.1 7.8L19 32.7 2.5 22.5 5 20.9l13.5 8.4c.1.1.3.1.5.1s.3 0 .5-.1L33 20.9l2.5 1.6zm0-5.2L19 27.5 2.5 17.3 5 15.7l13.5 8.4c.1.1.3.1.5.1s.3 0 .5-.1L33 15.7l2.5 1.6zM19 1.9l16.5 10.2L19 22.3 2.5 12.1 19 1.9z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--stack</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-stopwatch.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><path d="M13.1 0h4c1 0 1.9.8 1.9 1.9 0 1-.8 1.9-1.9 1.9h-4c-1 0-1.9-.8-1.9-1.9C11.2.8 12 0 13.1 0zM15.3 16.2l4.8-5.1c.7-.8 1.9-.8 2.6-.1.8.7.8 1.9.1 2.6l-5.6 6c-.1.2-.2.5-.4.7-.7.7-1.9.7-2.6 0l-4.5-4.5c-.7-.7-.7-1.9 0-2.6.7-.7 1.9-.7 2.6 0l3 3zM23.8 7.5l1-1.1c.7-.8 1.9-.8 2.6-.1.8.7.8 1.9.1 2.6l-1 1.1c-.7.8-1.9.8-2.6.1-.7-.6-.8-1.8-.1-2.6z"/><path d="M15 29.1c6.3 0 11.5-4.9 11.5-11s-5.1-11-11.5-11S3.5 12 3.5 18.1s5.2 11 11.5 11zm0 2.9C7 32 .5 25.8.5 18.2S7 4.3 15 4.3s14.5 6.2 14.5 13.8S23 32 15 32z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--stopwatch</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-tape.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 28"><path d="M40.1 0H.9C.4 0 0 .4 0 .9v25.6c0 .5.4.9.9.9h39.3c.5 0 .9-.4.9-.9V.9c-.1-.5-.5-.9-1-.9zM5.5 25.6l1.1-3.4h27.8l1.1 3.4h-30zm33.8 0h-1.9l-1.5-4.5c-.1-.3-.4-.6-.8-.6H6c-.4 0-.7.2-.8.6l-1.5 4.5h-2V1.7h37.6v23.9z"/><path d="M25.4 15.6c2 2 5.2 2 7.2 0s2-5.2 0-7.2-5.2-2-7.2 0c-2 1.9-2 5.2 0 7.2zM30.8 9l-.5.5c-.3.3-.3.9 0 1.2.3.3.9.3 1.2 0l.5-.5c.3.5.5 1.1.5 1.7 0 .6-.2 1.2-.5 1.7l-.5-.5c-.3-.3-.9-.3-1.2.1-.3.3-.3.8 0 1.2l.5.5c-.5.3-1.1.5-1.7.5-.6 0-1.2-.2-1.7-.5l.5-.5c.3-.3.3-.9-.1-1.2-.3-.3-.8-.3-1.2 0l-.5.5c-.3-.5-.5-1.1-.5-1.7 0-.6.2-1.2.5-1.7l.5.5c.3.3.9.3 1.2 0 .3-.3.3-.9 0-1.2l-.5-.6c.5-.3 1.1-.5 1.7-.5.6 0 1.2.2 1.8.5zM8.3 8.3c-1 1-1.5 2.3-1.5 3.6 0 1.4.6 2.7 1.5 3.6 2 2 5.2 2 7.2 0s2-5.2 0-7.2c-1-1-2.3-1.5-3.6-1.5-1.3 0-2.6.6-3.6 1.5zm5.4.7l-.5.5c-.3.3-.3.9 0 1.2.3.3.9.3 1.2 0l.5-.5c.3.5.5 1.1.5 1.7 0 .6-.2 1.2-.5 1.7l-.5-.5c-.3-.3-.9-.3-1.2.1-.3.3-.3.8 0 1.2l.5.5c-.5.3-1.1.5-1.7.5-.6 0-1.2-.2-1.7-.5l.5-.5c.3-.3.3-.9-.1-1.2-.3-.3-.8-.3-1.2 0l-.5.5c-.3-.5-.5-1.1-.5-1.7 0-.6.2-1.2.5-1.7l.5.5c.3.3.9.3 1.2 0 .3-.3.3-.9 0-1.2l-.5-.6c.5-.3 1.1-.5 1.7-.5.7 0 1.3.2 1.8.5zM4.3 5.1H6c.5 0 .9-.4.9-.9s-.4-.8-.9-.8H4.3c-.5 0-.9.4-.9.9s.4.8.9.8zm30.7 0h1.7c.5 0 .9-.4.9-.9s-.4-.9-.9-.9H35c-.5 0-.9.4-.9.9s.4.9.9.9z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--tape</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-team.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M26.4 25.3c3.4-1.9 5.7-5.6 5.7-9.8 0-6.2-5.1-11.3-11.3-11.3-6.2 0-11.3 5.1-11.3 11.3 0 4.2 2.3 7.8 5.7 9.8C6.7 27.5.5 34.7.5 43.2V46c0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1v-2.8c0-9 8.1-16.4 18.1-16.4 10 0 18.1 7.4 18.1 16.4V46c0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1v-2.8c0-8.5-6.2-15.7-14.7-17.9zm-14.6-9.8c0-5 4-9 9-9s9 4 9 9-4 9-9 9-9-4-9-9z"/><path d="M41.6 25.3c2.4-1.6 4.1-4.4 4.1-7.5 0-5-4-9-9-9-.6 0-1.1.5-1.1 1.1s.4 1.1 1 1.1c3.7 0 6.8 3 6.8 6.8 0 3.7-3 6.8-6.8 6.8-.6 0-1.1.5-1.1 1.1 0 .6.5 1.1 1.1 1.1 7.5 0 13.5 5.6 13.5 12.5v2.2c0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1v-2.2c.1-6.5-4.4-12.1-10.7-14z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--team</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-thumb.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 33"><path d="M35.6 15.2c0-1.8-1.5-3.2-3.2-3.2H19.9L23 5.7c.8-1.7.5-3.7-.8-5-1.1-1.1-3-.8-3.8.4L13.5 9c-.7 1.1-1.7 1.9-3 2.4l-3.8 1.3c-4 1.5-6.7 5.4-6.7 9.8 0 2.8 1.1 5.5 3.1 7.4 2 2 4.6 3.1 7.4 3.1h18.6c1.8 0 3.2-1.5 3.2-3.2 0-.6-.2-1.3-.6-1.8 1.7-.6 2.6-2.4 2-4.1-.1-.3-.2-.5-.4-.8 1.3-.4 2.2-1.7 2.2-3 0-1-.4-1.8-1.1-2.4.8-.7 1.2-1.6 1.2-2.5zm-10.5 3.2h7.3c.9 0 1.6.8 1.6 1.7 0 .9-.7 1.5-1.6 1.6h-7.3c-.4 0-.8.4-.8.8s.4.8.8.8h5.7c.9 0 1.6.8 1.6 1.7 0 .9-.7 1.5-1.6 1.6h-5.7c-.4 0-.8.4-.8.8s.4.8.8.8h4c.9 0 1.6.8 1.6 1.7 0 .9-.7 1.5-1.6 1.6H10.5c-2.4 0-4.6-.9-6.3-2.6-1.7-1.7-2.6-3.9-2.6-6.3 0-3.7 2.3-7 5.7-8.3l3.8-1.3c1.6-.5 2.9-1.6 3.8-3l4.9-8c.3-.4.9-.5 1.3-.1.8.8 1 2.1.5 3.1l-3.7 7.4c-.1.3-.1.5 0 .8.1.2.4.4.7.4h13.8c.9 0 1.6.8 1.6 1.7 0 .9-.7 1.6-1.6 1.6h-7.3c-.4 0-.8.4-.8.8s.4.7.8.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--thumb</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-traffic.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm0 3.3c4.2 0 7.9 2 10.2 5.1l-.1.1-7.7 8L15 13l-.3-.3c-.3-.3-.8-.5-1.2-.5s-.9.2-1.2.6l-.2.2-7.7 8c-.7-1.5-1-3.3-1-5C3.3 9 9 3.3 16 3.3zm0 25.4c-3.9 0-7.4-1.8-9.7-4.6l7.3-7.6 3.6 3.9c.7.7 1.8.6 2.4-.1 0-.1.1-.1.1-.2l8.2-8.5c.5 1.4.8 2.8.8 4.3C28.7 23 23 28.7 16 28.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--traffic</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-twitter.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 	16 16-7.2 16-16 16zm0-29C8.8 3 3 8.8 3 16s5.8 13 13 13 13-5.8 13-13S23.2 3 16 3z"/><path d="M9.1 20.3c1.6.1 3-.2 4.2-1.2-.6 0-1.2-.2-1.6-.6-.5-.3-.9-.8-1.1-1.4h.7c.2 0 .4 0 .6-.1-.9-.2-1.5-.7-1.9-1.4-.3-.5-.4-1-.4-1.4.2.1.4.2.6.2.2.1.4.1.6.1-1.2-1.1-1.5-2.4-.8-3.9 1.6 1.9 3.5 2.9 6 3 0-.2 0-.4-.1-.5 0-.9.3-1.7.9-2.3.7-.7 1.6-.9 2.5-.7.6.1 1 .4 1.4.8.1.1.1.1.2.1.5-.1 1.1-.3 1.5-.6 0 0 .1 0 .2-.1-.2.7-.6 1.2-1.2 1.6.5 0 1-.2 1.6-.4-.3.4-.6.7-.9 1l-.4.4c-.1.1-.1.1-.1.2 0 .8-.1 1.6-.3 2.4-.2.7-.5 1.3-.8 2-.4.7-.8 1.3-1.4 1.8-.7.7-1.6 1.3-2.5 1.7-.9.4-1.8.6-2.8.6-.7 0-1.4 0-2-.2-.7-.1-1.3-.3-1.9-.7-.3-.1-.5-.2-.8-.4"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--twitter</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-twitter-solo.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 31.2"><path d="M29.2 3.6c-1.2.7-2.5 1.3-3.9 1.5-1.1-1.3-2.8-2-4.5-2-3.4 0-6.2 2.9-6.2 6.3 0 .5.1 1 .2 1.4-5-.3-9.6-2.7-12.7-6.6-.5 1-.8 2.1-.8 3.2 0 2.1 1 4.1 2.7 5.3-1 0-1.9-.3-2.8-.8v.1c0 3 2 5.5 4.9 6.2-.5.1-1.1.2-1.6.2-.4 0-.8 0-1.2-.1.8 2.5 3.1 4.3 5.8 4.4-2.2 1.7-4.9 2.7-7.6 2.7-.5 0-1 0-1.5-.1 2.8 1.8 6.1 2.8 9.4 2.8 11.3 0 17.5-9.6 17.5-18v-.8c1.2-.9 2.2-2 3.1-3.3-1.1.5-2.3.8-3.6 1 1.3-.7 2.3-2 2.8-3.4z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--twitter-solo</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom-10">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-unlock.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.3 28.3"><path d="M27 2.3L12.5 16.8l-.9-.9L26 1.4c.3-.3.7-.3.9 0 .2.2.2.3.2.5s0 .2-.1.4zM26.9 7l-3.4 3.4L22 8.9l3.4-3.4L26.9 7zM7.1 27.2c-3.3 0-5.9-2.6-5.9-5.8 0-3.2 2.6-5.9 5.9-5.9s5.9 2.6 5.9 5.9c0 3.1-2.7 5.8-5.9 5.8zM28.3 1.8c0-.5-.2-1-.5-1.3-.7-.7-1.9-.7-2.6 0L10.6 15.2c-1-.6-2.2-.9-3.5-.9-3.9 0-7.1 3.2-7.1 7s3.2 7 7.1 7 7.1-3.2 7.1-7c0-1.3-.4-2.5-1-3.6l8-8 1.9 1.9c.1.1.3.2.4.2.1 0 .3-.1.4-.2l4.2-4.2c.1-.1.2-.3.2-.4s-.1-.3-.2-.4l-1.9-1.9 1.5-1.5c.4-.4.6-.9.6-1.4zM7.1 16.5c-2.6 0-4.7 2.1-4.7 4.7s2.1 4.7 4.7 4.7 4.7-2.1 4.7-4.7-2.1-4.7-4.7-4.7zm0 8.3c-2 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--unlock</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-updates.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M8.1 3C3.8 7.3 1.4 13 1.4 19.1c0 .6.5 1 1 1s1-.5 1-1c0-5.5 2.2-10.7 6.1-14.7.5-.4.5-1 .1-1.4s-1.1-.4-1.5 0zm36.4-.1c-.4-.4-1.1-.4-1.5 0-.4.4-.4 1.1 0 1.5 2 2 3.5 4.3 4.5 6.8s1.6 5.2 1.6 7.9c0 .6.5 1 1 1s1-.5 1-1c0-3-.6-6-1.7-8.7-1-2.8-2.7-5.3-4.9-7.5z"/><path d="M11 5.9c-3.5 3.5-5.5 8.2-5.5 13.2 0 .6.5 1 1 1s1-.5 1-1c0-4.4 1.7-8.6 4.9-11.7.4-.4.4-1.1 0-1.5-.3-.4-1-.4-1.4 0zm34 13.2c0 .6.5 1 1 1 .6 0 1-.5 1-1 0-2.5-.5-4.9-1.4-7.1-.9-2.3-2.3-4.3-4.1-6.1-.4-.4-1.1-.4-1.5 0-.4.4-.4 1.1 0 1.5 1.6 1.6 2.8 3.4 3.6 5.4 1 2 1.4 4.1 1.4 6.3zM26.4 6.6h.4c3.4.1 6.6 1.4 9 3.7 2.5 2.4 3.9 5.5 3.9 8.8v12.2c0 1.8.7 3.5 2 4.9l5.5 5.8H5.6l5.5-5.8c1.3-1.3 2-3.1 2-4.9V19.7c-.1-7.1 6-13.1 13.3-13.1zm-2.1-2c0-1.1.9-2.1 2.1-2.1s2.1.9 2.1 2.1v.1c-.5-.1-1-.1-1.6-.1h-.4c-.7 0-1.4.1-2.1.2-.1-.1-.1-.2-.1-.2zm2 43.6c-2.7 0-5-1.7-5.9-4.2h11.7c-.8 2.5-3.1 4.2-5.8 4.2zM11 19.7v11.6c0 1.3-.5 2.5-1.4 3.4l-5.5 5.8c-.6.6-.7 1.4-.4 2.2.3.8 1.1 1.3 1.9 1.3h12.7c.9 3.6 4.2 6.2 8 6.2s7.1-2.6 8-6.2H47c.9 0 1.6-.5 2-1.3.3-.8.2-1.6-.4-2.2l-5.5-5.8c-.9-.9-1.4-2.2-1.4-3.4V19.1c0-3.9-1.6-7.5-4.5-10.3-1.9-1.8-4.2-3-6.8-3.7 0-.2.1-.4.1-.5 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 .2 0 .4.1.6C15.8 7 11 12.9 11 19.7z"/><path d="M16.1 20.7c.6 0 1-.5 1-1 0-1.2.2-2.3.7-3.4.5-1.1 1.1-2 2-2.8.9-.8 1.8-1.5 2.9-1.9.5-.2.8-.8.6-1.4-.2-.5-.8-.8-1.4-.6-1.3.6-2.5 1.4-3.6 2.4-1 1-1.9 2.2-2.4 3.5-.6 1.4-.9 2.8-.9 4.2.1.6.6 1 1.1 1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--updates</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-vps.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35"><path d="M.8 33.5h14.6c.3.9 1.2 1.5 2.1 1.5 1 0 1.8-.6 2.1-1.5h14.6c.4 0 .7-.4.7-.8s-.3-.7-.7-.7H19.6c-.2-.6-.7-1.2-1.4-1.4v-1.7h9.9c1.3 0 2.3-1 2.3-2.3v-6.1c0-.6-.2-1.1-.6-1.5.4-.4.6-.9.6-1.5v-6.1c0-.6-.2-1.1-.6-1.5.4-.4.6-.9.6-1.5V2.3c0-1.3-1-2.3-2.3-2.3H6.8C5.6 0 4.6 1 4.6 2.3v6.1c0 .6.2 1.1.6 1.5-.4.4-.6 1-.6 1.5v6.1c0 .6.2 1.1.6 1.5-.4.4-.6 1-.6 1.5v6.1c0 1.3 1 2.3 2.3 2.3h9.9v1.7c-.6.2-1.2.7-1.4 1.4H.8c-.5 0-.8.3-.8.7 0 .4.4.8.8.8zm5.3-16v-6.1c0-.4.3-.8.8-.8h21.3c.4 0 .8.3.8.8v6.1c0 .4-.3.8-.8.8H6.8c-.4 0-.7-.4-.7-.8zm0-15.2c0-.4.3-.8.8-.8h21.3c.4 0 .8.3.8.8v6.1c0 .4-.3.8-.8.8H6.8c-.4 0-.8-.3-.8-.8l.1-6.1zm0 24.3v-6.1c0-.4.3-.8.8-.8h21.3c.4 0 .8.3.8.8v6.1c0 .4-.3.8-.8.8H6.8c-.4 0-.7-.3-.7-.8zM17.5 32c.4 0 .8.3.8.8 0 .4-.3.8-.8.8-.4 0-.8-.3-.8-.8s.4-.8.8-.8z"/><path d="M8.4 7.6c.4 0 .8-.3.8-.8v-3c0-.4-.4-.7-.8-.7s-.7.3-.7.7v3c-.1.5.2.8.7.8zm0 4.6c-.4 0-.8.3-.8.8v3c0 .4.4.7.8.7s.7-.3.7-.7v-3c0-.5-.3-.8-.7-.8zm0 9.1c-.4 0-.8.3-.8.8v3c0 .4.4.7.8.7s.7-.3.7-.7v-3c0-.5-.3-.8-.7-.8zM26.6 6.1c.4 0 .8-.3.8-.7 0-.2-.1-.4-.2-.5-.3-.3-.8-.3-1.1 0-.1.1-.2.3-.2.5s.1.4.2.5c.1.1.3.2.5.2zm-3 0c.2 0 .4-.1.5-.2.3-.3.3-.7 0-1-.3-.3-.8-.3-1.1 0-.1.1-.2.3-.2.5s.1.4.2.5c.2.1.4.2.6.2zm-3.1 0c.4 0 .8-.3.8-.7 0-.2-.1-.4-.2-.5-.3-.3-.8-.3-1.1 0-.1.1-.2.3-.2.5s.1.4.2.5c.2.1.3.2.5.2zm5.6 7.8c-.1.1-.2.3-.2.5s.1.4.2.5c.1.1.3.2.5.2.4 0 .8-.3.8-.8 0-.2-.1-.4-.2-.5-.3-.2-.8-.2-1.1.1zm-3.1 0c-.1.1-.2.3-.2.5s.1.4.2.5c.1.1.3.2.5.2.4 0 .8-.3.8-.7 0-.2-.1-.4-.2-.5-.3-.3-.8-.3-1.1 0zm-3 0c-.1.1-.2.3-.2.5s.1.4.2.5c.1.1.3.2.5.2.4 0 .8-.3.8-.7 0-.2-.1-.4-.2-.5-.3-.3-.8-.3-1.1 0zm6.6 10.4c.2 0 .4-.1.5-.2.1-.1.2-.3.2-.5s-.1-.4-.2-.5c-.3-.3-.8-.3-1.1 0-.1.1-.2.3-.2.5s.1.4.2.5c.2.2.4.3.6.2zm-3 0c.4 0 .8-.3.8-.7 0-.2-.1-.4-.2-.5-.3-.3-.8-.3-1.1 0-.1.1-.2.3-.2.5s.1.4.2.5c.1.2.3.2.5.2zm-3.1 0c.2 0 .4-.1.5-.2.1-.1.2-.3.2-.5s-.1-.4-.2-.5c-.3-.3-.8-.3-1.1 0-.1.1-.2.3-.2.5s.1.4.2.5c.2.2.4.3.6.2z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--vps</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-vps2.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 52"><path d="M9.1 24.8c.5 0 .8-.4.8-.8v-3.3c0-.5-.4-.8-.8-.8s-.8.4-.8.8V24c0 .4.3.8.8.8zm0 4.9c-.5 0-.8.4-.8.8v3.3c0 .5.4.8.8.8s.8-.4.8-.8v-3.3c0-.4-.4-.8-.8-.8zm19.8-6.6c.2 0 .4-.1.6-.2.2-.1.3-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.8-.3-1.2 0-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.1.4.2.6.2zm-3.3 0c.2 0 .4-.1.6-.2.1-.2.2-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.9-.3-1.2 0-.1.2-.2.4-.2.6 0 .2.1.4.2.6.2.1.4.2.6.2zm-3.3 0c.2 0 .4-.1.6-.2.3-.3.3-.9 0-1.2-.3-.3-.8-.3-1.2 0-.2.1-.3.4-.2.6 0 .2.1.4.2.6.2.1.4.2.6.2zm6.6 9.9c.2 0 .4-.1.6-.2.2-.1.3-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.8-.3-1.2 0-.3.3-.3.9 0 1.2.2.2.4.2.6.2zm-3.3 0c.2 0 .4-.1.6-.2.2-.2.2-.4.2-.6 0-.2-.1-.4-.2-.6-.3-.3-.8-.3-1.2 0-.3.3-.3.9 0 1.2.2.2.4.2.6.2zm-3.3 0c.2 0 .4-.1.6-.2.3-.3.3-.9 0-1.2-.3-.3-.8-.3-1.2 0-.2.1-.3.4-.2.6 0 .2.1.4.2.6.2.2.4.2.6.2z"/><path d="M.8 47.9H15c.4 1.9 2.1 3.3 4 3.3 2 0 3.7-1.4 4-3.3h14.1c.5 0 .8-.4.8-.8s-.4-.8-.8-.8H23c-.3-1.6-1.6-2.9-3.2-3.2v-5h10.7c1.4 0 2.5-1.1 2.5-2.5V29c0-.6-.2-1.2-.6-1.7.4-.4.6-1 .6-1.7V19c0-1.4-1.1-2.5-2.5-2.5H7.4C6.1 16.5 5 17.6 5 19v6.6c0 .6.2 1.2.6 1.7-.4.5-.6 1-.6 1.7v6.6C5 36.9 6.1 38 7.4 38h10.7v5c-1.6.3-2.9 1.6-3.2 3.2H.8c-.5 0-.8.4-.8.8s.4.9.8.9zM6.6 19c0-.5.4-.8.8-.8h23.1c.5 0 .8.4.8.8v6.6c0 .5-.4.8-.8.8H7.4c-.5 0-.8-.4-.8-.8V19zm0 16.5v-6.6c0-.5.4-.8.8-.8h23.1c.5 0 .8.4.8.8v6.6c0 .5-.4.8-.8.8H7.4c-.4 0-.8-.3-.8-.8zM19 44.6c1.4 0 2.5 1.1 2.5 2.5s-1.1 2.5-2.5 2.5-2.5-1.1-2.5-2.5 1.1-2.5 2.5-2.5zm-5-31.4h10c.5 0 .8-.4.8-.8v-5c0-.5-.4-.8-.8-.8h-.8V4.1C23.1 1.9 21.3 0 19 0c-2.3 0-4.1 1.9-4.1 4.1v2.5H14c-.5 0-.8.4-.8.8v5c0 .4.4.8.8.8zm2.5-9.1c0-1.4 1.1-2.5 2.5-2.5s2.5 1.1 2.5 2.5v2.5h-5V4.1zm-1.6 4.2h8.3v3.3h-8.3V8.3z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--vps2</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-wall.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 28"><path d="M.8 27.8h34.4c.5 0 .8-.4.8-.8v-6.5c0-.5-.4-.8-.8-.8h-4.1V14c0-.5-.4-.8-.8-.8h-5.7V7.4c0-.5-.4-.8-.8-.8h-4.1V.8c0-.5-.4-.8-.8-.8H.9C.4 0 0 .4 0 .8V27c0 .5.4.8.8.8zM7.4 8.2h4.1v4.9H1.6V8.2h5.8zM18 19.6H8.2v-4.9H18v4.9zm-16.4 0v-4.9h4.9v4.9H1.6zm0 1.7h9.8v4.9H1.6v-4.9zm11.5 0h9.8v4.9h-9.8v-4.9zm21.3 4.9h-9.8v-4.9h9.8v4.9zm-4.9-6.6h-9.8v-4.9h9.8v4.9zm-6.6-6.5h-9.8V8.2h9.8v4.9zM18 6.5H8.2V1.6H18v4.9zM1.6 1.6h4.9v4.9H1.6V1.6z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--wall</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-web.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><path d="M33.3 0H.7C.3 0 0 .3 0 .7v32.6c0 .4.3.7.7.7h32.6c.4 0 .7-.3.7-.7V.7c0-.4-.3-.7-.7-.7zm-.7 1.4v5.7H1.4V1.4h31.2zM1.4 32.6V8.5h31.2v24.1H1.4z"/><circle cx="5.7" cy="4.2" r="1.4"/><circle cx="9.9" cy="4.2" r="1.4"/><circle cx="14.2" cy="4.2" r="1.4"/><path d="M27.6 15.6H6.4c-.4 0-.7.3-.7.7v7.1c0 .4.3.7.7.7h21.2c.4 0 .7-.3.7-.7v-7.1c0-.4-.3-.7-.7-.7zM7.1 17h12.8v5.7H7.1V17zm19.8 5.7h-5.7V17h5.7v5.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--web</code></p>
+	</div>
+</div>
+<div class="Grid--auto t-center m-bottom-10">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-weight.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 28.6c7 0 12.7-5.7 12.7-12.6S23 3.3 16 3.3 3.3 9 3.3 16 9 28.6 16 28.6zm0 3.3c-8.8 0-16-7.1-16-16S7.2 0 16 0s16 7.1 16 16-7.2 15.9-16 15.9z"/><path d="M24.5 22.4L22.8 13c-.2-.9-.9-1.5-1.8-1.5.1-1.6-.5-3.2-1.8-4.2-.8-.8-1.7-1.2-2.8-1.3H16c-1.2 0-2.3.4-3.3 1.3-1.2 1-1.8 2.6-1.7 4.2-.8 0-1.6.6-1.8 1.5l-1.7 9.4c-.2 1.1.7 2.1 1.8 2.1h13.4c1.1 0 2-1 1.8-2.1zM14.6 9.5c.8-.7 2-.7 2.8 0 .6.5.8 1.3.7 2h-4.2c-.1-.7.1-1.5.7-2zm-3.9 12l1.3-7h7.9l1.3 7H10.7z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--weight</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-wp-circle.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.3 94.2"><path d="M44.7 0h4.9c.3.1.6.2.9.2C56.6.5 62.6 2.2 68 5c14.4 7.4 23 19.2 25.7 35.2.2 1.4.4 2.9.6 4.4v4.9c-.1.3-.2.6-.2.9-.4 6.2-2 12.2-4.9 17.7C81.6 82.4 69.9 91 53.9 93.6l-4.4.6h-4.9c-.3-.1-.6-.2-.9-.2-6.1-.3-12.1-2-17.5-4.8C11.8 81.7 3.2 69.9.6 53.9.4 52.5.2 51 0 49.5v-4.9c.1-.3.2-.6.2-.9.4-6.3 2.1-12.4 5-17.9C12.7 11.7 24.4 3.2 40.2.5c1.5-.2 3-.4 4.5-.5zm31.1 15.7C63.7 5.6 50.3 2.2 35.3 6.4c-10 2.8-17.7 8.7-23.7 17.4 2.3 0 4.3.1 6.4 0 2.5-.1 5-.3 7.5-.4.8-.2 1.7.3 1.9 1.1v.3c.1 1.1-.4 1.7-1.6 1.9-.4.1-.9.1-1.3.1l-3.5.3C26.2 42.4 31.3 57.6 36.4 73c.1-.2.2-.3.2-.5 3-8.9 6-17.8 8.9-26.7.1-.4.1-.8-.1-1.2-2-5.6-4-11.1-6.1-16.7-.2-.6-.5-.8-1.2-.9-1.3-.1-2.5-.2-3.7-.4-.8 0-1.5-.7-1.4-1.5v-.3c0-.9.8-1.6 1.7-1.6.4 0 .9.1 1.3.1 4.6.1 9.2.3 13.8.3 2.4 0 4.8-.3 7.2-.4.9-.2 1.8.4 2 1.2v.3c.1.9-.5 1.7-1.3 1.8h-.3c-.4.1-.9.1-1.3.1l-3.5.3c5.1 15.2 10.2 30.3 15.3 45.5.2-.3.2-.3.2-.4 2.1-7.1 4.3-14.2 6.4-21.2 1.2-3.7 1.2-7.7.2-11.5-1-3-2.4-5.8-4.1-8.4-1.1-1.8-1.9-3.7-2.6-5.7-1.2-3.9 1-8 4.9-9.2 1-.1 1.9-.2 2.9-.3zM61.1 87C56.7 75 52.3 63 48 51h-.3L35.1 87.6c5.5 2.7 20.3 2.3 26-.6zm-32.4-1.8C21.9 66.6 15.2 48.3 8.5 29.8c-9.3 20.1-.8 45.3 20.2 55.4zm39.8-1.8c.1.1.2.1.2.2 10.4-6.4 17.2-15.5 19.8-27.5 2.3-9.8.8-20.2-4.1-29-.1.1-.1.3-.1.4.3 3 .2 6-.3 8.9-.6 3.5-1.6 6.9-2.9 10.2-3.4 9.6-6.7 19.2-10 28.8-.8 2.7-1.7 5.4-2.6 8z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--wp-circle</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-wp-x.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M13.1 16l-2.8-3c-.8-.9-.8-2.2.1-3 .9-.8 2.2-.8 3 .1l2.6 2.8 2.6-2.8c.8-.9 2.1-.9 3-.1.9.8.9 2.1.1 3l-2.8 3 2.8 3c.8.9.8 2.2-.1 3-.9.8-2.2.8-3-.1L16 19.1l-2.6 2.8c-.8.9-2.1.9-3 .1-.9-.8-.9-2.1-.1-3l2.8-3z"/><path d="M15.8 28.7c7 0 12.7-5.7 12.7-12.7S22.8 3.3 15.8 3.3 3.1 9 3.1 16s5.7 12.7 12.7 12.7zM16 32C7.2 32 0 24.8 0 16S7.2 0 16 0s16 7.2 16 16-7.2 16-16 16z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--x</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-x-solo.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.3 31.3"><path d="M8.4 15.7l-7-7.1c-2-2-1.9-5.2.3-7.2 2.1-1.9 5.5-1.8 7.5.2l6.5 6.6 6.5-6.6c2-2 5.4-2.2 7.5-.2 2.1 1.9 2.3 5.1.3 7.2l-7 7.1 7 7.1c2 2 1.9 5.2-.3 7.2-2.1 1.9-5.5 1.8-7.5-.3l-6.5-6.6-6.5 6.6c-2 2-5.4 2.2-7.5.3-2.1-1.9-2.3-5.1-.3-7.2l7-7.1z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--x-solo</code></p>
+	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-youtube.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 21.2"><path d="M11.9 14.6V6.1l8.1 4.2-8.1 4.3zm17.8-10s-.3-2.1-1.2-3C27.4.4 26.1.4 25.5.3 21.3 0 15 0 15 0S8.7 0 4.5.3c-.6.1-1.9.1-3 1.3-.9.9-1.2 3-1.2 3C.1 6.2 0 7.9 0 9.5v2.3c0 1.6.1 3.3.3 4.9 0 0 .3 2.1 1.2 3 1.1 1.2 2.6 1.2 3.3 1.3 2.4.2 10.2.3 10.2.3s6.3 0 10.5-.3c.6-.1 1.9-.1 3-1.3.9-.9 1.2-3 1.2-3 .2-1.6.3-3.3.3-4.9V9.5c0-1.6-.1-3.3-.3-4.9z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--youtube</code></p>
+	</div>
+	<div></div>
 </div>
 
+Decorative (Font)
+{% highlight html %}
+<span class="Icon Icon--account t-6" aria-hidden="true"></span>
+{% endhighlight %}
+Critical (SVG)
 {% highlight html %}
 <svg class="Icon Icon--size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8h32L16 24z"/></svg>
 {% endhighlight %}

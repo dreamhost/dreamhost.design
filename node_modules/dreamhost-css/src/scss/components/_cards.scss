@@ -160,13 +160,13 @@ Cards
 
 .Card__icon {
 	position: absolute;
-	margin: convertScaleToRem(1) convertScaleToRem(0);
+	margin: convertScaleToRem(0);
 	color: $c-b300;
 
 	& + .Card__heading,
 	& ~ .Card__content,
 	& ~ .Button {
-		margin-left: convertScaleToRem(3);
+		margin-left: convertScaleToRem(5);
 	}
 }
 

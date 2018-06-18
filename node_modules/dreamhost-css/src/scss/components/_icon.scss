@@ -25,3 +25,99 @@
 		height:convertScaleToRem(2);
 	}
 }
+
+// Icon font character mapping
+
+[class^="Icon--"], [class*="Icon--"] {
+	font-family: 'dh-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	@include fontsize($t-3);
+	text-decoration: inherit;
+	text-rendering: optimizeLegibility;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.supports-fontface .Icon--account:before { content: "\f100"; }
+.supports-fontface .Icon--accounts:before { content: "\f101"; }
+.supports-fontface .Icon--aid:before { content: "\f102"; }
+.supports-fontface .Icon--alarm:before { content: "\f103"; }
+.supports-fontface .Icon--alert:before { content: "\f104"; }
+.supports-fontface .Icon--automate:before { content: "\f105"; }
+.supports-fontface .Icon--bandwidth:before { content: "\f106"; }
+.supports-fontface .Icon--biz:before { content: "\f107"; }
+.supports-fontface .Icon--build:before { content: "\f108"; }
+.supports-fontface .Icon--cache:before { content: "\f109"; }
+.supports-fontface .Icon--cart:before { content: "\f10a"; }
+.supports-fontface .Icon--cartarrow:before { content: "\f10b"; }
+.supports-fontface .Icon--certificate:before { content: "\f10c"; }
+.supports-fontface .Icon--chat:before { content: "\f10d"; }
+.supports-fontface .Icon--check:before { content: "\f10e"; }
+.supports-fontface .Icon--check-solo:before { content: "\f10f"; }
+.supports-fontface .Icon--chef:before { content: "\f110"; }
+.supports-fontface .Icon--clock:before { content: "\f111"; }
+.supports-fontface .Icon--comp:before { content: "\f112"; }
+.supports-fontface .Icon--dedicated:before { content: "\f114"; }
+.supports-fontface .Icon--doc:before { content: "\f115"; }
+.supports-fontface .Icon--dropdown:before { content: "\f116"; }
+.supports-fontface .Icon--email:before { content: "\f117"; }
+.supports-fontface .Icon--facebook:before { content: "\f118"; }
+.supports-fontface .Icon--facebook-solo:before { content: "\f119"; }
+.supports-fontface .Icon--folders:before { content: "\f11a"; }
+.supports-fontface .Icon--forward:before { content: "\f11b"; }
+.supports-fontface .Icon--glass:before { content: "\f11c"; }
+.supports-fontface .Icon--globe:before { content: "\f11d"; }
+.supports-fontface .Icon--globe-3d:before { content: "\f11e"; }
+.supports-fontface .Icon--http:before { content: "\f11f"; }
+.supports-fontface .Icon--http2:before { content: "\f120"; }
+.supports-fontface .Icon--instagram:before { content: "\f121"; }
+.supports-fontface .Icon--joystick:before { content: "\f122"; }
+.supports-fontface .Icon--lock:before { content: "\f123"; }
+.supports-fontface .Icon--messages:before { content: "\f124"; }
+.supports-fontface .Icon--mouse:before { content: "\f125"; }
+.supports-fontface .Icon--network:before { content: "\f126"; }
+.supports-fontface .Icon--node:before { content: "\f127"; }
+.supports-fontface .Icon--notification:before { content: "\f128"; }
+.supports-fontface .Icon--pencil:before { content: "\f129"; }
+.supports-fontface .Icon--port:before { content: "\f12a"; }
+.supports-fontface .Icon--powercycle:before { content: "\f12b"; }
+.supports-fontface .Icon--proof:before { content: "\f12c"; }
+.supports-fontface .Icon--protection:before { content: "\f12d"; }
+.supports-fontface .Icon--ram:before { content: "\f12e"; }
+.supports-fontface .Icon--raw:before { content: "\f12f"; }
+.supports-fontface .Icon--reload:before { content: "\f130"; }
+.supports-fontface .Icon--restore:before { content: "\f131"; }
+.supports-fontface .Icon--ribbon:before { content: "\f132"; }
+.supports-fontface .Icon--ruby:before { content: "\f133"; }
+.supports-fontface .Icon--scale:before { content: "\f134"; }
+.supports-fontface .Icon--search:before { content: "\f135"; }
+.supports-fontface .Icon--secure:before { content: "\f136"; }
+.supports-fontface .Icon--security:before { content: "\f137"; }
+.supports-fontface .Icon--sftp:before { content: "\f138"; }
+.supports-fontface .Icon--shared:before { content: "\f139"; }
+.supports-fontface .Icon--ssd:before { content: "\f13a"; }
+.supports-fontface .Icon--stack:before { content: "\f13b"; }
+.supports-fontface .Icon--stopwatch:before { content: "\f13c"; }
+.supports-fontface .Icon--tape:before { content: "\f13d"; }
+.supports-fontface .Icon--team:before { content: "\f13e"; }
+.supports-fontface .Icon--thumb:before { content: "\f13f"; }
+.supports-fontface .Icon--traffic:before { content: "\f140"; }
+.supports-fontface .Icon--twitter:before { content: "\f141"; }
+.supports-fontface .Icon--twitter-solo:before { content: "\f142"; }
+.supports-fontface .Icon--unlock:before { content: "\f143"; }
+.supports-fontface .Icon--updates:before { content: "\f144"; }
+.supports-fontface .Icon--vps:before { content: "\f145"; }
+.supports-fontface .Icon--vps2:before { content: "\f146"; }
+.supports-fontface .Icon--wall:before { content: "\f147"; }
+.supports-fontface .Icon--web:before { content: "\f148"; }
+.supports-fontface .Icon--weight:before { content: "\f149"; }
+.supports-fontface .Icon--wp-circle:before { content: "\f14a"; }
+.supports-fontface .Icon--x:before { content: "\f14d"; }
+.supports-fontface .Icon--x-solo:before { content: "\f14b"; }
+.supports-fontface .Icon--youtube:before { content: "\f14c"; }

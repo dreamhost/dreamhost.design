@@ -45,3 +45,22 @@
 */
 
 @include font-face('Ubuntu Mono', '../fonts/ubuntu/UbuntuMono-Regular', normal, normal);
+
+/* DreamHost icon font. Used for decorative icons. All interface critical icons to be added using .SVG
+
+Usage:
+- font-family: 'dh-icon', sans-serif;
+
+*/
+
+@font-face {
+	font-family: 'dh-icon';
+	src: url("../fonts/dh-icon/dh-icon.eot");
+	src: url("../fonts/dh-icon/dh-icon.eot?#iefix") format("embedded-opentype"),
+				url("../fonts/dh-icon/dh-icon.woff2") format("woff2"),
+				url("../fonts/dh-icon/dh-icon.woff") format("woff"),
+				url("../fonts/dh-icon/dh-icon.ttf") format("truetype"),
+				url("../fonts/dh-icon/dh-icon.svg#dh-icon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}

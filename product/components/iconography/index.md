@@ -8,10 +8,18 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 <hr />
 
 <h3>Decorative Icons</h3>
-<p>For decorative non critical icons our icon font should be used. The additional name classes detailed below <code>.Icon--account</code> are required to envoke the DH icon font glyphs. The icon font sizes should use our exisiting <a href="{{site.baseurl}}/product/utilities/typography/">type scale</a> <code>.t-1</code>-<code>.t-6</code>. Download our icon font <a href="{{site.baseurl}}/assets/downloads/icons/dh-icon.zip" download>here</a> (Containes .EOT, .SVG, .TFF, .WOFF, .WOFF2)</p>
+<p>The DreamHost icon font should only be used for decorative, non-critical icons. The additional name classes detailed below <code>.Icon--account</code> are required to envoke the DH icon font glyphs. The icon font sizes should use our exisiting <a href="{{site.baseurl}}/product/utilities/typography/">type scale</a> <code>.t-1</code>-<code>.t-6</code>. Download our icon font <a href="{{site.baseurl}}/assets/downloads/icons/dh-icon.zip" download>here</a> (Contains .EOT, .SVG, .TFF, .WOFF, .WOFF2)</p>
+
+{% highlight html %}
+<span class="Icon Icon--account t-6" aria-hidden="true"></span>
+{% endhighlight %}
 
 <h3>Critical Icons</h3>
 <p>For any interface crtical icons, inline SVG must be used for accessibility purposes. .SVG icons should use one of four different sizes modifiers <code>.Icon .Icon--size-x</code> (1 - 4). Click on the icons below to download as .SVG files.
+
+{% highlight html %}
+<svg class="Icon Icon--size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8h32L16 24z"/></svg>
+{% endhighlight %}
 
 <hr />
 
@@ -152,7 +160,7 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-dropdown.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="dropdown" d="M0 8h32L16 24z"/></defs><use xlink:href="#dropdown" overflow="visible"/></svg>
 		</a>
-		<p class="p-top-2"><code>.Icon--dropdown</code></p>
+		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">Critical Use Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-email.svg" download>
@@ -494,7 +502,7 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-x-solo.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.3 31.3"><path d="M8.4 15.7l-7-7.1c-2-2-1.9-5.2.3-7.2 2.1-1.9 5.5-1.8 7.5.2l6.5 6.6 6.5-6.6c2-2 5.4-2.2 7.5-.2 2.1 1.9 2.3 5.1.3 7.2l-7 7.1 7 7.1c2 2 1.9 5.2-.3 7.2-2.1 1.9-5.5 1.8-7.5-.3l-6.5-6.6-6.5 6.6c-2 2-5.4 2.2-7.5.3-2.1-1.9-2.3-5.1-.3-7.2l7-7.1z"/></svg>
 		</a>
-		<p class="p-top-2"><code>.Icon--x-solo</code></p>
+		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">Critical Use Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-youtube.svg" download>
@@ -504,12 +512,3 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 	</div>
 	<div></div>
 </div>
-
-Decorative (Font)
-{% highlight html %}
-<span class="Icon Icon--account t-6" aria-hidden="true"></span>
-{% endhighlight %}
-Critical (SVG)
-{% highlight html %}
-<svg class="Icon Icon--size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8h32L16 24z"/></svg>
-{% endhighlight %}

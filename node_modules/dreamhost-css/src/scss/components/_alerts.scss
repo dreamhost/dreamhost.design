@@ -163,13 +163,13 @@
 	transform: translateX(33%);
 	text-transform: uppercase;
 	font: $body;
-	@include fontsize($t-1, $t-h-1);
+	@include fontsize($t-1);
 	font-weight: $t-bold;
 
 	span{
 		display: block;
 		text-transform: initial;
-		@include fontsize($t-1, $t-h-1);
+		@include fontsize($t-1);
 		font-weight: $t-regular;
 		margin-top:0.5em;
 	}
@@ -250,7 +250,6 @@
 	transform: scale(0) translateX(100%);
 	margin-bottom: 0;
 	height: 0;
-	overflow: hidden;
 	visibility: hidden;
 	}
 }

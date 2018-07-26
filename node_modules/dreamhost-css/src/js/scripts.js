@@ -20,6 +20,7 @@
 	dh_css.init = function() {
 		Accordion.load();
 		Tabs.load();
+		Quickcopy.load();
 	}
 
 	var Accordion = {
@@ -56,6 +57,34 @@
 				// sets active tab
 				$('.Tab', $parent).removeClass('is-active');
 				$('.Tab[data-tab="' + tab + '"]').addClass('is-active');
+			});
+		}
+	}
+
+	// 'copy to clipboard' functionality
+	var Quickcopy = {
+		load: function() {
+				if(!$('.js-quickcopy').length) return;
+				Quickcopy.events();
+		},
+		events: function() {
+			$('.js-quickcopy-btn').on('click', function(e) {
+				var $parent = $(this).closest('.js-quickcopy');
+
+				// create temporary input field populate with text to be copied. this is the only way JS can grab text
+				var $temp = $('<input>');
+				$('body').append($temp);
+				$temp.val($('.js-quickcopy-text', $parent).text()).select();
+				var success = document.execCommand('copy');
+				$temp.remove();
+
+				if(!success) return;
+
+				// toggle success message if successful
+				$parent.toggleClass('Quickcopy__success');
+				setTimeout(function() {
+					$parent.toggleClass('Quickcopy__success');
+				}, 1000);
 			});
 		}
 	}

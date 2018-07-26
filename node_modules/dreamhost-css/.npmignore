@@ -2,5 +2,4 @@
 .jekyll-metadata
 /node_modules/
 /src/css/style.css
-/src/js/bundle.js
 *.DS_Store

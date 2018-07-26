@@ -66,7 +66,7 @@
 	li {
 		vertical-align: top;
 
-		&:last-of-type() .List__menu--description {
+		&:last-of-type .List__menu--description {
 			padding-bottom: 0;
 			margin-bottom: 0;
 		}
@@ -87,7 +87,7 @@
 
 	&.List--50{
 		li {
-			&:nth-last-of-type(2) .List__menu--description, &:last-of-type() .List__menu--description{
+			&:nth-last-of-type(2) .List__menu--description, &:last-of-type .List__menu--description{
 				padding-bottom: 0;
 				margin-bottom: 0;
 			}

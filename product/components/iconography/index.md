@@ -131,13 +131,19 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<p class="p-top-2"><code>.Icon--connection</code></p>
 	</div>
 	<div>
-		<a href="{{site.baseurl}}/assets/downloads/icons/icon-danger.svg" download>
-			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 .6c1.9 0 3.4 1.6 3.4 3.4v15.5c0 1.9-1.5 3.4-3.4 3.4s-3.4-1.5-3.4-3.4V4c0-1.9 1.5-3.4 3.4-3.4z"/><circle cx="16" cy="28.1" r="3.4"/></svg>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-copy.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M20.2 19.6h20.2v3.9H20.2zM20.2 27.5h20.2v3.9H20.2zM20.2 35.3h12.1v3.9H20.2z"/><path d="M44.5 7.9h-4V4c0-2.2-1.8-3.9-4-3.9H8.1C5.9.1 4 1.8 4 4v35.2c0 2.2 1.8 3.9 4 3.9h4V47c0 2.2 1.8 3.9 4 3.9h28.3c2.2 0 4-1.7 4-3.9V11.8c.2-2.1-1.6-3.9-3.8-3.9zm-32.4 3.9v27.4h-4V4h28.3v3.9H16.2c-2.3 0-4.1 1.8-4.1 3.9zM44.5 47H16.2V11.8h28.3V47z"/></svg>
 		</a>
-		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">Critical Only</code></p>
+		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Copy)<br />Critical Only</code></p>
 	</div>
 </div>
 <div class="Grid--auto t-center m-bottom">
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-danger.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 .6c1.9 0 3.4 1.6 3.4 3.4v15.5c0 1.9-1.5 3.4-3.4 3.4s-3.4-1.5-3.4-3.4V4c0-1.9 1.5-3.4 3.4-3.4z"/><circle cx="16" cy="28.1" r="3.4"/></svg>
+		</a>
+		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Danger)<br />Critical Only</code></p>
+	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-database.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 36"><path d="M28 29.6V6.2C28 2.7 22 0 14 0S0 2.7 0 6.2v23.3c0 3.5 6 6.2 14 6.2s14-2.6 14-6.1zM26.4 14c0 2.2-5.1 4.7-12.4 4.7S1.6 16.2 1.6 14V9.2c2.3 2 6.9 3.3 12.4 3.3s10.2-1.3 12.4-3.3V14zM1.6 16.9c2.3 2 6.9 3.3 12.4 3.3s10.2-1.3 12.4-3.3v4.8c0 2.2-5.1 4.7-12.4 4.7S1.6 24 1.6 21.8v-4.9zM14 1.6c7.3 0 12.4 2.5 12.4 4.7S21.3 11 14 11 1.6 8.4 1.6 6.2 6.7 1.6 14 1.6zm-12.4 28v-4.8C3.8 26.7 8.4 28 14 28s10.2-1.3 12.4-3.3v4.8c0 2.2-5.1 4.7-12.4 4.7S1.6 31.8 1.6 29.6z"/></svg>
@@ -166,16 +172,16 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-dropdown.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="dropdown-a" d="M0 8h32L16 24z"/></defs><use xlink:href="#dropdown-a" overflow="visible"/></svg>
 		</a>
-		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">Critical Only</code></p>
+		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Dropdown)<br />Critical Only</code></p>
 	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-email.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 23"><path d="M34 .5s0-.1-.1-.1V.3l-.1-.1s-.1 0-.1-.1h-.1H.7C.6 0 .6 0 .5 0H.4S.3 0 .3.1L.2.2v.1L.1.4v21.8s0 .1.1.1v.1c.1.1.1.1.2.1h.1c.1 0 .2.1.3.1h32.6c.1 0 .2 0 .3-.1h.1c.1 0 .1-.1.2-.1v-.1l.1-.1v-.1V.7.6c-.1 0-.1-.1-.1-.1zM1.4 2.3l10.4 9.1-10.4 9V2.3zM17 13.9L2.6 1.4h28.8L17 13.9zm-4.1-1.6l3.6 3.1c.3.2.7.2.9 0l3.6-3.1 10.3 9H2.6l10.3-9zm9.3-1l10.4-9.1v18.1c0 .1-10.4-9-10.4-9z"/></svg>
 		</a>
 		<p class="p-top-2"><code>.Icon--email</code></p>
 	</div>
-</div>
-<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-facebook.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 36.7"><path d="M30 31.7c0 .9-.7 1.6-1.6 1.6h-7.7V21.7h3.9l.6-4.5h-4.5v-2.9c0-1.3.4-2.2 2.2-2.2h2.4V8c-1.2-.1-2.3-.2-3.5-.2-3.5 0-5.8 2.1-5.8 6v3.4h-3.9v4.5H16v11.6H1.6c-.9 0-1.6-.7-1.6-1.6V5c0-.9.7-1.6 1.6-1.6h26.7c1 0 1.7.7 1.7 1.6v26.7z"/></svg>
@@ -206,14 +212,14 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		</a>
 		<p class="p-top-2"><code>.Icon--globe</code></p>
 	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-growth.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 33"><path d="M33.3 31.2H.7c-.4 0-.7.4-.7.7 0 .4.3.7.7.7h32.6c.4 0 .7-.4.7-.7-.1-.4-.3-.7-.7-.7zM2.1 29.8c.9 0 1.8-.6 2-1.5 1.6-.1 3.2-.4 4.7-.8.4.6 1.1.9 1.8.9 1.2 0 2.1-1 2.1-2.1V26c2-.9 3.8-2.1 5.4-3.5.3.1.6.2 1 .2 1.2 0 2.1-1 2.1-2.1 0-.3-.1-.7-.2-1 1.4-1.7 2.6-3.5 3.5-5.4h.3c1 .7 2.3.4 2.9-.6.7-1 .4-2.3-.6-2.9-.4-.2-.8-.4-1.2-.4.6-2.2.9-4.4.9-6.7V2.4l3 3c.3.3.7.3 1 0 .3-.3.3-.7 0-1L26.5.2c-.3-.3-.7-.3-1 0l-4.2 4.2c-.3.3-.2.7.1 1 .3.2.7.2.9 0l3-3v1.1c0 2.2-.3 4.3-.9 6.4-1.1.1-1.9 1-1.9 2.1 0 .6.2 1.1.6 1.5-.9 1.8-2 3.6-3.3 5.1-.3-.1-.6-.2-.9-.2-1.2 0-2.1 1-2.1 2.1 0 .3.1.6.2.9-1.5 1.3-3.3 2.4-5.1 3.3-.4-.4-.9-.6-1.5-.6-1.1 0-2 .9-2.1 1.9-1.5.4-2.9.7-4.4.8-.3-.8-1.1-1.3-2-1.3-1.2 0-2.1 1-2.1 2.1.2 1.2 1.2 2.2 2.3 2.2zm22.7-18.5c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-.3.3-.7.7-.7zm-5.7 8.5c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-.3.3-.7.7-.7zm-8.5 5.7c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7zm-8.5 1.4c.4 0 .7.3.7.7 0 .4-.3.7-.7.7-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7z"/></svg>
 		</a>
 		<p class="p-top-2"><code>.Icon--growth</code></p>
 	</div>
-</div>
-<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-handmade.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 38"><path d="M20.2 23.6c1.3-1.7 2-3.8 2-6.2 0-1.6-.4-3.3-1.1-4.8h.3c.4 0 .8-.4.8-.8V8.7c1-.7 1.6-1.9 1.6-3.2 0-2.2-1.8-4-4-4-.6 0-1.2.1-1.7.4-.9-1.2-2.3-2-3.8-2s-3 .7-3.8 2c-.6-.2-1.2-.3-1.8-.3-2.2 0-4 1.8-4 4 0 1.3.6 2.4 1.6 3.2V12c0 .4.4.8.8.8h.3c-.7 1.5-1.1 3.1-1.1 4.8 0 2.3.7 4.5 2 6.2C3.3 26 0 31.3 0 37.2c0 .4.4.8.8.8h26.9c.4 0 .8-.4.8-.8 0-5.9-3.3-11.2-8.3-13.6zM6.3 5.5c0-1.3 1.1-2.4 2.4-2.4.7 0 1.2.3 1.5.5.3.4.8.3 1.1 0 0 0 .1-.1.1-.2.5-1.1 1.6-1.8 2.9-1.8 1.2 0 2.3.7 2.9 1.8.2.4.7.6 1.1.4.1 0 .1-.1.2-.1.3-.2.8-.5 1.5-.5 1.3 0 2.4 1.1 2.4 2.4 0 .9-.4 1.6-1.2 2.1-.2.1-.4.4-.4.7v2.8H7.9V8.3c0-.3-.1-.5-.4-.7-.7-.4-1.2-1.2-1.2-2.1zm2.9 7.2h10.1c.8 1.4 1.3 3 1.3 4.8 0 2.3-.8 4.4-2.2 5.9-2.3 2.6-6 2.6-8.3 0-1.4-1.5-2.2-3.6-2.2-5.9 0-1.8.5-3.5 1.3-4.8zM1.6 36.4c.3-5.1 3.3-9.6 7.8-11.6 1.4 1.3 3.1 2.1 4.9 2.1 1.8 0 3.5-.8 4.9-2.1 4.4 2 7.5 6.5 7.8 11.6H1.6z"/><path d="M10.3 31.7H7.1c-.4 0-.8.4-.8.8s.3.7.8.8h3.2c.4 0 .8-.4.8-.8-.1-.5-.4-.8-.8-.8z"/></svg>
@@ -244,19 +250,19 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		</a>
 		<p class="p-top-2"><code>.Icon--mouse</code></p>
 	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-notification.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M8.1 3C3.8 7.3 1.4 13 1.4 19.1c0 .6.5 1 1 1s1-.5 1-1c0-5.5 2.2-10.7 6.1-14.7.5-.4.5-1 .1-1.4s-1.1-.4-1.5 0zm36.4-.1c-.4-.4-1.1-.4-1.5 0-.4.4-.4 1.1 0 1.5 2 2 3.5 4.3 4.5 6.8s1.6 5.2 1.6 7.9c0 .6.5 1 1 1s1-.5 1-1c0-3-.6-6-1.7-8.7-1-2.8-2.7-5.3-4.9-7.5z"/><path d="M11 5.9c-3.5 3.5-5.5 8.2-5.5 13.2 0 .6.5 1 1 1s1-.5 1-1c0-4.4 1.7-8.6 4.9-11.7.4-.4.4-1.1 0-1.5-.3-.4-1-.4-1.4 0zm34 13.2c0 .6.5 1 1 1 .6 0 1-.5 1-1 0-2.5-.5-4.9-1.4-7.1-.9-2.3-2.3-4.3-4.1-6.1-.4-.4-1.1-.4-1.5 0-.4.4-.4 1.1 0 1.5 1.6 1.6 2.8 3.4 3.6 5.4 1 2 1.4 4.1 1.4 6.3zM26.4 6.6h.4c3.4.1 6.6 1.4 9 3.7 2.5 2.4 3.9 5.5 3.9 8.8v12.2c0 1.8.7 3.5 2 4.9l5.5 5.8H5.6l5.5-5.8c1.3-1.3 2-3.1 2-4.9V19.7c-.1-7.1 6-13.1 13.3-13.1zm-2.1-2c0-1.1.9-2.1 2.1-2.1s2.1.9 2.1 2.1v.1c-.5-.1-1-.1-1.6-.1h-.4c-.7 0-1.4.1-2.1.2-.1-.1-.1-.2-.1-.2zm2 43.6c-2.7 0-5-1.7-5.9-4.2h11.7c-.8 2.5-3.1 4.2-5.8 4.2zM11 19.7v11.6c0 1.3-.5 2.5-1.4 3.4l-5.5 5.8c-.6.6-.7 1.4-.4 2.2.3.8 1.1 1.3 1.9 1.3h12.7c.9 3.6 4.2 6.2 8 6.2s7.1-2.6 8-6.2H47c.9 0 1.6-.5 2-1.3.3-.8.2-1.6-.4-2.2l-5.5-5.8c-.9-.9-1.4-2.2-1.4-3.4V19.1c0-3.9-1.6-7.5-4.5-10.3-1.9-1.8-4.2-3-6.8-3.7 0-.2.1-.4.1-.5 0-2.3-1.9-4.2-4.2-4.2s-4.2 1.9-4.2 4.2c0 .2 0 .4.1.6C15.8 7 11 12.9 11 19.7z"/><path d="M16.1 20.7c.6 0 1-.5 1-1 0-1.2.2-2.3.7-3.4.5-1.1 1.1-2 2-2.8.9-.8 1.8-1.5 2.9-1.9.5-.2.8-.8.6-1.4-.2-.5-.8-.8-1.4-.6-1.3.6-2.5 1.4-3.6 2.4-1 1-1.9 2.2-2.4 3.5-.6 1.4-.9 2.8-.9 4.2.1.6.6 1 1.1 1z"/></svg>
 		</a>
 		<p class="p-top-2"><code>.Icon--notification</code></p>
 	</div>
-</div>
-<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-powercycle.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="powercycle-a" d="M18 3.3c0 .2 0 .4-.2.5l-2.7 3.4c-.3.3-.8.4-1.1.1-.3-.3-.4-.7-.1-1.1 0 0 .3-.4.8-1.1-5.8.8-10.4 5.8-10.4 11.8 0 6.5 5.3 11.8 11.7 11.8.9 0 1.6.7 1.6 1.6S16.9 32 16 32C7.7 32 1 25.2 1 16.9 1 9.3 6.7 2.9 14.1 2c-.2-.2-.5-.4-.8-.6-.3-.3-.4-.7-.1-1.1.3-.3.7-.4 1.1-.1 0 0 1.2.9 3.4 2.6.1.1.2.3.3.5"/></defs><use xlink:href="#powercycle-a" overflow="visible"/><defs><path id="powercycle-b" d="M23 28.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-b" overflow="visible"/><defs><path id="powercycle-c" d="M29 24.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-c" overflow="visible"/><defs><path id="powercycle-d" d="M31 17.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-d" overflow="visible"/><defs><path id="powercycle-e" d="M28 9.5c0-.8-.7-1.5-1.5-1.5S25 8.7 25 9.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-e" overflow="visible"/><path d="M16.5 9c.8 0 1.5.7 1.5 1.5v4c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5v-4c0-.8.7-1.5 1.5-1.5z"/><path d="M21.6 12.7s-.1 0 0 0l-.2-.2c-.4-.4-1.5-1.2-2.3-.4-.9.9.2 2.5.4 2.8.6.7.9 1.6.9 2.6 0 2.2-1.7 4-4 4-2.2 0-4-1.8-4-4 0-1 .4-2 1-2.7 0 0 1.5-1.8.5-2.8s-2.4.6-2.4.6c-1.3 1.3-2.1 3-2.1 4.9 0 3.9 3.1 7 7 7s7-3.1 7-7c.1-1.9-.6-3.6-1.8-4.8z"/></svg>
 		</a>
-			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">Critical Only</code></p>
+			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Powercycle)<br />Critical Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-ram.svg" download>
@@ -268,13 +274,13 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-reload.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><path d="M12.1 28.3c.1-.1 1-1.1 2.8-2.9.3-.3.8-.3 1.1-.1.3.3.4.7.1 1l-.9.9c5.3-.3 10.1-4.1 11.2-8.8v-.1c0-.1.1-.3.1-.4v-1c.2-2.6-.7-5.2-2.5-7.3-.6-.6-.4-1.6.3-2.1.7-.6 1.7-.5 2.3.1 2.4 2.7 3.4 6 3.2 9.3 0 .8-.2 1.7-.4 2.4 0 .1 0 .1-.1.2v.1c-.8 2.8-2.5 5.5-5.1 7.5-2.3 1.7-5.6 2.8-8.6 3 .2.2.5.4.8.6.3.3.4.7.1 1s-.8.3-1.1.1c0 0-1.1-.9-3.2-2.5-.2-.1-.3-.3-.3-.5s.1-.4.2-.5M.2 13.6v-.3C.8 10.4 2.4 7.5 5 5.4c2.2-1.8 5-3.1 8.1-3.4-.2-.2-.5-.4-.8-.6s-.4-.7-.1-1c.4-.3.8-.4 1.2-.2 0 0 1.2.8 3.4 2.4.2.2.3.4.3.5 0 .2 0 .4-.2.5-.1.1-1 1.1-2.7 3.1-.3.3-.8.4-1.1.1-.3-.2-.4-.7-.1-1 0 0 .3-.3.8-1-5.3.7-9.6 4.8-10.4 9.6v.1c0 .1 0 .3-.1.4v1c0 2.6 1 5.2 3 7.3.6.6.5 1.6-.1 2.2s-1.8.6-2.4 0c-2.5-2.7-3.8-6-3.8-9.3 0-.9.1-1.7.2-2.5"/></svg>
 		</a>
-			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">Critical Only</code></p>
+			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Reload)<br />Critical Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-restore.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 30"><path d="M17.1 0c2.3 0 4.5.5 6.4 1.4.2.1.3.2.5.3 0 0 .1 0 .1.1.2.1.4.2.5.2s.1.1.2.1c.1.1.3.2.4.3.1 0 .1.1.2.1.1.1.3.2.4.3.1 0 .1.1.2.1.1.1.3.2.4.3l.1.1c.1.1.3.2.4.3l.1.1c3.1 2.7 5 6.7 5 11.1v.2c0 3.8-1.4 7.3-3.8 9.9l-.1.1-.3.3-.1.1C25 28.3 21.3 30 17.1 30h-.3c-3.8 0-7.6-1.4-10.5-4.3C6 23.6 8 22.9 9 23.8c2.2 2 5 3 7.8 2.9H18c.2 0 .3 0 .5-.1h.1c5.2-.8 9.6-5 10.1-10.3 0-.4.1-.8.1-1.2v-.2c0-3.5-1.6-6.7-4.1-8.8-.1-.1-.2-.1-.3-.2l-.2-.2c-.1-.1-.2-.1-.2-.2-.1-.1-.2-.1-.2-.2-.1 0-.1-.1-.2-.1-.1-.1-.2-.1-.3-.2-.1 0-.1-.1-.2-.1-.1-.1-.2-.1-.3-.2-.1 0-.1-.1-.2-.1s-.2-.1-.3-.1c-.1 0-.2-.1-.2-.1-.1 0-.1-.1-.2-.1-.9-.4-1.9-.7-2.8-.9-.2 0-.3-.1-.5-.1h-3c-.2 0-.3 0-.5.1H15c-5.2.8-9.6 5-10.1 10.3.7-.5 1-.8 1-.8.7-.3 1.1-.2 1.4.1s.2.8-.1 1.1c-2.1 1.7-3.2 2.6-3.3 2.7-.2.1-.4.2-.5.2-.2 0-.4-.1-.5-.3C1.2 14.5.3 13.3.3 13.3c-.4-.5 0-1.4 1-1.2.3.4.6.7.8 1.1.3-3.2 1.6-6 3.5-8.2C7.8 2.5 11 .9 14.1.3h.3c.9-.2 1.8-.3 2.7-.3z"/><path d="M18.6 15.1V8.6c0-1-.8-1.8-1.8-1.8S15 7.6 15 8.6V17c0 1 .8 1.8 1.8 1.8h4.9c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8l-3.1-.1z"/></svg>
 		</a>
-			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">Critical Only</code></p>
+			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Restore)<br />Critical Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-ruby.svg" download>
@@ -282,14 +288,14 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		</a>
 		<p class="p-top-2"><code>.Icon--ruby</code></p>
 	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-scale.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 35"><path d="M26 .2c-.3-.3-.7-.3-1 0l-4.4 4.4c-.3.3-.3.8 0 1 .3.3.7.3 1 0l3.2-3.2v31.8c0 .4.4.7.8.7s.7-.3.7-.7V2.6l3 3c.3.3.7.3 1 0 .3-.3.3-.7 0-1L26 .2zM15.8 8.9c-.3-.3-.7-.3-1 0l-4.4 4.4c-.3.3-.3.8 0 1 .3.3.7.3 1 0l3.2-3.2v23c0 .4.4.7.8.7s.7-.3.7-.7V11.3l3 3.1c.3.3.7.3 1 0 .3-.3.3-.7 0-1l-4.3-4.5zM5.6 17.7c-.3-.3-.7-.3-1 0L.2 22c-.3.3-.2.8.1 1 .3.2.7.2 1 0l3.2-3.2v14.3c0 .4.4.7.8.7s.7-.3.7-.7V20l3.1 3c.3.3.7.3 1 0 .3-.3.3-.7 0-1-.1 0-4.5-4.3-4.5-4.3z"/></svg>
 		</a>
 		<p class="p-top-2"><code>.Icon--scale</code></p>
 	</div>
-</div>
-<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-search.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.9 8.4c0 2.9-2.4 5.3-5.3 5.3s-5.3-2.4-5.3-5.3 2.4-5.3 5.3-5.3c3 .1 5.3 2.4 5.3 5.3zm-.2-6.7C17-1 11.8-.3 9 3.4c-2.3 3-2.3 7.1 0 10.1l-1.4 1.4c-.6-.4-1.4-.3-1.9.2L.5 20.3c-.6.6-.6 1.6 0 2.2l.9.9c.6.6 1.6.6 2.2 0l5.2-5.2c.5-.5.6-1.1.3-1.7l1.5-1.5c3.6 2.8 8.9 2.2 11.7-1.4s2.2-8.9-1.4-11.7c-.1 0-.1-.1-.2-.2z"/></svg>
@@ -320,14 +326,14 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		</a>
 		<p class="p-top-2"><code>.Icon--ssd</code></p>
 	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-stack.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38 35"><path d="M3.4 14.7l-3 1.9c-.2.1-.4.4-.4.7 0 .3.2.6.4.7l3 1.9-3 1.9c-.2.1-.4.4-.4.7 0 .3.2.6.4.7l18.1 11.2c.1.1.3.1.5.1s.3 0 .5-.1l18.1-11.2c.3-.2.4-.4.4-.7 0-.3-.2-.6-.4-.7l-3-1.9 3-1.9c.3-.2.4-.4.4-.7 0-.3-.2-.6-.4-.7l-3-1.9 3-1.9c.3-.2.4-.4.4-.7 0-.3-.2-.6-.4-.7L19.5.1c-.3-.2-.6-.2-.9 0L.4 11.4c-.2.1-.4.4-.4.7 0 .3.2.6.4.7l3 1.9zm32.1 7.8L19 32.7 2.5 22.5 5 20.9l13.5 8.4c.1.1.3.1.5.1s.3 0 .5-.1L33 20.9l2.5 1.6zm0-5.2L19 27.5 2.5 17.3 5 15.7l13.5 8.4c.1.1.3.1.5.1s.3 0 .5-.1L33 15.7l2.5 1.6zM19 1.9l16.5 10.2L19 22.3 2.5 12.1 19 1.9z"/></svg>
 		</a>
 		<p class="p-top-2"><code>.Icon--stack</code></p>
 	</div>
-</div>
-<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-team.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M26.4 25.3c3.4-1.9 5.7-5.6 5.7-9.8 0-6.2-5.1-11.3-11.3-11.3-6.2 0-11.3 5.1-11.3 11.3 0 4.2 2.3 7.8 5.7 9.8C6.7 27.5.5 34.7.5 43.2V46c0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1v-2.8c0-9 8.1-16.4 18.1-16.4 10 0 18.1 7.4 18.1 16.4V46c0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1v-2.8c0-8.5-6.2-15.7-14.7-17.9zm-14.6-9.8c0-5 4-9 9-9s9 4 9 9-4 9-9 9-9-4-9-9z"/><path d="M41.6 25.3c2.4-1.6 4.1-4.4 4.1-7.5 0-5-4-9-9-9-.6 0-1.1.5-1.1 1.1s.4 1.1 1 1.1c3.7 0 6.8 3 6.8 6.8 0 3.7-3 6.8-6.8 6.8-.6 0-1.1.5-1.1 1.1 0 .6.5 1.1 1.1 1.1 7.5 0 13.5 5.6 13.5 12.5v2.2c0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1v-2.2c.1-6.5-4.4-12.1-10.7-14z"/></svg>
@@ -358,14 +364,14 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		</a>
 		<p class="p-top-2"><code>.Icon--web</code></p>
 	</div>
+</div>
+<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-weight.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 28.6c7 0 12.7-5.7 12.7-12.6S23 3.3 16 3.3 3.3 9 3.3 16 9 28.6 16 28.6zm0 3.3c-8.8 0-16-7.1-16-16S7.2 0 16 0s16 7.1 16 16-7.2 15.9-16 15.9z"/><path d="M24.5 22.4L22.8 13c-.2-.9-.9-1.5-1.8-1.5.1-1.6-.5-3.2-1.8-4.2-.8-.8-1.7-1.2-2.8-1.3H16c-1.2 0-2.3.4-3.3 1.3-1.2 1-1.8 2.6-1.7 4.2-.8 0-1.6.6-1.8 1.5l-1.7 9.4c-.2 1.1.7 2.1 1.8 2.1h13.4c1.1 0 2-1 1.8-2.1zM14.6 9.5c.8-.7 2-.7 2.8 0 .6.5.8 1.3.7 2h-4.2c-.1-.7.1-1.5.7-2zm-3.9 12l1.3-7h7.9l1.3 7H10.7z"/></svg>
 		</a>
 		<p class="p-top-2"><code>.Icon--weight</code></p>
 	</div>
-</div>
-<div class="Grid--auto t-center m-bottom">
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-wordpress.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.3 94.2"><path d="M44.7 0h4.9c.3.1.6.2.9.2C56.6.5 62.6 2.2 68 5c14.4 7.4 23 19.2 25.7 35.2.2 1.4.4 2.9.6 4.4v4.9c-.1.3-.2.6-.2.9-.4 6.2-2 12.2-4.9 17.7C81.6 82.4 69.9 91 53.9 93.6l-4.4.6h-4.9c-.3-.1-.6-.2-.9-.2-6.1-.3-12.1-2-17.5-4.8C11.8 81.7 3.2 69.9.6 53.9.4 52.5.2 51 0 49.5v-4.9c.1-.3.2-.6.2-.9.4-6.3 2.1-12.4 5-17.9C12.7 11.7 24.4 3.2 40.2.5c1.5-.2 3-.4 4.5-.5zm31.1 15.7C63.7 5.6 50.3 2.2 35.3 6.4c-10 2.8-17.7 8.7-23.7 17.4 2.3 0 4.3.1 6.4 0 2.5-.1 5-.3 7.5-.4.8-.2 1.7.3 1.9 1.1v.3c.1 1.1-.4 1.7-1.6 1.9-.4.1-.9.1-1.3.1l-3.5.3C26.2 42.4 31.3 57.6 36.4 73c.1-.2.2-.3.2-.5 3-8.9 6-17.8 8.9-26.7.1-.4.1-.8-.1-1.2-2-5.6-4-11.1-6.1-16.7-.2-.6-.5-.8-1.2-.9-1.3-.1-2.5-.2-3.7-.4-.8 0-1.5-.7-1.4-1.5v-.3c0-.9.8-1.6 1.7-1.6.4 0 .9.1 1.3.1 4.6.1 9.2.3 13.8.3 2.4 0 4.8-.3 7.2-.4.9-.2 1.8.4 2 1.2v.3c.1.9-.5 1.7-1.3 1.8h-.3c-.4.1-.9.1-1.3.1l-3.5.3c5.1 15.2 10.2 30.3 15.3 45.5.2-.3.2-.3.2-.4 2.1-7.1 4.3-14.2 6.4-21.2 1.2-3.7 1.2-7.7.2-11.5-1-3-2.4-5.8-4.1-8.4-1.1-1.8-1.9-3.7-2.6-5.7-1.2-3.9 1-8 4.9-9.2 1-.1 1.9-.2 2.9-.3zM61.1 87C56.7 75 52.3 63 48 51h-.3L35.1 87.6c5.5 2.7 20.3 2.3 26-.6zm-32.4-1.8C21.9 66.6 15.2 48.3 8.5 29.8c-9.3 20.1-.8 45.3 20.2 55.4zm39.8-1.8c.1.1.2.1.2.2 10.4-6.4 17.2-15.5 19.8-27.5 2.3-9.8.8-20.2-4.1-29-.1.1-.1.3-.1.4.3 3 .2 6-.3 8.9-.6 3.5-1.6 6.9-2.9 10.2-3.4 9.6-6.7 19.2-10 28.8-.8 2.7-1.7 5.4-2.6 8z"/></svg>
@@ -390,6 +396,5 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		</a>
 		<p class="p-top-2"><code>.Icon--youtube</code></p>
 	</div>
-	<div></div>
 	<div></div>
 </div>

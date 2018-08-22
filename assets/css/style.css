@@ -1,61 +1,3 @@
-body { color: #071C26 !important; }
-
-.hljs-type, .hljs-string, .hljs-number, .hljs-selector-id, .hljs-selector-class, .hljs-quote, .hljs-template-tag, .hljs-deletion { color: #0073EC !important; }
-
-.highlight code { color: #071C26 !important; }
-
-code.hljs, code { border: none !important; color: #ffffff !important; background: #071C26 !important; }
-
-@media (min-width: 750px) { main { margin: 0 0 0 24% !important; } }
-
-.SideNav { color: #fff; overflow-y: scroll; height: 100%; background: #0045a2; background: linear-gradient(141deg, #0045a2 0%, #a644e5 100%); }
-
-.SideNav ul { display: none; }
-
-@media (min-width: 750px) { .SideNav { position: fixed; top: 0; width: 24%; height: 100vh; overflow-y: scroll; }
-  .SideNav ul { display: block; } }
-
-.show .SideNav ul { display: block; }
-
-.SideNav__nav-link { color: #fff; text-decoration: none; display: block; padding: .75rem 0rem; transition: all .2s ease-in-out; }
-
-.SideNav__nav-link:hover { border-left: solid 3px #0073EC; padding: .75rem 1rem; text-decoration: none; }
-
-.SideNav__subnav-link { color: #fff; text-decoration: none; display: block; margin: 0; padding: .75rem 0rem; transition: all .2s ease-in-out; border-top: solid 1px rgba(255, 255, 255, 0.1); }
-
-.SideNav__subnav-link:hover, .SideNav__subnav-link.is-active { color: #fff; border-left: solid 3px #0073EC; font-weight: bold; padding: .75rem 1rem; text-decoration: none; }
-
-.SideNav__nav-link.is-active { background: #fff; color: #071C26; font-weight: bold; padding: .75rem 1rem; }
-
-.SideNav__label { font-family: 'Ubuntu', sans-serif; font-size: 1rem; text-transform: uppercase; letter-spacing: 1.5px; }
-
-.SideNav__subnav { background: rgba(255, 255, 255, 0.05); min-height: 100vh; }
-
-.SideNav__label + li a { border-top: none; }
-
-.hljs-string { color: #1176A5; }
-
-/* Menu Toggle Switch */
-.js-menutoggle { position: absolute; top: 4rem; right: 2rem; margin: 0; padding: 0; width: 30px; height: 30px; display: block; cursor: pointer; }
-
-.js-menutoggle span { display: block; position: absolute; height: 2px; width: 100%; background: #fff; border-radius: 9px; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out; }
-
-.js-menutoggle span:nth-child(1) { top: 0px; }
-
-.js-menutoggle span:nth-child(2) { top: 5px; left: 0; opacity: 1; }
-
-.js-menutoggle span:nth-child(3) { top: 10px; }
-
-@media (min-width: 750px) { .js-menutoggle { display: none; } }
-
-.show .js-menutoggle span { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); top: 5px; }
-
-.show .js-menutoggle span:nth-child(1) { -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
-
-.show .js-menutoggle span:nth-child(2) { opacity: 0; }
-
-.show .js-menutoggle span:nth-child(3) { -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg); }
-
 /*
 
 	dreamhost.css
@@ -4133,3 +4075,60 @@ Transition Utilities
 .z-4 { z-index: 1000; }
 
 .z-5 { z-index: 10000; }
+
+/* Dreamhost.design Specific Overrides */
+body { color: #071C26 !important; }
+
+.hljs-type, .hljs-string, .hljs-number, .hljs-selector-id, .hljs-selector-class, .hljs-quote, .hljs-template-tag, .hljs-deletion { color: #0073EC !important; }
+
+code.hljs, code { border: none; color: #ffffff; background: #071C26; }
+
+@media (min-width: 750px) { main { margin: 0 0 0 24% !important; } }
+
+.SideNav { color: #fff; overflow-y: scroll; height: 100%; background: #0045a2; background: linear-gradient(141deg, #0045a2 0%, #a644e5 100%); }
+
+.SideNav ul { display: none; }
+
+@media (min-width: 750px) { .SideNav { position: fixed; top: 0; width: 24%; height: 100vh; overflow-y: scroll; }
+  .SideNav ul { display: block; } }
+
+.show .SideNav ul { display: block; }
+
+.SideNav__nav-link { color: #fff; text-decoration: none; display: block; padding: .75rem 0rem; transition: all .2s ease-in-out; }
+
+.SideNav__nav-link:hover { border-left: solid 3px #0073EC; padding: .75rem 1rem; text-decoration: none; }
+
+.SideNav__subnav-link { color: #fff; text-decoration: none; display: block; margin: 0; padding: .75rem 0rem; transition: all .2s ease-in-out; border-top: solid 1px rgba(255, 255, 255, 0.1); }
+
+.SideNav__subnav-link:hover, .SideNav__subnav-link.is-active { color: #fff; border-left: solid 3px #0073EC; font-weight: bold; padding: .75rem 1rem; text-decoration: none; }
+
+.SideNav__nav-link.is-active { background: #fff; color: #071C26; font-weight: bold; padding: .75rem 1rem; }
+
+.SideNav__label { font-family: 'Ubuntu', sans-serif; font-size: 1rem; text-transform: uppercase; letter-spacing: 1.5px; }
+
+.SideNav__subnav { background: rgba(255, 255, 255, 0.05); min-height: 100vh; }
+
+.SideNav__label + li a { border-top: none; }
+
+.hljs-string { color: #1176A5; }
+
+/* Menu Toggle Switch */
+.js-menutoggle { position: absolute; top: 4rem; right: 2rem; margin: 0; padding: 0; width: 30px; height: 30px; display: block; cursor: pointer; }
+
+.js-menutoggle span { display: block; position: absolute; height: 2px; width: 100%; background: #fff; border-radius: 9px; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .3s ease-in-out; -moz-transition: .3s ease-in-out; -o-transition: .3s ease-in-out; transition: .3s ease-in-out; }
+
+.js-menutoggle span:nth-child(1) { top: 0px; }
+
+.js-menutoggle span:nth-child(2) { top: 5px; left: 0; opacity: 1; }
+
+.js-menutoggle span:nth-child(3) { top: 10px; }
+
+@media (min-width: 750px) { .js-menutoggle { display: none; } }
+
+.show .js-menutoggle span { -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); top: 5px; }
+
+.show .js-menutoggle span:nth-child(1) { -webkit-transform: rotate(135deg); -moz-transform: rotate(135deg); -o-transform: rotate(135deg); transform: rotate(135deg); }
+
+.show .js-menutoggle span:nth-child(2) { opacity: 0; }
+
+.show .js-menutoggle span:nth-child(3) { -webkit-transform: rotate(-135deg); -moz-transform: rotate(-135deg); -o-transform: rotate(-135deg); transform: rotate(-135deg); }

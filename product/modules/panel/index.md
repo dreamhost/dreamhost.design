@@ -107,7 +107,7 @@ layout: page
 				<span class="Panel__label">Server</span>
 				<span class="Panel__code"><code>example.server.com</code></span>
 			</div>
-			<a role="button" href="#" class="Button Button--text t-2">Call to action</a>
+			<a role="button" href="#" class="Button Button--text t-1">Call to action</a>
 		</div>
 		<div class="Panel__section">
 			<h3 class="Panel__heading">Database (MySQL)</h3>
@@ -119,7 +119,7 @@ layout: page
 				<span class="Panel__label">Server</span>
 				<span class="Panel__code"><code>example.server.com</code></span>
 			</div>
-			<a role="button" href="#" class="Button Button--text t-2">Call to action</a>
+			<a role="button" href="#" class="Button Button--text t-1">Call to action</a>
 		</div>
 	</div>
 </div>

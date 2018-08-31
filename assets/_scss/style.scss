@@ -1,3 +1,7 @@
+@import '../../node_modules/dreamhost-css/src/scss/style.scss';
+
+/* Dreamhost.design Specific Overrides */
+
 //body
 body{
 	color: #071C26 !important;
@@ -8,14 +12,11 @@ body{
 }
 
 //code area
-.highlight code {
-	color: #071C26!important;
-}
 
 code.hljs, code{
-	border: none!important;
-	color: #ffffff!important;
-	background: #071C26!important;
+	border: none;
+	color: #ffffff;
+	background: #071C26;
 }
 
 //Main container
@@ -186,4 +187,3 @@ code.hljs, code{
 	}
 }
 
-@import '../../node_modules/dreamhost-css/src/scss/style.scss';

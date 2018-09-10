@@ -3,7 +3,7 @@ title: Illustration Resources
 layout: page
 ---
 
-<p class="t-4">Please refer to the <a href="{{site.baseurl}}//marketing/illustrationguide/">illustration guide</a> for guidelines on the appropriate usage of these assets.</p>
+<p class="t-4">Please refer to the <a href="{{site.baseurl}}/marketing/illustrationguide/">illustration guide</a> for guidelines on the appropriate usage of these assets.</p>
 
 <hr />
 
@@ -23,13 +23,13 @@ layout: page
 	</div>
 	<div class="g-1_4">
 		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamcompute.svg" alt="Dreamhost Spot Illustration" />
-		<p class="p-2 bg-c-g100 t-center"><strong>Dreamcompute</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamcompute.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamcompute.eps" download>EPS</a></p>
+		<p class="p-2 bg-c-g100 t-center"><strong>DreamCompute</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamcompute.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamcompute.eps" download>EPS</a></p>
 	</div>
 </div>
 <div class="u-clearfix">
 	<div class="g-1_4">
 		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamobject.svg" alt="Dreamhost Spot Illustration" />
-		<p class="p-2 bg-c-g100 t-center"><strong>Dreamobject</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamobject.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamobject.eps" download>EPS</a></p>
+		<p class="p-2 bg-c-g100 t-center"><strong>DreamObject</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamobject.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreamobject.eps" download>EPS</a></p>
 	</div>
 	<div class="g-1_4">
 		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dreampress.svg" alt="Dreamhost Spot Illustration" />
@@ -77,7 +77,7 @@ layout: page
 	</div>
 	<div class="g-1_4">
 		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-wordcamp-us-nashville.svg" alt="Dreamhost Spot Illustration" />
-		<p class="p-2 bg-c-g100 t-center"><strong>Wordcamp Nashville</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-wordcamp-us-nashville.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-wordcamp-us-nashville.eps" download>EPS</a></p>
+		<p class="p-2 bg-c-g100 t-center"><strong>Wordcamp US</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-wordcamp-us-nashville.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-wordcamp-us-nashville.eps" download>EPS</a></p>
 	</div>
 </div>
 

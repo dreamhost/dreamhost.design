@@ -3,7 +3,7 @@ title: Illustration Resources
 layout: page
 ---
 
-<p class="t-4">Please refer to the <a href="{{site.baseurl}}//marketing/illustrationguide/">illustration guide</a> for guidelines on the appropriate usage of these assets.</p>
+<p class="t-4">Please refer to the <a href="{{site.baseurl}}/marketing/illustrationguide/">illustration guide</a> for guidelines on the appropriate usage of these assets.</p>
 
 <hr />
 

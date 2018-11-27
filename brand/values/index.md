@@ -20,7 +20,7 @@ layout: page
 		<div class="Card border border u-border-radius t-c-g200 m-bottom u-clearfix g-1_3__m g-omega__m">
 			<img src="{{site.baseurl}}/assets/images/values/ev.svg" alt="Give Everyone a Voice" />
 			<img src="{{site.baseurl}}/assets/images/values/ev-typ.svg" alt="Give Everyone a Voice" />
-			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Give Everyone a Voice</strong><br />Yep, you heard me! Everyone at every level of the organization - even the few we’ve stuffed in underground caves - has a voice at DreamHost! We believe in open collaboration, and it shows in our culture. Communication has been key to our growth from the beginning, and we’ve been recognized by WorldBlu as a democratic workplace every year since 2008.</p>
+			<p class="t-c-b700"><strong class="l-inline-block p-bottom-2">Give Everyone a Voice</strong><br />Everyone at every level of the organization has a voice at DreamHost! We all bring our own unique perspective and experience to every conversation, and having those diverse inputs leads to better problem solving and more productive teams. Being able to influence and inform key decisions is an important part of feeling valued at work!</p>
 			<p class="p-2 t-c-b700 bg-c-g100 u-border-radius"><strong>Download graphics:</strong><br /> Graphic <a href="/assets/downloads/values/ev.eps" download>.EPS</a><br />Typography <a href="/assets/downloads/values/ev-typ.eps" download> .EPS</a></p>
 		</div><!--Card-->
 	</div><!--Card__wrapper-->

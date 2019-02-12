@@ -96,8 +96,8 @@ gulp.task('js', function() {
 			'./src/js/*.js',
 			'!./src/js/bundle.js'
 		])
-		.pipe(concat('bundle.js'))
-		.pipe(gulp.dest('./src/js/'))
+		// .pipe(concat('bundle.js'))
+		// .pipe(gulp.dest('./src/js/'))
 		.pipe(browserSync.reload({stream: true}))
 });
 

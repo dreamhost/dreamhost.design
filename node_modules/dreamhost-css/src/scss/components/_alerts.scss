@@ -1,7 +1,9 @@
 .Alert {
-	@extend .p-3;
+	padding: convertScaleToRem(3);
 	@extend .u-border-radius;
 	margin-bottom: convertScaleToRem(4);
+	color:#434F58;
+	@include fontsize($t-1);
 
 	*:last-child {margin-bottom: 0;}
 
@@ -26,6 +28,10 @@
 .Alert:not(.Alert--success):not(.Alert--error) {
 	background: $c-y100;
 	border-left: convertScaleToRem(1) solid $c-y300;
+}
+
+.Alert--compact{
+	padding: convertScaleToRem(2);
 }
 
 // Notifications

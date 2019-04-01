@@ -3,7 +3,8 @@ title: Flexbox
 layout: page
 ---
 
-<p class="t-4">Flexbox utilities for commonly-used rules.</p>
+<p class="t-4">Flexbox utilities for some fast and easy-to-use flexboxin!' Note that these utilities do not encompass every flexbox rule, but only the most commonly-used ones.</p>
+<p class="t-4">Responsive modifiers such as <code>__m</code> or <code>__l</code> can be added to nearly all the classes below to make them functional only for screen sizes at our responsive breakpoints.</p>
 
 <hr />
 

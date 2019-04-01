@@ -1,37 +1,37 @@
 // Class for SVG icons to make them work inline with text
 .Icon {
 	vertical-align: middle;
-	width: convertScaleToRem(4);
-	height: convertScaleToRem(4);
+	width:convertScaleToRem(4);
+	height:convertScaleToRem(4);
 
-	> * {
+	> *{
 		fill: currentColor;
 	}
 
-	&.Icon--size-4 {
-		width: convertScaleToRem(8);
-		height: convertScaleToRem(8);
+	&.Icon--size-4{
+		width:convertScaleToRem(8);
+		height:convertScaleToRem(8);
 		font-size: convertScaleToRem(8);
 	}
-	&.Icon--size-3 {
-		width: convertScaleToRem(4);
-		height: convertScaleToRem(4);
+	&.Icon--size-3{
+		width:convertScaleToRem(4);
+		height:convertScaleToRem(4);
+		font-size: convertScaleToRem(8);
 		font-size: convertScaleToRem(4);
 	}
-	&.Icon--size-2 {
-		width: convertScaleToRem(3);
-		height: convertScaleToRem(3);
+	&.Icon--size-2{
+		width:convertScaleToRem(3);
+		height:convertScaleToRem(3);
 		font-size: convertScaleToRem(3);
 	}
-	&.Icon--size-1 {
-		width: convertScaleToRem(2);
-		height: convertScaleToRem(2);
+	&.Icon--size-1{
+		width:convertScaleToRem(2);
+		height:convertScaleToRem(2);
 		font-size: convertScaleToRem(2);
 	}
 }
 
 // Icon font character mapping
-
 [class^="Icon--"], [class*="Icon--"] {
 	font-family: 'dh-icon';
 	speak: none;
@@ -48,56 +48,173 @@
 	font-smoothing: antialiased;
 }
 
-.supports-fontface .Icon--access:before { content: "\e900"; }
-.supports-fontface .Icon--account:before { content: "\e901"; }
-.supports-fontface .Icon--accounts:before { content: "\e902"; }
-.supports-fontface .Icon--agree:before { content: "\e903"; }
-.supports-fontface .Icon--aid:before { content: "\e904"; }
-.supports-fontface .Icon--arrow:before { content: "\e905"; }
-.supports-fontface .Icon--attachment:before { content: "\e906"; }
-.supports-fontface .Icon--automate:before { content: "\e907"; }
-.supports-fontface .Icon--award:before { content: "\e908"; }
-.supports-fontface .Icon--bandwidth:before { content: "\e909"; }
-.supports-fontface .Icon--biz:before { content: "\e90a"; }
-.supports-fontface .Icon--build:before { content: "\e90b"; }
-.supports-fontface .Icon--cart:before { content: "\e90c"; }
-.supports-fontface .Icon--chat:before { content: "\e90d"; }
-.supports-fontface .Icon--check:before { content: "\e90e"; }
-.supports-fontface .Icon--comp:before { content: "\e90f"; }
-.supports-fontface .Icon--connection:before { content: "\e910"; }
-.supports-fontface .Icon--database:before { content: "\e911"; }
-.supports-fontface .Icon--dedicated:before { content: "\e912"; }
-.supports-fontface .Icon--design:before { content: "\e913"; }
-.supports-fontface .Icon--doc:before { content: "\e914"; }
-.supports-fontface .Icon--email:before { content: "\e915"; }
-.supports-fontface .Icon--facebook:before { content: "\e916"; }
-.supports-fontface .Icon--folders:before { content: "\e917"; }
-.supports-fontface .Icon--forward:before { content: "\e918"; }
-.supports-fontface .Icon--fun:before { content: "\e919"; }
-.supports-fontface .Icon--globe:before { content: "\e91a"; }
-.supports-fontface .Icon--growth:before { content: "\e91b"; }
-.supports-fontface .Icon--handmade:before { content: "\e91c"; }
-.supports-fontface .Icon--history:before { content: "\e91d"; }
-.supports-fontface .Icon--instagram:before { content: "\e91e"; }
-.supports-fontface .Icon--lock:before { content: "\e91f"; }
-.supports-fontface .Icon--mouse:before { content: "\e920"; }
-.supports-fontface .Icon--notification:before { content: "\e921"; }
-.supports-fontface .Icon--ram:before { content: "\e923"; }
-.supports-fontface .Icon--ruby:before { content: "\e926"; }
-.supports-fontface .Icon--scale:before { content: "\e927"; }
-.supports-fontface .Icon--search:before { content: "\e928"; }
-.supports-fontface .Icon--sftp:before { content: "\e929"; }
-.supports-fontface .Icon--shared:before { content: "\e92a"; }
-.supports-fontface .Icon--speed:before { content: "\e92b"; }
-.supports-fontface .Icon--ssd:before { content: "\e92c"; }
-.supports-fontface .Icon--stack:before { content: "\e92d"; }
-.supports-fontface .Icon--team:before { content: "\e92e"; }
-.supports-fontface .Icon--time:before { content: "\e92f"; }
-.supports-fontface .Icon--twitter:before { content: "\e930"; }
-.supports-fontface .Icon--vps:before { content: "\e931"; }
-.supports-fontface .Icon--web:before { content: "\e932"; }
-.supports-fontface .Icon--weight:before { content: "\e933"; }
-.supports-fontface .Icon--wordpress:before { content: "\e934"; }
-.supports-fontface .Icon--write:before { content: "\e935"; }
-.supports-fontface .Icon--x:before { content: "\e936"; }
-.supports-fontface .Icon--youtube:before { content: "\e937"; }
+.supports-fontface {
+	.Icon--access:before {
+		content: "\e900";
+	}
+	.Icon--account:before {
+		content: "\e901";
+	}
+	.Icon--accounts:before {
+		content: "\e902";
+	}
+	.Icon--agree:before {
+		content: "\e903";
+	}
+	.Icon--aid:before {
+		content: "\e904";
+	}
+	.Icon--arrow:before {
+		content: "\e905";
+	}
+	.Icon--attachment:before {
+		content: "\e906";
+	}
+	.Icon--automate:before {
+		content: "\e907";
+	}
+	.Icon--award:before {
+		content: "\e908";
+	}
+	.Icon--bandwidth:before {
+		content: "\e909";
+	}
+	.Icon--biz:before {
+		content: "\e90a";
+	}
+	.Icon--block:before {
+		content: "\e90b";
+	}
+	.Icon--bug:before {
+		content: "\e90c";
+	}
+	.Icon--build:before {
+		content: "\e90d";
+	}
+	.Icon--cart:before {
+		content: "\e90e";
+	}
+	.Icon--chat:before {
+		content: "\e90f";
+	}
+	.Icon--check:before {
+		content: "\e910";
+	}
+	.Icon--comp:before {
+		content: "\e911";
+	}
+	.Icon--connection:before {
+		content: "\e912";
+	}
+	.Icon--database:before {
+		content: "\e913";
+	}
+	.Icon--dedicated:before {
+		content: "\e914";
+	}
+	.Icon--design:before {
+		content: "\e915";
+	}
+	.Icon--doc:before {
+		content: "\e916";
+	}
+	.Icon--email:before {
+		content: "\e917";
+	}
+	.Icon--facebook:before {
+		content: "\e918";
+	}
+	.Icon--folders:before {
+		content: "\e919";
+	}
+	.Icon--forward:before {
+		content: "\e91a";
+	}
+	.Icon--fun:before {
+		content: "\e91b";
+	}
+	.Icon--globe:before {
+		content: "\e91c";
+	}
+	.Icon--growth:before {
+		content: "\e91d";
+	}
+	.Icon--handmade:before {
+		content: "\e91e";
+	}
+	.Icon--history:before {
+		content: "\e91f";
+	}
+	.Icon--instagram:before {
+		content: "\e920";
+	}
+	.Icon--lock:before {
+		content: "\e921";
+	}
+	.Icon--mailbox:before {
+		content: "\e922";
+	}
+	.Icon--mouse:before {
+		content: "\e923";
+	}
+	.Icon--notification:before {
+		content: "\e924";
+	}
+	.Icon--ram:before {
+		content: "\e925";
+	}
+	.Icon--ruby:before {
+		content: "\e926";
+	}
+	.Icon--scale:before {
+		content: "\e927";
+	}
+	.Icon--search:before {
+		content: "\e928";
+	}
+	.Icon--sftp:before {
+		content: "\e929";
+	}
+	.Icon--shared:before {
+		content: "\e92a";
+	}
+	.Icon--speed:before {
+		content: "\e92b";
+	}
+	.Icon--ssd:before {
+		content: "\e92c";
+	}
+	.Icon--stack:before {
+		content: "\e92d";
+	}
+	.Icon--team:before {
+		content: "\e92e";
+	}
+	.Icon--time:before {
+		content: "\e92f";
+	}
+	.Icon--twitter:before {
+		content: "\e930";
+	}
+	.Icon--vps:before {
+		content: "\e931";
+	}
+	.Icon--web:before {
+		content: "\e932";
+	}
+	.Icon--weight:before {
+		content: "\e933";
+	}
+	.Icon--wordpress:before {
+		content: "\e934";
+	}
+	.Icon--write:before {
+		content: "\e935";
+	}
+	.Icon--x:before {
+		content: "\e936";
+	}
+	.Icon--youtube:before {
+		content: "\e937";
+	}
+}

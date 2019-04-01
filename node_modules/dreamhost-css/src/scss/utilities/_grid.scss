@@ -127,3 +127,33 @@
 	.g-shift-10__l {@include shift(10)}
 	.g-shift-11__l {@include shift(11)}
 }
+
+// Bootstrap Grid customized with our specific sizing and breakpoints.
+//
+// Required variables can be found in ./src/scss/_variables.scss
+// Required mixins for building grid classes can be found in ./src/scss/_vendor.scss
+
+// Row
+@if $enable-grid-classes {
+	.row {
+		@include make-row();
+	}
+
+	// Remove the negative margin from default .row, then the horizontal padding
+	// from all immediate children columns (to prevent runaway style inheritance).
+	.no-gutters {
+		margin-right: 0;
+		margin-left: 0;
+
+		> .col,
+		> [class*="col-"] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}
+
+// Columns
+@if $enable-grid-classes {
+	@include make-grid-columns();
+}

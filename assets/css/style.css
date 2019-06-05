@@ -439,6 +439,40 @@ Animation Components
 @keyframes zoomIn { 0% { transform: scale(0); }
   100% { transform: scale(1); } }
 
+.Bar { border-radius: 10px; border: 1px solid #AFBFC9; }
+
+.Bar + .Bar { margin-top: 1.5rem; }
+
+.Bar__row { display: flex; min-height: 88px; flex-direction: column; }
+
+.Bar__group-icon { min-width: 32px; max-width: 32px; margin-right: 1rem; }
+
+.Bar__group { display: flex; align-items: center; padding: 1.5rem; padding-right: 1rem; }
+
+.Bar__group--start { width: 100%; margin-right: auto; white-space: nowrap; font-weight: 600; color: #000000; }
+
+.Bar__group--mid { width: 100%; padding: 1.5rem; }
+
+.Bar__group--end { padding: 0; }
+
+@media (min-width: 1050px) { .Bar__row { flex-direction: row; justify-content: flex-start; align-items: center; }
+  .Bar__group--start { margin-bottom: 0; width: 25%; }
+  .Bar__group--mid { width: 250px; white-space: nowrap; text-overflow: ellipsis; display: block; border: 0; }
+  .Bar__group--end { border: 0; }
+  .Bar__group--end { padding: 1.5rem; margin-left: auto; } }
+
+.Bar__drawer, .Bar__delete, .Bar__edit { display: none; }
+
+.Bar.is-open { box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.08); }
+
+.Bar.is-open .Bar__drawer { display: block; }
+
+.Bar__drawer { background: #F4F6F9; border-radius: 0 0 10px 10px; }
+
+.Bar.is-open .chevron-down, .chevron-up { transform: rotate(180deg); }
+
+.Bar.delete-mode .Bar__delete { display: flex; }
+
 /*
 
 Buttons
@@ -2375,7 +2409,7 @@ Combo Colors
 
 .container-full-width::after { clear: both; content: ""; display: table; }
 
-.container { width: 100%; padding-right: 16px; padding-left: 16px; margin-right: auto; margin-left: auto; }
+.container { width: 100%; padding-right: 1rem; padding-left: 1rem; margin-right: auto; margin-left: auto; }
 
 @media (min-width: 576px) { .container { max-width: 540px; } }
 
@@ -2385,7 +2419,7 @@ Combo Colors
 
 @media (min-width: 1280px) { .container { max-width: 1212px; } }
 
-.container-fluid { width: 100%; padding-right: 16px; padding-left: 16px; margin-right: auto; margin-left: auto; }
+.container-fluid { width: 100%; padding-right: 1rem; padding-left: 1rem; margin-right: auto; margin-left: auto; }
 
 .flex, .l-flex { display: flex !important; }
 
@@ -2689,13 +2723,13 @@ Combo Colors
   .g-shift-10__l { margin-left: 85.29804%; }
   .g-shift-11__l { margin-left: 93.82785%; } }
 
-.row { display: flex; flex-wrap: wrap; margin-right: -16px; margin-left: -16px; }
+.row { display: flex; flex-wrap: wrap; margin-right: -1rem; margin-left: -1rem; }
 
 .no-gutters { margin-right: 0; margin-left: 0; }
 
 .no-gutters > .col, .no-gutters > [class*="col-"] { padding-right: 0; padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto { position: relative; width: 100%; padding-right: 16px; padding-left: 16px; }
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto { position: relative; width: 100%; padding-right: 1rem; padding-left: 1rem; }
 
 .col { flex-basis: 0; flex-grow: 1; max-width: 100%; }
 

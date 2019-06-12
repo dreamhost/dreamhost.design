@@ -2,7 +2,6 @@ const gulp        = require('gulp');
 const browserSync = require('browser-sync').create();
 const cleanCSS    = require('gulp-clean-css');
 const sass        = require('gulp-sass');
-const stylelint   = require('gulp-stylelint');
 const prefix      = require('gulp-autoprefixer');
 const rename      = require('gulp-rename');
 const concat      = require('gulp-concat');
@@ -41,24 +40,6 @@ gulp.task('serve', ['styles', 'jekyll'], function() {
 
 /*
 
-	## gulp style linting
-
-	1. Lint sass and log any errors to the console.
-
-*/
-
-gulp.task('lint', function() {
-	return gulp.src([
-		'./assets/_scss/*.scss'
-	])
-	.pipe(stylelint({
-		failAfterError: false,
-		reporters: [{formatter: 'string', console: true}]
-	}));
-});
-
-/*
-
 	## gulp styles
 
 	1. Compile sass
@@ -66,7 +47,7 @@ gulp.task('lint', function() {
 
 */
 
-gulp.task('styles', ['lint'], function () {
+gulp.task('styles', function () {
 	return gulp.src('./assets/_scss/*.scss')
 		.pipe(sass({outputStyle: 'compact'}).on('error', sass.logError))
 		.pipe(gulp.dest('./assets/css/'))

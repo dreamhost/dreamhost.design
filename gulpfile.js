@@ -6,7 +6,6 @@ const prefix      = require('gulp-autoprefixer');
 const rename      = require('gulp-rename');
 const concat      = require('gulp-concat');
 const uglify      = require('gulp-uglify');
-const lintconfig  = require('./stylelint.config.js');
 const package     = require('./package.json');
 const child       = require('child_process');
 const gutil       = require('gulp-util');

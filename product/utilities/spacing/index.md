@@ -54,7 +54,7 @@ layout: page
 <hr />
 
 ## Padding
-<p class="t-l">Padding utilities are prefixed with p- and can be used to add space inside an element on any side.</p>
+<p class="t-5">Padding utilities are prefixed with p- and can be used to add space inside an element on any side.</p>
 
 <p>Use the convention p-size or m-side-size, e.g <code>.p-1</code> or <code>.p-bottom-1</code>. You can also use axis shortcuts: <code>.p-x-1</code> for padding on the x axis only, or <code>.p-y-1</code> for padding on the y axis only.</p>
 

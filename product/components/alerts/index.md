@@ -40,67 +40,6 @@ layout: page
 
 <hr />
 
-<h2 class="m-bottom-1">Notification Alerts</h2>
-<p class="m-bottom-7">Useful for global errors, system statuses, promotions, etc. All notification alerts also include a primary action, with an optional secondary action.</p>
-
-<div class="m-bottom-7">
-
-<div class="Notification">
-	<div class="Notification__wrapper">
-		<h3 class="Notification__heading">Neutral notification</h3>
-		<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
-		<button role="button" class="Button Button--text">Primary action</button>
-	</div><!--Notification__wrapper-->
-</div><!--Notification-->
-<div class="Notification Notification--positive">
-	<div class="Notification__wrapper">
-		<h3 class="Notification__heading">Positive notification</h3>
-		<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
-		<button role="button" class="Button Button--text">Primary action</button>
-	</div><!--Notification__wrapper-->
-</div><!--Notification-->
-<div class="Notification Notification--negative">
-	<div class="Notification__wrapper">
-		<h3 class="Notification__heading">Warning notification</h3>
-		<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
-		<button role="button" class="Button Button--text">Primary action</button>
-	</div><!--Notification__wrapper-->
-</div><!--Notification-->
-
-</div>
-
-{% highlight html %}
-<div class="Notification">
-	<div class="Notification__wrapper">
-		<h3 class="Notification__heading">Neutral notification</h3>
-		<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
-		<button role="button" class="Button Button--text">Primary action</button>
-	</div><!--Notification__wrapper-->
-</div><!--Notification-->
-<div class="Notification Notification--positive">
-	<div class="Notification__wrapper">
-		<h3 class="Notification__heading">Positive notification</h3>
-		<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
-		<button role="button" class="Button Button--text">Primary action</button>
-	</div><!--Notification__wrapper-->
-</div><!--Notification-->
-<div class="Notification Notification--negative">
-	<div class="Notification__wrapper">
-		<h3 class="Notification__heading">Warning notification</h3>
-		<span class="Notification__time">Jan 5, 2017  4:55pm PST</span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
-		<button role="button" class="Button Button--text">Primary action</button>
-	</div><!--Notification__wrapper-->
-</div><!--Notification-->
-{% endhighlight%}
-
-<hr />
-
 <h2 class="m-bottom-1">Toaster Alerts</h2>
 <p class="m-bottom-7">Useful for in-the-moment contextual notification, such as successful form submission, feature turned on/off, momentary errors, new messages recieved, etc. By default, toasters animate in, and disappear after 3 seconds. They can be made persistent by adding <code>.Toaster--persistent</code>.</p>
 

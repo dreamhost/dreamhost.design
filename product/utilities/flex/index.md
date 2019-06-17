@@ -12,7 +12,7 @@ layout: page
 
 #### Set the flex container.
 
-<div class="m-bottom bg-c-g100 l-block">
+<div class="m-bottom-4 bg-c-g100 l-block">
 	<p class="bg-c-g200 flex p-2 m-0"><strong>.flex, .l-flex</strong>&nbsp;Display Flex</p>
 </div>
 
@@ -22,10 +22,10 @@ layout: page
 
 #### Set horizonal positioning of items within the flex container.
 
-<div class="flex flex-row m-bottom bg-c-g100">
+<div class="flex flex-row m-bottom-4 bg-c-g100">
 	<div class="bg-c-g200 p-2"><strong>.flex-row</strong> Flex Row</div><div class="bg-c-g100 p-2">Row Item 1</div><div class="bg-c-g100 p-2">Row Item 2</div><div class="bg-c-g100 p-2">Row Item 3</div>
 </div>
-<div class="flex flex-row-reverse m-bottom bg-c-g100">
+<div class="flex flex-row-reverse m-bottom-4 bg-c-g100">
 <div class="bg-c-g200 p-2"><strong>.flex-row-reverse</strong> Flex Row Reverse</div><div class="bg-c-g100 p-2">Row Item 1</div><div class="bg-c-g100 p-2">Row Item 2</div><div class="bg-c-g100 p-2">Row Item 3</div>
 </div>
 

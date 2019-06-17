@@ -13,7 +13,7 @@ layout: page
 	<span class="Tag Tag--teal">Teal ($c-t300)</span>
 	<span class="Tag Tag--yellow">Yellow ($c-y300)</span>
 </div>
-<div class="m-top m-bottom-5">
+<div class="m-top-4 m-bottom-5">
 	<span class="Tag Tag--square">Default ($c-b300)</span>
 	<span class="Tag Tag--square Tag--red">Red ($c-r300)</span>
 	<span class="Tag Tag--square Tag--teal">Teal ($c-t300)</span>

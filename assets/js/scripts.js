@@ -58,3 +58,8 @@ $(".js-menutoggle").click(function() {
 
 	window.onload = bars.init();
 })(window.bars = window.bars || {}, jQuery);
+
+$(document).ready(function() {
+	if(!$('.SideNav__subnav-link.is-active').length) return;
+	$('.SideNav__subnav-link.is-active').focus();
+});

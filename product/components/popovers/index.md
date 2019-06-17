@@ -280,7 +280,7 @@ layout: page
 		<p class="m-top-1 m-bottom-0 t-0 w-100 t-center bg-c-g100 t-c-g500 t-mono">.Popover--flush-left</p>
 	</div>
 
-	<div class="Popover-container on-click g-1_2 p-bottom-large">
+	<div class="Popover-container on-click g-1_2 p-bottom-5">
 		<div class="Popover Popover--flush-right has-caret">
 			<div class="p-2">
 				This is a top aligned popover that is flushed right with the clicked element.

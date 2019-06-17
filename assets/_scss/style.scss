@@ -19,6 +19,16 @@ code.hljs, code{
 	background: #071C26;
 }
 
+code.hljs {
+	width: 100%;
+	overflow-y: scroll;
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	font-size: 1rem;
+	line-height: calc(1em + 8px);
+	border-radius: 3px;
+}
+
 //Main container
 @media (min-width: 750px) {
 	main{
@@ -69,7 +79,7 @@ code.hljs, code{
 	}
 }
 
-.SideNav__subnav-link{
+.SideNav__subnav-link {
 	color: #fff;
 	text-decoration: none;
 	display: block;
@@ -84,6 +94,7 @@ code.hljs, code{
 		font-weight: bold;
 		padding: .75rem 1rem;
 		text-decoration: none;
+		outline: 0;
 	}
 }
 

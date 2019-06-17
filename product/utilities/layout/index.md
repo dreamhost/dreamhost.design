@@ -40,13 +40,13 @@ layout: page
 
 ## Display
 
-<div class="m-bottom bg-c-g100 p-2 l-block">
+<div class="m-bottom-4 bg-c-g100 p-2 l-block">
 	<p class="bg-c-g200 l-inline m-0"><strong>.l-inline</strong> Display Inline</p>
 </div>
-<div class="m-bottom bg-c-g100 l-block">
+<div class="m-bottom-4 bg-c-g100 l-block">
 	<p class="bg-c-g200 l-inline-block p-2 m-0"><strong>.l-inline-block</strong> Display Inline</p>
 </div>
-<div class="m-bottom bg-c-g100 l-block">
+<div class="m-bottom-4 bg-c-g100 l-block">
 	<p class="bg-c-g200 l-block p-2 m-0"><strong>.l-block</strong> Display Block</p>
 </div>
 

@@ -3,7 +3,7 @@ title: Table
 layout: page
 ---
 
-<p class="t-l">A basic table style, including headings and zebra striping.</p>
+<p class="t-5">A basic table style, including headings and zebra striping.</p>
 
 <hr />
 

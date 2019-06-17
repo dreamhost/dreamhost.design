@@ -3,7 +3,7 @@ title: Table — Bar
 layout: page
 ---
 
-<p class="t-l">Displays tabular information in a bar / card type of layout</p>
+<p class="t-5">Displays tabular information in a bar / card type of layout</p>
 <p>The most common usecase for this component is to individually showcase a row of information that typically makes up a larger set of data. Generally, you would use a Bar component over a Table when you need extra functionality or interactivity for a single row item.</p>
 
 <p>The Bar utilizes flexbox for layout. Each column in the Bar is created with a <code>.Bar__group</code> class. To keep the first and last columns aligned between individual bar components a <code>.Bar__group--start</code> or <code>.Bar__group--end</code> class plus a  width utility is required. A width utility class is not required if the child elements or content within <code>.Bar__group</code> sets a defined width.</p>

@@ -103,6 +103,7 @@ layout: page
 	</div>
 {% endhighlight %}
 
+<!-- Border Radius Section
 <hr />
 
 <h2 class="m-bottom-4">Border Radius</h2>
@@ -178,4 +179,4 @@ layout: page
 		<p>Border radius left</p>
 	</div>
 {% endhighlight %}
-
+-->

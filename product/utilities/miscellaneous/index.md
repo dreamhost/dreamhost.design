@@ -12,7 +12,7 @@ layout: page
 #### All corners are specified by default.
 
 <div class="p-4 border u-border-radius m-bottom-4">
-		<p>Border radius</p>
+		<p class ="m-0">Border radius</p>
 </div>
 
 {% highlight html %}
@@ -54,6 +54,11 @@ layout: page
 </div>
 {% endhighlight %}
 
+{% highlight html %}
+.u-clearfix {@include clearfix;}
+{% endhighlight %}
+
+
 
 <hr />
 
@@ -78,16 +83,31 @@ layout: page
 
 {% highlight html %}
 <div class="u-overflow-visible">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 </div>
 <div class="u-overflow-hidden">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 </div>
 <div class="u-overflow-scroll">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 </div>
-<div class="u-overflow-scroll">
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+<div class="u-overflow-x-visible">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="u-overflow-x-hidden">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="u-overflow-x-scroll">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="u-overflow-y-visible">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="u-overflow-y-hidden">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</div>
+<div class="u-overflow-y-scroll">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 </div>
 
 {% endhighlight %}
@@ -97,4 +117,51 @@ layout: page
 
 <h2 class="m-bottom-4">Vertical Align</h2>
 
-#### The <code>vertical-align</code> property controls how how row elements are aligned.
+#### The <code>vertical-align</code> property controls how how row elements are aligned. Use <code>text-bottom</code> to align to the bottom of element's font.
+
+<div class="Grid--auto bg-c-g100 t-center p-3 m-bottom-2">
+		<div class="border p-2 t-c-g200">
+				<p class="t-2 t-c-g500"><strong>.u-vertical-align-top</strong></p>
+				<img src="https://www.dreamhost.com/assets/images/robot.presents.right.svg" class="u-vertical-align-top" style="height: 100px;" />
+				<img src="https://www.dreamhost.com/assets/images/logo.symbol.svg" class="u-vertical-align-top" style="height: 50px;" />
+		</div>
+		<div class="border p-2 t-c-g200">
+				<p class="t-2 t-c-g500"><strong>.u-vertical-align-middle</strong></p>
+				<img src="https://www.dreamhost.com/assets/images/robot.presents.right.svg" class="u-vertical-align-middle" style="height: 100px;" />
+				<img src="https://www.dreamhost.com/assets/images/logo.symbol.svg" class="u-vertical-align-middle" style="height: 50px;" />
+		</div>
+		<div class="border p-2 t-c-g200">
+				<p class="t-2 t-c-g500"><strong>.u-vertical-align-bottom</strong></p>
+				<img src="https://www.dreamhost.com/assets/images/robot.presents.right.svg" class="u-vertical-align-bottom" style="height: 100px;" />
+				<img src="https://www.dreamhost.com/assets/images/logo.symbol.svg" class="u-vertical-align-bottom" style="height: 50px;" />
+		</div>
+		<div class="border p-2 t-c-g200">
+				<p class="t-2 t-c-g500"><strong>.u-vertical-align-text-bottom</strong></p>
+				<img src="https://www.dreamhost.com/assets/images/robot.presents.right.svg" class="u-vertical-align-text-bottom" style="height: 100px;" />
+				<img src="https://www.dreamhost.com/assets/images/logo.symbol.svg" class="u-vertical-align-text-bottom" style="height: 50px;" />	
+		</div>
+</div>
+
+
+{% highlight html %}
+<div>
+	<h3>Top</h3>
+	<img src="robot.svg" class="u-vertical-align-top" />
+	<img src="moon.svg" class="u-vertical-align-top" />
+</div>
+<div>
+	<h3>Middle</h3>
+	<img src="robot.svg" class="u-vertical-align-middle" />
+	<img src="moon.svg" class="u-vertical-align-middle" />
+</div>
+<div>
+	<h3>Bottom</h3>
+	<img src="robot.svg" class="u-vertical-align-bottom" />
+	<img src="moon.svg" class="u-vertical-align-bottom" />
+</div>
+<div>
+	<h3>Text Bottom</h3>
+	<img src="robot.svg" class="u-vertical-align-text-bottom" />
+	<img src="moon.svg" class="u-vertical-align-text-bottom" />
+</div>
+{% endhighlight %}

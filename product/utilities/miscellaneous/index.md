@@ -165,3 +165,29 @@ layout: page
 	<img src="moon.svg" class="u-vertical-align-text-bottom" />
 </div>
 {% endhighlight %}
+
+
+<hr />
+
+## White space
+<div class="u-clearfix m-bottom-2">
+	<div class="g-1_2__m bg-c-g100 p-2">
+		<div class="g-1_2 bg-c-g200 u-ws-normal m-bottom-0 p-2">
+			<strong>(.u-ws-normal)</strong> All work and no play makes Jack a dull boy.
+		</div>
+	</div>
+	<div class="g-1_2__m bg-c-g100 p-2">
+				<div class="g-1_2 bg-c-g200 u-ws-nowrap m-bottom-0 p-2">
+						<strong>(.u-ws-nowrap)</strong> All work and no play makes Jack a dull boy.
+				</div>
+		</div>
+</div>
+
+{% highlight html %}
+<div class="border u-ws-normal m-bottom">
+		normal
+</div>
+<div class="border u-ws-nowrap m-bottom">
+		nowrap
+</div>
+{% endhighlight %}

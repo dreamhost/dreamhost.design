@@ -40,3 +40,28 @@ layout: page
 	<p>100%</p>
 </div>
 {% endhighlight %}
+
+
+
+<hr />
+
+## Bootstrap Containers
+
+For the grid system, use <code>.container</code> for making rows with a responsive fixed width or <code>.container-fluid</code> for a full width container that spans the entire width of your viewport.
+
+<div class="container bg-c-g200 p-4 m-bottom-4 u-border-radius">
+	<p><strong>.container</strong> (fixed)</p>
+</div>
+
+<div class="container-fluid bg-c-g200 p-4 m-bottom-4 u-border-radius">
+	<p><strong>.container-fluid</strong> (100%)</p>
+</div>
+
+{% highlight html %}
+<div class="container">
+	<p>fixed</p>
+</div>
+<div class="container-fluid">
+	<p>100%</p>
+</div>
+{% endhighlight %}

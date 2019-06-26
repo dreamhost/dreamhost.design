@@ -3,7 +3,7 @@ title: Miscellaneous
 layout: page
 ---
 
-<p class="t-4">Utilities for adding borders to components.</p>
+<p class="t-4">A page dedicated to other various utility classes.</p>
 
 <hr />
 

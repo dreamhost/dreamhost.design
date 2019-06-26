@@ -59,4 +59,42 @@ layout: page
 
 <h2 class="m-bottom-4">Overflow</h2>
 
-#### The <code>overflow-x</code> specifies for content for a block-level element when it overflows at the left or right edges, and <code>overflow-y</code> specifies for top and bottom edges.
+#### The <code>overflow-x</code> specifies for overflows at the left or right edges, and <code>overflow-y</code> specifies for top and bottom edges.
+
+<div class="Grid--auto m-bottom-6">
+<div class="bg-c-g200 p-2 m-bottom-2 u-border-radius u-overflow-visible" style="height:150px">
+	<code class="m-0">.u-overflow-visible</code>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab.</p>
+</div>
+<div class="bg-c-g200 p-2 m-bottom-2 u-border-radius u-overflow-hidden" style="height:150px">
+	<code class="m-0">.u-overflow-hidden</code>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab.</p>
+</div>
+<div class="bg-c-g200 p-2 m-bottom-2 u-border-radius u-overflow-scroll" style="height:150px">
+	<code class="m-0">.u-overflow-scroll</code>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab.</p>
+</div>
+</div><!--Grid-->
+
+{% highlight html %}
+<div class="u-overflow-visible">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+</div>
+<div class="u-overflow-hidden">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+</div>
+<div class="u-overflow-scroll">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+</div>
+<div class="u-overflow-scroll">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quia recusandae dolorum sunt quisquam perspiciatis ipsam delectus voluptas laborum autem quae placeat atque officia a officiis fugiat repellendus, ab. Ducimus.</p>
+</div>
+
+{% endhighlight %}
+
+
+<hr />
+
+<h2 class="m-bottom-4">Vertical Align</h2>
+
+#### The <code>vertical-align</code> property controls how how row elements are aligned.

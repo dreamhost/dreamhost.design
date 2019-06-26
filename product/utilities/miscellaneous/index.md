@@ -178,7 +178,7 @@ layout: page
 	</div>
 	<div class="g-1_2__m bg-c-g100 p-2">
 			<div class="g-1_2 bg-c-g200 u-ws-nowrap m-bottom-0 p-2">
-				<p class="t-2 t-c-g500"><strong>.u-ws-normal</strong></p>All work and no play makes Jack a dull boy.
+				<p class="t-2 t-c-g500"><strong>.u-ws-nowrap</strong></p>All work and no play makes Jack a dull boy.
 			</div>
 	</div>
 </div>

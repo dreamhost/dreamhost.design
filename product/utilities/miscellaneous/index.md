@@ -16,9 +16,9 @@ layout: page
 </div>
 
 {% highlight html %}
-	<div class="p-4 border u-border-radius">
-		<p>Border radius</p>
-	</div>
+<div class="p-4 border u-border-radius">
+	<p>Border radius</p>
+</div>
 {% endhighlight %}
 
 

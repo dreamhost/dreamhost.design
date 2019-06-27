@@ -169,9 +169,12 @@ layout: page
 
 <hr />
 
-## White space
+<h2 class="m-bottom-4">White space</h2>
+
+#### This sets how white space inside an element is rendered.
+
 <div class="Grid--auto m-bottom-2">
-	<div class=" bg-c-g100 p-2">
+	<div class="bg-c-g100 p-2">
 		<div class="g-1_2 bg-c-g200 u-ws-normal m-bottom-0 p-2">
 			<p class="t-2 t-c-g500"><strong>.u-ws-normal</strong></p> All work and no play makes Jack a dull boy.
 		</div>
@@ -195,15 +198,17 @@ layout: page
 
 <hr />
 
-## Wordbreak
+<h2 class="m-bottom-4">Wordbreak</h2>
 
-<div class="Grid--auto">
+#### You can specify words to be broken and wrapped onto the next line.
+
+<div class="Grid--auto m-bottom-2">
 	<div class="bg-c-g100 p-2">
 		<div class="bg-c-g200 g-1_2 p-2 u-wb-normal m-bottom-0 border-radius">
 				<p class="t-2 t-c-g500"><strong>.u-wb-normal</strong></p>j3894jrerwfv98cqh3x498ryq349fq38mrf9q3948rymx93q8yf9
 		</div>
 	</div>
-	<div class="bg-c-g100 p-2 m-bottom-2">
+	<div class="bg-c-g100 p-2">
 		<div class="bg-c-g200 g-1_2 p-2 u-wb-break-all m-bottom-0 border-radius">
 				<p class="t-2 t-c-g500"><strong>.u-wb-break-all</strong></p> j3894jrerwfv98cqh3x498ryq349fq38mrf9q3948rymx93q8yf9
 		</div>

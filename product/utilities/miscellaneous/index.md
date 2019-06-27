@@ -30,16 +30,12 @@ layout: page
 
 
 <p class="Alert m-top-4">
-<strong>Please Note:</strong> Don't forget to attach a wrapper with the <code>.u-clearfix</code> class to floats and legacy grids.</p>
+<strong>Please Note:</strong> Don't forget to attach a wrapper with the <code>.u-clearfix</code> class to floats.</p>
 
 <div class="bg-c-g200 border-radius p-2 m-bottom-4">
 	<div class="u-clearfix m-top-2 m-bottom-2">
 		<div class="bg-c-g100 border-radius p-4 l-float-left"><strong>.l-float-left</strong></div>
 		<div class="bg-c-g100 border-radius p-4 l-float-right"><strong>.l-float-right</strong></div>
-	</div>
-	<div class="u-clearfix m-bottom-2">
-		<div class="bg-c-g100 border-radius p-4 t-center g-1_3"><strong>.g-1_3</strong></div>
-		<div class="bg-c-g100 border-radius p-4 t-center g-2_3"><strong>.g-2_3</strong></div>
 	</div>
 </div>
 
@@ -47,10 +43,6 @@ layout: page
 <div class="u-clearfix">
 	<div class="l-float-left">.l-float-left</div>
 	<div class="l-float-right">.l-float-right</div>
-</div>
-<div class="u-clearfix">
-	<div class="g-1_3">.g-1_3</div>
-	<div class="g-2_3">.g-2_3</div>
 </div>
 {% endhighlight %}
 

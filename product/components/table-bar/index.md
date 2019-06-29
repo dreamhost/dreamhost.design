@@ -1,6 +1,6 @@
 ---
 title: Table — Bar
-layout: page
+layout: app
 ---
 
 <p class="t-5">Displays tabular information in a bar / card type of layout</p>

@@ -1,6 +1,6 @@
 ---
 title: Popovers
-layout: page
+layout: app
 ---
 <div class="u-overflow-hidden">
 <p class="bg-c-w100">

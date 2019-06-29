@@ -1,6 +1,6 @@
 ---
 title: Buttons
-layout: page
+layout: app
 ---
 
 <hr />

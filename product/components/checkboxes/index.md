@@ -1,6 +1,6 @@
 ---
 title: Checkboxes
-layout: page
+layout: app
 ---
 
 <p class="t-4">Checkboxes allow users to easily select one or more of several options.</p>

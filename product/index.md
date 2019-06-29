@@ -1,6 +1,6 @@
 ---
 title: DreamHost.css
-layout: page
+layout: app
 ---
 
 <div class="u-clearfix m-bottom-2">

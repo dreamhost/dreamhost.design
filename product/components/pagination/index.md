@@ -1,6 +1,6 @@
 ---
 title: Pagination
-layout: page
+layout: app
 ---
 <p class="bg-c-w100">
   <p class="t-4">

@@ -1,6 +1,6 @@
 ---
 title: Inputs & Select
-layout: page
+layout: app
 ---
 
 <p class="t-4">Mix and match inputs to create your own Forms.</p>

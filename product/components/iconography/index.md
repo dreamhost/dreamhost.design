@@ -1,6 +1,6 @@
 ---
 title: Iconography
-layout: page
+layout: app
 ---
 
 <p class="t-4">Below is the current collection of single color icons used throughout our applications.

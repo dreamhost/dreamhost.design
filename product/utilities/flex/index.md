@@ -1,6 +1,6 @@
 ---
 title: Flexbox
-layout: page
+layout: app
 ---
 
 <p class="t-4">Flexbox utilities for some fast and easy-to-use flexboxin!' Note that these utilities do not encompass every flexbox rule, but only the most commonly-used ones.</p>

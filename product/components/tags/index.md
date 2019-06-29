@@ -1,6 +1,6 @@
 ---
 title: Tags
-layout: page
+layout: app
 ---
 
 <p class="t-4">Tags can be used to accentuate content &amp; help items standout from the crowd. Their default shape is rounded but have a square variant <code>.Tag--square</code>.</p>

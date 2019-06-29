@@ -1,6 +1,6 @@
 ---
 title: Tabs
-layout: page
+layout: app
 ---
 
 <p class="t-4">Tabbed navigation is constructed of a wrapper with the <code>.Tabs</code> class and an unorderded list with a <code>.Tabs__nav-item</code> class on each list item. Tabs can also show corresponding data on click by adding the <code>data-tab="MyData"</code> tag on a list item.</p>

@@ -1,6 +1,6 @@
 ---
 title: Accordion
-layout: page
+layout: app
 ---
 
 <p class="t-4">Useful for FAQ's, SEO &amp; larger articles of information useful for the user.</p>

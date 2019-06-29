@@ -1,6 +1,7 @@
 ---
 title: Typography
-layout: page
+layout: app
+toc: true
 ---
 
 <p class="t-4">Typography utilities are prefixed with <strong>t-</strong>.</p>

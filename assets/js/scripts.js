@@ -63,3 +63,59 @@ $(document).ready(function() {
 	if(!$('.SideNav__subnav-link.is-active').length) return;
 	$('.SideNav__subnav-link.is-active').focus();
 });
+
+
+
+function toggleMenu() {
+	$('.toggle').toggle(); //api.jquery.com/toggle/
+	$('.sidebar').toggleClass('sticky');
+	$('html, body').toggleClass('no-scroll');
+}
+
+$(document).ready(function () {
+
+	$(".item__anchor").click(function () {
+		$(this).toggleClass('bg-c-b200');
+		$(this).parent().toggleClass('is-uncollapsed');
+	});
+
+	$(".subnav__subnav > li > a").click(function () {
+		$(this).toggleClass('is-uncollapsed');
+	});
+
+
+
+	// Table Of Contents 
+	if($('.tocList').length){
+		$('.tocList').empty();
+		
+		var prevH2Item = null;
+		var prevH2List = null;
+		var index = 0;
+		$("article h2, article h3").each(function () {
+			//insert an anchor to jump to, from the TOC link.
+			var anchor = "<a name='" + index + "'></a>";
+			$(this).before(anchor);
+			var li = "<li><a href='#" + index + "'>" + $(this).text() + "</a></li>";
+				if ($(this).is("h2")) {
+					prevH2List = $("<ul></ul>");
+					prevH2Item = $(li);
+					prevH2Item.append(prevH2List);
+					prevH2Item.appendTo('.tocList');
+				} else {
+				prevH2List.append(li);
+			}
+			index++;
+		});
+
+		$('.tocList ul:empty').remove();
+
+		$tocListLi = $('.tocList li')
+
+		$($tocListLi).on('click', function(){
+			$(this).siblings().removeClass('is-active');
+			$(this).addClass('is-active');
+		})
+	}
+});
+

@@ -1,6 +1,6 @@
 ---
 title: Table
-layout: page
+layout: app
 ---
 
 <p class="t-5">A basic table style, including headings and zebra striping.</p>

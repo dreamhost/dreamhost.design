@@ -1,6 +1,6 @@
 ---
 title: Choice Boxes
-layout: page
+layout: app
 ---
 
 <p class="t-4">Choice Boxes can add visual emphasis to radio buttons and checkboxes. <br />

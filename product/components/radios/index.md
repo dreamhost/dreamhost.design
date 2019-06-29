@@ -1,6 +1,6 @@
 ---
 title: Radio Buttons
-layout: page
+layout: app
 ---
 
 <p class="t-4">Radio Buttons allow users to easily select one of several options.</p>

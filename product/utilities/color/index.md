@@ -1,6 +1,6 @@
 ---
 title: Colors
-layout: page
+layout: app
 ---
 
 <p class="t-4">Colors are prefixed with <code>c-</code> (eg <code>$c-w100</code>), and can be used directly in Sass with their variable names. In HTML, add <code>bg-c-</code> for backgrounds, <code>t-c-</code> for text color &amp; <code>border-c-</code> for border color (currently limited to greyscale &amp; Azure blue).</p>

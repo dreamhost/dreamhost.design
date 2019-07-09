@@ -102,20 +102,13 @@ $(document).ready(function () {
 					prevH2Item = $(li);
 					prevH2Item.append(prevH2List);
 					prevH2Item.appendTo('.tocList');
-				} else {
+				} else {	
 				prevH2List.append(li);
 			}
 			index++;
 		});
 
 		$('.tocList ul:empty').remove();
-
-		$tocListLi = $('.tocList li')
-
-		$($tocListLi).on('click', function(){
-			$(this).siblings().removeClass('is-active');
-			$(this).addClass('is-active');
-		})
 	}
 });
 

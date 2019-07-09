@@ -2,6 +2,13 @@
 
 /* Dreamhost.design Specific Overrides */
 
+
+$mq-nav: 800px;
+$mq-nav--max: $mq-nav - 1px;
+
+$mq-toc: 1350px;
+$mq-toc--max: $mq-toc - 1px;
+
 html, body{
     &::-webkit-scrollbar {
       width: .3rem;
@@ -61,15 +68,15 @@ code.hljs {
         "sidebar sidebar"
         "main main";
 
-    @media (min-width: 700px){
-        grid-template-columns: minmax(min-content, 18rem) 1fr max-content;
+    @media (min-width: $mq-nav){
+        grid-template-columns: 18rem 1fr 18rem;
         grid-template-rows: min-content auto;
         grid-template-areas: 
             "logo nav nav"
             "sidebar main main";
     }
 
-    @media (min-width:1200px){
+    @media (min-width:$mq-toc){
         grid-template-areas: 
             "logo nav nav"
             "sidebar main toc";
@@ -85,7 +92,7 @@ code.hljs {
     top: 0;
 	padding: 0 .5rem;
 	z-index: $z-3;
-	@media (min-width: 700px) {
+	@media (min-width: $mq-nav) {
 		padding: 0 1.6rem;	
 	}
 }
@@ -99,13 +106,14 @@ code.hljs {
 	top: 0;
 	z-index: $z-3;
 
-	@media (min-width: 700px) {
+	@media (min-width: $mq-nav) {
 		padding: 1rem;
 	}
 }
   
 main{
-    grid-area: main;
+	grid-area: main;
+	overflow: hidden;
 }
 
 .sidebar{
@@ -114,7 +122,7 @@ main{
   top: 3.5rem;
   overflow: auto;
   display: none;
-  @media (min-width: 700px){
+  @media (min-width: $mq-nav){
 	top: 4rem;
     height: calc(100vh - 4rem);
     display: block;
@@ -134,9 +142,8 @@ main{
   grid-area: toc;
   align-self: start;
   display: none;
-  @media (min-width: 1320px){
-    display: block;
-    min-width: 15rem;
+  @media (min-width: $mq-toc){
+	display: block;
     position: sticky;
     position: -webkit-sticky;
     top: 6rem;
@@ -144,6 +151,10 @@ main{
 
   a:hover{text-decoration: none;}
   
+  li li {
+	  padding-left: 1rem;
+  }
+
   li.is-active{
 	  position: relative;
 	  &::after{ // creates a bullet next to active toc item
@@ -174,14 +185,14 @@ main{
 
 .nav-menu--large{
 	display: none;
-	@media (min-width: 700px){
+	@media (min-width: $mq-nav){
 		display: flex;
 	}
 }
 
 .nav-menu__toggle{
 
-	@media (min-width: 699px){
+	@media (min-width: $mq-nav){
 		display: none;
 	}
 }
@@ -220,14 +231,18 @@ main{
 		background-color: transparent;
 	}
 	&::-webkit-scrollbar-thumb {
-		background-color: rgba(255,255,255,0.2);
+		background-color: rgba(255,255,255,0.1);
 		border-radius: .4rem;
 	}
 	> li{
 		line-height: 1;
-		
-		& + li{
-		margin-top: 2rem;
+
+		> a{
+			padding: 1rem 1rem;
+			border-radius: .5rem;
+			&:hover{
+				background-color: rgba(255,255,255,0.1);
+			}
 		}
 	}
 }
@@ -235,34 +250,46 @@ main{
 
 .subnav__subnav__subnav{ // Level 3
 	display: none;
-	> li + li{
-		margin-top: 1rem;
+	> li a {
+		display: block;
+		line-height: 1;
+		padding: 1rem 2rem;
+		transition: .33s background-color;
+		border-radius: .5rem;
+		&:hover{
+			background-color: rgba(255,255,255,0.2);
+		}
 	}
 }
 
 
 // Nav Utils
 
+.subnav__subnav__subnav-item-divider{
+	padding: 1rem 2rem;
+	line-height: 1;
+	&[title]{
+		cursor: help;
+	}
+}
+
 .sidebar a{
 	color: #434F58; // softer feeling anchor colors
 	&:hover{
 	text-decoration: none;
-	color: #0073EC; // azure highlight on hover
-	.Icon{
-		color: #0073EC !important;
-	}
+		.Icon{
+			color: #0073EC !important;
+		}
 	}
 	&.active, &.is-active{
-		color: $c-b300;
+		background-color: rgba(100,100,100,0.1);
+		// color: $c-b300;
 		font-weight: bold;
+		.Icon{
+			color: #0073EC !important;
+		}
 	}
 }
-
-.is-active{
-	color: $c-b300;
-	font-weight: bold;
-}
-
 
 .is-uncollapsed{
 	flex-grow: 1;
@@ -273,25 +300,19 @@ main{
 	display: block;
 }
 
-.Icon{
-	transition: .2s transform;
-}
-
-.is-uncollapsed .item__anchor .Icon{
+.subnav .Icon--down{
 	transition: .2s transform;
 	transform: rotate(90deg);
 }
 
-.subnav__subnav .is-uncollapsed > .Icon{
-	transition: .2s transform;
-	transform: rotate(90deg);
+.subnav__subnav .is-uncollapsed > .Icon:not(.Icon--right), .is-uncollapsed .item__anchor .Icon:not(.Icon--right){
+	transform: rotate(270deg);
 }
 
-.item__anchor{
-	&:hover{
-		background-color: rgba(255,255,255,0.08);
-	}
+.item__anchor:hover{
+	background-color: rgba(255,255,255,0.4);
 }
+
 
 // utils
 

@@ -86,26 +86,25 @@ code.hljs {
 
 .logo{
     grid-area: logo;
-    background-color: #2667DD;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
 	padding: 0 .5rem;
 	z-index: $z-3;
+	background-color: $c-b300 !important;
 	@media (min-width: $mq-nav) {
 		padding: 0 1.6rem;	
 	}
 }
 
 .nav{
-
     grid-area: nav;
     line-height: 1; 
     position: sticky;
     position: -webkit-sticky;
 	top: 0;
 	z-index: $z-3;
-
+	background-color: $c-b300 !important;
 	@media (min-width: $mq-nav) {
 		padding: 1rem;
 	}
@@ -241,7 +240,15 @@ main{
 			padding: 1rem 1rem;
 			border-radius: .5rem;
 			&:hover{
-				background-color: rgba(255,255,255,0.1);
+				background-color: rgba(255,255,255,0.2);
+			}
+			&.is-uncollapsed{
+				background-color: rgba(100,100,100,0.05);
+			}
+			&.is-active{
+				.Icon{
+					color: $c-b300 !important;
+				}
 			}
 		}
 	}
@@ -250,6 +257,7 @@ main{
 
 .subnav__subnav__subnav{ // Level 3
 	display: none;
+	padding: 1rem 0;
 	> li a {
 		display: block;
 		line-height: 1;
@@ -258,6 +266,11 @@ main{
 		border-radius: .5rem;
 		&:hover{
 			background-color: rgba(255,255,255,0.2);
+		}
+		&.active, &.is-active{
+			// background-color: rgba(100,100,100,0.1);
+			color: $c-b300;
+			font-weight: bold;
 		}
 	}
 }
@@ -281,14 +294,7 @@ main{
 			color: #0073EC !important;
 		}
 	}
-	&.active, &.is-active{
-		background-color: rgba(100,100,100,0.1);
-		// color: $c-b300;
-		font-weight: bold;
-		.Icon{
-			color: #0073EC !important;
-		}
-	}
+	
 }
 
 .is-uncollapsed{
@@ -336,6 +342,10 @@ a[name]:before {
 
 // single page layouts
 
-article.fullWidth{
+.fullWidth{
 	width: 100%;
+}
+
+.no-toc{
+	grid-column: span 2;
 }

@@ -1,6 +1,6 @@
 ---
 title: Color
-layout: page
+layout: app
 ---
 
 <p class="t-4">Our colors are important. They stir interest, add emphasis, and help provide a better user experience for our customers.</p>

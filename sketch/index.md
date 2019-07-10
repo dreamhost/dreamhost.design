@@ -1,6 +1,7 @@
 ---
 title: Sketch Library
-layout: page
+layout: app
+toc: false
 ---
 
 <p class="t-4">Everything contained in this framework is first designed by the team in Sketch &amp; then if approved, promoted to our shared Sketch pattern library.</p>

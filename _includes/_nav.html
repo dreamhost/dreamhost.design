@@ -3,7 +3,7 @@
         <ul class="subnav flex flex-column">
             <!-- LEVEL 1 -->
 
-            <li class="design__item sidebar__nav__item transition--all flex flex-column{% if page.url contains 'product' %} is-uncollapsed{% endif %}">
+            <li class="design__item sidebar__nav__item transition--all flex flex-column{% if page.url contains 'brand' or page.url contains 'design' or page.url contains 'illustrations' %} is-uncollapsed{% endif %}">
 
                     <a href="#" class="item__anchor flex flex-align-center p-y-1 p-x-2 p-y-2__m p-x-4__m">
                         <img src="http://placekitten.com/48/48" class="rounded-circle m-right-2 m-right-4__m m-bottom-0" alt="">
@@ -15,94 +15,53 @@
                     </a>
     
                     <ul class="subnav__subnav bg-c-g200 p-2 t-2">
-                            <!-- LEVEL 2 -->
-                            <li>
-                                <a href="{{site.baseurl}}/product/" class="l-flex flex-justify-between {% if page.url == '/product' %} is-active{% endif %}">
-                                    Getting Started
-                                    <svg class="Icon Icon--size-1 Icon--right t-c-g300"
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                        <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                                    </svg>
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a class="l-flex flex-justify-between {% if page.url contains 'utilities' %}is-uncollapsed{% endif %}" href="#">
-                                    Utilities
-                                    <svg class="Icon Icon--size-1 Icon--down t-c-g300"
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                        <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                                    </svg>
-                                </a>
-                                <ul class="subnav__subnav__subnav bg-c-g200 t-1">
-                                    <!-- LEVEL 3 -->
-                                    <li class="t-bold t-c-g400 subnav__subnav__subnav-item-divider" title="brand critical">Core</li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/borders" class="{% if page.url == "/product/utilities/borders/" %}is-active{% endif %}">Borders</a></li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/color" class="{% if page.url == "/product/utilities/color/" %}is-active{% endif %}">Color</a></li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/containers" class="{% if page.url == "/product/utilities/containers/" %}is-active{% endif %}">Containers</a></li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/flex" class="{% if page.url == "/product/utilities/flex/" %}is-active{% endif %}">Flexbox</a></li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/grid" class="{% if page.url == "/product/utilities/grid/" %}is-active{% endif %}">Grid</a></li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/layout" class="{% if page.url == "/product/utilities/layout/" %}is-active{% endif %}">Layout</a></li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/spacing" class="{% if page.url == "/product/utilities/spacing/" %}is-active{% endif %}">Spacing</a></li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/typography" class="{% if page.url == "/product/utilities/typography/" %}is-active{% endif %}">Typography</a></li>
-                                    <li><a href="{{site.baseurl}}/product/utilities/sass/variables" class="{% if page.url == "/product/utilities/sass/variables/" %}is-active{% endif %}">Variables</a></li>
-    
-                                </ul>
-                            </li>
-                            <li>
-                                <a class="l-flex flex-justify-between{% if page.url contains 'components' %} is-uncollapsed{% endif %}" href="#">
-                                    Components
-                                    <svg class="Icon Icon--size-1 Icon--down t-c-g300"
-                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                        <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                                    </svg>
-                                </a>
-                                <ul class="subnav__subnav__subnav bg-c-g200 t-1">
-                                    <!-- LEVEL 3 -->
-                                    <li class="l-block t-bold t-c-g400 subnav__subnav__subnav-item-divider" title="brand critical">Core</li> <!-- list title-->
-    
-                                    <li><a href="{{site.baseurl}}/product/components/accordion" class="l-block {% if page.url == "/product/components/accordion/" %} is-active{% endif %}">Accordion</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/alerts" class="l-block {% if page.url == "/product/components/alerts/" %} is-active{% endif %}">Alerts</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/buttons" class="l-block {% if page.url == "/product/components/buttons/" %} is-active{% endif %}">Buttons</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/cards" class="l-block {% if page.url == "/product/components/cards/" %} is-active{% endif %}">Cards</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/checkboxes" class="l-block {% if page.url == "/product/components/checkboxes/" %} is-active{% endif %}">Checkboxes</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/choice-box" class="l-block {% if page.url == "/product/components/choice-box/" %} is-active{% endif %}">Choice Boxes</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/iconography" class="l-block {% if page.url == "/product/components/iconography/" %} is-active{% endif %}">Iconography</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/inputs" class="l-block {% if page.url == "/product/components/inputs/" %} is-active{% endif %}">Inputs &amp; Select</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/lists" class="l-block {% if page.url == "/product/components/lists/" %} is-active{% endif %}">Lists</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/modals" class="l-block {% if page.url == "/product/components/modals/" %} is-active{% endif %}">Modals</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/pagination" class="l-block {% if page.url == "/product/components/pagination/" %} is-active{% endif %}">Pagination</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/popovers" class="l-block {% if page.url == "/product/components/popovers/" %} is-active{% endif %}">Popovers</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/quickcopy" class="l-block {% if page.url == "/product/components/quickcopy/" %} is-active{% endif %}">Quickcopy</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/radios" class="l-block {% if page.url == "/product/components/radios/" %} is-active{% endif %}">Radio Buttons</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/table" class="l-block {% if page.url == "/product/components/table/" %} is-active{% endif %}">Tables</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/table-bar" class="l-block {% if page.url == "/product/components/table-bar/" %} is-active{% endif %}">Tables — Bar</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/tabs" class="l-block {% if page.url == "/product/components/tabs/" %} is-active{% endif %}">Tabs</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/tags" class="l-block {% if page.url == "/product/components/tags/" %} is-active{% endif %}">Tags</a></li>
-                                    <li><a href="{{site.baseurl}}/product/components/toggles" class="l-block {% if page.url == "/product/components/toggles/" %} is-active{% endif %}">Toggles</a></li>
-                        
-                                </ul>
-                            </li>
-                            <li>
-                                    <a class="l-flex flex-justify-between{% if page.url contains 'modules' %} is-uncollapsed{% endif %}" href="#">
-                                        Modules
-                                        <svg class="Icon Icon--size-1 Icon--down t-c-g300"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                            <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                                        </svg>
-                                    </a>
-                                    <ul class="subnav__subnav__subnav bg-c-g200 t-1">
-                                        <!-- LEVEL 3 -->
-                                        <li class="l-block t-bold t-c-g400 subnav__subnav__subnav-item-divider">Product</li> <!-- list title-->
-                                        <li><a href="{{site.baseurl}}/product/modules/carousel" class="l-block{% if page.url == "/product/modules/carousel/" %} is-active{% endif %}">Carousel</a></li>
-                                        <li><a href="{{site.baseurl}}/product/modules/cart" class="l-block{% if page.url == "/product/modules/cart/" %} is-active{% endif %}">Shopping Cart</a></li>
-                                        <li><a href="{{site.baseurl}}/product/modules/header" class="l-block{% if page.url == "/product/modules/header/" %} is-active{% endif %}">Header</a></li>
-                                        <li><a href="{{site.baseurl}}/product/modules/panel" class="l-block{% if page.url == "/product/modules/panel/" %} is-active{% endif %}">Panel</a></li>
-                                        <li><a href="{{site.baseurl}}/product/modules/payment" class="l-block{% if page.url == "/product/modules/payment/" %} is-active{% endif %}">Payment</a></li>
-                                        <li><a href="{{site.baseurl}}/product/modules/users" class="l-block{% if page.url == "/product/modules/users/" %} is-active{% endif %}">Users</a></li>
-                            
-                                    </ul>
-                                </li>
+
+                        <li>
+                            <a class="l-flex flex-justify-between {% if page.url contains '/brand/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                                Brand
+                                <svg class="Icon Icon--size-1 Icon--down t-c-g300"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
+                                </svg>
+                            </a>
+                            <ul class="subnav__subnav__subnav bg-c-g200 t-1">
+                                <!-- LEVEL 3 -->
+                                
+                                <li><a href="{{site.baseurl}}/brand" class="{% if page.url == "/brand/" %}is-active{% endif %}">Essence</a></li>
+                                <!-- <li><a href="{{site.baseurl}}/brand/characteristics" class="{% if page.url == "/brand/characteristics/" %}is-active{% endif %}">Characteristics</a></li>
+                                <li><a href="{{site.baseurl}}/brand/positioning" class="{% if page.url == "/brand/positioning/" %}is-active{% endif %}">Positioning</a></li>
+                                <li><a href="{{site.baseurl}}/brand/values" class="{% if page.url == "/brand/values/" %}is-active{% endif %}">Values</a></li> -->
+                                <li><a href="{{site.baseurl}}/brand/identity" class="{% if page.url == "/brand/identity/" %}is-active{% endif %}">Identity</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="{{site.baseurl}}/design/guidelines" class="l-flex flex-justify-between{% if page.url == "/design/guidelines/" %} is-active{% endif %}">
+                                Guidelines
+                                <svg class="Icon Icon--size-1 Icon--right t-c-g300"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
+                                </svg>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                                Illustrations
+                                <svg class="Icon Icon--size-1 Icon--down t-c-g300"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                    <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
+                                </svg>
+                            </a>
+                            <ul class="subnav__subnav__subnav bg-c-g200 t-1">
+                                <!-- LEVEL 3 -->
+                                
+                                <li><a href="{{site.baseurl}}/illustrations/guidelines" class="{% if page.url == "/illustrations/guidelines/" %}is-active{% endif %}">Guidelines</a></li>
+                                <li><a href="{{site.baseurl}}/illustrations/assets" class="{% if page.url == "/illustrations/assets/" %}is-active{% endif %}">Illustrations</a></li>
+                                <li><a href="{{site.baseurl}}/illustrations/icons" class="{% if page.url == "/illustrations/icons/" %}is-active{% endif %}">Icons</a></li>
+                            </ul>
+                        </li>
+
                     </ul><!-- end submenu -->
     
             </li>
@@ -121,7 +80,7 @@
                 <ul class="subnav__subnav bg-c-g200 p-2 t-2">
 						<!-- LEVEL 2 -->
 						<li>
-                            <a href="{{site.baseurl}}/product/" class="l-flex flex-justify-between {% if page.url == '/product' %} is-active{% endif %}">
+                            <a href="{{site.baseurl}}/product/" class="l-flex flex-justify-between{% if page.url == '/product/' %} is-active{% endif %}">
                                 Getting Started
                                 <svg class="Icon Icon--size-1 Icon--right t-c-g300"
 									xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
@@ -211,8 +170,8 @@
 
             </li>
 
-            <li class="tools__item sidebar__nav__item transition--all flex flex-column">
-                <a href="#" class="item__anchor flex flex-align-center p-y-1 p-x-2 p-y-2__m p-x-4__m">
+            <li class="tools__item sidebar__nav__item transition--all flex flex-column{% if page.url contains 'sketch' %} is-uncollapsed{% endif %}">
+                <a href="javascript:;" class="item__anchor flex flex-align-center p-y-1 p-x-2 p-y-2__m p-x-4__m">
                     <img src="http://placekitten.com/48/48" class="rounded-circle m-right-2 m-right-4__m m-bottom-0" alt="">
                     <h2 class="t-2 t-body m-bottom-0 flex-grow-1">Tools</h2>
                     <div><svg class="Icon Icon--size-1 t-c-g300 Icon--down" xmlns="http://www.w3.org/2000/svg"
@@ -220,33 +179,25 @@
                             <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
                         </svg></div>
                 </a>
-                <ul class="subnav__subnav bg-c-g200 p-4 t-2">
-                    <!-- LEVEL 2 -->
-                    <li><a class="l-block" href="#">Getting Started</a></li>
-                    <li><a class="l-block" href="#">Utilities</a>
-                        <ul class="subnav__subnav__subnav bg-c-g200 t-1">
-                            <!-- LEVEL 3 -->
-                            <li class="l-block t-bold subnav__subnav__subnav-item-divider">Core
-                            </li>
-                            <li><a class="l-block" href="#">Utilities</a></li>
-                            <li><a class="l-block" href="#">Functions</a></li>
-                            <li><a class="l-block" href="#">Layouts</a></li>
-                            <li><a class="l-block" href="#">Components</a></li>
-                            <li class="l-block t-bold m-y-4 subnav__subnav__subnav-item-divider">Product</li>
-                            <li><a class="l-block" href="#">Utilities</a></li>
-                            <li><a class="l-block" href="#">Functions</a></li>
-                            <li><a class="l-block" href="#">Layouts</a></li>
-                            <li><a class="l-block" href="#">Components</a></li>
-                            <li class="l-block t-bold m-y-4 subnav__subnav__subnav-item-divider">Marketing</li>
-                            <li><a class="active l-block" href="#">Utilities</a></li>
-                            <li><a class="l-block" href="#">Functions</a></li>
-                            <li><a class="l-block" href="#">Layouts</a></li>
-                            <li><a class="l-block" href="#">Components</a></li>
-                        </ul>
+                <ul class="subnav__subnav bg-c-g200 p-2 t-2">
+                   <li>
+                        <a href="{{site.baseurl}}/sketch" class="l-flex flex-justify-between{% if page.url == "/sketch/" %} is-active{% endif %}">
+                            Sketch Library
+                            <svg class="Icon Icon--size-1 Icon--right t-c-g300"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
+                            </svg>
+                        </a>
                     </li>
-                    <li><a class="l-block" href="#">Functions</a></li>
-                    <li><a class="l-block" href="#">Layouts</a></li>
-                    <li><a class="l-block" href="#">Components</a></li>
+                   <li>
+                        <a href="https://github.com/dreamhost/dreamhost.css" target="_blank" class="l-flex flex-justify-between">
+                            DreamHost.css
+                            <svg class="Icon Icon--size-1 Icon--right t-c-g300"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
+                            </svg>
+                        </a>
+                    </li>
                 </ul><!-- end submenu -->
 
             </li>

@@ -1,6 +1,7 @@
 ---
 title: Shopping Cart Module
-layout: page
+layout: app
+toc: false
 ---
 
 <p class="t-4">The cart module consists of a <strong>header</strong> <code>Cart__header</code> <strong>footer</strong> <code>Cart__footer</code> &amp; <strong>steps</strong> <code>Cart__step</code> with various states <code>Cart__step--next</code> <code>Cart__step--complete</code> <code>Cart__step--incomplete</code> some of which can contain price and payment frequency as HTML.</p>

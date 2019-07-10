@@ -1,6 +1,6 @@
 ---
 title: Payment Module
-layout: page
+layout: app
 ---
 
 <p class="t-4">Useful for selecting payment options. Makes use of the <a href="{{site.baseurl}}/components/choice-box/">Choice Box</a> component.</p>

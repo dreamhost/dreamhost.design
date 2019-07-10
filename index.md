@@ -1,6 +1,7 @@
 ---
-layout: app
 title: DreamHost Design System
+layout: app
+toc: false
 ---
 
 <p class="t-4">Welcome to the DreamHost design system guidelines. This documentation offers the design specification and components to implement our communications and products. Please consider these guidelines a living document that will evolve as we continue to develop our design language &amp; culture.</p>
@@ -14,7 +15,7 @@ title: DreamHost Design System
 <div class="Card__wrapper Grid--auto">
 	<div class="Card bg-c-g100 p-4 u-border-radius m-bottom-0">
 	<svg class="Icon Icon--size-4 w-100 t-center m-bottom-4 t-c-b300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M20.2 9.7l-7 7.6-1.5-1.5c-.9-.9-2.2-.9-3.1 0-.9.9-.9 2.3 0 3.1l2.7 2.8.4.4c1.7 1.5 3.2-.2 3.4-.4.1-.1 2.8-3 8.3-9 .8-.9.8-2.3-.1-3.1-.9-.8-2.3-.8-3.1.1z"></path><path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm-.2 28.7C8.8 28.7 3.1 23 3.1 16S8.8 3.3 15.8 3.3c7 0 12.7 5.7 12.7 12.7s-5.7 12.7-12.7 12.7z"></path></svg>
-		<h3 class="m-bottom-2"><a href="{{site.baseurl}}/principles">Design Principles</a></h3>
+		<h3 class="m-bottom-2"><a href="{{site.baseurl}}/design/guidelines">Design Principles</a></h3>
 		How we think about, discuss &amp; justify our design process.
 	</div>
 	<div class="Card bg-c-g100 p-4 u-border-radius m-bottom-0">

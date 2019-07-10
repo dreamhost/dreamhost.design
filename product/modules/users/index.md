@@ -1,6 +1,6 @@
 ---
 title: Users Bar
-layout: page
+layout: app
 ---
 
 <p>For interactivity, the JavaScript function targets a class of <code>.js-bar</code> at the root of the component. An element with the <code>.js-drawer-on-click</code> class is used to reveal any information within the <code>.Bar__drawer</code> element. <code>.js-edit-mode-on-click</code> will trigger the drawer with an edit ui. Additionally, an element with a class of <code>.js-delete-mode-on-click</code> will reveal a second drawer defined by the class <code>.Bar__delete</code></p>

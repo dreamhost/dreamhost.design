@@ -1,6 +1,6 @@
 ---
 title: Typography
-layout: page
+layout: app
 ---
 
 <p class="t-4">Typography is the visual component of our written communications. It's what makes reading easier, establishing content hierarchy and making the text easier to digest. Consistent use of type makes for a successful customer experience.</p>

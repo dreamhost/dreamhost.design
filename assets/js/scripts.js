@@ -64,8 +64,6 @@ $(document).ready(function() {
 	$('.SideNav__subnav-link.is-active').focus();
 });
 
-
-
 function toggleMenu() {
 	$('.toggle').toggle(); //api.jquery.com/toggle/
 	$('.sidebar').toggleClass('sticky');
@@ -75,7 +73,6 @@ function toggleMenu() {
 $(document).ready(function () {
 
 	$(".item__anchor").click(function () {
-		$(this).toggleClass('bg-c-b200');
 		$(this).parent().toggleClass('is-uncollapsed');
 	});
 

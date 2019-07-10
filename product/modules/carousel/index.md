@@ -1,6 +1,7 @@
 ---
 title: Carousel
-layout: page
+layout: app
+toc: false
 ---
 
 <p class="t-4">A responsive Carousel module built using <a target="_blank" href="http://kenwheeler.github.io/slick/">Slick</a></p>

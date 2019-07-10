@@ -1,6 +1,7 @@
 ---
 title: Page Header
-layout: page
+layout: app
+toc: false
 ---
 
 <p class="t-4">The responsive page header is the bar at the top of every DreamHost property.</p>

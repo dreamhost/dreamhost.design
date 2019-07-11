@@ -17,25 +17,6 @@
                     <ul class="subnav__subnav bg-c-g200 p-2 t-2">
 
                         <li>
-                            <a class="l-flex flex-justify-between {% if page.url contains '/brand/' %}is-uncollapsed{% endif %}" href="javascript:;">
-                                Brand
-                                <svg class="Icon Icon--size-1 Icon--down t-c-g300"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                    <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                                </svg>
-                            </a>
-                            <ul class="subnav__subnav__subnav bg-c-g200 t-1">
-                                <!-- LEVEL 3 -->
-                                
-                                <li><a href="{{site.baseurl}}/brand" class="{% if page.url == "/brand/" %}is-active{% endif %}">Essence</a></li>
-                                <!-- <li><a href="{{site.baseurl}}/brand/characteristics" class="{% if page.url == "/brand/characteristics/" %}is-active{% endif %}">Characteristics</a></li>
-                                <li><a href="{{site.baseurl}}/brand/positioning" class="{% if page.url == "/brand/positioning/" %}is-active{% endif %}">Positioning</a></li>
-                                <li><a href="{{site.baseurl}}/brand/values" class="{% if page.url == "/brand/values/" %}is-active{% endif %}">Values</a></li> -->
-                                <li><a href="{{site.baseurl}}/brand/identity" class="{% if page.url == "/brand/identity/" %}is-active{% endif %}">Identity</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
                             <a href="{{site.baseurl}}/design/guidelines" class="l-flex flex-justify-between{% if page.url == "/design/guidelines/" %} is-active{% endif %}">
                                 Guidelines
                                 <svg class="Icon Icon--size-1 Icon--right t-c-g300"
@@ -45,6 +26,24 @@
                             </a>
                         </li>
 
+                        <li>
+                                <a class="l-flex flex-justify-between {% if page.url contains '/brand/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                                    Brand
+                                    <svg class="Icon Icon--size-1 Icon--down t-c-g300"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                        <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
+                                    </svg>
+                                </a>
+                                <ul class="subnav__subnav__subnav bg-c-g200 t-1">
+                                    <!-- LEVEL 3 -->
+                                    
+                                    <li><a href="{{site.baseurl}}/brand" class="{% if page.url == "/brand/" %}is-active{% endif %}">Essence</a></li>
+                                    <!--<li><a href="{{site.baseurl}}/brand/positioning" class="{% if page.url == "/brand/positioning/" %}is-active{% endif %}">Positioning</a></li>-->
+                                    <li><a href="{{site.baseurl}}/brand/identity" class="{% if page.url == "/brand/identity/" %}is-active{% endif %}">Identity</a></li>
+                                    <li><a href="{{site.baseurl}}/brand/tone-and-voice" class="{% if page.url == "/brand/tone-and-voice/" %}is-active{% endif %}">Tone & Voice</a></li>
+                                </ul>
+                            </li>
+    
                         <li>
                             <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
                                 Illustrations
@@ -59,6 +58,7 @@
                                 <li><a href="{{site.baseurl}}/illustrations/guidelines" class="{% if page.url == "/illustrations/guidelines/" %}is-active{% endif %}">Guidelines</a></li>
                                 <li><a href="{{site.baseurl}}/illustrations/assets" class="{% if page.url == "/illustrations/assets/" %}is-active{% endif %}">Illustrations</a></li>
                                 <li><a href="{{site.baseurl}}/illustrations/icons" class="{% if page.url == "/illustrations/icons/" %}is-active{% endif %}">Icons</a></li>
+                                <li><a href="{{site.baseurl}}/illustrations/mascot" class="{% if page.url == "/illustrations/mascot/" %}is-active{% endif %}">Mascot</a></li>
                             </ul>
                         </li>
 

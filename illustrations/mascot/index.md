@@ -1,6 +1,7 @@
 ---
 title: Mascot
 layout: app
+toc: false
 ---
 
 <div class="u-clearfix">

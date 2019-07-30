@@ -1,0 +1,121 @@
+// ManageUser Component
+.User__details{
+	display: flex;
+	align-items: center;
+	flex-shrink: 1;
+	position: relative;
+}
+
+.User__details__avatar{
+	align-items: center;
+	margin-right: 1rem;
+	flex-shrink: 3;
+}
+
+
+.User__details__info{
+	min-width: 0;
+	flex-shrink: 10;
+}
+
+.User__details__description{
+	min-width: 0;
+	@media (min-width: $large-breakpoint){
+		width: 35%;
+	}
+}
+
+.User__details__url{
+	@media (min-width: $large-breakpoint){
+		width: 65%;
+	}
+}
+
+.User__details__login-info{
+	line-height: 1;
+	align-self: stretch;
+	@media (min-width: $large-breakpoint){
+		margin-right: 1rem;
+	}
+	
+	&:before{
+		content: "";
+		position: absolute;
+		top: 0; 
+		right: 0;
+		bottom: 0;
+		left: 0;
+		@media (min-width: $large-breakpoint){
+			display: none;
+		}
+	}
+	svg{
+		fill: #AFBFC9; // $c-g200
+		flex-shrink: 0;
+	}
+}
+
+.User__details__actions{
+	
+	@media (min-width: $large-breakpoint){
+		display: flex !important;
+	}
+}
+
+/* USER Login Info */
+
+.User__login-info{
+	background-color: #f4f6f9; // color picked from mockup
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+	@media (min-width: $large-breakpoint){
+		background-color: transparent;
+	}
+}
+
+.User__login-info__group {
+	@media (min-width: $large-breakpoint){
+		flex: 1 1 auto; // there's no flex shrink util
+		& + & {
+			margin-left: 3rem;
+		}
+	}
+}
+
+// State Based Styles 
+
+.User__login-info.is-uncollapsed{
+	display: block !important;
+	@media (min-width: $large-breakpoint){
+		display: flex !important;
+	}
+}
+
+.User__edit.is-uncollapsed{
+	display: block !important;
+}
+
+.User__delete.is-uncollapsed{
+	display: flex !important;
+}
+
+.User__delete{
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+}
+
+// Utils to be added to DreamHost.css
+
+.u-border-radius-circle{
+	border-radius: 50%;
+}
+
+.t-truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.flex-shrink-0{
+	flex-shrink: 0;
+}

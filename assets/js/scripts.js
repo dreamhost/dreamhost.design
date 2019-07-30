@@ -63,3 +63,33 @@ $(document).ready(function() {
 	if(!$('.SideNav__subnav-link.is-active').length) return;
 	$('.SideNav__subnav-link.is-active').focus();
 });
+
+
+
+$(function() {
+  
+	$('.js-edit-user').click(function() {
+    
+    if ( $( '.User__login-info' ).hasClass( 'is-uncollapsed' ) ) {
+      $('.User__login-info').removeClass('is-uncollapsed');
+    }
+    
+    $('.User__edit').toggleClass('is-uncollapsed');
+    
+  });
+
+  $('.js-show-login-details').click(function() {
+    
+    if ( $( '.User__edit' ).hasClass( 'is-uncollapsed' ) ) {
+      $('.User__edit').removeClass('is-uncollapsed');
+    }
+    
+    $('.User__login-info').toggleClass('is-uncollapsed');
+  });
+  
+  
+  $('.js-edit-user-delete').click(function() {
+    $('.User__delete').toggleClass('is-uncollapsed');
+  });
+  
+});

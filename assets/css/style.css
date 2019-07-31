@@ -4413,6 +4413,8 @@ Transition Utilities
 
 .User__details__login-info { line-height: 1; align-self: stretch; }
 
+.User__details__login-info:focus { outline: 0; }
+
 @media (min-width: 1050px) { .User__details__login-info { margin-right: 1rem; } }
 
 .User__details__login-info:before { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
@@ -4441,11 +4443,17 @@ Transition Utilities
 
 .User__delete { border-bottom-left-radius: inherit; border-bottom-right-radius: inherit; }
 
+.User.is-uncollapsed { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.08); }
+
+.AddUser.is-uncollapsed { display: block !important; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.08); }
+
 .u-border-radius-circle { border-radius: 50%; }
 
 .t-truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .flex-shrink-0 { flex-shrink: 0; }
+
+.t-semibold { font-weight: 500 !important; }
 
 /* Dreamhost.design Specific Overrides */
 body { color: #071C26 !important; }

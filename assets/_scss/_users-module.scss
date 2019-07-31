@@ -34,6 +34,9 @@
 .User__details__login-info{
 	line-height: 1;
 	align-self: stretch;
+	&:focus{
+		outline: 0;
+	}
 	@media (min-width: $large-breakpoint){
 		margin-right: 1rem;
 	}
@@ -104,6 +107,15 @@
 	border-bottom-right-radius: inherit;
 }
 
+.User.is-uncollapsed{
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.08);
+}
+
+.AddUser.is-uncollapsed{
+	display: block !important;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.08);
+}
+
 // Utils to be added to DreamHost.css
 
 .u-border-radius-circle{
@@ -118,4 +130,8 @@
 
 .flex-shrink-0{
 	flex-shrink: 0;
+}
+
+.t-semibold{
+	font-weight: 500 !important;
 }

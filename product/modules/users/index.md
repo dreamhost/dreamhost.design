@@ -73,10 +73,10 @@ layout: page
         
           <!-- RadioButtonGroup__Details -->
           <div class="RadioButtonGroup__Details">
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               FTP User — Allows login via FTP for file transfers only
             </div>
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               <p>SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only</p>
               <div class="Form__group">
                 <label class="Choice">
@@ -85,7 +85,7 @@ layout: page
                 </label>
               </div>
             </div>
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               <p><span class="t-bold">Shell User</span> — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
               <div class="Form__group Form__group--select m-bottom-2">
                 <label for="select1" class="Form__label">Shell Type:</label>
@@ -295,10 +295,10 @@ layout: page
 
           <!-- RadioButtonGroup__Details -->
           <div class="RadioButtonGroup__Details">
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               <p>FTP User — Allows login via FTP for file transfers only</p>
             </div>
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               <p>SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only</p>
               <div class="Form__group">
                 <label class="Choice">
@@ -308,7 +308,7 @@ layout: page
               </div>
 
             </div>
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               <p>Shell User — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
 
               <div class="Form__group Form__group--select m-bottom-2">
@@ -533,14 +533,14 @@ layout: page
 
           <!-- RadioButtonGroup__Details -->
           <div class="RadioButtonGroup__Details">
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               FTP User — Allows login via FTP for file transfers only
             </div>
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only
               
             </div>
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               <p>Shell User — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
 
               <div class="Form__group Form__group--select m-bottom-2">
@@ -765,14 +765,14 @@ layout: page
 
           <!-- RadioButtonGroup__Details -->
           <div class="RadioButtonGroup__Details">
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               FTP User — Allows login via FTP for file transfers only
             </div>
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only
               
             </div>
-            <div class="expandable">
+            <div class="RadioButtonGroup__Details__Area">
               <p>Shell User — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
 
               <div class="Form__group Form__group--select m-bottom-2">

@@ -4469,7 +4469,7 @@ Transition Utilities
 
 .RadioButtonGroup__Details { width: 100%; margin-top: 1rem; min-height: 3rem; }
 
-.expandable { display: none; }
+.RadioButtonGroup__Details__Area { display: none; }
 
 .RadioButtonGroup [type="radio"]:nth-of-type(1):checked ~ .RadioButtonGroup__Details *:nth-of-type(1), .RadioButtonGroup [type="radio"]:nth-of-type(2):checked ~ .RadioButtonGroup__Details *:nth-of-type(2), .RadioButtonGroup [type="radio"]:nth-of-type(3):checked ~ .RadioButtonGroup__Details *:nth-of-type(3) { display: block; }
 

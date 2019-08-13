@@ -39,8 +39,8 @@ layout: page
     <div class="AddUser Bar l-none m-bottom-4">
 
         <div class="User__edit p-2 p-3__m">
-            <div class="l-flex flex-align-center flex-justify-between m-bottom-3">
-                <h2 class="t-semibold t-2 m-bottom-0 flex-shrink-0 m-right-4">Add New User</h2>
+            <div class="l-flex flex-column flex-row__l flex-align-center__l flex-justify-between m-bottom-3">
+                <h2 class="t-semibold t-2 flex-shrink-0 m-botom-2 m-bottom-0__l m-right-4">Add New User</h2>
                 <a href="#" class="t-bold">Learn More About Adding New Users</a>
             </div>
 

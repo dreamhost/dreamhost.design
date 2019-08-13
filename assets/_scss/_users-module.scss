@@ -186,3 +186,27 @@
 .RadioButtonGroup [type="radio"]:nth-of-type(3):checked ~ .RadioButtonGroup__Details *:nth-of-type(3) {
   display: block;
 }
+
+// Floating Action Button
+
+.Fab {
+	background-color: $c-b300;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 1rem;
+	font-size: 1rem;
+	min-width: 3rem;
+	min-height: 3rem;
+	border: 0 none;
+	border-radius: 50%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	position: fixed;
+	right: 2rem;
+	bottom: 2rem;
+	cursor: pointer;
+	&:focus{
+		outline: 0;
+	}
+}

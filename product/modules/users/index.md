@@ -173,7 +173,7 @@ layout: page
         </div>
 
     </div>
-
+		<hr class="l-none__l" />
     <h2 class="t-3 t-semibold">Shared</h2>
 
     <div class="User Bar">

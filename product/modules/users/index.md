@@ -252,7 +252,7 @@ layout: page
         </div>
         <!-- end user details -->
 
-        <div class="User__edit l-none p-2 p-3__m p-top-0__l">
+        <div class="User__edit l-none p-2 p-3__m p-top-0__l p-left-9__l">
 
             <div class="row">
 
@@ -479,7 +479,7 @@ layout: page
         </div>
         <!-- end user details -->
 
-        <div class="User__edit l-none p-2 p-3__m p-top-0__l">
+        <div class="User__edit l-none p-2 p-3__m p-top-0__l p-left-9__l">
 
             <div class="row">
 
@@ -700,7 +700,7 @@ layout: page
         </div>
         <!-- end user details -->
 
-        <div class="User__edit l-none p-2 p-3__m p-top-0__l">
+        <div class="User__edit l-none p-2 p-3__m p-top-0__l p-left-9__l">
 
             <div class="row">
 

@@ -4411,7 +4411,7 @@ Transition Utilities
 
 @media (min-width: 1050px) { .User__details__url { width: 65%; } }
 
-.User__details__login-info { line-height: 1; align-self: stretch; }
+.User__details__login-info { line-height: 1; align-self: stretch; cursor: pointer; }
 
 .User__details__login-info:focus { outline: 0; }
 

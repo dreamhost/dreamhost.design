@@ -34,6 +34,7 @@
 .User__details__login-info{
 	line-height: 1;
 	align-self: stretch;
+	cursor: pointer;
 	&:focus{
 		outline: 0;
 	}

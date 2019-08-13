@@ -67,29 +67,60 @@ $(document).ready(function() {
 
 
 $(function() {
-  
+	var user = $('.User:last')
+
 	$('.js-edit-user').click(function() {
-    
-    if ( $( '.User__login-info' ).hasClass( 'is-uncollapsed' ) ) {
-      $('.User__login-info').removeClass('is-uncollapsed');
+
+		var parent = $(this).closest('.User');
+
+    if ( $(parent).children('.User__login-info').hasClass( 'is-uncollapsed' ) ) {
+			$(parent).children('.User__login-info').removeClass('is-uncollapsed');
     }
-    
-    $('.User__edit').toggleClass('is-uncollapsed');
+		
+		$(parent).toggleClass('is-uncollapsed');
+		$(parent).children('.User__edit').toggleClass('is-uncollapsed');
     
   });
 
   $('.js-show-login-details').click(function() {
-    
-    if ( $( '.User__edit' ).hasClass( 'is-uncollapsed' ) ) {
-      $('.User__edit').removeClass('is-uncollapsed');
-    }
-    
-    $('.User__login-info').toggleClass('is-uncollapsed');
+		var parent = $(this).closest('.User');
+    if ( $(parent).children( '.User__edit' ).hasClass( 'is-uncollapsed' ) ) {
+			$(parent).children('.User__edit').removeClass('is-uncollapsed');
+		}
+		
+		$(parent).toggleClass('is-uncollapsed');
+		$(parent).children('.User__login-info').toggleClass('is-uncollapsed');
+
   });
   
   
   $('.js-edit-user-delete').click(function() {
-    $('.User__delete').toggleClass('is-uncollapsed');
+		var parent = $(this).closest('.User');
+
+		$(parent).children('.User__edit').removeClass('is-uncollapsed');
+    $(parent).children('.User__delete').toggleClass('is-uncollapsed');
   });
-  
+
+	  
+  $('.js-edit-user-delete-confirm').click(function() {
+		var parent = $(this).closest('.User').hide('slow', function(){ $target.remove(); });
+
+  });
+	
+	  
+  $('.js-edit-user-delete-cancel').click(function() {
+		var parent = $(this).closest('.User');
+
+		$(parent).children('.User__delete').toggleClass('is-uncollapsed');
+		$(parent).children('.User__edit').addClass('is-uncollapsed');
+  });
+	
+	$('.js-toggle-add-user').click(function(){
+		$('.AddUser').toggleClass('is-uncollapsed');
+	})
+	
+	$('.js-add-user').click(function(){
+		$(user).clone().appendTo('.container');
+	})
+
 });

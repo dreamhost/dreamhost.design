@@ -4413,6 +4413,8 @@ Transition Utilities
 
 .User__details__login-info { line-height: 1; align-self: stretch; }
 
+.User__details__login-info:focus { outline: 0; }
+
 @media (min-width: 1050px) { .User__details__login-info { margin-right: 1rem; } }
 
 .User__details__login-info:before { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
@@ -4441,11 +4443,35 @@ Transition Utilities
 
 .User__delete { border-bottom-left-radius: inherit; border-bottom-right-radius: inherit; }
 
+.User.is-uncollapsed { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.08); }
+
+.AddUser.is-uncollapsed { display: block !important; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.08); }
+
 .u-border-radius-circle { border-radius: 50%; }
 
 .t-truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .flex-shrink-0 { flex-shrink: 0; }
+
+.t-semibold { font-weight: 500 !important; }
+
+.RadioButtonGroup { display: flex; flex-wrap: wrap; }
+
+.RadioButtonGroup > label { flex-grow: 1; padding: 0.75rem 1rem; cursor: pointer; text-align: center; border: solid 1px #E0E4E8; border-right-width: 0; }
+
+.RadioButtonGroup > label:last-of-type { border-radius: 0 3px 3px 0; border-right-width: 1px; }
+
+.RadioButtonGroup > label:first-of-type { border-radius: 3px 0 0 3px; }
+
+.RadioButtonGroup > [type="radio"] { display: none; }
+
+.RadioButtonGroup > [type="radio"]:checked + label { background-color: #0073EC; color: #fff; border-color: #0073EC; }
+
+.RadioButtonGroup__Details { width: 100%; margin-top: 1rem; min-height: 3rem; }
+
+.RadioButtonGroup__Details__Area { display: none; }
+
+.RadioButtonGroup [type="radio"]:nth-of-type(1):checked ~ .RadioButtonGroup__Details *:nth-of-type(1), .RadioButtonGroup [type="radio"]:nth-of-type(2):checked ~ .RadioButtonGroup__Details *:nth-of-type(2), .RadioButtonGroup [type="radio"]:nth-of-type(3):checked ~ .RadioButtonGroup__Details *:nth-of-type(3) { display: block; }
 
 /* Dreamhost.design Specific Overrides */
 body { color: #071C26 !important; }

@@ -276,7 +276,21 @@ layout: page
 
                 <div class="col-12 col-xl-4 offset-xl-1">
 
-                    <p class="Form__label">Type of user account:</p>
+                    <div class="Form__label">
+                        <span>Type of user account:</span>
+
+                        <div class="more-info-helper-popover Popover-container on-click">
+                            <div class="Popover t-transform-none has-caret" id="more-info-helper-content">
+                                <div class="Popover__wrapper p-2">
+                                <div class="help-content p-2 t-0 t-left">
+                                    <p class="info-heading t-bold t-body t-1 m-bottom-1">Popover Title</p>
+                                    <p class="info-content t-regular t-body t-0">Popover description goes here</p>
+                                </div>
+                                </div>
+                            </div>
+                            <sup class="more-info-helper more-info-bordered js-toggle-popover t-c-g300 border-c-g300 t-center t-0 t-bold l-pos-relative l-inline-block m-left-0 t-decoration-none no-bg"><span>?</span></sup>
+                        </div>
+                    </div>
                     <form class="RadioButtonGroup">
 
                         <input type="radio" id="ftp" name="RadioButtonGroup1" value="ftp" checked />
@@ -846,6 +860,6 @@ layout: page
 
 </div>
 
-<button class="Fab l-none__l js-toggle-add-user">
+<button class="Button--fixed-mobile l-none__l js-toggle-add-user">
 	<svg class="Icon Icon--size-2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve"><defs></defs><path d="M46.88,21.88H28.12V3.12C28.12,1.4,26.73,0,25,0h0c-1.73,0-3.12,1.4-3.12,3.12v18.75H3.12C1.4,21.88,0,23.27,0,25v0 c0,1.73,1.4,3.12,3.12,3.12h18.75v18.75c0,1.73,1.4,3.12,3.12,3.12h0c1.73,0,3.12-1.4,3.12-3.12V28.12h18.75	c1.73,0,3.12-1.4,3.12-3.12v0C50,23.27,48.6,21.88,46.88,21.88z"/></svg>
 </button>

@@ -4473,9 +4473,11 @@ Transition Utilities
 
 .RadioButtonGroup [type="radio"]:nth-of-type(1):checked ~ .RadioButtonGroup__Details *:nth-of-type(1), .RadioButtonGroup [type="radio"]:nth-of-type(2):checked ~ .RadioButtonGroup__Details *:nth-of-type(2), .RadioButtonGroup [type="radio"]:nth-of-type(3):checked ~ .RadioButtonGroup__Details *:nth-of-type(3) { display: block; }
 
-.Fab { background-color: #0073EC; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3); color: #fff; padding: 1rem; font-size: 1rem; min-width: 3rem; min-height: 3rem; border: 0 none; border-radius: 50%; display: flex; align-content: center; justify-content: center; position: fixed; right: 2rem; bottom: 2rem; cursor: pointer; }
+.Button--fixed-mobile { background-color: #0073EC; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3); color: #fff; padding: 1rem; font-size: 1rem; min-width: 3rem; min-height: 3rem; border: 0 none; border-radius: 50%; display: flex; align-content: center; justify-content: center; position: fixed; right: 2rem; bottom: 2rem; cursor: pointer; }
 
-.Fab:focus { outline: 0; }
+.Button--fixed-mobile:focus { outline: 0; }
+
+.more-info-helper { height: .3rem; width: .3rem; overflow: hidden; }
 
 /* Dreamhost.design Specific Overrides */
 body { color: #071C26 !important; }

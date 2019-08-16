@@ -68,21 +68,43 @@ $(document).ready(function() {
 
 $(function() {
 	var user = $('.User:last')
+	const defaultview = $('.container.p-0').clone()
 
-	$('.js-edit-user').click(function() {
+	console.log(defaultview);
+
+	$(document.body).on('click', '.js-edit-user' ,function(){ 
 
 		var parent = $(this).closest('.User');
+		var editView = $(parent).children('.User__edit');
 
-    if ( $(parent).children('.User__login-info').hasClass( 'is-uncollapsed' ) ) {
-			$(parent).children('.User__login-info').removeClass('is-uncollapsed');
-    }
-		
-		$(parent).toggleClass('is-uncollapsed');
-		$(parent).children('.User__edit').toggleClass('is-uncollapsed');
+		if ($(window).width() < 960) {
+			
+			$('.container.p-0').empty();
+	
+			$(editView).toggleClass('is-uncollapsed').removeClass('p-2').removeClass('p-3__m').appendTo('.container.p-0');
+	 	}
+		else {
+
+			if ( $(parent).children('.User__login-info').hasClass( 'is-uncollapsed' ) ) {
+				$(parent).children('.User__login-info').removeClass('is-uncollapsed');
+			}
+			
+			$(parent).toggleClass('is-uncollapsed');
+			$(parent).children('.User__edit').toggleClass('is-uncollapsed');
+
+	 }
     
-  });
+    
+	});
+	
+	$(document.body).on('click', '.js-edit-user-cancel' ,function(){
+		$('.container.p-0').empty();
 
-  $('.js-show-login-details').click(function() {
+		$(defaultview).clone().appendTo('.container.p-0');
+		
+	});
+
+  $(document.body).on('click', '.js-show-login-details' ,function(){ 
 		var parent = $(this).closest('.User');
     if ( $(parent).children( '.User__edit' ).hasClass( 'is-uncollapsed' ) ) {
 			$(parent).children('.User__edit').removeClass('is-uncollapsed');
@@ -94,7 +116,7 @@ $(function() {
   });
   
   
-  $('.js-edit-user-delete').click(function() {
+  $(document.body).on('click', '.js-edit-user-delete' ,function(){ 
 		var parent = $(this).closest('.User');
 
 		$(parent).children('.User__edit').removeClass('is-uncollapsed');
@@ -102,25 +124,26 @@ $(function() {
   });
 
 	  
-  $('.js-edit-user-delete-confirm').click(function() {
+  $(document.body).on('click', '.js-edit-user-delete-confirm' ,function(){
 		var parent = $(this).closest('.User').hide('slow', function(){ $target.remove(); });
-
   });
 	
 	  
-  $('.js-edit-user-delete-cancel').click(function() {
+  $(document.body).on('click', '.js-edit-user-delete-cancel' ,function(){
 		var parent = $(this).closest('.User');
 
 		$(parent).children('.User__delete').toggleClass('is-uncollapsed');
 		$(parent).children('.User__edit').addClass('is-uncollapsed');
   });
 	
-	$('.js-toggle-add-user').click(function(){
+	$(document.body).on('click', '.js-toggle-add-user' ,function(){
 		$('.AddUser').toggleClass('is-uncollapsed');
 	})
 	
-	$('.js-add-user').click(function(){
+	$(document.body).on('click', '.js-add-user' ,function(){
 		$(user).clone().appendTo('.container');
 	})
 
 });
+
+

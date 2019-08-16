@@ -39,17 +39,23 @@ layout: page
     <div class="AddUser Bar l-none m-bottom-4">
 
         <div class="User__edit p-2 p-3__m">
-            <div class="l-flex flex-column flex-row__l flex-align-center__l flex-justify-between m-bottom-3">
-                <h2 class="t-semibold t-2 flex-shrink-0 m-botom-2 m-bottom-0__l m-right-4">Add New User</h2>
-                <a href="#" class="t-bold">Learn More About Adding New Users</a>
+            <div class="row m-bottom-3">
+                <div class="col-12 col-lg-7 col-xl-8">
+                    <h2 class="t-semibold t-2 m-bottom-1">Add New User</h2>
+                </div>
+                
+                <div class="col-12 col-lg-5 col-xl-4">
+                    <a href="#" class="t-bold">Learn More About Adding New Users</a>
+                </div>
+                
             </div>
 
-            <div class="row">
+            <div class="row m-bottom-2">
 
-                <div class="col-12 col-xl-4">
+                <div class="col-12 col-xl-4 m-bottom-3 m-bottom-0__l">
 
                     <div class="Form__group">
-                        <label for="input1" class="Form__label">Edit The Full Name</label>
+                        <label for="input1" class="Form__label m-bottom-2">Edit The Full Name</label>
                         <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
                     </div>
 
@@ -64,8 +70,8 @@ layout: page
 
                 </div>
 
-                <div class="col-12 col-xl-4 offset-xl-1">
-                    <p class="Form__label">Type of user account:</p>
+                <div class="col-12 col-xl-4 m-bottom-6 m-bottom-0__l">
+                    <label class="Form__label m-bottom-2">Type of user account:</label>
 
                     <form class="RadioButtonGroup">
 
@@ -125,40 +131,37 @@ layout: page
                 </div>
                 <!-- end .col-4 -->
 
-                <div class="col-12 col-xl-2 offset-xl-1">
+                <div class="col-12 col-xl-4 m-bottom-4 m-bottom-0__l">
 
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">SSH Protocol:</label>
+                    <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                        <label class="Form__label m-bottom-2__l m-right-0__l">SSH Protocol:</label>
 
                         <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
+                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID">
                             <label for="UNIQUE-ID" class="Toggle__label">
                                 <span class="Toggle__visible"></span>
                             </label>
                         </div>
-
                     </div>
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">Enhanced Security:</label>
+                    <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                        <label class="Form__label m-bottom-2__l m-right-0__l">Enhanced Security:</label>
 
                         <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
+                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID2">
+                            <label for="UNIQUE-ID2" class="Toggle__label">
                                 <span class="Toggle__visible"></span>
                             </label>
                         </div>
-
                     </div>
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">CPU Reporting:</label>
+                    <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                        <label class="Form__label m-bottom-2__l m-right-0__l">CPU Reporting:</label>
 
                         <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
+                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID3">
+                            <label for="UNIQUE-ID3" class="Toggle__label">
                                 <span class="Toggle__visible"></span>
                             </label>
                         </div>
-
                     </div>
 
                 </div>
@@ -252,152 +255,134 @@ layout: page
         </div>
         <!-- end user details -->
 
-        <div class="User__edit l-none p-2 p-3__m p-top-0__l p-left-9__l">
+        <div class="User__edit l-none p-2 p-3__m">
 
-            <div class="row">
+            
+        <div class="row m-bottom-2">
 
-                <div class="col-12 col-xl-4">
+            <div class="col-12 col-xl-4 m-bottom-3 m-bottom-0__l">
 
-                    <div class="Form__group">
-                        <label for="input1" class="Form__label">Edit The Full Name</label>
-                        <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
-                    </div>
-
-                    <div class="Form__group">
-                        <label for="input1" class="Form__label">New Password</label>
-                        <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
-                        <label class="Choice m-top-2">
-                            <input type="checkbox" name="check1">
-                            <span class="Choice__label">Generate Random Password</span>
-                        </label>
-                    </div>
-
+                <div class="Form__group">
+                    <label for="input1" class="Form__label m-bottom-2">Edit The Full Name</label>
+                    <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
                 </div>
 
-                <div class="col-12 col-xl-4 offset-xl-1">
-
-                    <div class="Form__label">
-                        <span>Type of user account:</span>
-
-                        <div class="more-info-helper-popover Popover-container on-click">
-                            <div class="Popover t-transform-none has-caret" id="more-info-helper-content">
-                                <div class="Popover__wrapper p-2">
-                                <div class="help-content p-2 t-0 t-left">
-                                    <p class="info-heading t-bold t-body t-1 m-bottom-1">Popover Title</p>
-                                    <p class="info-content t-regular t-body t-0">Popover description goes here</p>
-                                </div>
-                                </div>
-                            </div>
-                            <sup class="more-info-helper more-info-bordered js-toggle-popover t-c-g300 border-c-g300 t-center t-0 t-bold l-pos-relative l-inline-block m-left-0 t-decoration-none no-bg"><span>?</span></sup>
-                        </div>
-                    </div>
-                    <form class="RadioButtonGroup">
-
-                        <input type="radio" id="ftp" name="RadioButtonGroup1" value="ftp" checked />
-                        <label for="ftp">
-                            FTP
-                        </label>
-
-                        <input type="radio" id="sftp" name="RadioButtonGroup1" value="sftp" />
-                        <label for="sftp">
-                            SFTP
-                        </label>
-
-                        <input type="radio" id="ssh" name="RadioButtonGroup1" value="ssh" />
-                        <label for="ssh">
-                            Shell
-                        </label>
-
-                        <!-- RadioButtonGroup__Details -->
-                        <div class="RadioButtonGroup__Details">
-                            <div class="RadioButtonGroup__Details__Area">
-                                <p>FTP User — Allows login via FTP for file transfers only</p>
-                            </div>
-                            <div class="RadioButtonGroup__Details__Area">
-                                <p>SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only</p>
-                                <div class="Form__group">
-                                    <label class="Choice">
-                                        <input type="checkbox" name="check1" checked>
-                                        <span class="Choice__label">Disallow FTP</span>
-                                    </label>
-                                </div>
-
-                            </div>
-                            <div class="RadioButtonGroup__Details__Area">
-                                <p>Shell User — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
-
-                                <div class="Form__group Form__group--select m-bottom-2">
-                                    <label for="select1" class="Form__label">Shell Type:</label>
-                                    <select id="select1" class="Select">
-                                        <option>/bin/bash</option>
-                                        <option>Option 2</option>
-                                        <option>Option 3</option>
-                                        <option>Option 4</option>
-                                        <option>Option 5</option>
-                                    </select>
-                                </div>
-
-                                <div class="Form__group">
-                                    <label class="Choice">
-                                        <input type="checkbox" name="check1" checked>
-                                        <span class="Choice__label">Disallow FTP</span>
-                                    </label>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </form>
-
-                </div>
-                <!-- end .col-4 -->
-
-                <div class="col-12 col-xl-2 offset-xl-1">
-
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">SSH Protocol:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">Enhanced Security:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">CPU Reporting:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-
+                <div class="Form__group">
+                    <label for="input1" class="Form__label">New Password</label>
+                    <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
+                    <label class="Choice m-top-2">
+                        <input type="checkbox" name="check1">
+                        <span class="Choice__label">Generate Random Password</span>
+                    </label>
                 </div>
 
             </div>
+
+            <div class="col-12 col-xl-4 offset-xl-1 m-bottom-6 m-bottom-0__l">
+                <label class="Form__label m-bottom-2">Type of user account:</label>
+
+                <form class="RadioButtonGroup">
+
+                    <input type="radio" id="ftp-new-user2" name="RadioButtonGroup1" value="ftp" checked />
+                    <label for="ftp-new-user2">
+                        FTP
+                    </label>
+
+                    <input type="radio" id="sftp-new-user2" name="RadioButtonGroup1" value="sftp" />
+                    <label for="sftp-new-user2">
+                        SFTP
+                    </label>
+
+                    <input type="radio" id="ssh-new-user2" name="RadioButtonGroup1" value="ssh" />
+                    <label for="ssh-new-user2">
+                        Shell
+                    </label>
+
+                    <!-- RadioButtonGroup__Details -->
+                    <div class="RadioButtonGroup__Details">
+                        <div class="RadioButtonGroup__Details__Area">
+                            FTP User — Allows login via FTP for file transfers only
+                        </div>
+                        <div class="RadioButtonGroup__Details__Area">
+                            <p>SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only</p>
+                            <div class="Form__group">
+                                <label class="Choice">
+                                    <input type="checkbox" name="check1" checked>
+                                    <span class="Choice__label">Disallow FTP</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="RadioButtonGroup__Details__Area">
+                            <p><span class="t-bold">Shell User</span> — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
+                            <div class="Form__group Form__group--select m-bottom-2">
+                                <label for="select1" class="Form__label">Shell Type:</label>
+                                <select id="select1" class="Select">
+                                    <option>/bin/bash</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                    <option>Option 4</option>
+                                    <option>Option 5</option>
+                                </select>
+                            </div>
+
+                            <div class="Form__group">
+                                <label class="Choice">
+                                    <input type="checkbox" name="check1" checked>
+                                    <span class="Choice__label">Disallow FTP</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- end .col-4 -->
+
+            <div class="col-12 col-xl-3 m-bottom-4 m-bottom-0__l">
+
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">SSH Protocol:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID4">
+                        <label for="UNIQUE-ID4" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">Enhanced Security:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID5">
+                        <label for="UNIQUE-ID5" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">CPU Reporting:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID6">
+                        <label for="UNIQUE-ID6" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
 
             <div class="row">
                 <div class="col-12 col-lg-4 t-center t-left__l">
                     <button class="js-edit-user-delete Button Button--danger l-block l-inline-block__l w-100 w-auto__l m-bottom-3 m-bottom-0__l">Delete This User</button>
                 </div>
                 <div class="col-12 col-lg-8 t-right">
-                    <button class="js-edit-user Button l-block l-inline-block__m w-100 w-auto__m m-bottom-3 m-bottom-0__m">Cancel</button>
+                    <button class="js-edit-user-cancel Button l-block l-inline-block__m w-100 w-auto__m m-bottom-3 m-bottom-0__m">Cancel</button>
                     <button class="Button Button--primary l-block l-inline-block__m w-100 w-auto__m m-left-0 m-left-1__m">Save Changes</button>
                 </div>
             </div>
@@ -416,7 +401,6 @@ layout: page
         </div>
 
     </div>
-
     <div class="User Bar">
 
         <div class="User__details p-2 p-3__m">
@@ -493,132 +477,134 @@ layout: page
         </div>
         <!-- end user details -->
 
-        <div class="User__edit l-none p-2 p-3__m p-top-0__l p-left-9__l">
+        <div class="User__edit l-none p-2 p-3__m">
 
-            <div class="row">
+            
+        <div class="row m-bottom-2">
 
-                <div class="col-12 col-xl-4">
+            <div class="col-12 col-xl-4 m-bottom-3 m-bottom-0__l">
 
-                    <div class="Form__group">
-                        <label for="input1" class="Form__label">Edit The Full Name</label>
-                        <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
-                    </div>
-
-                    <div class="Form__group">
-                        <label for="input1" class="Form__label">New Password</label>
-                        <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
-                        <label class="Choice m-top-2">
-                            <input type="checkbox" name="check1">
-                            <span class="Choice__label">Generate Random Password</span>
-                        </label>
-                    </div>
-
+                <div class="Form__group">
+                    <label for="input1" class="Form__label m-bottom-2">Edit The Full Name</label>
+                    <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
                 </div>
 
-                <div class="col-12 col-xl-4 offset-xl-1">
-
-                    <p class="Form__label">Type of user account:</p>
-                    <form class="RadioButtonGroup">
-
-                        <input type="radio" id="ftp2" name="RadioButtonGroup1" value="ftp" checked />
-                        <label for="ftp2">
-                            FTP
-                        </label>
-
-                        <input type="radio" id="sftp2" name="RadioButtonGroup1" value="sftp" />
-                        <label for="sftp2">
-                            SFTP
-                        </label>
-
-                        <input type="radio" id="ssh2" name="RadioButtonGroup1" value="ssh" />
-                        <label for="ssh2">
-                            Shell
-                        </label>
-
-                        <!-- RadioButtonGroup__Details -->
-                        <div class="RadioButtonGroup__Details">
-                            <div class="RadioButtonGroup__Details__Area">
-                                FTP User — Allows login via FTP for file transfers only
-                            </div>
-                            <div class="RadioButtonGroup__Details__Area">
-                                SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only
-
-                            </div>
-                            <div class="RadioButtonGroup__Details__Area">
-                                <p>Shell User — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
-
-                                <div class="Form__group Form__group--select m-bottom-2">
-                                    <label for="select1" class="Form__label">Shell Type:</label>
-                                    <select id="select1" class="Select">
-                                        <option>/bin/bash</option>
-                                        <option>Option 2</option>
-                                        <option>Option 3</option>
-                                        <option>Option 4</option>
-                                        <option>Option 5</option>
-                                    </select>
-                                </div>
-
-                                <div class="Form__group">
-                                    <label class="Choice">
-                                        <input type="checkbox" name="check1" checked>
-                                        <span class="Choice__label">Disallow FTP</span>
-                                    </label>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </form>
-
-                </div>
-                <!-- end .col-4 -->
-
-                <div class="col-12 col-xl-2 offset-xl-1">
-
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">SSH Protocol:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">Enhanced Security:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">CPU Reporting:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-
+                <div class="Form__group">
+                    <label for="input1" class="Form__label">New Password</label>
+                    <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
+                    <label class="Choice m-top-2">
+                        <input type="checkbox" name="check1">
+                        <span class="Choice__label">Generate Random Password</span>
+                    </label>
                 </div>
 
             </div>
+
+            <div class="col-12 col-xl-4 offset-xl-1 m-bottom-6 m-bottom-0__l">
+                <label class="Form__label m-bottom-2">Type of user account:</label>
+
+                <form class="RadioButtonGroup">
+
+                    <input type="radio" id="ftp-new-user3" name="RadioButtonGroup1" value="ftp" checked />
+                    <label for="ftp-new-user3">
+                        FTP
+                    </label>
+
+                    <input type="radio" id="sftp-new-user3" name="RadioButtonGroup1" value="sftp" />
+                    <label for="sftp-new-user3">
+                        SFTP
+                    </label>
+
+                    <input type="radio" id="ssh-new-user3" name="RadioButtonGroup1" value="ssh" />
+                    <label for="ssh-new-user3">
+                        Shell
+                    </label>
+
+                    <!-- RadioButtonGroup__Details -->
+                    <div class="RadioButtonGroup__Details">
+                        <div class="RadioButtonGroup__Details__Area">
+                            FTP User — Allows login via FTP for file transfers only
+                        </div>
+                        <div class="RadioButtonGroup__Details__Area">
+                            <p>SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only</p>
+                            <div class="Form__group">
+                                <label class="Choice">
+                                    <input type="checkbox" name="check1" checked>
+                                    <span class="Choice__label">Disallow FTP</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="RadioButtonGroup__Details__Area">
+                            <p><span class="t-bold">Shell User</span> — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
+                            <div class="Form__group Form__group--select m-bottom-2">
+                                <label for="select1" class="Form__label">Shell Type:</label>
+                                <select id="select1" class="Select">
+                                    <option>/bin/bash</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                    <option>Option 4</option>
+                                    <option>Option 5</option>
+                                </select>
+                            </div>
+
+                            <div class="Form__group">
+                                <label class="Choice">
+                                    <input type="checkbox" name="check1" checked>
+                                    <span class="Choice__label">Disallow FTP</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- end .col-4 -->
+
+            <div class="col-12 col-xl-3 m-bottom-4 m-bottom-0__l">
+
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">SSH Protocol:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID4">
+                        <label for="UNIQUE-ID4" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">Enhanced Security:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID5">
+                        <label for="UNIQUE-ID5" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">CPU Reporting:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID6">
+                        <label for="UNIQUE-ID6" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
 
             <div class="row">
                 <div class="col-12 col-lg-4 t-center t-left__l">
                     <button class="js-edit-user-delete Button Button--danger l-block l-inline-block__l w-100 w-auto__l m-bottom-3 m-bottom-0__l">Delete This User</button>
                 </div>
                 <div class="col-12 col-lg-8 t-right">
-                    <button class="js-edit-user Button l-block l-inline-block__m w-100 w-auto__m m-bottom-3 m-bottom-0__m">Cancel</button>
+                    <button class="js-edit-user-cancel Button l-block l-inline-block__m w-100 w-auto__m m-bottom-3 m-bottom-0__m">Cancel</button>
                     <button class="Button Button--primary l-block l-inline-block__m w-100 w-auto__m m-left-0 m-left-1__m">Save Changes</button>
                 </div>
             </div>
@@ -637,7 +623,6 @@ layout: page
         </div>
 
     </div>
-
     <div class="User Bar">
 
         <div class="User__details p-2 p-3__m">
@@ -714,132 +699,134 @@ layout: page
         </div>
         <!-- end user details -->
 
-        <div class="User__edit l-none p-2 p-3__m p-top-0__l p-left-9__l">
+        <div class="User__edit l-none p-2 p-3__m">
 
-            <div class="row">
+            
+        <div class="row m-bottom-2">
 
-                <div class="col-12 col-xl-4">
+            <div class="col-12 col-xl-4 m-bottom-3 m-bottom-0__l">
 
-                    <div class="Form__group">
-                        <label for="input1" class="Form__label">Edit The Full Name</label>
-                        <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
-                    </div>
-
-                    <div class="Form__group">
-                        <label for="input1" class="Form__label">New Password</label>
-                        <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
-                        <label class="Choice m-top-2">
-                            <input type="checkbox" name="check1">
-                            <span class="Choice__label">Generate Random Password</span>
-                        </label>
-                    </div>
-
+                <div class="Form__group">
+                    <label for="input1" class="Form__label m-bottom-2">Edit The Full Name</label>
+                    <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
                 </div>
 
-                <div class="col-12 col-xl-4 offset-xl-1">
-
-                    <p class="Form__label">Type of user account:</p>
-                    <form class="RadioButtonGroup">
-
-                        <input type="radio" id="ftp3" name="RadioButtonGroup1" value="ftp" checked />
-                        <label for="ftp3">
-                            FTP
-                        </label>
-
-                        <input type="radio" id="sftp3" name="RadioButtonGroup1" value="sftp" />
-                        <label for="sftp3">
-                            SFTP
-                        </label>
-
-                        <input type="radio" id="ssh3" name="RadioButtonGroup1" value="ssh" />
-                        <label for="ssh3">
-                            Shell
-                        </label>
-
-                        <!-- RadioButtonGroup__Details -->
-                        <div class="RadioButtonGroup__Details">
-                            <div class="RadioButtonGroup__Details__Area">
-                                FTP User — Allows login via FTP for file transfers only
-                            </div>
-                            <div class="RadioButtonGroup__Details__Area">
-                                SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only
-
-                            </div>
-                            <div class="RadioButtonGroup__Details__Area">
-                                <p>Shell User — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
-
-                                <div class="Form__group Form__group--select m-bottom-2">
-                                    <label for="select1" class="Form__label">Shell Type:</label>
-                                    <select id="select1" class="Select">
-                                        <option>/bin/bash</option>
-                                        <option>Option 2</option>
-                                        <option>Option 3</option>
-                                        <option>Option 4</option>
-                                        <option>Option 5</option>
-                                    </select>
-                                </div>
-
-                                <div class="Form__group">
-                                    <label class="Choice">
-                                        <input type="checkbox" name="check1" checked>
-                                        <span class="Choice__label">Disallow FTP</span>
-                                    </label>
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </form>
-
-                </div>
-                <!-- end .col-4 -->
-
-                <div class="col-12 col-xl-2 offset-xl-1">
-
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">SSH Protocol:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">Enhanced Security:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-                    <div class="Form__group">
-                        <label class="Form__label m-bottom-1">CPU Reporting:</label>
-
-                        <div class="Toggle">
-                            <input class="Toggle__input" type="checkbox" id="UNIQUE-ID" />
-                            <label for="UNIQUE-ID" class="Toggle__label">
-                                <span class="Toggle__visible"></span>
-                            </label>
-                        </div>
-
-                    </div>
-
+                <div class="Form__group">
+                    <label for="input1" class="Form__label">New Password</label>
+                    <input id="input1" type="text" class="Input" placeholder="Example placeholder content">
+                    <label class="Choice m-top-2">
+                        <input type="checkbox" name="check1">
+                        <span class="Choice__label">Generate Random Password</span>
+                    </label>
                 </div>
 
             </div>
+
+            <div class="col-12 col-xl-4 offset-xl-1 m-bottom-6 m-bottom-0__l">
+                <label class="Form__label m-bottom-2">Type of user account:</label>
+
+                <form class="RadioButtonGroup">
+
+                    <input type="radio" id="ftp-new-user4" name="RadioButtonGroup1" value="ftp" checked />
+                    <label for="ftp-new-user4">
+                        FTP
+                    </label>
+
+                    <input type="radio" id="sftp-new-user4" name="RadioButtonGroup1" value="sftp" />
+                    <label for="sftp-new-user4">
+                        SFTP
+                    </label>
+
+                    <input type="radio" id="ssh-new-user4" name="RadioButtonGroup1" value="ssh" />
+                    <label for="ssh-new-user4">
+                        Shell
+                    </label>
+
+                    <!-- RadioButtonGroup__Details -->
+                    <div class="RadioButtonGroup__Details">
+                        <div class="RadioButtonGroup__Details__Area">
+                            FTP User — Allows login via FTP for file transfers only
+                        </div>
+                        <div class="RadioButtonGroup__Details__Area">
+                            <p>SFTP User — Allows login via SFTP (SSH File Transfer) for file transfers only</p>
+                            <div class="Form__group">
+                                <label class="Choice">
+                                    <input type="checkbox" name="check1" checked>
+                                    <span class="Choice__label">Disallow FTP</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="RadioButtonGroup__Details__Area">
+                            <p><span class="t-bold">Shell User</span> — Allows login via SSH (secure shell) for command-line access, as well as SFTP.</p>
+                            <div class="Form__group Form__group--select m-bottom-2">
+                                <label for="select1" class="Form__label">Shell Type:</label>
+                                <select id="select1" class="Select">
+                                    <option>/bin/bash</option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                    <option>Option 4</option>
+                                    <option>Option 5</option>
+                                </select>
+                            </div>
+
+                            <div class="Form__group">
+                                <label class="Choice">
+                                    <input type="checkbox" name="check1" checked>
+                                    <span class="Choice__label">Disallow FTP</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- end .col-4 -->
+
+            <div class="col-12 col-xl-3 m-bottom-4 m-bottom-0__l">
+
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">SSH Protocol:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID4">
+                        <label for="UNIQUE-ID4" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">Enhanced Security:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID5">
+                        <label for="UNIQUE-ID5" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="Form__group l-flex flex-row flex-column__l flex-align-center flex-align-start__l flex-justify-between">
+                    <label class="Form__label m-bottom-2__l m-right-0__l">CPU Reporting:</label>
+
+                    <div class="Toggle">
+                        <input class="Toggle__input" type="checkbox" id="UNIQUE-ID6">
+                        <label for="UNIQUE-ID6" class="Toggle__label">
+                            <span class="Toggle__visible"></span>
+                        </label>
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+
 
             <div class="row">
                 <div class="col-12 col-lg-4 t-center t-left__l">
                     <button class="js-edit-user-delete Button Button--danger l-block l-inline-block__l w-100 w-auto__l m-bottom-3 m-bottom-0__l">Delete This User</button>
                 </div>
                 <div class="col-12 col-lg-8 t-right">
-                    <button class="js-edit-user Button l-block l-inline-block__m w-100 w-auto__m m-bottom-3 m-bottom-0__m">Cancel</button>
+                    <button class="js-edit-user-cancel Button l-block l-inline-block__m w-100 w-auto__m m-bottom-3 m-bottom-0__m">Cancel</button>
                     <button class="Button Button--primary l-block l-inline-block__m w-100 w-auto__m m-left-0 m-left-1__m">Save Changes</button>
                 </div>
             </div>
@@ -856,7 +843,9 @@ layout: page
                 <button class="js-edit-user-delete-cancel Button Button--dark bg-c-w100 t-c-g500 border-c-g200 m-left-0 m-top-3 m-top-0__l js-delete-mode-on-click">Cancel</button>
             </div>
         </div>
+
     </div>
+
 
 </div>
 

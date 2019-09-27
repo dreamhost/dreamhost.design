@@ -2075,15 +2075,9 @@ Animation Utilities
 .border-light-grey { border-color: #E0E4E8; }
 
 .border-grey { border-color: #AFBFCA; }
-<<<<<<< HEAD
 
 .border-dark-grey { border-color: #5E6D78; }
 
-=======
-
-.border-dark-grey { border-color: #5E6D78; }
-
->>>>>>> origin/master
 .border-darker-grey { border-color: #434F58; }
 
 .border-c-b300 { border-color: #0073EC; }
@@ -2292,7 +2286,6 @@ Background colors
 .bg-darker-red, .c-darker-red { background: #590400 !important; }
 
 .bg-lighter-salmon, .c-lighter-salmon { background: #FFCCCE !important; }
-<<<<<<< HEAD
 
 .bg-light-salmon, .c-light-salmon { background: #FC9A95 !important; }
 
@@ -2306,21 +2299,6 @@ Background colors
 
 .bg-lighter-grey, .c-lighter-grey { background: #F4F6F9 !important; }
 
-=======
-
-.bg-light-salmon, .c-light-salmon { background: #FC9A95 !important; }
-
-.bg-salmon, .c-salmon { background: #F36058 !important; }
-
-.bg-dark-salmon, .c-dark-salmon { background: #C04740 !important; }
-
-.bg-darker-salmon, .c-darker-salmon { background: #853834 !important; }
-
-.bg-white, .c-white { background: #fff !important; }
-
-.bg-lighter-grey, .c-lighter-grey { background: #F4F6F9 !important; }
-
->>>>>>> origin/master
 .bg-light-grey, .c-light-grey { background: #E0E4E8 !important; }
 
 .bg-grey, .c-grey { background: #AFBFCA !important; }
@@ -4421,8 +4399,6 @@ Transition Utilities
 
 .z-5 { z-index: 10000; }
 
-<<<<<<< HEAD
-=======
 .User__details { display: flex; align-items: center; flex-shrink: 1; position: relative; }
 
 .User__details__avatar { align-items: center; margin-right: 1rem; flex-shrink: 3; }
@@ -4503,7 +4479,6 @@ Transition Utilities
 
 .more-info-helper { height: .3rem; width: .3rem; overflow: hidden; }
 
->>>>>>> origin/master
 /* Dreamhost.design Specific Overrides */
 html::-webkit-scrollbar, body::-webkit-scrollbar { width: .3rem; }
 

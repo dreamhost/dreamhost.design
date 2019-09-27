@@ -1,14 +1,14 @@
 ---
 title: Illustration Resources
-layout: page
+layout: app
 ---
 
-<p class="t-4">Please refer to the <a href="{{site.baseurl}}/marketing/illustrationguide/">illustration guide</a> for guidelines on the appropriate usage of these assets.</p>
+<p class="t-4">Please refer to the <a href="{{site.baseurl}}/illustrations/guidelines/">illustration guide</a> for guidelines on the appropriate usage of these assets.</p>
 
 <hr />
 
 <div class="u-clearfix">
-	<h3 class="m-bottom-2">Spot Illustration</h3>
+	<h2 class="m-bottom-2">Spot Illustration</h2>
 	<div class="g-1_4">
 		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dedicated.svg" alt="Dreamhost Spot Illustration" />
 		<p class="p-2 bg-c-g100 t-center"><strong>Dedicated</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dedicated.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/s-ill-dedicated.eps" download>EPS</a></p>
@@ -84,7 +84,7 @@ layout: page
 
 
 <div class="u-clearfix">
-<h3 class="m-top-4 m-bottom-2">Spot Hero</h3>
+<h2 class="m-top-4 m-bottom-2">Spot Hero</h2>
 <div class="g-1_2">
 	<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-customer-service.svg" alt="Dreamhost Spot Hero Illustration" />
 	<p class="p-2 bg-c-g100 t-center"><strong>Customer Service Representative</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-customer-service.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-customer-service.eps" download>EPS</a></p>
@@ -96,7 +96,7 @@ layout: page
 </div>
 
 <div class="u-clearfix">
-	<h3 class="m-top-4 m-bottom-2">People</h3>
+	<h2 class="m-top-4 m-bottom-2">People</h2>
 	<div class="g-1_4">
 		<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/people/p-ill-domain.svg" alt="Dreamhost People Illustration" />
 		<p class="p-2 bg-c-g100 t-center"><strong>Person With Domain</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/people/p-ill-domain.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/people/p-ill-domain.eps" download>EPS</a></p>

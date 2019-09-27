@@ -3,25 +3,9 @@ title: Iconography
 layout: app
 ---
 
-<p class="t-4">Below is the current collection of single color icons used throughout our applications.
-Icons are deployed in two ways detailed below. All Icons require the <code>.Icon</code> class to render correctly, All Icons will also adopt the current text color <code>.t-c-</code> as the fill color. Colors are used to give meaning.
+<p class="t-4">Below is the current collection of single color icons used throughout our products.
 <hr />
 
-<h3>Decorative Icons</h3>
-<p>The DreamHost icon font should only be used for decorative, non-critical icons. The additional name classes detailed below <code>.Icon--account</code> are required to envoke the DH icon font glyphs. The icon font sizes should use our exisiting <a href="{{site.baseurl}}/product/utilities/typography/">type scale</a> <code>.t-1</code>-<code>.t-6</code>. Download our icon font <a href="{{site.baseurl}}/assets/downloads/icons/dh-icon.zip" download>here</a> (Contains .EOT, .SVG, .TFF, .WOFF, .WOFF2)</p>
-
-{% highlight html %}
-<span class="Icon Icon--account t-6" aria-hidden="true"></span>
-{% endhighlight %}
-
-<h3>Critical Icons</h3>
-<p>For any interface crtical icons, inline SVG must be used for accessibility purposes. .SVG icons should use one of four different sizes modifiers <code>.Icon .Icon--size-x</code> (1 - 4). Click on the icons below to download as .SVG files.
-
-{% highlight html %}
-<svg class="Icon Icon--size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M0 8h32L16 24z"/></svg>
-{% endhighlight %}
-
-<hr />
 
 <div class="Grid--auto t-center m-bottom">
 	<div>
@@ -134,7 +118,7 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-copy.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 51"><path d="M20.2 19.6h20.2v3.9H20.2zM20.2 27.5h20.2v3.9H20.2zM20.2 35.3h12.1v3.9H20.2z"/><path d="M44.5 7.9h-4V4c0-2.2-1.8-3.9-4-3.9H8.1C5.9.1 4 1.8 4 4v35.2c0 2.2 1.8 3.9 4 3.9h4V47c0 2.2 1.8 3.9 4 3.9h28.3c2.2 0 4-1.7 4-3.9V11.8c.2-2.1-1.6-3.9-3.8-3.9zm-32.4 3.9v27.4h-4V4h28.3v3.9H16.2c-2.3 0-4.1 1.8-4.1 3.9zM44.5 47H16.2V11.8h28.3V47z"/></svg>
 		</a>
-		<p class="p-top-2"><code>.Icon--copy</code></p>
+		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Copy)<br />Critical Only</code></p>
 	</div>
 </div>
 <div class="Grid--auto t-center m-bottom">
@@ -142,7 +126,7 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-danger.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M16 .6c1.9 0 3.4 1.6 3.4 3.4v15.5c0 1.9-1.5 3.4-3.4 3.4s-3.4-1.5-3.4-3.4V4c0-1.9 1.5-3.4 3.4-3.4z"/><circle cx="16" cy="28.1" r="3.4"/></svg>
 		</a>
-		<p class="p-top-2"><code>.Icon--danger</code></p>
+		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Danger)<br />Critical Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-database.svg" download>
@@ -172,7 +156,7 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-dropdown.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="dropdown-a" d="M0 8h32L16 24z"/></defs><use xlink:href="#dropdown-a" overflow="visible"/></svg>
 		</a>
-		<p class="p-top-2"><code>.Icon--dropdown</code></p>
+		<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Dropdown)<br />Critical Only</code></p>
 	</div>
 </div>
 <div class="Grid--auto t-center m-bottom">
@@ -262,7 +246,7 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-powercycle.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32"><defs><path id="powercycle-a" d="M18 3.3c0 .2 0 .4-.2.5l-2.7 3.4c-.3.3-.8.4-1.1.1-.3-.3-.4-.7-.1-1.1 0 0 .3-.4.8-1.1-5.8.8-10.4 5.8-10.4 11.8 0 6.5 5.3 11.8 11.7 11.8.9 0 1.6.7 1.6 1.6S16.9 32 16 32C7.7 32 1 25.2 1 16.9 1 9.3 6.7 2.9 14.1 2c-.2-.2-.5-.4-.8-.6-.3-.3-.4-.7-.1-1.1.3-.3.7-.4 1.1-.1 0 0 1.2.9 3.4 2.6.1.1.2.3.3.5"/></defs><use xlink:href="#powercycle-a" overflow="visible"/><defs><path id="powercycle-b" d="M23 28.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-b" overflow="visible"/><defs><path id="powercycle-c" d="M29 24.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-c" overflow="visible"/><defs><path id="powercycle-d" d="M31 17.5c0-.8-.7-1.5-1.5-1.5s-1.5.7-1.5 1.5.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-d" overflow="visible"/><defs><path id="powercycle-e" d="M28 9.5c0-.8-.7-1.5-1.5-1.5S25 8.7 25 9.5s.7 1.5 1.5 1.5 1.5-.7 1.5-1.5"/></defs><use xlink:href="#powercycle-e" overflow="visible"/><path d="M16.5 9c.8 0 1.5.7 1.5 1.5v4c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5v-4c0-.8.7-1.5 1.5-1.5z"/><path d="M21.6 12.7s-.1 0 0 0l-.2-.2c-.4-.4-1.5-1.2-2.3-.4-.9.9.2 2.5.4 2.8.6.7.9 1.6.9 2.6 0 2.2-1.7 4-4 4-2.2 0-4-1.8-4-4 0-1 .4-2 1-2.7 0 0 1.5-1.8.5-2.8s-2.4.6-2.4.6c-1.3 1.3-2.1 3-2.1 4.9 0 3.9 3.1 7 7 7s7-3.1 7-7c.1-1.9-.6-3.6-1.8-4.8z"/></svg>
 		</a>
-			<p class="p-top-2"><code>.Icon--powercycle</code></p>
+			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Powercycle)<br />Critical Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-ram.svg" download>
@@ -274,13 +258,13 @@ Icons are deployed in two ways detailed below. All Icons require the <code>.Icon
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-reload.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 32"><path d="M12.1 28.3c.1-.1 1-1.1 2.8-2.9.3-.3.8-.3 1.1-.1.3.3.4.7.1 1l-.9.9c5.3-.3 10.1-4.1 11.2-8.8v-.1c0-.1.1-.3.1-.4v-1c.2-2.6-.7-5.2-2.5-7.3-.6-.6-.4-1.6.3-2.1.7-.6 1.7-.5 2.3.1 2.4 2.7 3.4 6 3.2 9.3 0 .8-.2 1.7-.4 2.4 0 .1 0 .1-.1.2v.1c-.8 2.8-2.5 5.5-5.1 7.5-2.3 1.7-5.6 2.8-8.6 3 .2.2.5.4.8.6.3.3.4.7.1 1s-.8.3-1.1.1c0 0-1.1-.9-3.2-2.5-.2-.1-.3-.3-.3-.5s.1-.4.2-.5M.2 13.6v-.3C.8 10.4 2.4 7.5 5 5.4c2.2-1.8 5-3.1 8.1-3.4-.2-.2-.5-.4-.8-.6s-.4-.7-.1-1c.4-.3.8-.4 1.2-.2 0 0 1.2.8 3.4 2.4.2.2.3.4.3.5 0 .2 0 .4-.2.5-.1.1-1 1.1-2.7 3.1-.3.3-.8.4-1.1.1-.3-.2-.4-.7-.1-1 0 0 .3-.3.8-1-5.3.7-9.6 4.8-10.4 9.6v.1c0 .1 0 .3-.1.4v1c0 2.6 1 5.2 3 7.3.6.6.5 1.6-.1 2.2s-1.8.6-2.4 0c-2.5-2.7-3.8-6-3.8-9.3 0-.9.1-1.7.2-2.5"/></svg>
 		</a>
-			<p class="p-top-2"><code>.Icon--reload</code></p>
+			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Reload)<br />Critical Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-restore.svg" download>
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 30"><path d="M17.1 0c2.3 0 4.5.5 6.4 1.4.2.1.3.2.5.3 0 0 .1 0 .1.1.2.1.4.2.5.2s.1.1.2.1c.1.1.3.2.4.3.1 0 .1.1.2.1.1.1.3.2.4.3.1 0 .1.1.2.1.1.1.3.2.4.3l.1.1c.1.1.3.2.4.3l.1.1c3.1 2.7 5 6.7 5 11.1v.2c0 3.8-1.4 7.3-3.8 9.9l-.1.1-.3.3-.1.1C25 28.3 21.3 30 17.1 30h-.3c-3.8 0-7.6-1.4-10.5-4.3C6 23.6 8 22.9 9 23.8c2.2 2 5 3 7.8 2.9H18c.2 0 .3 0 .5-.1h.1c5.2-.8 9.6-5 10.1-10.3 0-.4.1-.8.1-1.2v-.2c0-3.5-1.6-6.7-4.1-8.8-.1-.1-.2-.1-.3-.2l-.2-.2c-.1-.1-.2-.1-.2-.2-.1-.1-.2-.1-.2-.2-.1 0-.1-.1-.2-.1-.1-.1-.2-.1-.3-.2-.1 0-.1-.1-.2-.1-.1-.1-.2-.1-.3-.2-.1 0-.1-.1-.2-.1s-.2-.1-.3-.1c-.1 0-.2-.1-.2-.1-.1 0-.1-.1-.2-.1-.9-.4-1.9-.7-2.8-.9-.2 0-.3-.1-.5-.1h-3c-.2 0-.3 0-.5.1H15c-5.2.8-9.6 5-10.1 10.3.7-.5 1-.8 1-.8.7-.3 1.1-.2 1.4.1s.2.8-.1 1.1c-2.1 1.7-3.2 2.6-3.3 2.7-.2.1-.4.2-.5.2-.2 0-.4-.1-.5-.3C1.2 14.5.3 13.3.3 13.3c-.4-.5 0-1.4 1-1.2.3.4.6.7.8 1.1.3-3.2 1.6-6 3.5-8.2C7.8 2.5 11 .9 14.1.3h.3c.9-.2 1.8-.3 2.7-.3z"/><path d="M18.6 15.1V8.6c0-1-.8-1.8-1.8-1.8S15 7.6 15 8.6V17c0 1 .8 1.8 1.8 1.8h4.9c1 0 1.8-.8 1.8-1.8s-.8-1.8-1.8-1.8l-3.1-.1z"/></svg>
 		</a>
-			<p class="p-top-2"><code>.Icon--restore</code></p>
+			<p class="p-top-2"><code class="bg-c-r300 t-c-r500">(Restore)<br />Critical Only</code></p>
 	</div>
 	<div>
 		<a href="{{site.baseurl}}/assets/downloads/icons/icon-ruby.svg" download>

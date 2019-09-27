@@ -1,6 +1,6 @@
 ---
 title: Users Bar
-layout: page
+layout: app
 ---
 
 <div class="container p-0">

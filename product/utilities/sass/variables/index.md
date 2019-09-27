@@ -1,6 +1,6 @@
 ---
 title: Sass variables
-layout: page
+layout: app
 ---
 
 <p class="t-4">Most interfaces can be created using css, but there are sass variables available for building custom elements or the framework itself.</p>

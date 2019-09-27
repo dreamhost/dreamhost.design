@@ -1,6 +1,6 @@
 ---
 title: Cards
-layout: page
+layout: app
 ---
 
 <p class="t-4">Useful for displaying a heading, content, and call-to-action in a box.

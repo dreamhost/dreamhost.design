@@ -1,6 +1,6 @@
 ---
 title: Grid
-layout: page
+layout: app
 ---
 
 <p class="t-4">DreamHost has multiple options to achieve the layouts we need to create.</p>

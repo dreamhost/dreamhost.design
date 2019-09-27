@@ -1,21 +1,47 @@
 ---
-title: Colors
+title: Design Guidelines
 layout: app
 ---
-
-<p class="t-4">Colors are prefixed with <code>c-</code> (eg <code>$c-w100</code>), and can be used directly in Sass with their variable names. In HTML, add <code>bg-c-</code> for backgrounds, <code>t-c-</code> for text color &amp; <code>border-c-</code> for border color (currently limited to greyscale &amp; Azure blue).</p>
-
-<div class="Alert t-c-g500">
-	<p class="Alert__heading">Heads up!</p>
-	<p>DreamHost is committed to the <a href="https://www.w3.org/WAI/intro/wcag" target="_blank">WCAG</a> AA standard for contrast ratios, which improves usability for users with low vision. When choosing color combinations, make sure they have at least 4.5:1 contrast ratio. <a href="https://webaim.org/resources/contrastchecker/" target="_blank">This handy contrast checker</a> can help.</p>
-</div>
-
 <hr />
+<h2>Design Principles</h2>
 
-<h2 class="m-bottom-4">Web Application Palette</h2>
+<div class="Grid">
+	<div class="g-12-12 g-6-12__l">
+		<h4 class="m-bottom-3">User needs supercede</h4>
+		<p class="m-bottom-7">Make no assumptions. Only through research and analysis can we truly understand our users. Talk to them. We need to appreciate their needs in order to effectively design for our users.</p>
+	</div>
+	<div class="g-12-12 g-6-12__l">
+		<h4 class="m-bottom-3">Design with purpose</h4>
+		<p class="m-bottom-7">Every design element, from the largest to the smallest, must have a purpose, and contribute to the purpose of a larger element that it is a part of. If you can’t explain what an element is for, most likely it shouldn’t be there. Use motion to provide meaning, rather than just for aesthetic value. Why does a thing move the way that it does?</p>
+	</div>
+	<div class="g-12-12 g-6-12__l">
+		<h4 class="m-bottom-3">Effortless Usability</h4>
+		<p class="m-bottom-7">Users should be presented with a singular visual priority on any given screen. What do you want the user to do first? They should be able to effortlessly move throughout the app. Remove all obstacles for the user. Interactions should be intuitive and obvious.</p>
+	</div>
+	<div class="g-12-12 g-6-12__l">
+		<h4 class="m-bottom-3">Effortless Style</h4>
+		<p class="m-bottom-7">Designs should have a relaxed, uncomplicated aesthetic. Although deeply considered, things like color choices and typography should feel seamless and simple to users.</p>
+	</div>
+	<div class="g-12-12 g-6-12__l">
+		<h4 class="m-bottom-3">Build to last</h4>
+		<p class="m-bottom-7">Designs should be unbreakable by the user. Like a children’s toy, make sure it’s designed for exploration and impossible to misuse. Make sure designs can scale as applications grow and evolve over time.</p>
+	</div>
+	<div class="g-12-12 g-6-12__l">
+		<h4 class="m-bottom-3">Show some personality</h4>
+		<p class="m-bottom-7">The design should always be approachable. Usability is key, but without some personality injected here it’s going to feel unloved. Illustrations, iconography, motion, and language can all be used to add personality. Applications need to delight users.</p>
+	</div>
+
+</div><!--Grid-->
+<hr>
+<h2>Spacing</h2>
+<p class="t-3">All spacing is done using an 8px scale. Starting with n-half at 4px and going to n-16 at 128px.</p>
+<hr>
+<h2>Color</h2>
+<p class="t-3 m-bottom-4">Our colors are important. They stir interest, add emphasis, and help provide a better user experience for our customers. When using our colors, rely on the primaries; our secondaries should be used sparingly, and only to compliment the primaries.</p>
+
+<h3 class="m-bottom-4">Primary Palette</h3>
 <p class="m-bottom-4">The DreamHost palette is primarily derived from blue and white. The secondary palette consists of red, green, orange, and yellow. These colors are used across all web apps at DreamHost. Also included are dedicated background and grayscale classes which are derived from blue.</p>
 
-<h3 class="m-bottom-3">Primary Palette</h3>
 <div class="u-clearfix m-bottom-7">
 <div class="g-1_2 g-1_4__l bg-c-b700 p-top-12 m-bottom-2 m-bottom-0__l">
 	<ul class="t-center p-2 u-clearfix">
@@ -24,7 +50,7 @@ layout: app
 			<li class="t-center t-c-b700 g-1_4"><span class="t-1">A</span><br />&#128557;</li>
 			<li class="t-center t-c-b700 g-1_4"><span class="t-0">A</span><br />&#128557;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Midnight</strong><br />Sass $c-b700<br />Hex #071C26<br />rgb(0,115,236)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Midnight</strong><br />Hex #071C26<br />rgb(0,115,236)<br />Sass $c-b700</p>
 	</div><!--Midnight-->
 	<div class="g-1_2 g-omega g-1_4__l bg-c-b300 p-top-12 m-bottom-2 m-bottom-0__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -33,7 +59,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Azure</strong><br />Sass $c-b300<br />Hex #0073EC<br />rgb(0,175,239)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Azure</strong><br />Hex #0073EC<br />rgb(0,175,239)<br />Sass $c-b300</p>
 	</div><!--Azure-->
 	<div class="g-1_2 g-1_4__l bg-c-p300 p-top-12 m-bottom-2 m-bottom-0__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -42,7 +68,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Prince</strong><br />Sass $c-p300<br />Hex #A644E5<br />rgb(166,68,229)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Prince</strong><br />Hex #A644E5<br />rgb(166,68,229)<br />Sass $c-p300</p>
 	</div><!--Prince-->
 	<div class="g-1_2 g-omega g-1_4__l bg-c-w100 p-top-12 m-bottom-2 m-bottom-0__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -51,7 +77,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>White</strong><br />Sass $c-w100<br />Hex #FFFFFF<br />rgb(255,255,255)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>White</strong><br />Hex #FFFFFF<br />rgb(255,255,255)<br />Sass $c-w100</p>
 	</div><!--White-->
 </div><!--Primary-->
 
@@ -64,7 +90,7 @@ layout: app
 		<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 		<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 	</ul>
-	<p class="p-3 bg-c-g100 m-0"><strong>Turtle</strong><br />Sass $c-t300<br />Hex #00CAAA<br />rgb(0,202,170)</p>
+	<p class="p-3 bg-c-g100 m-0"><strong>Turtle</strong><br />Hex #00CAAA<br />rgb(0,202,170)<br />Sass $c-t300</p>
 	</div><!--Turtle-->
 	<div class="g-1_2 g-omega g-1_4__l bg-c-r300 p-top-12 m-bottom-2 m-bottom-0__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -73,7 +99,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Coral</strong><br />Sass $c-r300<br />Hex #FF4A48<br />rgb(255,74,72)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Coral</strong><br />Hex #FF4A48<br />rgb(255,74,72)<br />Sass $c-r300<br /></p>
 	</div><!--Coral-->
 	<div class="g-1_2 g-1_4__l bg-c-o300 p-top-12 m-bottom-2 m-bottom-0__l">
 	<ul class="t-center p-2 u-clearfix">
@@ -82,7 +108,7 @@ layout: app
 		<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 		<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 	</ul>
-	<p class="p-3 bg-c-g100 m-0"><strong>Tangerine</strong><br />Sass $c-o300<br />Hex #F59D00<br />rgb(206,21,47)</p>
+	<p class="p-3 bg-c-g100 m-0"><strong>Tangerine</strong><br />Hex #F59D00<br />rgb(206,21,47)<br />Sass $c-o300</p>
 	</div><!--Tangerine-->
 	<div class="g-1_2 g-omega g-1_4__l bg-c-y300 p-top-12 m-bottom-2 m-bottom-0__l">
 	<ul class="t-center p-2 u-clearfix">
@@ -91,7 +117,7 @@ layout: app
 		<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 		<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 	</ul>
-	<p class="p-3 bg-c-g100 m-0"><strong>Sunflower</strong><br />Sass $c-y300<br />Hex #FFDA00<br />rgb(255,218,0)</p>
+	<p class="p-3 bg-c-g100 m-0"><strong>Sunflower</strong><br />Hex #FFDA00<br />rgb(255,218,0)<br />Sass $c-y300<br /></p>
 	</div><!--Sunflower-->
 </div><!--Secondary-->
 <h3 class="m-bottom-3">Grayscale</h3>
@@ -103,7 +129,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128557;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Metal</strong><br />Sass $c-g500<br />Hex #434F58<br />rgb(67,79,88)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Metal</strong><br />Hex #434F58<br />rgb(67,79,88)<br />Sass $c-g500</p>
 	</div><!--Metal-->
 
 <div class="g-1_2 bg-c-g400 p-top-6 m-bottom-2 m-bottom-3__l">
@@ -113,7 +139,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Galactic</strong><br />Sass $c-g400<br />Hex #677983<br />rgb(103,121,131)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Galactic</strong><br />Hex #677983<br />rgb(103,121,131)<br />Sass $c-g400</p>
 	</div><!--Galactic-->
 </div>
 
@@ -125,7 +151,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Cloudy</strong><br />Sass $c-g300<br />Hex #AFBFC9<br />rgb(175,191,201)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Cloudy</strong><br />Hex #AFBFC9<br />rgb(175,191,201)<br />Sass $c-g300</p>
 	</div><!--Cloudy-->
 
 <div class="g-1_2 g-omega g-1_3__l bg-c-g200 p-top-6 m-bottom-2 m-bottom-0__l">
@@ -135,7 +161,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Smoke</strong><br />Sass $c-g200<br />Hex #E0E4E8<br />rgb(224,228,232)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Smoke</strong><br />Hex #E0E4E8<br />rgb(224,228,232)<br />Sass $c-g200</p>
 	</div><!--Smoke-->
 
 <div class="g-1_2 g-1_3__l bg-c-g100 p-top-6">
@@ -145,13 +171,13 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Off White</strong><br />Sass $c-g100<br />Hex #F4F6F9<br />rgb(244,246,249)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Off White</strong><br />Hex #F4F6F9<br />rgb(244,246,249)<br />Sass $c-g100</p>
 	</div><!--Off White-->
 </div><!--Delineators-->
 
 <hr />
 
-<h2 class="m-bottom-4">Extended Palette</h2>
+<h3 class="m-bottom-4">Extended Palette</h3>
 <p class="m-bottom-7">Our extended palette consists of a light and dark shade for each primary color. For convenience, different shades are numbered similarly to font weights, with 100 being lightest. Usage is also indicated by the headings below.</p>
 
 <div class="u-clearfix">
@@ -162,7 +188,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128557;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Royal Blue</strong><br />Sass $c-b500<br />Hex #1176A5<br />rgb(17,118,165)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Royal Blue</strong><br />Hex #1176A5<br />rgb(17,118,165)<br />Sass $c-b500</p>
 	</div><!--Royal Blue-->
 	<div class="bg-c-b100 g-1_2 g-omega g-1_4__l p-top-6 m-bottom-2 m-bottom-3__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -171,7 +197,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Baby Blue</strong><br />Sass $c-b100<br />Hex #CCEFFF<br />rgb(204,239,255)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Baby Blue</strong><br />Hex #CCEFFF<br />rgb(204,239,255)<br />Sass $c-b100</p>
 	</div><!--Baby Blue-->
 		<div class="bg-c-t500 g-1_2 g-1_4__l p-top-6 m-bottom-2 m-bottom-3__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -180,7 +206,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Marina</strong><br />Sass $c-t500<br />Hex #0D8288<br />rgb(13,130,136)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Marina</strong><br />Hex #0D8288<br />rgb(13,130,136)<br />Sass $c-t500</p>
 	</div><!--Marina-->
 	<div class="bg-c-t100 g-1_2 g-omega g-1_4__l p-top-6 m-bottom-2 m-bottom-3__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -189,7 +215,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Ice</strong><br />Sass $c-t100<br />Hex #E5FEFF<br />rgb(229,254,255)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Ice</strong><br />Hex #E5FEFF<br />rgb(229,254,255)<br />Sass $c-t100</p>
 	</div><!--Ice-->
 </div><!--Transaction Accents-->
 <div class="u-clearfix">
@@ -200,7 +226,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Autumn</strong><br />Sass $c-o500<br />Hex #664200<br />rgb(102,66,0)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Autumn</strong><br />Hex #664200<br />rgb(102,66,0)<br />Sass $c-o500</p>
 	</div><!--Autumn-->
 	<div class="bg-c-o100 g-1_2 g-omega g-1_4__l p-top-6 m-bottom-2 m-bottom-3__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -209,7 +235,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Peach</strong><br />Sass $c-o100<br />Hex #FFE0A6<br />rgb(255,224,166)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Peach</strong><br />Hex #FFE0A6<br />rgb(255,224,166)<br />Sass $c-o100</p>
 	</div><!--Peach-->
 	<div class="bg-c-y500 g-1_2 g-1_4__l p-top-6 m-bottom-2 m-bottom-3__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -218,7 +244,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128557;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Leather</strong><br />Sass $c-y500<br />Hex #6F5F1B<br />rgb(111,95,27)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Leather</strong><br />Hex #6F5F1B<br />rgb(111,95,27)<br />Sass $c-y500</p>
 	</div><!--Leather-->
 	<div class="bg-c-y100 g-1_2 g-omega g-1_4__l p-top-6 m-bottom-2 m-bottom-3__l">
 			<ul class="t-center p-2 u-clearfix">
@@ -227,7 +253,7 @@ layout: app
 				<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 				<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 			</ul>
-			<p class="p-3 bg-c-g100 m-0"><strong>Magnolia</strong><br />Sass $c-y100<br />Hex #FFF4B6<br />rgb(255,244,182)</p>
+			<p class="p-3 bg-c-g100 m-0"><strong>Magnolia</strong><br />Hex #FFF4B6<br />rgb(255,244,182)<br />Sass $c-y100</p>
 	</div><!--Magnolia-->
 </div><!--Neutral Accents-->
 
@@ -239,7 +265,7 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128557;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128557;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Rust</strong><br />Sass $c-r500<br />Hex #4F0703<br />rgb(79,7,3)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Rust</strong><br />Hex #4F0703<br />rgb(79,7,3)<br />Sass $c-r500</p>
 	</div><!--Rust-->
 	<div class="bg-c-r100 g-1_2 g-omega g-1_4__l p-top-6 m-bottom-2 m-bottom-3__l">
 		<ul class="t-center p-2 u-clearfix">
@@ -248,13 +274,18 @@ layout: app
 			<li class="t-center g-1_4 t-c-b700"><span class="t-1">A</span><br />&#128515;</li>
 			<li class="t-center g-1_4 t-c-b700"><span class="t-0">A</span><br />&#128515;</li>
 		</ul>
-		<p class="p-3 bg-c-g100 m-0"><strong>Rose</strong><br />Sass $c-r100<br />Hex #FFCCCE<br />rgb(255,204,206)</p>
+		<p class="p-3 bg-c-g100 m-0"><strong>Rose</strong><br />Hex #FFCCCE<br />rgb(255,204,206)<br />Sass $c-r100</p>
 	</div><!--Coral-->
 </div><!--Negative Accents-->
 
-<h2 class="m-bottom-4">Usage example</h2>
+<h3>Color Combinations</h3>
+<p>Our colors are important. They stir interest, add emphasis, and help provide a better user experience for our customers. When using our colors, rely on the primaries; our secondaries should be used sparingly, and only to compliment the primaries.</p>
+<h3>Color Usage</h3>
+<p>Our colors are important. They stir interest, add emphasis, and help provide a better user experience for our customers. When using our colors, rely on the primaries; our secondaries should be used sparingly, and only to compliment the primaries.</p>
 
-{% highlight html %}
-<div class="bg-c-b300">Azure background</div>
-<div class="t-c-b300">Azure text</div>
-{% endhighlight %}
+<hr>
+
+<h2>Typography</h2>
+<h3>Type Scale</h3>
+<p>Lorem Ipsum
+<h3>Font Usage</h3>

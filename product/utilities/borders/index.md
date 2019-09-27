@@ -1,6 +1,6 @@
 ---
 title: Borders
-layout: page
+layout: app
 ---
 
 <p class="t-4">Utilities for adding borders to components.</p>

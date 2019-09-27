@@ -1,6 +1,6 @@
 ---
 title: Quickcopy
-layout: page
+layout: app
 ---
 
 <p class="t-4">Quick copy code component. To assist users in copying information more effienciently than traditional keyboard copy and paste shortcuts.</p>

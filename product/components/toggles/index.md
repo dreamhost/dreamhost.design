@@ -1,6 +1,6 @@
 ---
 title: Toggle Switch
-layout: page
+layout: app
 ---
 
 <p class="t-4">A two state toggle switch, for use when there is a definitive choice between two options. Each toggle switch must have a unique input <code>id</code> &amp; corresponding <code>for</code> attribute to function independently.</p>

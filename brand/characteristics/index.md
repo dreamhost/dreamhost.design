@@ -1,6 +1,6 @@
 ---
 title: Brand Characteristics
-layout: page
+layout: app
 ---
 
 <h2 class="m-bottom-4">Tone</h2>

@@ -1,6 +1,6 @@
 ---
 title: Layout
-layout: page
+layout: app
 ---
 
 <p class="t-4">Layout utilities are prefixed with <code>l-</code> and control the positioning of elements.</p>

@@ -1,6 +1,6 @@
 ---
 title: Lists
-layout: page
+layout: app
 ---
 
 <!-- TO-DO: Document variations -->

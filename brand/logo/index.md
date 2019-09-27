@@ -1,6 +1,6 @@
 ---
 title: Logo
-layout: page
+layout: app
 ---
 
 <p class="t-4">The DreamHost logo plays the role of our company’s handshake. It’s typically the first thing a potential customer sees, and allows them to distinguish our products and services from our competitors’. Keeping the logo’s usage clean and consistent throughout all of our materials is an important step to building strong brand recognition.</p>

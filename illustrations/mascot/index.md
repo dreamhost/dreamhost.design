@@ -1,6 +1,7 @@
 ---
 title: Mascot
-layout: page
+layout: app
+toc: false
 ---
 
 <div class="u-clearfix">

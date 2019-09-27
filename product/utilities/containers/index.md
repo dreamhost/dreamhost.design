@@ -1,6 +1,6 @@
 ---
 title: Containers
-layout: page
+layout: app
 ---
 
 <p class="t-4">They contain things.</p>

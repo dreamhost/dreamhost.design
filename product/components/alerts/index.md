@@ -1,6 +1,6 @@
 ---
 title: Alerts
-layout: page
+layout: app
 ---
 
 <p class="t-4">Alerts! For good things, bad things and neutral things.</p>

@@ -1,6 +1,6 @@
 ---
 title: Illustration guidelines
-layout: page
+layout: app
 ---
 
 <p class="t-4">Spot illustrations are used to add visual support to our marketing messaging. You’ll find them
@@ -8,7 +8,7 @@ alongside of text on our web pages, blogs, and emails to better explain what is 
 
 <hr />
 
-### Our aim
+## Our Aim
 
 Aesthetically speaking, our illustrations must be clean, consistent and professional in their execution. They should evoke feelings of friendliness and warmth. When illustrating people, we must be thoughtful, diverse, and inclusive.
 

@@ -1,6 +1,7 @@
 ---
 title: Positioning
-layout: page
+layout: app
+toc: false
 ---
 
 <p class="m-bottom-4"><strong>Independent</strong> We control our own destiny, and we’re still run by the same team that founded the company all those years ago.  We’re not beholden to the whims of investors or some corner-cutting conglomerate.</p>

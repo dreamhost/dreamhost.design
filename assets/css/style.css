@@ -2075,9 +2075,15 @@ Animation Utilities
 .border-light-grey { border-color: #E0E4E8; }
 
 .border-grey { border-color: #AFBFCA; }
+<<<<<<< HEAD
 
 .border-dark-grey { border-color: #5E6D78; }
 
+=======
+
+.border-dark-grey { border-color: #5E6D78; }
+
+>>>>>>> origin/master
 .border-darker-grey { border-color: #434F58; }
 
 .border-c-b300 { border-color: #0073EC; }
@@ -2286,6 +2292,7 @@ Background colors
 .bg-darker-red, .c-darker-red { background: #590400 !important; }
 
 .bg-lighter-salmon, .c-lighter-salmon { background: #FFCCCE !important; }
+<<<<<<< HEAD
 
 .bg-light-salmon, .c-light-salmon { background: #FC9A95 !important; }
 
@@ -2299,6 +2306,21 @@ Background colors
 
 .bg-lighter-grey, .c-lighter-grey { background: #F4F6F9 !important; }
 
+=======
+
+.bg-light-salmon, .c-light-salmon { background: #FC9A95 !important; }
+
+.bg-salmon, .c-salmon { background: #F36058 !important; }
+
+.bg-dark-salmon, .c-dark-salmon { background: #C04740 !important; }
+
+.bg-darker-salmon, .c-darker-salmon { background: #853834 !important; }
+
+.bg-white, .c-white { background: #fff !important; }
+
+.bg-lighter-grey, .c-lighter-grey { background: #F4F6F9 !important; }
+
+>>>>>>> origin/master
 .bg-light-grey, .c-light-grey { background: #E0E4E8 !important; }
 
 .bg-grey, .c-grey { background: #AFBFCA !important; }
@@ -4399,6 +4421,89 @@ Transition Utilities
 
 .z-5 { z-index: 10000; }
 
+<<<<<<< HEAD
+=======
+.User__details { display: flex; align-items: center; flex-shrink: 1; position: relative; }
+
+.User__details__avatar { align-items: center; margin-right: 1rem; flex-shrink: 3; }
+
+.User__details__info { min-width: 0; flex-shrink: 10; }
+
+.User__details__description { min-width: 0; }
+
+@media (min-width: 1050px) { .User__details__description { width: 35%; } }
+
+@media (min-width: 1050px) { .User__details__url { width: 65%; } }
+
+.User__details__login-info { line-height: 1; align-self: stretch; cursor: pointer; }
+
+.User__details__login-info:focus { outline: 0; }
+
+@media (min-width: 1050px) { .User__details__login-info { margin-right: 1rem; } }
+
+.User__details__login-info:before { content: ""; position: absolute; top: 0; right: 0; bottom: 0; left: 0; }
+
+@media (min-width: 1050px) { .User__details__login-info:before { display: none; } }
+
+.User__details__login-info svg { fill: #AFBFC9; flex-shrink: 0; }
+
+@media (min-width: 1050px) { .User__details__actions { display: flex !important; } }
+
+/* USER Login Info */
+.User__login-info { background-color: #f4f6f9; border-bottom-left-radius: inherit; border-bottom-right-radius: inherit; }
+
+@media (min-width: 1050px) { .User__login-info { background-color: transparent; } }
+
+@media (min-width: 1050px) { .User__login-info__group { flex: 1 1 auto; }
+  .User__login-info__group + .User__login-info__group { margin-left: 3rem; } }
+
+.User__login-info.is-uncollapsed { display: block !important; }
+
+@media (min-width: 1050px) { .User__login-info.is-uncollapsed { display: flex !important; } }
+
+.User__edit.is-uncollapsed { display: block !important; }
+
+.User__delete.is-uncollapsed { display: flex !important; }
+
+.User__delete { border-bottom-left-radius: inherit; border-bottom-right-radius: inherit; }
+
+.User.is-uncollapsed { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.08); }
+
+.AddUser.is-uncollapsed { display: block !important; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.08); }
+
+.u-border-radius-circle { border-radius: 50%; }
+
+.t-truncate { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.flex-shrink-0 { flex-shrink: 0; }
+
+.t-semibold { font-weight: 500 !important; }
+
+.RadioButtonGroup { display: flex; flex-wrap: wrap; }
+
+.RadioButtonGroup > label { flex-grow: 1; padding: 0.75rem 1rem; cursor: pointer; text-align: center; border: solid 1px #E0E4E8; border-right-width: 0; }
+
+.RadioButtonGroup > label:last-of-type { border-radius: 0 3px 3px 0; border-right-width: 1px; }
+
+.RadioButtonGroup > label:first-of-type { border-radius: 3px 0 0 3px; }
+
+.RadioButtonGroup > [type="radio"] { display: none; }
+
+.RadioButtonGroup > [type="radio"]:checked + label { background-color: #0073EC; color: #fff; border-color: #0073EC; }
+
+.RadioButtonGroup__Details { width: 100%; margin-top: 1rem; min-height: 3rem; }
+
+.RadioButtonGroup__Details__Area { display: none; }
+
+.RadioButtonGroup [type="radio"]:nth-of-type(1):checked ~ .RadioButtonGroup__Details *:nth-of-type(1), .RadioButtonGroup [type="radio"]:nth-of-type(2):checked ~ .RadioButtonGroup__Details *:nth-of-type(2), .RadioButtonGroup [type="radio"]:nth-of-type(3):checked ~ .RadioButtonGroup__Details *:nth-of-type(3) { display: block; }
+
+.Button--fixed-mobile { background-color: #0073EC; box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3); color: #fff; padding: 1rem; font-size: 1rem; min-width: 3rem; min-height: 3rem; border: 0 none; border-radius: 50%; display: flex; align-content: center; justify-content: center; position: fixed; right: 2rem; bottom: 2rem; cursor: pointer; }
+
+.Button--fixed-mobile:focus { outline: 0; }
+
+.more-info-helper { height: .3rem; width: .3rem; overflow: hidden; }
+
+>>>>>>> origin/master
 /* Dreamhost.design Specific Overrides */
 html::-webkit-scrollbar, body::-webkit-scrollbar { width: .3rem; }
 

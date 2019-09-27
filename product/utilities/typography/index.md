@@ -200,56 +200,6 @@ DreamHost uses Ubuntu for headings and Proxima Nova for body text.
 <p class="t-line-height-1">The quick brown fox jumps over the lazy dog.</p>
 {% endhighlight %}
 
-<hr />
-
-## White space
-<div class="u-clearfix m-bottom-2">
-	<div class="g-1_2__m bg-c-g100 p-2">
-		<div class="g-1_2 bg-c-g200 u-ws-normal m-bottom-0 p-2">
-			<strong>(.u-ws-normal)</strong> All work and no play makes Jack a dull boy.
-		</div>
-	</div>
-	<div class="g-1_2__m bg-c-g100 p-2">
-				<div class="g-1_2 bg-c-g200 u-ws-nowrap m-bottom-0 p-2">
-						<strong>(.u-ws-nowrap)</strong> All work and no play makes Jack a dull boy.
-				</div>
-		</div>
-</div>
-
-{% highlight html %}
-<div class="border u-ws-normal m-bottom">
-		normal
-</div>
-<div class="border u-ws-nowrap m-bottom">
-		nowrap
-</div>
-{% endhighlight %}
-
-<hr />
-
-## Wordbreak
-
-<div class="u-clearfix">
-	<div class="g-1_2__m bg-c-g100 p-2">
-		<div class="bg-c-g200 g-1_2 p-2 u-wb-normal m-bottom-0 border-radius">
-				<strong>(.u-wb-normal)</strong> j3894jrerwfv98cqh3x498ryq349fq38mrf9q3948rymx93q8yf9
-		</div>
-	</div>
-	<div class="g-1_2__m bg-c-g100 p-2 m-bottom-2">
-		<div class="bg-c-g200 g-1_2 p-2 u-wb-break-all m-bottom-0 border-radius">
-				<strong>(.u-wb-break-all)</strong> j3894jrerwfv98cqh3x498ryq349fq38mrf9q3948rymx93q8yf9
-		</div>
-	</div>
-</div>
-
-{% highlight html %}
-<div class="border u-wb-normal m-bottom">
-	normal
-</div>
-<div class="border u-wb-break-all m-bottom">
-	break-all
-</div>
-{% endhighlight %}
 
 <hr />
 

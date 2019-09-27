@@ -109,3 +109,86 @@ $(document).ready(function () {
 	}
 });
 
+
+
+$(function() {
+	var user = $('.User:last')
+	const defaultview = $('.container.p-0').clone()
+
+	console.log(defaultview);
+
+	$(document.body).on('click', '.js-edit-user' ,function(){ 
+
+		var parent = $(this).closest('.User');
+		var editView = $(parent).children('.User__edit');
+
+		if ($(window).width() < 960) {
+			
+			$('.container.p-0').empty();
+	
+			$(editView).toggleClass('is-uncollapsed').removeClass('p-2').removeClass('p-3__m').appendTo('.container.p-0');
+	 	}
+		else {
+
+			if ( $(parent).children('.User__login-info').hasClass( 'is-uncollapsed' ) ) {
+				$(parent).children('.User__login-info').removeClass('is-uncollapsed');
+			}
+			
+			$(parent).toggleClass('is-uncollapsed');
+			$(parent).children('.User__edit').toggleClass('is-uncollapsed');
+
+	 }
+    
+    
+	});
+	
+	$(document.body).on('click', '.js-edit-user-cancel' ,function(){
+		$('.container.p-0').empty();
+
+		$(defaultview).clone().appendTo('.container.p-0');
+		
+	});
+
+  $(document.body).on('click', '.js-show-login-details' ,function(){ 
+		var parent = $(this).closest('.User');
+    if ( $(parent).children( '.User__edit' ).hasClass( 'is-uncollapsed' ) ) {
+			$(parent).children('.User__edit').removeClass('is-uncollapsed');
+		}
+		
+		$(parent).toggleClass('is-uncollapsed');
+		$(parent).children('.User__login-info').toggleClass('is-uncollapsed');
+
+  });
+  
+  
+  $(document.body).on('click', '.js-edit-user-delete' ,function(){ 
+		var parent = $(this).closest('.User');
+
+		$(parent).children('.User__edit').removeClass('is-uncollapsed');
+    $(parent).children('.User__delete').toggleClass('is-uncollapsed');
+  });
+
+	  
+  $(document.body).on('click', '.js-edit-user-delete-confirm' ,function(){
+		var parent = $(this).closest('.User').hide('slow', function(){ $target.remove(); });
+  });
+	
+	  
+  $(document.body).on('click', '.js-edit-user-delete-cancel' ,function(){
+		var parent = $(this).closest('.User');
+
+		$(parent).children('.User__delete').toggleClass('is-uncollapsed');
+		$(parent).children('.User__edit').addClass('is-uncollapsed');
+  });
+	
+	$(document.body).on('click', '.js-toggle-add-user' ,function(){
+		$('.AddUser').toggleClass('is-uncollapsed');
+	})
+	
+	$(document.body).on('click', '.js-add-user' ,function(){
+		$(user).clone().appendTo('.container');
+	})
+
+});
+
+

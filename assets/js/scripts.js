@@ -90,10 +90,11 @@ $(document).ready(function () {
 		var prevH2List = null;
 		var index = 0;
 		$("article h2, article h3").each(function () {
+			// to do: grab text of heading and store it as an index
 			//insert an anchor to jump to, from the TOC link.
-			var anchor = "<a name='" + index + "'></a>";
+			var anchor = "<a class='hash-anchor' id='" + index + "'></a>";
 			$(this).before(anchor);
-			var li = "<li><a href='#" + index + "'>" + $(this).text() + "</a></li>";
+			var li = "<li><a class='js-scroll-to' data-speed='500' href='#" + index + "'>" + $(this).text() + "</a></li>";
 				if ($(this).is("h2")) {
 					prevH2List = $("<ul></ul>");
 					prevH2Item = $(li);
@@ -108,8 +109,6 @@ $(document).ready(function () {
 		$('.tocList ul:empty').remove();
 	}
 });
-
-
 
 $(function() {
 	var user = $('.User:last')
@@ -138,9 +137,54 @@ $(function() {
 			$(parent).children('.User__edit').toggleClass('is-uncollapsed');
 
 	 }
-    
-    
 	});
+
+	jQuery( function($) {
+
+		// Any <a> with the class .js-scroll-to will
+		// automatically scroll the page when clicked
+		// to its target
+		// Also any <a> with a href that starts with # and
+		// Add data-speed attr to control speed
+		// otherwise 200ms
+		//
+		// Eg:
+		// <a href="#top" class="js-scroll-to" data-speed="1000">Back to top</a>
+	
+		// Smooth Scrolling
+		// Stolen with a slight modification from http://css-tricks.com/snippets/jquery/smooth-scrolling/
+		//
+		
+		$(document).on('click', '.js-scroll-to' ,function(e){ 
+			console.log();
+
+			if (location.pathname.replace(/^\//,'') != this.pathname.replace(/^\//,'') || location.hostname != this.hostname)  return;
+	
+			e.preventDefault();
+	
+			var $this = $(this),
+				target = $(this.hash),
+				speed = $this.data('speed') || 200,
+				scrollTopVar = target.offset().top;
+
+			if (!target.length) return;
+	
+			if ( $('body').hasClass('has-promo') ) {
+				scrollTopVar = scrollTopVar - parseInt($('body').css("padding-top"));
+			}
+			$('html, body').animate({
+				scrollTop: scrollTopVar
+			}, speed);
+		});
+	
+	});
+		
+
+
+
+
+
+
 	
 	$(document.body).on('click', '.js-edit-user-cancel' ,function(){
 		$('.container.p-0').empty();

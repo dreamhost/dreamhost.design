@@ -327,7 +327,7 @@ main{
     border-radius: 50%;
 }
   
-a[name]:before { 
+a.hash-anchor:before { 
 	display: block; 
     content: " "; 
     margin-top: -5rem; 

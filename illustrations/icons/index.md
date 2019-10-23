@@ -422,10 +422,19 @@ layout: app
 		<p class="p-top-2"><code>.Icon--hdd</code></p>
 	</div>
 	<div>
-		<a href="{{site.baseurl}}/assets/downloads/icons/icon-edit.svg" download>
+
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-exclamation-triangle.svg" download>
+
 			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M270.2 160h35.5c3.4 0 6.1 2.8 6 6.2l-7.5 196c-.1 3.2-2.8 5.8-6 5.8h-20.5c-3.2 0-5.9-2.5-6-5.8l-7.5-196c-.1-3.4 2.6-6.2 6-6.2zM288 388c-15.5 0-28 12.5-28 28s12.5 28 28 28 28-12.5 28-28-12.5-28-28-28zm281.5 52L329.6 24c-18.4-32-64.7-32-83.2 0L6.5 440c-18.4 31.9 4.6 72 41.6 72H528c36.8 0 60-40 41.5-72zM528 480H48c-12.3 0-20-13.3-13.9-24l240-416c6.1-10.6 21.6-10.7 27.7 0l240 416c6.2 10.6-1.5 24-13.8 24z"/></svg>
 		</a>
 		<p class="p-top-2"><code>.Icon--exclamation-triangle</code></p>
 	</div>
+	<div>
+		<a href="{{site.baseurl}}/assets/downloads/icons/icon-exclamation-circle.svg" download>
+			<svg class="m-bottom-2 Icon Icon--size-4 t-c-b700 bounce-hover" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z"/></svg>
+		</a>
+		<p class="p-top-2"><code>.Icon--exclamation-circle</code></p>
+	</div>
+
 
 </div>

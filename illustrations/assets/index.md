@@ -119,27 +119,27 @@ layout: app
 <div class="container">
 		<h2 class="m-top-4 m-bottom-2">Blog Posts</h2>
 	<div class="row">
-		<div class="col-6">
+		<div class="col-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/black-friday-illustration@2x.png" alt="Dreamhost Spot Hero Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Black Friday</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
 		</div>
-		<div class="col-6">
+		<div class="col-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/college-prep-for-girls@2x.png" alt="Dreamhost Spot Hero Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>College Prep For Girls</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
 		</div>
-		<div class="col-6">
+		<div class="col-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/scalable-ecommerce@2x.png" alt="Dreamhost Spot Hero Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Scalable Ecommerce</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
 		</div>
-		<div class="col-6">
+		<div class="col-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/how-to-accept-payments-wordpress-blog-site@2x.png" alt="Dreamhost Spot Hero Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>How To Accept Payments</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
 		</div>
-		<div class="col-6">
+		<div class="col-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-podcast-plugins@2x.png" alt="Dreamhost Spot Hero Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Best Podcasting Plugins</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
 		</div>
-		<div class="col-6">
+		<div class="col-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/crafting-perfect-blog@2x.png" alt="Dreamhost Spot Hero Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Blog Post</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
 		</div>

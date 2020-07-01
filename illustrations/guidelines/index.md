@@ -58,7 +58,7 @@ Spot hero illustrations should be Rectangular artboard at **1024px x 768px.**
 **Azure** can be used at **100%** & **40%** opacity.
 **Prince** can be used at **40%** opacity only.
 
-<div class="conatiner m-top-6 m-bottom-6">
+<div class="container p-0 m-y-6">
 	<div class="row">
 		<div class="col-6">
 			<div class="bg-c-b300 p-top-12 m-bottom-0">
@@ -72,7 +72,7 @@ Spot hero illustrations should be Rectangular artboard at **1024px x 768px.**
 			</div>
 		</div><!--Azure-->
 		<div class="col-6">
-			<div class="bg-c-p300 p-top-12 m-bottom-0 m-bottom-0__l">
+			<div class="bg-c-p300 p-top-12 m-bottom-0">
 				<ul class="row t-center p-2">
 					<li class="col t-center t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center t-c-w100"><span class="t-0">A</span><br />&#128515;</li>

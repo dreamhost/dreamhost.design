@@ -97,12 +97,12 @@ layout: app
 
 <div class="container p-x-0">
 	<div class="row">
-		<div class="col-4">
+		<div class="col-m-6 col-lg-4">
 			<h3 class="m-bottom-3">Ubuntu</h3>
 			<p>Ubuntu is a versatile display font that we use for headlines on our website, blog and printed collateral.</p>
 			<p>Note that we only use the ‘Medium’ weight of the Ubuntu font family. If you feel the need to use a thinner or heavier weight, please contact the brand team before doing so.</p>
 		</div>
-		<div class="col-8">
+		<div class="col-m-6 col-lg-8">
 			<img src="{{site.baseurl}}/assets/images/type/type-ubuntu.png" alt="Ubuntu" />
 		</div>
 	</div>
@@ -112,12 +112,12 @@ layout: app
 
 <div class="container p-x-0">
 	<div class="row">
-		<div class="col-4">
+		<div class="col-m-6 col-lg-4">
 			<h3 class="m-bottom-3">Proxima Nova</h3>
 			<p>Proxima Nova is a light, easy to read font that we use for written content on our website, blog and printed collateral.</p>
 			<p>Note that we only use the ‘Regular’ weight of the Ubuntu font family. If you feel the need to use a thinner or heavier weight, please contact the brand team before doing so.</p>
 		</div>
-		<div class="col-8">
+		<div class="col-m-6 col-lg-8">
 			<img src="{{site.baseurl}}/assets/images/type/type-proxima.png" alt="Proxima Nova" />
 		</div>
 	</div>

@@ -104,7 +104,7 @@ Our Illustrations should only appear on top of **White** and **Off White** backg
 		</div>
 	</div>
 </div>
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-6">
 			<div class="bg-c-g100 m-1 m-x-0">
@@ -151,7 +151,7 @@ There are **5** types of radius detailed below that can be used to add depth to 
 Shadows appear in two main sizes within our illustrations. Larger shadows are **32px** in size and
 smaller shadows appear as **16px** in size.
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-6">
 			<strong>Larger Shadow Example:</strong>
@@ -194,7 +194,7 @@ SVG files should be optimized with the <a href="https://github.com/svg/svgo" tar
 
 <h3 class="m-top-6">Best Practices</h3>
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-6">
 			<strong>Do not</strong> resize Spot illustrations to output at icon sizes.

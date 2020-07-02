@@ -12,7 +12,7 @@ layout: app
 
 <p>Our logo should be used as demonstrated below. If for any reason these logos don’t fit your requirements, contact the brand team to discuss alternative solutions.</p>
 
-<div class="container p-x-0 m-bottom-4">
+<div class="container p-0 m-bottom-4">
 	<div class="row">
 		<div class="col-6">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/logo/dh-logo-w.png" alt="Dreamhost logo - White text on dark blue background" />
@@ -31,7 +31,7 @@ layout: app
 
 <p class="m-bottom-4">Our logomark is the moon shaped icon, or symbol that does not contain our company name. Popular third party examples include Apple’s apple, and Nike’s swoosh.</p>
 
-<div class="container p-x-0 m-bottom-4">
+<div class="container p-0 m-bottom-4">
 	<div class="row">
 		<div class="col-6">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/logo/dh-logomark-w.png" alt="Dreamhost logo - White mark on dark blue background" />
@@ -57,7 +57,7 @@ layout: app
 <h3 class="m-bottom-3">Implementation</h3>
 <p class="m-bottom-8">The logo should be used as provided by DreamHost. No changes, including but not limited to changes in color, proportion or design. The logo may not be animated, or otherwise distorted in perspective or appearance.</p>
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-4">
 			<img class="border t-c-g100 m-bottom-0" src="{{site.baseurl}}/assets/images/logo/dh-ldn-1.png" alt="Dreamhost logo - do not use old">
@@ -73,7 +73,7 @@ layout: app
 		</div>
 	</div>
 </div>
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-4">
 			<img class="border t-c-g100 m-bottom-0" src="{{site.baseurl}}/assets/images/logo/dh-ldn-4.png" alt="Dreamhost logo - do not rotate">
@@ -95,7 +95,7 @@ layout: app
 <h2 class="t-5 m-bottom-4">Typography</h2>
 <p class="t-4 m-bottom-12">Typography is the visual component of our written communications. It's what makes reading easier, establishing content hierarchy and making the text easier to digest. Consistent use of type makes for a successful customer experience.</p>
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-m-6 col-lg-4">
 			<h3 class="m-bottom-3">Ubuntu</h3>
@@ -110,7 +110,7 @@ layout: app
 
 <p class="m-bottom-8 bg-c-g100 p-2"><span class="t-3"><strong>Download Font</strong></span><br />Format: <a href="{{site.baseurl}}/assets/fonts/ubuntu/um-m.zip">Medium TTF</a></p>
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-m-6 col-lg-4">
 			<h3 class="m-bottom-3">Proxima Nova</h3>
@@ -140,14 +140,14 @@ layout: app
 
 <hr />
 
-<div class="container p-x-0 m-bottom-4">
+<div class="container p-0 m-bottom-4">
 		<h3 class="m-bottom-4">Why is color a big deal?</h3>
 		<p class="m-bottom-4">Our colors are important. They stir interest, add emphasis, and help provide a better user experience for our customers. When using our colors, rely on the primaries; our secondaries should be used sparingly, and only to compliment the primaries.</p>
 
 		<p class="bg-c-g100 p-2"><span class="t-1"><strong>Download Swatches</strong></span><br />Format: <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ai.zip" download="dh-brand-ai.zip">AI</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ps.zip" download="dh-brand-ps.zip">PS</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-sketch.zip" download="dh-brand-sketch.zip">Sketch</a></p>
 </div>
 
-<div class="container p-x-0 m-bottom-8">
+<div class="container p-0 m-bottom-8">
 	<div class="row">
 		<div class="col-sm-6 col-md-3 m-bottom-4">
 			<div class="p-top-16 bg-c-b700">
@@ -186,7 +186,7 @@ layout: app
 
 <h2 class="t-5 m-bottom-4">Mascot</h2>
 
-<div class="container">
+<div class="container p-0">
 <h3 class="m-bottom-2">Clanky</h3>
 	<div class="row">
 		<div class="col-sm-4 col-md-2">
@@ -216,7 +216,7 @@ layout: app
 	</div>
 </div>
 
-<div class="container">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-sm-4 col-md-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-7.png" alt="Dreamhost mascot" />
@@ -245,7 +245,7 @@ layout: app
 	</div>
 </div>
 
-<div class="container">
+<div class="container p-0">
 <h3 class="m-bottom-2">Ninja Clanky</h3>
 	<div class="row">
 		<div class="col-sm-4 col-md-2">
@@ -263,7 +263,7 @@ layout: app
 	</div>
 </div>
 
-<div class="container">
+<div class="container p-0">
 <h3>Alternative Clanky</h3>
 	<div class="row">
 		<div class="col-sm-4 col-md-2">
@@ -280,7 +280,7 @@ layout: app
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-6.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/downloads/mascot/m-4-6.eps">EPS</a></p></div>
 	</div>
 </div>
-<div class="container">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-sm-4 col-md-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-7.png" alt="Dreamhost mascot" /><p class="p-2 bg-c-g100">Format: <a href="{{site.baseurl}}/assets/downloads/mascot/m-4-7.eps">EPS</a></p></div>

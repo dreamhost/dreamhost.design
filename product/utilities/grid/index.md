@@ -70,9 +70,9 @@ For more specific grid requirements there is also a 12 column grid layout system
 
 <code>-xs</code> - extra small-breakpoint modifier <576px <br>
 <code>-s</code> - small-breakpoint modifier ≥576px <br>
-<code>-md</code> - medium-breakpoint modifier ≥768px <br>
-<code>-lg</code> - large-breakpoint modifier ≥992px<br> 
-<code>-xl</code> - extra large-breakpoint modifier ≥1200px 
+<code>-md</code> - medium-breakpoint modifier ≥750px <br>
+<code>-lg</code> - large-breakpoint modifier ≥1050px<br> 
+<code>-xl</code> - extra large-breakpoint modifier ≥1280px 
 
 <div class="container">	
 	<div class="row">

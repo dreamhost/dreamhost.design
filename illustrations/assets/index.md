@@ -7,7 +7,7 @@ layout: app
 
 <hr />
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<h2 class="m-bottom-2">Spot Illustration</h2>
 	<div class="row">
 		<div class="col-12 col-md-3">
@@ -44,25 +44,25 @@ layout: app
 	</div>
 </div>
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<h2 class="m-top-4 m-bottom-2">Spot Hero</h2>
 	<div class="row">
-				<div class="col-12 col-md-6">
+		<div class="col-12 col-md-6">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-woman-decisions@2x.png" alt="Dreamhost Spot Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Customer Decisisions</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-woman-decisions@2x.png" download>PNG</a></p>
 		</div>
-		<div class="col-12 col-m-6">
+		<div class="col-12 col-md-6">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-mom_affiliates@2x.png" alt="Dreamhost Spot Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Stay At Home Mom</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-mom_affiliates@2x.png" download>PNG</a></p>
 		</div>
-		<div class="col-12 col-m-6">
+		<div class="col-12 col-md-6">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-people-group_hifiving@2x.png" alt="Dreamhost Spot Illustration" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Teamwork</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-people-group_hifiving@2x.png" download>PNG</a></p>
 		</div>
 	</div>
 </div>
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<h2 class="m-top-4 m-bottom-2">People</h2>
 	<div class="row">
 		<div class="col-12 col-md-4">
@@ -100,7 +100,7 @@ layout: app
 	</div>
 </div>
 
-<div class="container p-x-0">
+<div class="container p-0">
 		<h2 class="m-top-4 m-bottom-2">Representational UI</h2>
 		<p>A creative yet clear way of representing digital products, features & workflows. </p>
 		<br /> <br />
@@ -116,7 +116,7 @@ layout: app
 		</div>
 	</div>
 </div>
-<div class="container p-x-0">
+<div class="container p-0">
 		<h2 class="m-top-4 m-bottom-2">Blog Posts</h2>
 	<div class="row">
 		<div class="col-12 col-md-6 m-bottom-2">

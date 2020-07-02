@@ -145,7 +145,7 @@ layout: app
 	</div>
 </div>
 
-<div class="container p-x-0 p-bottom-2">	
+<div class="container p-0 p-bottom-2">	
 	<div class="row">
 		<div class="col-sm-6 col-md-4 m-bottom-4">
 			<div class="bg-c-g300 p-top-6">
@@ -188,7 +188,7 @@ layout: app
 <h2 class="m-bottom-4">Extended Palette</h2>
 <p class="m-bottom-7">Our extended palette consists of a light and dark shade for each primary color. For convenience, different shades are numbered similarly to font weights, with 100 being lightest. Usage is also indicated by the headings below.</p>
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-sm-6 col-md-3 m-bottom-4">
 			<div class="bg-c-b500 p-top-6">
@@ -236,7 +236,7 @@ layout: app
 		</div><!--Ice-->
 	</div><!--Transaction Accents-->
 </div>
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-sm-6 col-md-3 m-bottom-4">
 			<div class="bg-c-o500 p-top-6">
@@ -285,7 +285,7 @@ layout: app
 	</div>
 </div><!--Neutral Accents-->
 
-<div class="container p-x-0">
+<div class="container p-0">
 	<div class="row">
 		<div class="col-sm-6 col-md-3 m-bottom-4">
 			<div class="bg-c-r500 p-top-6">

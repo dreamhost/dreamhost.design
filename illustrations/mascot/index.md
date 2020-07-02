@@ -4,7 +4,7 @@ layout: app
 toc: false
 ---
 
-<div class="container-fluid p-x-0">
+<div class="container-fluid p-0">
 <h3 class="m-bottom-2">Original Mascot</h3>
 	<div class="row">
 		<div class="col-sm-6 col-md-2">
@@ -34,7 +34,7 @@ toc: false
 	</div>
 </div>
 
-<div class="container-fluid p-x-0">
+<div class="container-fluid p-0">
 	<div class="row">
 		<div class="col-sm-6 col-md-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-1-7.png" alt="Dreamhost mascot" />
@@ -63,7 +63,7 @@ toc: false
 	</div>
 </div>
 
-<div class="container-fluid p-x-0">
+<div class="container-fluid p-0">
 <h3 class="m-bottom-2">Ninja Mascot</h3>
 	<div class="row">
 		<div class="col-sm-6 col-md-2">
@@ -87,7 +87,7 @@ toc: false
 	</div>
 </div>
 
-<div class="container-fluid p-x-0">
+<div class="container-fluid p-0">
 <h3>Alternative Mascots</h3>
 	<div class="row">
 		<div class="col-sm-6 col-md-2">
@@ -113,7 +113,7 @@ toc: false
 	</div>
 </div>
 
-<div class="container-fluid p-x-0">
+<div class="container-fluid p-0">
 	<div class="row">
 		<div class="col-sm-6 col-md-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/mascot/m-4-7.png" alt="Dreamhost mascot" />

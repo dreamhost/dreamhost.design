@@ -118,9 +118,9 @@ layout: app
 
 <h3 class="m-bottom-3">Grayscale</h3>
 
-<div class="container">
+<div class="container p-0">
 	<div class="row m-bottom-4">
-		<div class="col-6 p-left-0">
+		<div class="col-6">
 			<div class="bg-c-g500 p-top-6">
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
@@ -131,7 +131,7 @@ layout: app
 					<p class="p-3 bg-c-g100 m-0"><strong>Metal</strong><br />Hex #434F58<br />rgb(67,79,88)<br />Sass $c-g500</p>
 			</div>
 		</div><!--Metal-->
-		<div class="col-6 p-right-0">
+		<div class="col-6">
 			<div class="bg-c-g400 p-top-6">
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>

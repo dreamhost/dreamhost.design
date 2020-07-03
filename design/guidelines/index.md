@@ -45,11 +45,7 @@ layout: app
 <div class="container p-0 m-bottom-2">
 	<div class="row">
 		<div class="col-sm-6 col-md-3 m-bottom-4">
-<<<<<<< HEAD
 			<div class="bg-c-b700 p-top-6">
-=======
-			<div class="bg-c-b700 p-top-12">
->>>>>>> master
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center p-0 t-c-w100"><span class="t-0">A</span><br />&#128515;</li>
@@ -60,11 +56,7 @@ layout: app
 			</div>
 		</div><!--Midnight-->
 		<div class="col-sm-6 col-md-3 m-bottom-4">
-<<<<<<< HEAD
 			<div class="bg-c-b300 p-top-6">
-=======
-			<div class="bg-c-b300 p-top-12">
->>>>>>> master
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center p-0 t-c-w100"><span class="t-0">A</span><br />&#128515;</li>
@@ -75,11 +67,7 @@ layout: app
 			</div>
 		</div><!--Azure-->
 		<div class="col-sm-6 col-md-3 m-bottom-4">
-<<<<<<< HEAD
 			<div class="bg-c-p300 p-top-6">
-=======
-			<div class="bg-c-p300 p-top-12">
->>>>>>> master
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center p-0 t-c-w100"><span class="t-0">A</span><br />&#128515;</li>
@@ -90,11 +78,7 @@ layout: app
 			</div>
 		</div><!--Prince-->
 		<div class="col-sm-6 col-md-3 m-bottom-4">
-<<<<<<< HEAD
 			<div class="bg-c-w100 p-top-6">
-=======
-			<div class="bg-c-w100 p-top-12">
->>>>>>> master
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center p-0 t-c-w100"><span class="t-0">A</span><br />&#128515;</li>
@@ -112,11 +96,7 @@ layout: app
 <div class="container p-0 m-bottom-3">
 	<div class="row">
 		<div class="col-sm-6 col-md-3 m-bottom-4">
-<<<<<<< HEAD
 			<div class="bg-c-t300 p-top-6">
-=======
-			<div class="bg-c-t300 p-top-12">
->>>>>>> master
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center p-0 t-c-w100"><span class="t-0">A</span><br />&#128515;</li>
@@ -127,11 +107,7 @@ layout: app
 			</div>
 		</div><!--Turtle-->
 		<div class="col-sm-6 col-md-3 m-bottom-4">
-<<<<<<< HEAD
 			<div class="bg-c-r300 p-top-6">
-=======
-			<div class="bg-c-r300 p-top-12">
->>>>>>> master
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center p-0 t-c-w100"><span class="t-0">A</span><br />&#128515;</li>
@@ -142,11 +118,7 @@ layout: app
 			</div>
 		</div><!--Coral-->
 		<div class="col-sm-6 col-md-3 m-bottom-4">
-<<<<<<< HEAD
 			<div class="bg-c-o300 p-top-6">
-=======
-			<div class="bg-c-o300 p-top-12">
->>>>>>> master
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center p-0 t-c-w100"><span class="t-0">A</span><br />&#128515;</li>
@@ -157,11 +129,7 @@ layout: app
 			</div>
 		</div><!--Tangerine-->
 		<div class="col-sm-6 col-md-3 m-bottom-4">
-<<<<<<< HEAD
 			<div class="bg-c-y300 p-top-6">
-=======
-			<div class="bg-c-y300 p-top-12">
->>>>>>> master
 				<ul class="row t-center p-3">
 					<li class="col t-center p-0 t-c-w100"><span class="t-1">A</span><br />&#128515;</li>
 					<li class="col t-center p-0 t-c-w100"><span class="t-0">A</span><br />&#128515;</li>
@@ -203,7 +171,7 @@ layout: app
 	</div>
 </div>
 
-<div class="container p-x-0 p-bottom-2">	
+<div class="container p-x-0 p-bottom-2">
 	<div class="row">
 		<div class="col-sm-6 col-md-4 m-bottom-4">
 			<div class="bg-c-g300 p-top-6">

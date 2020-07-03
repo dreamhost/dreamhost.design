@@ -145,7 +145,7 @@ layout: app
 	</div>
 </div>
 
-<div class="container p-0 p-bottom-2">	
+<div class="container p-0 p-bottom-2">
 	<div class="row">
 		<div class="col-sm-6 col-md-4 m-bottom-4">
 			<div class="bg-c-g300 p-top-6">

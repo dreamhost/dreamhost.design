@@ -117,31 +117,31 @@ layout: app
 	</div>
 </div>
 <div class="container p-0">
-		<h2 class="m-top-4 m-bottom-2">Blog Posts</h2>
+		<h2 class="m-top-4 m-bottom-2">Blog Graphics</h2>
 	<div class="row">
 		<div class="col-12 col-md-6 m-bottom-2">
-			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/black-friday-illustration@2x.png" alt="Dreamhost Spot Hero Illustration" />
-			<p class="p-2 bg-c-g100 t-center"><strong>Black Friday</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.jpg" alt="DH Blog WP Course" />
+			<p class="p-2 bg-c-g100 t-center"><strong>WordPress Crash Course</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.eps" download>EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
-			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/college-prep-for-girls@2x.png" alt="Dreamhost Spot Hero Illustration" />
-			<p class="p-2 bg-c-g100 t-center"><strong>College Prep For Girls</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/remote-work-collaboration.jpg" alt="DH Blog Remote Work" />
+			<p class="p-2 bg-c-g100 t-center"><strong>Remote Work Collaboration</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/remote-work-collaboration.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/remote-work-collaboration.eps" download>EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
-			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/scalable-ecommerce@2x.png" alt="Dreamhost Spot Hero Illustration" />
-			<p class="p-2 bg-c-g100 t-center"><strong>Scalable Ecommerce</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-image-upload.jpg" alt="DH Blog WordPress Image Upload" />
+			<p class="p-2 bg-c-g100 t-center"><strong>WP Image Upload</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-image-upload.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-image-upload.eps" download>EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
-			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/how-to-accept-payments-wordpress-blog-site@2x.png" alt="Dreamhost Spot Hero Illustration" />
-			<p class="p-2 bg-c-g100 t-center"><strong>How To Accept Payments</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/smart-goals.jpg" alt="DH Blog Smart Goals" />
+			<p class="p-2 bg-c-g100 t-center"><strong>Smart Goals</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/smart-goals.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/smart-goals.eps" download>EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
-			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-podcast-plugins@2x.png" alt="Dreamhost Spot Hero Illustration" />
-			<p class="p-2 bg-c-g100 t-center"><strong>Best Podcasting Plugins</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/ux-design-site.jpg" alt="DH Blog UX Design" />
+			<p class="p-2 bg-c-g100 t-center"><strong>UX Design Site</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/ux-design-site.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/ux-design-site.eps" download>EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
-			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/crafting-perfect-blog@2x.png" alt="Dreamhost Spot Hero Illustration" />
-			<p class="p-2 bg-c-g100 t-center"><strong>Blog Post</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.svg" download>SVG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/hero/s-h-ill-atdesk.eps" download>EPS</a></p>
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/small-business-website.jpg" alt="DH Blog Small Business Website" />
+			<p class="p-2 bg-c-g100 t-center"><strong>Small Business Website</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/small-business-website.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/small-business-website.eps" download>EPS</a></p>
 		</div>
 	</div>
 

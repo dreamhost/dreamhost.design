@@ -133,27 +133,27 @@ layout: app
 	<div class="row">
 		<div class="col-12 col-md-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.jpg" alt="DH Blog WP Course" />
-			<p class="p-2 bg-c-g100 t-center"><strong>WordPress Crash Course</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.eps" download>EPS</a></p>
+			<p class="p-2 bg-c-g100 t-center"><strong>WordPress Crash Course</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.eps">EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/remote-work-collaboration.jpg" alt="DH Blog Remote Work" />
-			<p class="p-2 bg-c-g100 t-center"><strong>Remote Work Collaboration</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/remote-work-collaboration.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/remote-work-collaboration.eps" download>EPS</a></p>
+			<p class="p-2 bg-c-g100 t-center"><strong>Remote Work Collaboration</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/remote-work-collaboration.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/remote-work-collaboration.eps">EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-image-upload.jpg" alt="DH Blog WordPress Image Upload" />
-			<p class="p-2 bg-c-g100 t-center"><strong>WP Image Upload</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-image-upload.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-image-upload.eps" download>EPS</a></p>
+			<p class="p-2 bg-c-g100 t-center"><strong>WP Image Upload</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-image-upload.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-image-upload.eps">EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/smart-goals.jpg" alt="DH Blog Smart Goals" />
-			<p class="p-2 bg-c-g100 t-center"><strong>Smart Goals</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/smart-goals.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/smart-goals.eps" download>EPS</a></p>
+			<p class="p-2 bg-c-g100 t-center"><strong>Smart Goals</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/smart-goals.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/smart-goals.eps">EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/ux-design-site.jpg" alt="DH Blog UX Design" />
-			<p class="p-2 bg-c-g100 t-center"><strong>UX Design Site</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/ux-design-site.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/ux-design-site.eps" download>EPS</a></p>
+			<p class="p-2 bg-c-g100 t-center"><strong>UX Design Site</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/ux-design-site.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/ux-design-site.eps">EPS</a></p>
 		</div>
 		<div class="col-12 col-md-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/small-business-website.jpg" alt="DH Blog Small Business Website" />
-			<p class="p-2 bg-c-g100 t-center"><strong>Small Business Website</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/small-business-website.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/small-business-website.eps" download>EPS</a></p>
+			<p class="p-2 bg-c-g100 t-center"><strong>Small Business Website</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/small-business-website.jpg" download>JPG</a> | <a href="{{site.baseurl}}/assets/images/illustration/resource/blog/small-business-website.eps">EPS</a></p>
 		</div>
 	</div>
 

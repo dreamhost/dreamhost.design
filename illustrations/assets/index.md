@@ -59,6 +59,10 @@ layout: app
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-people-group_hifiving@2x.png" alt="DH Teamwork" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Teamwork</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-people-group_hifiving@2x.png" download>PNG</a></p>
 		</div>
+		<div class="col-12 col-md-6">
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/1x/spot-hero-email.png" alt="DH Mail" />
+			<p class="p-2 bg-c-g100 t-center"><strong>DH Webmail</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/1x/spot-hero-email.png" download>PNG</a></p>
+		</div>
 	</div>
 </div>
 
@@ -97,6 +101,10 @@ layout: app
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-people-quality_assurance@2x.png" alt="DH Customer Relations 3" />
 			<p class="p-2 bg-c-g100 t-center"><strong>Customer Relations 3</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/spot_illo-people-quality_assurance@2x.png" download>PNG</a></p>
 		</div>
+		<div class="col-12 col-md-4">
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/1x/spot-illo-people-finance.png" alt="DH Finance People" />
+			<p class="p-2 bg-c-g100 t-center"><strong>Finance People</strong><br /> Format: <a href="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/1x/spot-illo-people-finance.png" download>PNG</a></p>
+		</div>
 	</div>
 </div>
 
@@ -114,10 +122,14 @@ layout: app
 		<div class="col-12 col-md-6">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/2x/ui-free-wordpress-jetpack-premium@2x.png" alt="DH WordPress UI" />
 		</div>
+		<div class="col-12 col-md-6">
+			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/spot/v2/1x/ui-website-content.png" alt="DH Content UI" />
+		</div>
 	</div>
 </div>
 <div class="container p-0">
 		<h2 class="m-top-4 m-bottom-2">Blog Graphics</h2>
+				<p class="m-bottom-2">More assets and working files can be found in Google Drive in Blog Graphics <a href="https://drive.google.com/drive/folders/1-ji0t96GU9nPKmv109i07_z_Nb5AKjmL?usp=sharing" target="_blank">folder</a>.</p>
 	<div class="row">
 		<div class="col-12 col-md-6 m-bottom-2">
 			<img class="m-bottom-0 p-bottom-0" src="{{site.baseurl}}/assets/images/illustration/resource/blog/wordpress-crash-course.jpg" alt="DH Blog WP Course" />

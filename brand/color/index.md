@@ -11,7 +11,7 @@ layout: app
 		<h2 class="m-bottom-4">Why is color a big deal?</h2>
 		<p class="m-bottom-4">Our colors are important. They stir interest, add emphasis, and help provide a better user experience for our customers. When using our colors, rely on the primaries; our secondaries should be used sparingly, and only to compliment the primaries.</p>
 
-		<p class="bg-c-g100 p-2"><span class="t-1"><strong>Download Swatches</strong></span><br />Format: <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ai.zip" download="dh-brand-ai.zip">AI</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ps.zip" download="dh-brand-ps.zip">PS</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-sketch.zip" download="dh-brand-sketch.zip">Sketch</a></p>
+		<p class="bg-c-g100 p-2"><span class="t-1"><strong>Download Swatches</strong></span><br />Format: <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ai.zip" download="dh-brand-ai.zip">AI</a>, <a href="{{site.baseurl}}/assets/downloads/color/brand/dh-brand-ps.zip" download="dh-brand-ps.zip">PS</a></p>
 </div>
 
 <div class="u-clearfix">

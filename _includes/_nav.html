@@ -4,15 +4,6 @@
             <!-- LEVEL 1 -->
 
             <li class="design__item sidebar__nav__item transition--all flex flex-column is-uncollapsed">
-
-                    <a href="#" class="item__anchor flex flex-align-center p-y-1 p-x-2 p-y-2__m p-x-4__m">
-                        
-                        <h2 class="t-2 t-body m-bottom-0 flex-grow-1">Design</h2>
-                        <div><svg class="Icon Icon--size-1 Icon--down t-c-g300" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 32 32">
-                                <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                            </svg></div>
-                    </a>
     
                     <ul class="subnav__subnav bg-c-g200 p-2 t-2">
 
@@ -64,16 +55,18 @@
     
             </li>
 
+            <!--Develop Section-->
+            <div class="display:none">
             <li class="develop__item sidebar__nav__item transition--all flex flex-column is-uncollapsed">
 
-                <a href="#" class="item__anchor flex flex-align-center p-y-1 p-x-2 p-y-2__m p-x-4__m">
+                <!-- <a href="#" class="item__anchor flex flex-align-center p-y-1 p-x-2 p-y-2__m p-x-4__m">
                     
                     <h2 class="t-2 t-body m-bottom-0 flex-grow-1">Develop</h2>
                     <div><svg class="Icon Icon--size-1 Icon--down t-c-g300" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 32 32">
                             <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
                         </svg></div>
-                </a>
+                </a> -->
 
                 <ul class="subnav__subnav bg-c-g200 p-2 t-2">
 						<!-- LEVEL 2 -->
@@ -164,38 +157,7 @@
 					</ul><!-- end submenu -->
 
             </li>
-
-            <li class="tools__item sidebar__nav__item transition--all flex flex-column">
-                <a href="javascript:;" class="item__anchor flex flex-align-center p-y-1 p-x-2 p-y-2__m p-x-4__m">
-                    
-                    <h2 class="t-2 t-body m-bottom-0 flex-grow-1">Tools</h2>
-                    <div><svg class="Icon Icon--size-1 t-c-g300 Icon--down" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 32 32">
-                            <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                        </svg></div>
-                </a>
-                <ul class="subnav__subnav bg-c-g200 p-2 t-2">
-                   <li>
-                        <a href="{{site.baseurl}}/sketch" class="l-flex flex-justify-between{% if page.url == "/sketch/" %} is-active{% endif %}">
-                            Sketch Library
-                            <svg class="Icon Icon--size-1 Icon--right t-c-g300"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                            </svg>
-                        </a>
-                    </li>
-                   <li>
-                        <a href="https://github.com/dreamhost/dreamhost.css" target="_blank" class="l-flex flex-justify-between">
-                            DreamHost.css
-                            <svg class="Icon Icon--size-1 Icon--right t-c-g300"
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-                                <path d="M5.6 27.1L15.9 16 5.6 4.9 12.2 0 27 16 12.2 32l-6.6-4.9z"></path>
-                            </svg>
-                        </a>
-                    </li>
-                </ul><!-- end submenu -->
-
-            </li>
+            </div>
 
         </ul>
     </aside>

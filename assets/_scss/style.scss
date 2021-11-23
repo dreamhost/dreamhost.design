@@ -92,7 +92,7 @@ code.hljs {
     top: 0;
 	padding: 0 .5rem;
 	z-index: $z-3;
-	background-color: $c-b300 !important;
+	background-color: #071C26 !important;
 	@media (min-width: $mq-nav) {
 		padding: 0 1.6rem;	
 	}
@@ -101,11 +101,12 @@ code.hljs {
 .nav{
     grid-area: nav;
     line-height: 1; 
+	height: 64px;
     position: sticky;
     position: -webkit-sticky;
 	top: 0;
 	z-index: $z-3;
-	background-color: $c-b300 !important;
+	background-color: #071C26 !important;
 	@media (min-width: $mq-nav) {
 		padding: 1rem;
 	}
@@ -235,7 +236,6 @@ main{
 		border-radius: .4rem;
 	}
 	> li{
-		line-height: 1;
 
 		> a{
 			padding: 1rem 1rem;

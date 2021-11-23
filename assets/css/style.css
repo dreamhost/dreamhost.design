@@ -4104,7 +4104,7 @@ code.hljs { width: 100%; overflow-y: auto; margin-bottom: 1rem; padding: 0.5rem;
 
 @media (min-width: 800px) { .logo { padding: 0 1.6rem; } }
 
-.nav { grid-area: nav; line-height: 1; position: sticky; position: -webkit-sticky; top: 0; z-index: 100; background-color: #071C26 !important; height: 64px;}
+.nav { grid-area: nav; line-height: 1; height: 64px; position: sticky; position: -webkit-sticky; top: 0; z-index: 100; background-color: #071C26 !important; }
 
 @media (min-width: 800px) { .nav { padding: 1rem; } }
 
@@ -4149,8 +4149,6 @@ main { grid-area: main; overflow: hidden; }
 .subnav__subnav::-webkit-scrollbar-track { -webkit-box-shadow: none; background-color: transparent; }
 
 .subnav__subnav::-webkit-scrollbar-thumb { background-color: rgba(255, 255, 255, 0.1); border-radius: .4rem; }
-
-/* .subnav__subnav > li { line-height: 1; } */
 
 .subnav__subnav > li > a { padding: 1rem 1rem; border-radius: .5rem; }
 

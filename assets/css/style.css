@@ -4100,11 +4100,11 @@ code.hljs { width: 100%; overflow-y: auto; margin-bottom: 1rem; padding: 0.5rem;
 
 @media (min-width: 1350px) { .app { grid-template-areas: "logo nav nav" "sidebar main toc"; } }
 
-.logo { grid-area: logo; position: sticky; position: -webkit-sticky; top: 0; padding: 0 .5rem; z-index: 100; background-color: #0073EC !important; }
+.logo { grid-area: logo; position: sticky; position: -webkit-sticky; top: 0; padding: 0 .5rem; z-index: 100; background-color: #071C26 !important; }
 
 @media (min-width: 800px) { .logo { padding: 0 1.6rem; } }
 
-.nav { grid-area: nav; line-height: 1; position: sticky; position: -webkit-sticky; top: 0; z-index: 100; background-color: #0073EC !important; }
+.nav { grid-area: nav; line-height: 1; position: sticky; position: -webkit-sticky; top: 0; z-index: 100; background-color: #071C26 !important; height: 64px;}
 
 @media (min-width: 800px) { .nav { padding: 1rem; } }
 
@@ -4150,7 +4150,7 @@ main { grid-area: main; overflow: hidden; }
 
 .subnav__subnav::-webkit-scrollbar-thumb { background-color: rgba(255, 255, 255, 0.1); border-radius: .4rem; }
 
-.subnav__subnav > li { line-height: 1; }
+/* .subnav__subnav > li { line-height: 1; } */
 
 .subnav__subnav > li > a { padding: 1rem 1rem; border-radius: .5rem; }
 

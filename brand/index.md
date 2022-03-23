@@ -4,7 +4,7 @@ layout: app
 ---
 
 <h2 class="m-bottom-4">Mission Statement</h2>
-<p class="m-bottom-4">We support an open web, empowering people with the tools they need to own their digital presence and succeed online.</p>
+<p class="m-bottom-4">We provide personalized guidance to businesses to help them attract, captivate, and grow customers online by using our full suite of web and marketing tools, curated roadmaps, and intelligent analytics.</p>
 
 <hr />
 

@@ -1,0 +1,83 @@
+<aside class="sidebar">
+    <!-- Begin Sidebar -->
+    <ul class="subnav flex flex-column">
+        <!-- LEVEL 1 -->
+
+        <div class="nav-menu__toggle">
+            <button onclick="toggleMenu()" href="#" class="hamburger toggle">&#9776;</button>
+            <button style="display: none; color: #000;" onclick="toggleMenu()" href="#"
+                class="close toggle">&times;</button>
+        </div>
+
+        <li class="design__item sidebar__nav__item transition--all flex flex-column is-uncollapsed">
+
+                <ul class="subnav__subnav">
+
+                    <li class="m-top-2">
+                        <a href="/new/" class="t-c-b300 l-flex flex-justify-between{% if page.url == "/design/guidelines/" %} is-active{% endif %}">
+                            DESIGN GUIDELINES
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="l-flex flex-justify-between {% if page.url contains '/brand/' %}is-uncollapsed{% endif %}" href="/new/principles/">
+                                Principles
+                        </a>
+                            
+                    </li>
+
+                    <li>
+                        <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                            Color
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                            Iconography
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                            Illustrations
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                            Logos
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                            Mascot
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                            Photography
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="l-flex flex-justify-between {% if page.url contains '/illustrations/' %}is-uncollapsed{% endif %}" href="javascript:;">
+                            Typography
+                        </a>
+                    </li>
+
+                </ul><!-- end submenu -->
+
+        </li>
+
+    </ul>
+</aside>
+
+{% comment %}
+{% if page.url contains "/brand/" %}{% include _brand-nav.html %}{% endif %}
+<!-- {% if page.url contains "/marketing/" %}{% include _marketing-nav.html %}{% endif %} -->
+{% if page.url contains "/product/" %}{% include _product-nav.html %}{% endif %}
+{% if page.url contains "/practice/" %}{% include _practice-nav.html %}{% endif %}
+{% endcomment %}

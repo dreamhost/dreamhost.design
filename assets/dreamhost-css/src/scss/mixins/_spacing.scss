@@ -1,0 +1,37 @@
+/**
+Mixin for automating creation of spacing (margin and padding) classes. See src/utilities/_spacing.scss
+**/
+@mixin createClasses($props, $class, $responsive) {
+	@include createClass( #{$class}-0, $props, 0 );
+	@include createClass( #{$class}-half, $props, 0.25rem );
+	@include createClass( #{$class}-auto, $props, auto );
+	@for $i from 1 through $maxSize {
+		@include createClass( #{$class}-#{$i}, $props, $i / 2 * 1rem );
+	}
+	@if $responsive {
+		@media screen and (min-width: $medium-breakpoint) {
+			@include createClass( #{$class}-0__m, $props, 0 );
+			@include createClass( #{$class}-half__m, $props, 0.25rem );
+			@include createClass( #{$class}-auto__m, $props, auto );
+			@for $i from 1 through $maxSize {
+				@include createClass( #{$class}-#{$i}__m, $props, $i / 2 * 1rem );
+			}
+		}
+		@media screen and (min-width: $large-breakpoint){
+			@include createClass( #{$class}-0__l, $props, 0 );
+			@include createClass( #{$class}-half__l, $props, 0.25rem );
+			@include createClass( #{$class}-auto__l, $props, auto );
+			@for $i from 1 through $maxSize {
+				@include createClass( #{$class}-#{$i}__l, $props, $i / 2 * 1rem );
+			}
+		}
+	}
+}
+
+@mixin createClass($class, $props, $value) {
+	.#{$class} {
+		@each $prop in $props {
+			#{$prop}: $value !important;
+		}
+	}
+}

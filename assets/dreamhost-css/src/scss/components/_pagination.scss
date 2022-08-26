@@ -1,0 +1,47 @@
+.Pagination{
+	display: inline-block;
+	margin: 0;
+
+	.Pagination__button{
+		display: inline-block;
+		background: $c-g100;
+		border:solid 1px $c-g100;
+		text-align: center;
+		border-radius: $border-radius;
+		text-indent: -5000em;
+		padding: 0.375rem;
+		vertical-align: middle;
+
+		transition: all 0.1s ease-in-out;
+
+		&:hover{
+			background: $c-w100;
+
+			.Pagination__icon{
+				color: $c-b300;
+				transform: scale(.99);
+			}
+		}
+
+		&:first-child{
+			transform: rotate(180deg);
+		}
+	}
+
+	.Pagination__status{
+		display: inline-block;
+		margin: 0;
+		padding: 0 1rem;
+	}
+
+	.Pagination__icon{
+		@extend .Icon;
+		margin: 0;
+		padding: 0;
+		height: 0.75rem;
+		width: 0.75rem;
+		color: $c-g200;
+		display: block;
+	}
+
+}

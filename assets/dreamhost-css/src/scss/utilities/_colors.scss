@@ -1,0 +1,173 @@
+/*
+
+Color Utilities
+
+  These classes are used to define colors throughout the app. There are 3
+  different types of color classes:
+
+  - Background color classes, which use the .bg- prefix
+  - Text color classes, which use the .t- prefix
+  - Combo color classes, which use the .c- prefix
+
+  The combo color classes constrain text color based on background color.
+  This is to ensure that contrast between an element's background and
+  foreground colors always meets WCAG AA compliancy. It is recommended to
+  use the combo color classes as often as possible.
+
+ */
+
+/* Site Panel Specific */
+
+//Background colors
+
+//blue
+.bg-c-b700 {background: $c-b700 !important}
+.bg-c-b500 {background: $c-b500 !important}
+.bg-c-b300 {background: $c-b300 !important}
+.bg-c-b100 {background: $c-b100 !important}
+.bg-c-b50 {background: $c-b50 !important} //nav colour hover
+
+//grey
+.bg-c-g500 {background: $c-g500 !important}
+.bg-c-g400 {background: $c-g400 !important}
+.bg-c-g300 {background: $c-g300 !important}
+.bg-c-g200 {background: $c-g200 !important}
+.bg-c-g100 {background: $c-g100 !important}
+
+//orange
+.bg-c-o500 {background: $c-o500 !important}
+.bg-c-o300 {background: $c-o300 !important}
+.bg-c-o100 {background: $c-o100 !important}
+
+//purple
+.bg-c-p300 {background: $c-p300 !important}
+
+//teal
+.bg-c-t500 {background: $c-t500 !important}
+.bg-c-t300 {background: $c-t300 !important}
+.bg-c-t100 {background: $c-t100 !important}
+
+//yellow
+.bg-c-y500 {background: $c-y500 !important}
+.bg-c-y300 {background: $c-y300 !important}
+.bg-c-y100 {background: $c-y100 !important}
+
+//red
+.bg-c-r500 {background: $c-r500 !important}
+.bg-c-r300 {background: $c-r300 !important}
+.bg-c-r100 {background: $c-r100 !important}
+
+//white
+.bg-c-w100 {background: $c-w100 !important}
+
+//black
+.bg-c-b900 {background: $c-b900 !important}
+
+//Typography Colors
+
+// blue
+.t-c-b700 {color: $c-b700 !important}
+.t-c-b500 {color: $c-b500 !important}
+.t-c-b300 {color: $c-b300 !important}
+.t-c-b100 {color: $c-b100 !important}
+
+//grey
+.t-c-g500 {color: $c-g500 !important}
+.t-c-g400 {color: $c-g400 !important}
+.t-c-g300 {color: $c-g300 !important}
+.t-c-g200 {color: $c-g200 !important}
+.t-c-g100 {color: $c-g100 !important}
+
+//orange
+.t-c-o500 {color: $c-o500 !important}
+.t-c-o300 {color: $c-o300 !important}
+.t-c-o100 {color: $c-o100 !important}
+
+//purple
+.t-c-p300 {color: $c-p300 !important}
+
+//teal
+.t-c-t500 {color: $c-t500 !important}
+.t-c-t300 {color: $c-t300 !important}
+.t-c-t100 {color: $c-t100 !important}
+
+//yellow
+.t-c-y500 {color: $c-y500 !important}
+.t-c-y300 {color: $c-y300 !important}
+.t-c-y100 {color: $c-y100 !important}
+
+//red
+.t-c-r500 {color: $c-r500 !important}
+.t-c-r300 {color: $c-r300 !important}
+.t-c-r100 {color: $c-r100 !important}
+
+//white
+.t-c-w100 {color: $c-w100 !important}
+
+//black
+.t-c-b900 {color: $c-b900!important}
+
+/*
+Combo Colors
+*/
+
+//blue
+.c-c-b700 {background: $c-b700 !important; color: $c-w100 !important}
+.c-c-b500 {background: $c-b500 !important; color: $c-w100 !important}
+.c-c-b300 {background: $c-b300 !important; color: $c-b700 !important}
+.c-c-b100 {background: $c-b100 !important; color: $c-b700 !important}
+
+//grey
+.c-c-g500 {background: $c-g500 !important; color: $c-w100 !important}
+.c-c-g400 {background: $c-g400 !important; color: $c-w100 !important}
+.c-c-g300 {background: $c-g300 !important; color: $c-b700 !important}
+.c-c-g200 {background: $c-g200 !important; color: $c-b700 !important}
+.c-c-g100 {background: $c-g100 !important; color: $c-b700 !important}
+
+//orange
+.c-c-o500 {background: $c-o500 !important; color: $c-w100 !important}
+.c-c-o300 {background: $c-o300 !important; color: $c-b700 !important}
+.c-c-o100 {background: $c-o100 !important; color: $c-b700 !important}
+
+//purple
+.c-c-p300 {background: $c-p300 !important; color: $c-w100 !important}
+
+//teal
+.c-c-t500 {background: $c-t500 !important; color: $c-b700 !important}
+.c-c-t300 {background: $c-t300 !important; color: $c-b700 !important}
+.c-c-t100 {background: $c-t100 !important; color: $c-b700 !important}
+
+//yellow
+.c-c-y500 {background: $c-y500 !important; color: $c-b700 !important}
+.c-c-y300 {background: $c-y300 !important; color: $c-b700 !important}
+.c-c-y100 {background: $c-y100 !important; color: $c-b700 !important}
+
+//red
+.c-c-r500 {background: $c-r500 !important; color: $c-w100 !important}
+.c-c-r300 {background: $c-r300 !important; color: $c-b700 !important}
+.c-c-r100 {background: $c-r100 !important; color: $c-b700 !important}
+
+//white
+.c-c-w100 {background: $c-w100 !important; color: $c-b700 !important}
+
+
+
+/*
+Legacy color/class utilities still in use somewhere
+TODO: DEPRECATE THESE, NEPHEW
+*/
+.bg-blue {background: $blue !important}
+.bg-white {background: $white !important}
+.bg-lighter-grey {background: $lighter-grey !important}
+.bg-light-grey {background: $light-grey !important}
+.bg-black {background: $black !important}
+
+
+.t-blue {color: $blue !important}
+.t-dark-blue {color: $dark-blue !important}
+.t-green {color: $green !important}
+.t-orange {color: $orange !important}
+.t-red {color: $red !important}
+.t-dark-grey {color: $dark-grey !important}
+.t-black {color: $black !important}
+

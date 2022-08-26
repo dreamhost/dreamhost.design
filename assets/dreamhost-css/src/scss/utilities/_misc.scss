@@ -1,0 +1,40 @@
+/*
+	Miscellaneous Utilities Classes
+
+	Not sure where a particular utility belongs? Don't want to create a whole file just for a couple of classes that won't be used too frequently but are important nonetheless?
+
+	Well, slap a '.u-' prefix on it and put it here, my friend!
+*/
+
+// Border Radius
+.u-border-radius {border-radius: $border-radius !important}
+
+// Clearfix
+.u-cf,
+.u-clearfix {@include clearfix;}
+
+// Overflow
+.u-overflow-visible {overflow: visible !important}
+.u-overflow-hidden {overflow: hidden !important}
+.u-overflow-scroll {overflow: scroll !important}
+.u-overflow-x-visible {overflow-x: visible !important}
+.u-overflow-x-hidden {overflow-x: hidden !important}
+.u-overflow-x-scroll {overflow-x: scroll !important}
+.u-overflow-y-visible {overflow-y: visible !important}
+.u-overflow-y-hidden {overflow-y: hidden !important}
+.u-overflow-y-scroll {overflow-y: scroll !important}
+
+// Vertical Align
+.u-vertical-align-top {vertical-align: top !important}
+.u-vertical-align-middle {vertical-align: middle !important}
+.u-vertical-align-bottom {vertical-align: bottom !important}
+.u-vertical-align-text-bottom {vertical-align: text-bottom !important}
+
+// White Space
+.u-ws-normal { white-space: normal; }
+.u-ws-nowrap { white-space: nowrap; }
+
+// Word Break
+.u-wb-normal { word-break: normal; }
+.u-wb-break-all { word-break: break-all; word-break: break-word; }
+

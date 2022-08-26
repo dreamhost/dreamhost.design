@@ -1,0 +1,88 @@
+/*
+
+	Borders
+
+	Base:
+	.border is the default class that adds a basic solid border of 1px
+	with its color inherited from text color property unless overridden
+	by a color modifier.
+
+	e.g.
+	<div class="border t-red"></div> creates border: 1px solid $red
+	<div class="border border-white t-red"></div> creates border: 1px solid $white
+
+*/
+
+// default
+.border {border-width: $border-size-1; border-style: solid;}
+
+// directions
+.border-top {border-top-width: $border-size-1; border-top-style: solid;}
+.border-bottom {border-bottom-width: $border-size-1; border-bottom-style: solid;}
+.border-left {border-left-width: $border-size-1; border-left-style: solid;}
+.border-right {border-right-width: $border-size-1; border-right-style: solid;}
+
+// styles
+.border-solid {border-style: solid}
+.border-top-solid {border-top-style: solid}
+.border-bottom-solid {border-bottom-style: solid}
+.border-left-solid {border-left-style: solid}
+.border-right-solid {border-right-style: solid}
+
+.border-dashed {border-style: dashed}
+.border-top-dashed {border-top-style: dashed}
+.border-bottom-dashed {border-bottom-style: dashed}
+.border-left-dashed {border-left-style: dashed}
+.border-right-dashed {border-right-style: dashed}
+
+.border-dotted {border-style: dotted}
+.border-top-dotted {border-top-style: dotted}
+.border-bottom-dotted {border-bottom-style: dotted}
+.border-left-dotted {border-left-style: dotted}
+.border-right-dotted {border-right-style: dotted}
+
+// widths
+// zero widths to override an element with default styling
+// like an input, or to cancel individual border directions
+.border-none, .border-0 {border-width: 0; border-style: none}
+.border-top-none, .border-top-0 {border-top-width: 0; border-top-style: none}
+.border-bottom-none, .border-bottom-0 {border-bottom-width: 0; border-bottom-style: none}
+.border-left-none, .border-left-0 {border-left-width: 0; border-left-style: none}
+.border-right-none, .border-right-0 {border-right-width: 0; border-right-style: none}
+
+.border-1 {border-width: $border-size-1}
+.border-top-1 {border-top-width: $border-size-1}
+.border-bottom-1 {border-bottom-width: $border-size-1}
+.border-left-1 {border-left-width: $border-size-1}
+.border-right-1 {border-right-width: $border-size-1}
+
+.border-2 {border-width: $border-size-2}
+.border-top-2 {border-top-width: $border-size-2}
+.border-bottom-2 {border-bottom-width: $border-size-2}
+.border-left-2 {border-left-width: $border-size-2}
+.border-right-2 {border-right-width: $border-size-2}
+
+.border-3 {border-width: $border-size-3}
+.border-top-3 {border-top-width: $border-size-3}
+.border-bottom-3 {border-bottom-width: $border-size-3}
+.border-left-3 {border-left-width: $border-size-3}
+.border-right-3 {border-right-width: $border-size-3}
+
+
+// Legacy Border colors
+// TODO: DEPRECATE THESE, NEPHEW
+.border-lighter-grey {border-color: $c-g100}
+.border-light-grey {border-color: $c-g200}
+.border-grey {border-color: $c-g300}
+.border-blue {border-color: $c-b300}
+.border-light-blue {border-color: $c-b100}
+.border-white {border-color: $c-w100}
+
+// updated palette
+.border-c-b300 {border-color: $c-b300}
+.border-c-g500 {border-color: $c-g500}
+.border-c-g400 {border-color: $c-g400}
+.border-c-g300 {border-color: $c-g300}
+.border-c-g200 {border-color: $c-g200}
+.border-c-g100 {border-color: $c-g100}
+.border-c-r300 {border-color: $c-r300}

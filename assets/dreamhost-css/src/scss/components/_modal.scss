@@ -1,0 +1,24 @@
+// use remodal.js
+// https://github.com/vodkabears/Remodal
+
+.Modal {
+	padding: 1.5rem;
+	border-radius: $border-radius;
+	@extend .remodal;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+.Modal__button-group {
+	margin-top: 2rem;
+}
+
+@media screen and (min-width: $medium-breakpoint) {
+	.Modal { padding: 4.5rem }
+	.Modal__heading {
+		@include fontsize($t-5);
+	}
+}
+
+.remodal-overlay {
+	background: rgba($light-grey, .9) !important;
+}

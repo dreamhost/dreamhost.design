@@ -1,0 +1,51 @@
+/*
+
+Tags
+
+	Creates 'tags' for things like categories or maybe a 'SALE' tag.
+	Use with _colors.scss color classes e.g 'pill c-light-blue'.
+	Default tags are blue.
+
+*/
+
+.Tag {
+	position: relative;
+	top: -.1em;
+	text-transform: uppercase;
+	display: inline-block;
+	font-weight: bold;
+	@include fontsize($t-0);
+	border-radius: 20px;
+	padding: 0.25rem 0.75rem;
+	width: auto;
+}
+
+.Tag,
+.Tag--blue {
+	background: $c-b300;
+	color: $c-w100;
+}
+
+.Tag--red {
+	background: $c-r300;
+	color: $c-w100;
+}
+
+.Tag--teal {
+	background: $c-t300;
+	color: $c-w100;
+}
+
+.Tag--yellow {
+	background: $c-y300;
+	color: $c-y500;
+}
+
+.Tag--orange {
+	background: $c-o300;
+	color: $c-w100;
+}
+
+.Tag--square {
+	border-radius: 0;
+}

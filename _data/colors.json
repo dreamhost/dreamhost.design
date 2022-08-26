@@ -1,0 +1,104 @@
+[{
+  "primary":[
+   {
+     "name": "Abyss",
+     "hex": "#000000",
+     "text-color": "white",
+     "bg": "bg-black"
+   },
+   {
+     "name": "Oblivion",
+     "hex": "#111111",
+     "text-color": "white",
+     "bg": "bg-c-b900"
+   },
+   {
+     "name": "Midnight",
+     "hex": "#071C26",
+     "text-color": "white",
+     "bg": "bg-c-b700"
+   },
+   {
+     "name": "White",
+     "hex": "#ffffff",
+     "text-color": "black",
+     "bg": "bg-c-w100"
+   },
+   {
+     "name": "Azure",
+     "hex": "#0073EC",
+     "text-color": "white",
+     "bg": "bg-c-b300"
+   },
+   {
+     "name": "Prince",
+     "hex": "#A644E5",
+     "text-color": "white",
+     "bg": "bg-c-p300"
+   }
+  ],
+   "secondary": [
+   {
+     "name": "Turtle",
+     "hex": "#00CAAA",
+     "text-color": "black",
+     "bg": "bg-c-t300"
+     
+   },
+   {
+     "name": "Coral",
+     "hex": "#FF4A48",
+     "text-color": "black",
+     "bg": "bg-c-3300"
+     
+   },
+   {
+     "name": "Tangerine",
+     "hex": "#F59D00",
+     "text-color": "black",
+     "bg": "bg-c-o300"
+   },
+   {
+     "name": "Sunflower",
+     "hex": "#FFDA00",
+     "text-color": "black",
+     "bg": "bg-c-y300"
+   }
+  ],
+   "grayscale": [
+   {
+     "name": "Off White",
+     "hex": "#F4F6F9",
+     "text-color": "black",
+     "bg": "bg-c-g100"
+   },
+   {
+     "name": "Smoke",
+     "hex": "#E0E4E8",
+     "text-color": "black",
+     "bg": "bg-c-g200"
+   },
+   {
+ 
+     "name": "Cloudy",
+     "hex": "#AFBFC9",
+     "text-color": "black",
+     "bg": "bg-c-g300"
+   },
+   {
+ 
+     "name": "Galactic",
+     "hex": "#677983",
+     "text-color": "black",
+     "bg": "bg-c-g400"
+   },
+   {
+ 
+     "name": "Metal",
+     "hex": "#434F58",
+     "text-color": "black",
+     "bg": "bg-c-g500"
+   }
+  ]
+ } 
+]

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include _head_new.html %}
+<body>
+
+<div class="Grid">
+	<div class="SideNav g-12-12 g-3-12__m">
+		<div class="inner">
+			{% include _nav_new.html %}
+		</div>
+	</div>
+	<div class="g-12-12 bg-c-w100">
+		<main class="p-top-4 p-x-4 p-x-8__m bg-c-w100 m-bottom-5">
+			<h1 class="m-bottom-6">{{page.title}}</h1>
+			{{content}}
+		</main>
+	</div>
+</div>
+
+{% include _footer_new.html %}
+
+</body>
+</html>

@@ -22,7 +22,7 @@ const cssFiles    = '_css/**/*.?(s)css';
 
 */
 
-gulp.task('serve', ['styles', 'jekyll'], function() {
+gulp.task('serve', ['styles', 'styles_new', 'jekyll'], function() {
 
 		browserSync.init({
 				files: [siteRoot + '/**'],
@@ -35,6 +35,7 @@ gulp.task('serve', ['styles', 'jekyll'], function() {
 
 		gulp.watch(cssFiles, ['styles']);
 		gulp.watch("./assets/_scss/**/*.scss", ['styles']);
+		gulp.watch("./assets/_scss_new/**/*.scss", ['styles_new']);
 });
 
 /*
@@ -52,6 +53,26 @@ gulp.task('styles', function () {
 		.pipe(gulp.dest('./assets/css/'))
 		.pipe(browserSync.stream());
 });
+
+
+
+/*
+
+	## gulp  new_styles
+
+	1. Compile the new_sass found it assets/_scss_new
+	2. create style.css to assets/css_new
+	3. Inject into browser with BrowserSync
+
+*/
+
+gulp.task('styles_new', function () {
+	return gulp.src('./assets/_scss_new/*.scss')
+		.pipe(sass({outputStyle_new: 'compact'}).on('error', sass.logError))
+		.pipe(gulp.dest('./assets/css_new/'))
+		.pipe(browserSync.stream());
+});
+
 
 /*
 

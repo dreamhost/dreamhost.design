@@ -1,0 +1,90 @@
+.l-float-right {float: right !important}
+.l-float-left {float: left !important}
+.l-float-none {float: none !important}
+
+.l-inline {display: inline !important}
+.l-inline-block {display: inline-block !important}
+.l-block {display: block !important}
+.l-none {display: none !important}
+
+.l-table {display: table !important}
+.l-table-row {display: table-row !important}
+.l-table-cell {display: table-cell !important}
+
+.l-pos-absolute {position: absolute !important}
+.l-pos-relative {position: relative !important}
+.l-pos-fixed {position: fixed !important}
+.l-pos-static {position: static !important}
+
+.l-pos-top {top: 0 !important}
+.l-pos-bottom {bottom: 0 !important}
+.l-pos-left {left: 0 !important}
+.l-pos-right {right: 0 !important}
+
+.l-pos-top-left {top: 0 !important; left: 0 !important;}
+.l-pos-top-right {top: 0 !important; right: 0 !important;}
+.l-pos-bottom-left {bottom: 0 !important; left: 0 !important;}
+.l-pos-bottom-right {bottom: 0 !important; right: 0 !important;}
+
+.l-pos-all {top: 0 !important; bottom: 0 !important; left: 0 !important; right: 0 !important;}
+
+.z-0 { z-index: $z-0; }
+.z-1 { z-index: $z-1; }
+.z-2 { z-index: $z-2; }
+.z-3 { z-index: $z-3; }
+.z-4 { z-index: $z-4; }
+.z-5 { z-index: $z-5; }
+
+.l-border-box {box-sizing: border-box !important}
+.l-content-box {box-sizing: content-box !important}
+
+@media screen and (min-width: $medium-breakpoint) {
+	.l-float-right__m {float: right !important}
+	.l-float-left__m {float: left !important}
+	.l-float-none__m {float: none !important}
+
+	.l-inline__m {display: inline !important}
+	.l-inline-block__m {display: inline-block !important}
+	.l-block__m {display: block !important}
+	.l-none__m {display: none !important}
+
+	.l-table__m {display: table !important}
+	.l-table-row__m {display: table-row !important}
+	.l-table-cell__m {display: table-cell !important}
+
+	.l-pos-absolute__m {position: absolute !important}
+	.l-pos-relative__m {position: relative !important}
+	.l-pos-fixed__m {position: fixed !important}
+	.l-pos-static__m {position: static !important}
+
+	.l-pos-top__m {top: 0 !important}
+	.l-pos-bottom__m {bottom: 0 !important}
+	.l-pos-left__m {left: 0 !important}
+	.l-pos-right__m {right: 0 !important}
+}
+
+
+@media screen and (min-width: $large-breakpoint){
+	.l-float-right__l {float: right !important}
+	.l-float-left__l {float: left !important}
+	.l-float-none__l {float: none !important}
+
+	.l-inline__l {display: inline !important}
+	.l-inline-block__l {display: inline-block !important}
+	.l-block__l {display: block !important}
+	.l-none__l {display: none !important}
+
+	.l-table__l {display: table !important}
+	.l-table-row__l {display: table-row !important}
+	.l-table-cell__l {display: table-cell !important}
+
+	.l-pos-absolute__l {position: absolute !important}
+	.l-pos-relative__l {position: relative !important}
+	.l-pos-fixed__l {position: fixed !important}
+	.l-pos-static__l {position: static !important}
+
+	.l-pos-top__l {top: 0 !important}
+	.l-pos-bottom__l {bottom: 0 !important}
+	.l-pos-left__l {left: 0 !important}
+	.l-pos-right__l {right: 0 !important}
+}

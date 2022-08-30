@@ -1,0 +1,147 @@
+// Colours
+
+//Backgrounds
+$c-b700: #071c26; //midnight
+$c-w100: #ffffff; //white
+
+//Grayscale
+$c-black: #000000; //black
+$c-b900: #111111; //oblivion
+$c-g500: #434F58; //metal
+$c-g400: #677983; //galactic
+$c-g300: #AFBFC9; //cloudy
+$c-g200: #E0E4E8; //smoke
+$c-g100: #F4F6F9; //offwhite
+
+//Primary Accent
+$c-b500: #1176A5; //royalblue
+$c-b300: #0073EC; //azure
+$c-b100: #CCEFFF; //babyblue
+$c-b50: rgba(0,115,236,.05);//nav bbblue transparent
+
+//Purple Accent
+$c-p300: #A644E5; //prince
+
+// Checkout Accent
+$c-o500: #664200; //autumn
+$c-o300: #F59D00; //tangerine
+$c-o100: #FFE0A6; //peach
+
+// Positive Accent
+$c-t500: #0D8288; //marina
+$c-t300: #00CAAA; //turtle
+$c-t100: #E5FEFF; //ice
+
+// Neutral Accent
+$c-y500: #6F5F1B; //leather
+$c-y300: #FFDA00; //sunflower
+$c-y100: #FFF4B6; //magnolia
+
+// Negative Accent
+$c-r500: #4F0703; //rust
+$c-r300: #FF4A48; //coral
+$c-r100: #FFCCCE; //rose
+
+// Legacy Colors
+// TODO: DEPRECATE THESE, NEPHEW
+$blue: #2BADE9;
+$dark-blue: #1176A5;
+$green: #027F1B;
+$orange: #FFA700;
+$red: #B80C03;
+$white: #fff;
+$lighter-grey: #F4F6F9;
+$light-grey: #E0E4E8;
+$dark-grey: #5E6D78;
+$black: #000000;
+
+// Sizing Scale
+// Use baseScale with convertScaleToRem() to ensure consistent margins.
+$baseScale: 8; // Goes in 8px increments
+$maxSize: 16; // Build 16 increments, 128px
+
+// Responsive
+$medium-breakpoint: 750px;
+$large-breakpoint: 1050px;
+
+// Typography
+$body: 'Gilroy', sans-serif;
+$heading: 'Gilroy', sans-serif;
+$mono: 'Ubuntu Mono', monospace;
+
+//Sizes
+$t-6: 7rem; // 40px
+$t-5: 3.00rem; // 48px
+$t-4: 2rem; // 32px
+$t-3: 1.75rem; //24px
+$t-2: 1.50rem; //20px
+$t-1: 1rem; //16px
+$t-0: 0.875rem; //14px
+
+// Line Height
+$t-h-5: 3rem; // 48px;
+$t-h-4: 2.5rem; // 40px;
+$t-h-3: 2rem; // 32px
+$t-h-2: 1.5rem; //24px
+$t-h-1: 1rem; //16px
+
+$t-h-single: 1; //Current font size
+$t-h-double: 2; //Double current font size
+
+// Font weight
+$t-lighter: 100;
+$t-light: 300;
+$t-regular: 400;
+$t-medium: 500;
+$t-bold: 700;
+$t-extrabold: 900;
+
+// Borders
+$border-radius: 3px;
+
+// Border size
+$border-size-1: 1px;
+$border-size-2: 2px;
+$border-size-3: 3px;
+
+// Z-indexes
+$z-0: -1;
+$z-1: 1;
+$z-2: 10;
+$z-3: 100;
+$z-4: 1000;
+$z-5: 10000;
+
+// Bootstrap Grid Variables
+// Custom variables overriding default bootstrap grid values
+$enable-grid-classes: true;
+
+// Breakpoints
+// Minimum dimensions layout will change at different screen sizes.
+// Adds two additional breakpoints to allow for more flexible grid implementation
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: $medium-breakpoint,
+	lg: $large-breakpoint,
+	xl: 1280px
+) !default;
+
+// Grid columns
+// Set the number of columns and specify the width of the gutters.
+// Gutter values must be a multiple of 8px in order to fit with 8pt grid system
+$grid-columns: 12 !default;
+$grid-gutter-width: 2rem !default;
+
+// Container Max Widths
+// Allows a variable container size for various media query sizes
+$container-max-widths: () !default;
+$container-max-widths: map-merge(
+	(
+		sm: 540px,
+		md: 700px,
+		lg: 928px,
+		xl: 1212px
+	),
+	$container-max-widths
+);

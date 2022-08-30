@@ -1,0 +1,40 @@
+/**
+Font Size + Line Height
+
+This mixin sets font size and line height for use with components. Using this
+will ensure that the UI will adhere to the 8px vertical baseline grid.
+
+All font sizes/line heights should use only the sizing variables set in _variables.scss
+
+// Usage [HTML]
+<div class="thing">Thing</div>
+
+// Usage [SCSS]
+.thing {
+	@include font-size($t-5);
+	// @include(font-size($t-5, $t-h-1); <-- Custom line height value override also available
+}
+
+Compiles to:
+
+.thing {
+	font-size: 2.5rem; // 40px
+	line-height: 3rem; // 48px
+}
+
+**/
+
+@mixin fontsize($size: 1rem, $line-height: calc(1em + 8px)) {
+	font-size: $size;
+	@if($line-height != calc(1em + 8px)) {
+		line-height: $line-height;
+	} @else {
+		@if $size == 0.875rem {
+			line-height: 1rem;
+		} @else if $size == 1.25rem {
+			line-height: 2rem;
+		} @else {
+			line-height: $line-height;
+		}
+	}
+}

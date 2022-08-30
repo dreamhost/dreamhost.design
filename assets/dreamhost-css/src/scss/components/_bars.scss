@@ -1,0 +1,118 @@
+.Bar {
+	border-radius: 10px;
+	border: 1px solid $c-g300;
+	& + .Bar {
+		margin-top: 1.5rem;
+	}
+}
+
+.Bar__row {
+	display: flex;
+	min-height: 88px;
+	flex-direction: column;
+}
+
+.Bar__group-icon {
+	min-width: 32px;
+	max-width: 32px;
+	margin-right: 1rem;
+}
+
+.Bar__group {
+	display: flex;
+	align-items: center;
+	padding: 1.5rem;
+	padding-right: 1rem;
+}
+
+.Bar__group--start {
+	width: 100%;
+	margin-right: auto;
+	white-space: nowrap;
+	font-weight: 600;
+	color: $black;
+}
+
+.Bar__group--mid {
+	width: 100%;
+	padding: 1.5rem;
+}
+
+.Bar__group--end {
+	padding: 0;
+}
+
+@media(min-width: $large-breakpoint) {
+	.Bar__row {
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.Bar__group--start {
+		margin-bottom: 0;
+		width: 25%;
+	}
+	.Bar__group--mid {
+		width: 250px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		display: block;
+		border: 0;
+	}
+	.Bar__group--end {
+		border: 0;
+	}
+	.Bar__group--end {
+		padding: 1.5rem;
+		margin-left: auto;
+	}
+}
+
+.Bar__drawer, .Bar__delete, .Bar__edit, .Bar__alert {
+	display: none;
+}
+
+.Bar.is-open {
+	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.08);
+}
+
+.Bar.is-open .Bar__drawer {
+	display: block;
+}
+
+.Bar__drawer {
+	background: $c-g100;
+	border-radius: 0 0 10px 10px;
+}
+
+.Bar.is-open .chevron-down, .chevron-up {
+	transform: rotate(180deg);
+}
+
+.Bar.delete-mode .Bar__delete {
+	display: flex;
+}
+
+.Bar.edit-mode .Bar__edit {
+	display: block;
+}
+
+.Bar__editable {
+	cursor: pointer;
+}
+
+.Bar__editable-icon {
+	display: none;
+}
+
+.Bar__editable:hover .Bar__editable-text {
+	border-bottom: 1px solid #434F58;
+}
+
+.Bar__editable:hover .Bar__editable-icon {
+	display: inline-block;
+}
+
+.Bar.has-alert .Bar__alert {
+	display: block;
+}

@@ -1,0 +1,219 @@
+// Class for SVG icons to make them work inline with text
+.Icon {
+	vertical-align: middle;
+	width: 2rem;
+	height: 2rem;
+
+	> *{
+		fill: currentColor;
+	}
+
+	&.Icon--size-4 {
+		width: 4rem;
+		height: 4rem;
+		font-size: 4rem;
+	}
+	&.Icon--size-3 {
+		width: 2rem;
+		height: 2rem;
+		font-size: 2rem;
+	}
+	&.Icon--size-2 {
+		width: 1.5rem;
+		height: 1.5rem;
+		font-size: 1.5rem;
+	}
+	&.Icon--size-1 {
+		width: 1rem;
+		height: 1rem;
+		font-size: 1rem;
+	}
+}
+
+// Icon font character mapping
+[class^="Icon--"], [class*="Icon--"] {
+	font-family: 'dh-icon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	@include fontsize($t-3);
+	text-decoration: inherit;
+	text-rendering: optimizeLegibility;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.supports-fontface {
+	.Icon--access:before {
+		content: "\e900";
+	}
+	.Icon--account:before {
+		content: "\e901";
+	}
+	.Icon--accounts:before {
+		content: "\e902";
+	}
+	.Icon--agree:before {
+		content: "\e903";
+	}
+	.Icon--aid:before {
+		content: "\e904";
+	}
+	.Icon--arrow:before {
+		content: "\e905";
+	}
+	.Icon--attachment:before {
+		content: "\e906";
+	}
+	.Icon--automate:before {
+		content: "\e907";
+	}
+	.Icon--award:before {
+		content: "\e908";
+	}
+	.Icon--bandwidth:before {
+		content: "\e909";
+	}
+	.Icon--biz:before {
+		content: "\e90a";
+	}
+	.Icon--block:before {
+		content: "\e90b";
+	}
+	.Icon--bug:before {
+		content: "\e90c";
+	}
+	.Icon--build:before {
+		content: "\e90d";
+	}
+	.Icon--cart:before {
+		content: "\e90e";
+	}
+	.Icon--chat:before {
+		content: "\e90f";
+	}
+	.Icon--check:before {
+		content: "\e910";
+	}
+	.Icon--comp:before {
+		content: "\e911";
+	}
+	.Icon--connection:before {
+		content: "\e912";
+	}
+	.Icon--database:before {
+		content: "\e913";
+	}
+	.Icon--dedicated:before {
+		content: "\e914";
+	}
+	.Icon--design:before {
+		content: "\e915";
+	}
+	.Icon--doc:before {
+		content: "\e916";
+	}
+	.Icon--email:before {
+		content: "\e917";
+	}
+	.Icon--facebook:before {
+		content: "\e918";
+	}
+	.Icon--folders:before {
+		content: "\e919";
+	}
+	.Icon--forward:before {
+		content: "\e91a";
+	}
+	.Icon--fun:before {
+		content: "\e91b";
+	}
+	.Icon--globe:before {
+		content: "\e91c";
+	}
+	.Icon--growth:before {
+		content: "\e91d";
+	}
+	.Icon--handmade:before {
+		content: "\e91e";
+	}
+	.Icon--history:before {
+		content: "\e91f";
+	}
+	.Icon--instagram:before {
+		content: "\e920";
+	}
+	.Icon--lock:before {
+		content: "\e921";
+	}
+	.Icon--mailbox:before {
+		content: "\e922";
+	}
+	.Icon--mouse:before {
+		content: "\e923";
+	}
+	.Icon--notification:before {
+		content: "\e924";
+	}
+	.Icon--ram:before {
+		content: "\e925";
+	}
+	.Icon--ruby:before {
+		content: "\e926";
+	}
+	.Icon--scale:before {
+		content: "\e927";
+	}
+	.Icon--search:before {
+		content: "\e928";
+	}
+	.Icon--sftp:before {
+		content: "\e929";
+	}
+	.Icon--shared:before {
+		content: "\e92a";
+	}
+	.Icon--speed:before {
+		content: "\e92b";
+	}
+	.Icon--ssd:before {
+		content: "\e92c";
+	}
+	.Icon--stack:before {
+		content: "\e92d";
+	}
+	.Icon--team:before {
+		content: "\e92e";
+	}
+	.Icon--time:before {
+		content: "\e92f";
+	}
+	.Icon--twitter:before {
+		content: "\e930";
+	}
+	.Icon--vps:before {
+		content: "\e931";
+	}
+	.Icon--web:before {
+		content: "\e932";
+	}
+	.Icon--weight:before {
+		content: "\e933";
+	}
+	.Icon--wordpress:before {
+		content: "\e934";
+	}
+	.Icon--write:before {
+		content: "\e935";
+	}
+	.Icon--x:before {
+		content: "\e936";
+	}
+	.Icon--youtube:before {
+		content: "\e937";
+	}
+}

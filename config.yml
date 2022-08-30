@@ -9,5 +9,6 @@ baseurl: /design
 sass:
   load_paths:
     - assets/_scss
+    - assets/_scss_new
     - node_modules
   style: compressed

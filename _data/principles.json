@@ -1,0 +1,60 @@
+[
+  {
+    "heading": "Empower People",
+    "description": "Because we don’t need any stuffy-white-shirted-tie-wearing boss micro-managing our every move, we have the autonomy to complete the projects that matter and make a difference for customers. We do all of that because we believe in giving customers the right tools they need to achieve their dreams online. By empowering our employees to be truly helpful, we also empower our customers with products and services they need to do their business, their way... and that’s what it’s all about!",
+    "name": "Empower People",
+    "url": "ep.svg",
+    "url-typ": "ep-typ.svg"
+  },
+
+  {
+    "heading": "Practice Shameless Honesty",
+    "description": "Anyone can say that they’re open and honest, but at DreamHost we take it to extremes. We’re a gaping hole from which truth oozes, white hot, and which ultimately brings us closer together. Being transparent with each other and with our customers is a surefire way to build trust, mutual respect, and, if we’ve had enough wine, love.",
+    "name": "Practice Shameless Honesty",
+    "url": "psh.svg",
+    "url-typ": "psh-typ.svg"
+  },
+  {
+    "heading": "Give Everyone a Voice",
+    "description": "Everyone at every level of the organization has a voice at DreamHost! We all bring our own unique perspective and experience to every conversation, and having those diverse inputs leads to better problem solving and more productive teams. Being able to influence and inform key decisions is an important part of feeling valued at work!",
+    "name": "Give Everyone a Voice",
+    "url": "ev.svg",
+    "url-typ": "ev-typ.svg"
+  },
+
+  {
+    "heading": "Speak Hacker",
+    "description": "At DreamHost we like to ask questions and then figure out the answers because we enjoy finding creative solutions through a combination of free thinking, free speech,and, of course, free software. Simply put, we speak hacker.",
+    "name": "Speak Hacker",
+    "url": "sh.svg",
+    "url-typ": "sh-typ.svg"
+  },  {
+    "heading": "Embrace Open Source",
+    "description": "DreamHost understands the world is embracing open source technology. From our infrastructure, to our software stack, to our product management tools, we believe that open source products enable us to do great things for ourselves and, more importantly, our customers. Open source gives opportunities for growth, criticism and accountability. We not only leverage the work of others but contribute code back to larger projects that benefit all users - not just ourselves and our customers. That’s the beauty of the open source world.",
+    "name": "Embrace Open Source",
+    "url": "eos.svg",
+    "url-typ": "eos-typ.svg"
+  },
+
+  {
+    "heading": "Practice Flexibility",
+    "description": "With a full spectrum of hosting services, our flexibility extends beyond our customer offerings and is deeply ingrained in our culture as well. We’ve been known to bend into all sorts of uncomfortable positions to serve customers and our employees better!",
+    "name": "Practice Flexibility",
+    "url": "pf.svg",
+    "url-typ": "pf-typ.svg"
+  },  {
+    "heading": "Provide Superhero Service",
+    "description": "Because we don’t need any stuffy-white-shirted-tie-wearing boss micro-managing our every move, we have the autonomy to complete the projects that matter and make a difference for customers. We do all of that because we believe in giving customers the right tools they need to achieve their dreams online. By empowering our employees to be truly helpful, we also empower our customers with products and services they need to do their business, their way... and that’s what it’s all about!",
+    "name": "Provide Superhero Service",
+    "url": "shs.svg",
+    "url-typ": "shs-typ.svg"
+  },
+
+  {
+    "heading": "Be Irreverent & Fun",
+    "description": "While we take our customers and the services we provide very seriously, we don’t take OURSELVES so seriously that dealing with us becomes an exercise in being PC. Life has “edges.” We tend to hangout around those edges in the way we do business, and that’s evident in the way we communicate. You are far more likely to encounter an off-the-wall, irreverent comment from us than you are to be subjected to corporate double-speak.",
+    "name": "Be Irreverent & Fun",
+    "url": "if.svg",
+    "url-typ": "if-typ.svg"
+  }
+]

@@ -1,0 +1,64 @@
+<aside class="sidebar  ">
+    <!-- Begin Sidebar -->
+    <ul class="subnav flex flex-column">
+        <!-- LEVEL 1 -->
+
+        <li class="design__item sidebar__nav__item transition--all flex flex-column is-uncollapsed">
+
+            <ul class='subnav__subnav bg-c-w100 {% if page.url == "/new/" %}bg-black{% endif %} p-2 t-0'>
+                <li>
+                    <p class=" p-3 t-c-b300 l-flex flex-justify-between t-ls-1">
+                        DESIGN GUIDELINES
+                    </p>
+                </li>
+
+                <li>
+                    <a href="{{site.baseurl}}/new/principles" class='l-flex flex-justify-between{% if page.url == 
+                        "/new/principles/" %} is-active{% endif %}
+                    {% if page.url == "/new/" %}t-c-w100{% endif %}'>
+                        Principles
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="{{site.baseurl}}/new/colors" class='l-flex flex-justify-between{% if page.url == 
+                        "/colors/" %} is-active{% endif %}
+                    {% if page.url == "/new/" %}t-c-w100{% endif %}'>
+                        Colors
+                    </a>
+                </li>
+
+
+                <li><a href="{{site.baseurl}}/new/mascot" class='l-flex flex-justify-between{% if page.url == "/new/mascot/" %} is-active{% endif %}
+                    {% if page.url == "/new/" %}t-c-w100{% endif %}'>Mascot</a></li>
+
+                
+
+
+
+
+                <li>
+                    <a class='l-flex flex-justify-between {% if page.url contains "/new/iconography/" %}is-uncollapsed{% endif %}{% if page.url == "/new/" %}t-c-w100{% endif %}'
+                        href="javascript:;">
+                        Iconography
+                    </a>
+                    <ul class='subnav__subnav__subnav bg-c-b50 {% if page.url == "/new/" %}bg-black{% endif %} t-0'>
+                        <!-- LEVEL 3 -->
+
+                        <li><a href="{{site.baseurl}}/new/iconography/product" class='{% if page.url =="/new/iconography/product/" %}is-active{% endif %}
+                    {% if page.url == "/new/" %}t-c-w100{% endif %}'>Product</a></li>
+                        <li><a href="{{site.baseurl}}/new/iconography/standard/" class='{% if page.url == "/new/iconography/standard/" %}is-active{% endif %}
+                    {% if page.url == "/new/" %}t-c-w100{% endif %}'>Standard</a></li>
+
+                    </ul>
+                </li>
+
+            </ul><!-- end submenu -->
+
+        </li>
+
+
+
+    </ul>
+</aside>
+

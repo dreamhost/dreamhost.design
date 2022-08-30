@@ -1,0 +1,61 @@
+//Quick Copy
+.Quickcopy {
+	display: inline-block;
+	position: relative;
+
+	.Quickcopy__text {
+		border-radius: 3px;
+		background: $c-g500;
+		display: inline-block;
+
+		code {
+			background: transparent;
+			border: none;
+		}
+
+		.Quickcopy__btn {
+			display: inline-block;
+			color: $c-w100;
+			@include fontsize($t-0);
+
+			&:hover {
+				cursor: pointer;
+			}
+		}
+	}
+
+	.Quickcopy__message {
+		font-family: monospace;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: solid 1px $c-t300;
+		background: $c-g100;
+		color: $c-b700;
+		width: 100%;
+		padding: 0.45rem;
+		transition: all 0.2s ease-in-out;
+		pointer-events: none;
+		opacity: 0;
+		border-radius: 3px;
+		@include fontsize($t-1, $t-0);
+
+		svg {
+			background: $c-t300;
+			color: $c-t100;
+			padding: 0.5rem;
+			height: 29px;
+			width: 29px;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+
+//Show success state
+.Quickcopy__success {
+	.Quickcopy__message {
+		opacity: 1;
+	}
+}

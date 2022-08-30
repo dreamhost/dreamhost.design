@@ -7,7 +7,8 @@
     "url": "https://github.com/dreamhost/design.git"
   },
   "scripts": {
-    "version": "gulp dist && git add -A"
+    "version": "gulp dist && git add -A",
+    "dev": "jekyll clean && gulp"
   },
   "devDependencies": {
     "browser-sync": "^2.18.1",
@@ -21,6 +22,10 @@
     "gulp-uglify": "^2.0.1"
   },
   "license": "MIT",
+  "engines": {
+    "node": "<=8.9.1",
+    "npm": "<=5.5.1"
+  },
   "dependencies": {
     "dreamhost-css": "0.4.0"
   }

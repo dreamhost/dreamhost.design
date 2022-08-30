@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include _head_new.html %}
+<body>
+
+
+<div class="app">
+
+    
+
+    <nav class="nav flex flex-align-center">
+
+        <div class="nav-menu__toggle">
+            <button onclick="toggleMenu()" href="#" class="hamburger toggle" style="color: #000;">&#9776;</button>
+            <button style="display: none;" onclick="toggleMenu()" href="#"
+                class="close toggle">&times;</button>
+        </div>
+
+        <div class="eclipse bg-white">
+            <p>E C L I P S E</p>
+            <div class="flex">
+                <a href="/new/" class="brand">
+                    <img src="/assets/images/logo/dh_logo-blue.png" />
+                </a>
+                <span>Brand Guidelines</span>
+            </div>
+        </div>
+
+    </nav> <!-- End Navigation Area -->
+
+    {% include _nav_new.html %}
+
+
+    <main class="main {% if page.toc == false %} no-toc{% endif %}">
+
+        <article
+            class="t-body{% if page.fullwidth %} container-full-width{% else %} container-l{% endif %}">
+            <header class="m-bottom-6">
+                <h1 class="t-5 m-bottom-0">{{page.title}}</h1>
+            </header>
+
+            {{content}}
+
+        </article>
+    </main>
+
+    {% if page.toc != false %}
+    
+    {% endif %}
+
+
+</div>
+
+
+{% include _footer_new.html %}
+
+</body>
+</html>

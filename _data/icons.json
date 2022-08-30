@@ -1,0 +1,115 @@
+[
+{
+
+"name": "Academy",
+"url": "academy.svg"
+},
+{
+"name": "Build",
+"url": "build.svg"
+},
+{
+"name": "Business",
+"url": "business.svg"
+},
+{
+"name": "Cloud Hosting",
+"url": "cloud-hosting.svg"
+},
+{
+"name": "Custom Web Design",
+"url": "custom-web-design.svg"
+},
+{
+"name": "Dedicate Hosting",
+"url": "dedicated-hosting.svg"
+},
+{
+"name": "Development",
+"url": "development.svg"
+},
+{
+"name": "",
+"url": "dream-shop.svg"
+},
+{
+"name": "Email Hosting",
+"url": "email-hosting.svg"
+},
+{
+"name": "Enterprise",
+"url": "enterprise.svg"
+},
+{
+"name": "Grow",
+"url": "grow.svg"
+},
+{
+"name": "Managed Wordpress",
+"url": "managed-wordpress.svg"
+},
+{
+"name": "Management",
+"url": "management-category.svg"
+},
+{
+"name": "Marketing",
+"url": "marketing-category.svg"
+},
+{
+"name": "On Demand",
+"url": "on-demand.svg"
+},
+{
+"name": "Promote",
+"url": "promote.svg"
+},
+{
+"name": "Retainer",
+"url": "retainer.svg"
+},
+{
+"name": "SEO",
+"url": "seo.svg"
+},
+{
+"name": "Shared Hosting",
+"url": "shared-hosting.svg"
+},
+{
+"name": "Shared Wordpress",
+"url": "shared-wordpress.svg"
+},
+{
+"name": "Social Marketing",
+"url": "social-marketing.svg"
+},
+{
+"name": "Start Up",
+"url": "start-up.svg"
+},
+{
+"name": "VPS Hosting",
+"url": "vps-hosting.svg"
+},
+{
+"name": "VPS Wordpress",
+"url": "vps-wordpress.svg"
+},
+{
+"name": "VPS",
+"url": "vps.svg"
+},
+{
+"name": "Wbsite Builder",
+"url": "website-builder.svg"
+},
+{
+"name": "Woo Commerce Hosting",
+"url": "woocommerce-hosting.svg"
+},
+{
+"name": "WP Builder",
+"url": "wp-builder.svg"
+}
+]

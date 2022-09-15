@@ -1,0 +1,8 @@
+{% assign url = site.baseurl | append: '' | append: include.url %}
+<li>
+	<a href='{{ url }}' class='l-flex flex-justify-between{% if page.url == 
+			include.url %} is-active{% endif %}
+	{% if page.url == "/" %}t-c-w100{% endif %}'>
+			{{ include.title }}
+	</a>
+</li>

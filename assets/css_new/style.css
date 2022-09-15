@@ -153,9 +153,7 @@ html.remodal-is-locked {
 .remodal.remodal-is-opening, .remodal-is-opening.Modal {
   animation-name: remodal-opening-keyframes; }
 
-
-.remodal.remodal-is-closing,
-.remodal-is-closing.Modal {
+.remodal.remodal-is-closing, .remodal-is-closing.Modal {
   animation-name: remodal-closing-keyframes; }
 
 /* Vertical align of the modal dialog */
@@ -8101,15 +8099,15 @@ code.hljs {
   display: grid;
   grid-template-columns: max-content 1fr;
   grid-template-rows: min-content auto;
-  grid-template-areas: "logo nav" "sidebar sidebar" "main main"; }
+  grid-template-areas: "logo nav" "sidebar sidebar" "main main"; }
   @media (min-width: 800px) {
     .app {
       grid-template-columns: 18rem 1fr 18rem;
       grid-template-rows: min-content auto;
-      grid-template-areas: "logo nav nav" "sidebar main main"; } }
+      grid-template-areas: "logo nav nav" "sidebar main main"; } }
   @media (min-width: 1350px) {
     .app {
-      grid-template-areas: "logo nav nav" "sidebar main toc"; } }
+      grid-template-areas: "logo nav nav" "sidebar main toc"; } }
 
 .logo {
   grid-area: logo;
@@ -8279,7 +8277,7 @@ main {
     line-height: 1; }
     .subnav__subnav > li > a {
       padding: 1rem 1rem;
-      border-left: rgba(0, 0, 0, 0) 8px solid; }
+      border-left: transparent 8px solid; }
       .subnav__subnav > li > a:hover {
         background-color: rgba(0, 115, 236, 0.05);
         font-weight: bold;

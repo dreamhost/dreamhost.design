@@ -1,49 +1,75 @@
 ---
-title: DreamHost Design System
-layout: app
+title: Eclipse
+layout: landing_new
 toc: false
 ---
 
-<p class="t-4">Welcome to the DreamHost design system guidelines. This documentation offers the design specification and components to implement our communications and products. Please consider these guidelines a living document that will evolve as we continue to develop our design language &amp; culture.</p>
 
-<hr />
 
-<h3 class="m-bottom-4">Getting Started</h3>
+<div class="container-fluid bg-none ">
+<div class="m-top-16">
+  <span  class="flex-justify-start__m t-5 t-6__m  flex flex-align-center flex-justify-center t-bold m-bottom-0 t-c-w100 m-bottom-4">{{page.title}}</span>
 
-<p>Our design system consists of three key properties that are useful for both designers &amp; developers working with Dreamhost.</p>
+  	<a href="{{site.baseurl}}/principles" class="Button t-1 t-3__m l-none__m rounded-pill flex flex-align-center flex-justify-center t-black border-none  w-50 bg-c-w100 m-auto  ">Start</a>
 
-<div class="Card__wrapper Grid--auto">
-	<div class="Card bg-c-g100 p-4 u-border-radius m-bottom-0">
-	<svg class="Icon Icon--size-4 w-100 t-center m-bottom-4 t-c-b300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M20.2 9.7l-7 7.6-1.5-1.5c-.9-.9-2.2-.9-3.1 0-.9.9-.9 2.3 0 3.1l2.7 2.8.4.4c1.7 1.5 3.2-.2 3.4-.4.1-.1 2.8-3 8.3-9 .8-.9.8-2.3-.1-3.1-.9-.8-2.3-.8-3.1.1z"></path><path d="M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm-.2 28.7C8.8 28.7 3.1 23 3.1 16S8.8 3.3 15.8 3.3c7 0 12.7 5.7 12.7 12.7s-5.7 12.7-12.7 12.7z"></path></svg>
-		<h3 class="m-bottom-2"><a href="{{site.baseurl}}/design/guidelines">Design Principles</a></h3>
-		How we think about, discuss &amp; justify our design process.
-	</div>
-	<div class="Card bg-c-g100 p-4 u-border-radius m-bottom-0">
-		<svg style="height:64px;" class="w-100 t-center m-bottom-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231 209"><style>.st0{fill:#ffae00}</style><path class="st0" d="M115.5 209L0 74.8 50 7l65.5-7L181 7l50 67.8L115.5 209z"/><path d="M115.5 209L0 74.8h231L115.5 209z" fill="#ec6c00"/><path class="st0" d="M115.5 209L46.8 74.8h137.5L115.5 209z"/><path d="M115.5 0L46.8 74.8h137.5L115.5 0z" fill="#ffefb4"/><path class="st0" d="M50 7L24.3 41.1 0 74.8h47.2L50 7zm131 0l25.7 34.1L231 74.8h-47.2L1817z"/><path d="M50 7l-3.3 67.8L115.5 0 50 7zm131 0l3.3 67.8L115.5 0 181 7z" fill="#fed305"/></svg>
-		<h3 class="m-bottom-2"><a href="{{site.baseurl}}/sketch">Sketch Library</a></h3>
-		<p>Assets for rapid hi-fi mockups. The <a href="https://blog.goabstract.com/sketch-libraries-abstract-linked-libraries-4c73c10750d0" target="_blank">shared Sketch library</a> is version controlled through <a href="https://www.goabstract.com/" target="_blank">Abstract</a>.</p>
-	</div>
-	<div class="Card bg-c-g100 p-4 u-border-radius m-bottom-0">
-	<svg class="Icon Icon--size-4 w-100 t-center m-bottom-4 t-c-b300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" enable-background="new 0 0 32 32"><defs><filter id="a" filterUnits="userSpaceOnUse" x="0" y="0" width="32" height="32"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"></feColorMatrix></filter></defs><mask maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32" id="b"><path fill="#fff" d="M0 0h32v32H0z" filter="url(#a)"></path></mask><path d="M16 28.7c-.6 0-1.1 0-1.7-.1 0-.1-.1-.2-.1-.3-1.1-2-2-3.9-2.5-5.8 1.4.1 2.8.2 4.4.2 5 0 8.8-.7 11.7-2-1.9 4.7-6.5 8-11.8 8m-11.8-8c1.1.5 2.4.9 3.8 1.3.4 1.7.9 3.3 1.7 5-2.5-1.4-4.4-3.7-5.5-6.3m7.3-6.8c.2-.8.5-1.6.9-2.3 1.1.1 2.3.1 3.7.1 5.2 0 8.8-.7 10.8-2.2 1.1 1.9 1.8 4.1 1.8 6.5-2 2.2-6.2 3.4-12.6 3.4-1.9 0-3.6-.1-5.1-.3-.1-1.9 0-3.6.5-5.2m-1-6c-1.6-.3-2.6-.7-3.2-1.1 1.9-1.8 4.4-3 7.1-3.4-1.3 1.2-2.7 2.7-3.9 4.5m14.2-1.1c-1 .7-3.4 1.5-8.7 1.5h-1.6c2.1-2.6 4.5-4.1 5.1-4.4 2 .5 3.8 1.6 5.2 2.9M3.3 15.9c0-2.4.7-4.6 1.8-6.5.9.7 2.2 1.2 3.7 1.6-.2.6-.5 1.2-.7 1.9-.5 1.8-.7 3.6-.7 5.4-1.7-.6-3.1-1.3-4.1-2.4M16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0" mask="url(#b)">&lt;/svg&gt;
-</path></svg>
-		<h3 class="m-bottom-2"><a href="{{site.baseurl}}/product">DreamHost.css</a></h3>
-		<p>DreamHost.css is our bespoke library of reusable utilities &amp; components.</p>
-	</div>
+<div>
+  <div class="l-float-right  l-pos-fixed  l-pos-absolute__m z-0 l-pos-top-right no-scroll">
+<svg width="1400" height="1400" viewBox="0 0 500 1460" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1085.68 0C880.986 -8.94729e-06 715.034 166.003 715.034 370.806L1085.68 370.806L1085.68 0Z" fill="url(#paint0_linear_284_1756)"/>
+<path d="M1456.31 741.423C1456.31 536.709 1290.32 370.736 1085.55 370.736L1085.55 741.423L1456.31 741.423Z" fill="url(#paint1_linear_284_1756)"/>
+<path d="M1088.02 1459.24C1292.45 1459.24 1458.19 1303.88 1458.19 1112.2L1088.02 1112.2L1088.02 1459.24Z" fill="url(#paint2_linear_284_1756)"/>
+<path d="M715.023 370.524C715.023 575.305 880.953 741.33 1085.67 741.33L1085.67 370.524L715.023 370.524Z" fill="url(#paint3_linear_284_1756)"/>
+<path d="M344.38 741.696C344.38 946.476 510.31 1112.5 715.023 1112.5L715.023 741.696L344.38 741.696Z" fill="url(#paint4_linear_284_1756)"/>
+<path d="M714.76 371.341C510.115 371.341 344.199 537.381 344.199 742.228L714.76 742.228L714.76 371.341Z" fill="url(#paint5_linear_284_1756)"/>
+<path d="M1085.62 1112.5C1085.62 907.721 919.69 741.696 714.978 741.696L714.978 1112.5L1085.62 1112.5Z" fill="url(#paint6_linear_284_1756)"/>
+<path d="M370.168 1112.2C165.74 1112.2 -3.64276e-05 1267.56 -4.53644e-05 1459.24L370.168 1459.24L370.168 1112.2Z" fill="url(#paint7_linear_284_1756)"/>
+<path d="M741.282 1459.24C741.282 1267.58 575.145 1112.2 370.177 1112.2L370.177 1459.24L741.282 1459.24Z" fill="url(#paint8_linear_284_1756)"/>
+<path d="M716.908 1112.2C716.908 1303.85 883.045 1459.24 1088.01 1459.24L1088.01 1112.2L716.908 1112.2Z" fill="url(#paint9_linear_284_1756)"/>
+<defs>
+<linearGradient id="paint0_linear_284_1756" x1="1085.68" y1="-8.5656e-06" x2="1085.68" y2="395.182" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0073EC" stop-opacity="0"/>
+<stop offset="1" stop-color="#0073EC"/>
+</linearGradient>
+<linearGradient id="paint1_linear_284_1756" x1="1085.73" y1="741.698" x2="1341.03" y2="467.357" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A644E5"/>
+<stop offset="1" stop-color="#A644E5" stop-opacity="0.1"/>
+</linearGradient>
+<linearGradient id="paint2_linear_284_1756" x1="1383.15" y1="1342.11" x2="1119.53" y2="1085.45" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0073EC" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#0073EC"/>
+</linearGradient>
+<linearGradient id="paint3_linear_284_1756" x1="1085.67" y1="555.927" x2="715.023" y2="555.927" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A644E5"/>
+<stop offset="1" stop-color="#00CAAA"/>
+</linearGradient>
+<linearGradient id="paint4_linear_284_1756" x1="467.356" y1="1008.26" x2="715.42" y2="741.695" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00CAAA" stop-opacity="0.1"/>
+<stop offset="1" stop-color="#00CAAA"/>
+</linearGradient>
+<linearGradient id="paint5_linear_284_1756" x1="715.035" y1="742.041" x2="440.614" y2="486.839" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A644E5"/>
+<stop offset="1" stop-color="#A644E5" stop-opacity="0.1"/>
+</linearGradient>
+<linearGradient id="paint6_linear_284_1756" x1="758.409" y1="1072.21" x2="1000.72" y2="837.002" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0073EC"/>
+<stop offset="1" stop-color="#A644E5" stop-opacity="0.2"/>
+</linearGradient>
+<linearGradient id="paint7_linear_284_1756" x1="75.0362" y1="1229.33" x2="338.656" y2="1485.99" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0073EC" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#0073EC"/>
+</linearGradient>
+<linearGradient id="paint8_linear_284_1756" x1="614" y1="1186" x2="378.418" y2="1443.85" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00CAAA"/>
+<stop offset="0.981058" stop-color="#A644E5"/>
+</linearGradient>
+<linearGradient id="paint9_linear_284_1756" x1="1088.01" y1="1459.24" x2="776.796" y2="1092.19" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0073EC"/>
+<stop offset="1" stop-color="#00CAAA"/>
+</linearGradient>
+</defs>
+</svg>
+
+
 </div>
 
-<hr />
-
-<h3 class="m-bottom-4">Contributing to the design system</h3>
-
-<p>How to work collaboratively with the framework</p>
-
-<ol class="m-bottom-3">
-	<li>Design a product or page using the existing Sketch pattern library.</li>
-	<li>Build product prototype &amp; production code using DreamHost.css existing components creating custom styles where needed for new components.</li>
-	<li>Release &amp; prove new components.</li>
-	<li>Add new components to Sketch pattern library.</li>
-	<li>Build new components into DreamHost.css framework.</li>
-	<li>Document new components and variants.</li>
-</ol>
-
-<p>By following this simple workflow we will only promote tried &amp; tested components into the living library. Party time!</p>
+</div>

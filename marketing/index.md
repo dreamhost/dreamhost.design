@@ -1,4 +1,0 @@
----
-title: Marketing
-layout: page
----

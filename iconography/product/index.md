@@ -69,7 +69,7 @@ toc: false
        <img class="flex m-auto" src="{{site.baseurl}}/assets/images/icons_new/product/samples/shared_don't_sample.svg" alt="Shaded Icons" />
       </div>
       <div class="border-c-r300 border-top-3 border-solid p-4">
-      <h5 class="t-bold t-c-r300">Do</h5>
+      <h5 class="t-bold t-c-r300">Don't</h5>
       <p>
       Don’t make your own version or convert the icon to any style, on this example converting it into duo tones is not advisable.</p>
       </div>

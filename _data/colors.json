@@ -49,7 +49,7 @@
      "name": "Coral",
      "hex": "#FF4A48",
      "text-color": "black",
-     "bg": "bg-c-3300"
+     "bg": "bg-c-r300"
      
    },
    {
@@ -89,14 +89,14 @@
  
      "name": "Galactic",
      "hex": "#677983",
-     "text-color": "black",
+     "text-color": "white",
      "bg": "bg-c-g400"
    },
    {
  
      "name": "Metal",
      "hex": "#434F58",
-     "text-color": "black",
+     "text-color": "white",
      "bg": "bg-c-g500"
    }
   ]

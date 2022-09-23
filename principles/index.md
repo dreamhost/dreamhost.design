@@ -146,4 +146,4 @@ People have the freedom to choose how their digital content is shared.</p>
 
 
 
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Color →</a></h3> 
+<h3 class ="t-bold t-right m-0">  Next: <a href="{{site.baseurl}}/colors/">Color →</a></h3> 

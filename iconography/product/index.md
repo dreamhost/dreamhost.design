@@ -1,5 +1,5 @@
 ---
-title: Iconography
+title: Product Icons
 layout: app_new
 toc: false
 ---
@@ -106,4 +106,5 @@ toc: false
  </div>
 
 </div>
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Iconography Standard  →</a></h3> 
+<h3 class ="t-bold t-right m-0">  Next: <a href="{{site.baseurl}}/iconography/standard/">Standard Icons  →</a></h3> 
+

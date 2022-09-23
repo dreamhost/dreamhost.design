@@ -221,4 +221,4 @@ Don’t create own version.</p>
 
 
 </div>
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Mascot  →</a></h3> 
+<h3 class ="t-bold t-right m-0">  Next: <a href="{{site.baseurl}}/mascot/">Mascot  →</a></h3> 

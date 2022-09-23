@@ -192,4 +192,5 @@ When exporting the an illustrataion make sure to follow the instructions that wa
 </div>
 
 
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Logo →</a></h3> 
+<h3 class ="t-bold t-right m-0">  Next: <a href="{{site.baseurl}}/logos/">Logo →</a></h3> 
+

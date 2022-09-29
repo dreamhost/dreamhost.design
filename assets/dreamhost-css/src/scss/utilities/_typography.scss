@@ -4,12 +4,17 @@
 .t-mono {font-family: $mono !important}
 
 //Sizes
-.t-0 {font-size: $t-0 !important; line-height: $t-h-1;}
-.t-1 {font-size: $t-1 !important; line-height: $t-h-2;}
-.t-2 {font-size: $t-2 !important; line-height: $t-h-3;}
+.t-0 {font-size: $t-0 !important; line-height: $t-h-0;}
+.t-1 {font-size: $t-1 !important; line-height: $t-h-1;}
+.t-2 {font-size: $t-2 !important; line-height: $t-h-2;}
 .t-3 {font-size: $t-3 !important; line-height: $t-h-3;}
 .t-4 {font-size: $t-4 !important; line-height: $t-h-4;}
-.t-5, .t-6 {font-size: $t-5 !important; line-height: $t-h-5;}
+.t-5 {font-size: $t-5 !important; line-height: $t-h-5;}
+.t-6 {font-size: $t-6 !important; line-height: $t-h-6;}
+.t-7 {font-size: $t-7 !important; line-height: $t-h-7;}
+.t-8 {font-size: $t-8 !important; line-height: $t-h-8;}
+
+
 
 // Alignment
 .t-left {text-align: left !important}
@@ -60,14 +65,20 @@
 }
 
 @media screen and (min-width: $medium-breakpoint){
-	.t-0__m {font-size: $t-0 !important; line-height: $t-h-1;}
-	.t-1__m {font-size: $t-1 !important; line-height: $t-h-2;}
-	.t-2__m {font-size: $t-2 !important; line-height: $t-h-3;}
+
+	.t-0__m {font-size: $t-0 !important; line-height: $t-h-0;}
+	.t-1__m {font-size: $t-1 !important; line-height: $t-h-1;}
+	.t-2__m {font-size: $t-2 !important; line-height: $t-h-2;}
 	.t-3__m {font-size: $t-3 !important; line-height: $t-h-3;}
 	.t-4__m {font-size: $t-4 !important; line-height: $t-h-4;}
 	.t-5__m {font-size: $t-5 !important; line-height: $t-h-5;}
-	.t-6__m {font-size: $t-6 !important; line-height: $t-h-5;}
+	.t-6__m {font-size: $t-6 !important; line-height: $t-h-6;}
+	.t-7__m {font-size: $t-7 !important; line-height: $t-h-7;}
+	.t-8__m {font-size: $t-8 !important; line-height: $t-h-8;}
 
+	.t-line-height-8__m {line-height: $t-h-8 !important}
+	.t-line-height-7__m {line-height: $t-h-7 !important}
+	.t-line-height-6__m {line-height: $t-h-6 !important}
 	.t-line-height-5__m {line-height: $t-h-5 !important}
 	.t-line-height-4__m {line-height: $t-h-4 !important}
 	.t-line-height-3__m {line-height: $t-h-3 !important}
@@ -87,14 +98,19 @@
 }
 
 @media screen and (min-width: $large-breakpoint){
-	.t-0__l {font-size: $t-0 !important; line-height: $t-h-1;}
-	.t-1__l {font-size: $t-1 !important; line-height: $t-h-2;}
-	.t-2__l {font-size: $t-2 !important; line-height: $t-h-3;}
+	.t-0__l {font-size: $t-0 !important; line-height: $t-h-0;}
+	.t-1__l {font-size: $t-1 !important; line-height: $t-h-1;}
+	.t-2__l {font-size: $t-2 !important; line-height: $t-h-2;}
 	.t-3__l {font-size: $t-3 !important; line-height: $t-h-3;}
 	.t-4__l {font-size: $t-4 !important; line-height: $t-h-4;}
 	.t-5__l {font-size: $t-5 !important; line-height: $t-h-5;}
-	.t-6__l {font-size: $t-6 !important; line-height: $t-h-5;}
+	.t-6__l {font-size: $t-6 !important; line-height: $t-h-6;}
+	.t-7__l {font-size: $t-7 !important; line-height: $t-h-7;}
+	.t-8__l {font-size: $t-8 !important; line-height: $t-h-8;}
 
+	.t-line-height-8__l {line-height: $t-h-8 !important}
+	.t-line-height-7__l {line-height: $t-h-7 !important}
+	.t-line-height-6__l {line-height: $t-h-6 !important}
 	.t-line-height-5__l {line-height: $t-h-5 !important}
 	.t-line-height-4__l {line-height: $t-h-4 !important}
 	.t-line-height-3__l {line-height: $t-h-3 !important}

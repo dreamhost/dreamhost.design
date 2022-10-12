@@ -8466,7 +8466,7 @@ a[name]:before {
 
 .colorpill {
   cursor: pointer; }
-  .colorpill span {
+  .colorpill .icon {
     visibility: hidden; }
-  .colorpill a:hover + span {
+  .colorpill:hover .icon {
     visibility: visible; }

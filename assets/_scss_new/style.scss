@@ -489,12 +489,11 @@ a[name]:before {
 // Colour Pils
 .colorpill {
 	cursor: pointer;
-	span {
+	.icon {
 		visibility: hidden;
 	}
-	a:hover + span{
+	&:hover .icon {
 		visibility: visible;
-  
 	}
 	
   }

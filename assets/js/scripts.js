@@ -191,4 +191,15 @@ $(function() {
 
 });
 
+// create an event listener for the .copy-to-clipboard element
+$('.copy-to-clipboard').on('click', function() {
+	// grab text inside .hex-code child element
+	var hexCode = $(this).find('.hex-code').text();
+	// copy the text to the clipboard
+	navigator.clipboard.writeText(hexCode).then(function() {
+		console.log('Async: Copying to clipboard was successful!');
+	}, function(err) {
+		console.error('Async: Could not copy text: ', err);
+	});
+});
 

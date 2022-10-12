@@ -24,10 +24,6 @@ toc: false
 <p>Our secondary palette contains a variety of colors to keep things fresh and interesting. The secondary palette consists of red, green, orange, and yellow. These colors are used across
 all web apps at DreamHost.</p>
 
-{% comment %}
-Start of Secondary Colours
-{% endcomment %}
-
 <div class="row">
 {% for colors in site.data.colors %}
 {% for color in colors.secondary %}
@@ -41,10 +37,6 @@ Start of Secondary Colours
 
 <h3 class="m-bottom-2 t-bold">Gray Scale</h3>
 <p>Our neutral palette is a set of warm grays. Use these to enhance information especially in the UI, but also ask if gray is even necessary for larger areas. The grayscales also are used for the backgrounds and text color.</p>
-
-{% comment %}
-Start of Gray Scale
-{% endcomment %}
 
 <div class="row">
 {% for colors in site.data.colors %}

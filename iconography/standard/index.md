@@ -1,5 +1,5 @@
 ---
-title: Iconography
+title: Standard Icons
 layout: app_new
 toc: false
 ---
@@ -91,4 +91,4 @@ Icon minimum size is height is 50px
 We have a fair bit of arrow/chevron icons used in the webiste for consistency use only Gilroy Bold font arrow <b class="t-bold">→	←	↑	↓ </b>
 </div>
 
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Illustrations  →</a></h3> 
+<h3 class ="t-bold t-right m-0"> Next: <a href="{{site.baseurl}}/illustrations/">Illustrations →</a></h3>

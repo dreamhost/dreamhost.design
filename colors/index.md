@@ -5,7 +5,7 @@ toc: false
 ---
 
 <div class="container-fluid p-0">
-<p>Color distinguishes our brand and helps us create consistent experiences across products.  test</p>
+<p>Color distinguishes our brand and helps us create consistent experiences across products.</p>
 <h3 class="m-bottom-2 t-bold">Primary Colors</h3>
 <p>Colors that represent our brand, used as primary color and accents. Our primary palette is comprised of purple, white, and blue to bring boldness to our brand and is used in logical ways throughout product and marketing to guide the eye and highlight the important bits.</p>
 
@@ -210,4 +210,4 @@ Don’t overuse aggressive colors such as red because it can be perceived negati
 
 </div>
 
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Iconography →</a></h3>
+<h3 class ="t-bold t-right m-0">  Next: <a href="{{site.baseurl}}/iconography/product/">Iconography →</a></h3>

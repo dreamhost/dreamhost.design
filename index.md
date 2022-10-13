@@ -8,7 +8,7 @@ toc: false
 
 <div class="container-fluid bg-none ">
 <div class="m-top-16">
-  <span  class="flex-justify-start__m t-5 t-8__m  flex flex-align-center flex-justify-center t-bold m-bottom-0 t-c-w100 m-bottom-4">{{page.title}}</span>
+  <span  class="flex-justify-start__m t-5 t-6__m  flex flex-align-center flex-justify-center t-bold m-bottom-0 t-c-w100 m-bottom-4">{{page.title}}</span>
 
   	<a href="{{site.baseurl}}/principles" class="Button t-1 t-3__m l-none__m rounded-pill flex flex-align-center flex-justify-center t-black border-none  w-50 bg-c-w100 m-auto  ">Start</a>
 

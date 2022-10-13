@@ -1,5 +1,5 @@
 ---
-title: Standard Icons
+title: Iconography
 layout: app_new
 toc: false
 ---
@@ -10,6 +10,9 @@ toc: false
 <h3 class="m-bottom-2 t-bold">Standard Icons</h3>
 <p>Standard icons are versatile and used to signify key points, bring attention to important messages, and support wayfinding. They are utilized on web pages, marketing materials, and emails. You can request these icons by contacting the design team or browse <a href="https://fontawesome.com/v5/search">font awesome</a> if you have the font file.</p>
  <div class="row m-bottom-4">
+
+
+
 
  </div>
   <div class="bg-c-g100  p-4 p-bottom-0  rounded-container">
@@ -47,6 +50,7 @@ toc: false
     <div class="col-12">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
 
+
   </div>
     </div>
   </div>
@@ -70,7 +74,7 @@ Icons positioning is always before any text this can be on top or on the left.
 <p class="m-bottom-3">
 Icons can have backgrounds for circles we only use Off White (#F4F6F9), for the squares it is Green,  Purple, or Blue and for White squares it needs to have a drop shadow for the white square to be visible.
 </p>
-<img class="flex m-0 w-100 m-bottom-4 rounded-container" src="{{site.baseurl}}/assets/images/icons_new/standard/samples/example_icon03.svg" alt="Example 3" />
+<img class="flex m-0 w-100 m-bottom-4 rounded-container" src="{{site.baseurl}}/assets/images/icons_new/standard/samples/example_icon03.svg" alt="Example 3" />   
 
 <p class="m-bottom-3">
 Icon minimum size is height is 50px
@@ -79,6 +83,7 @@ Icon minimum size is height is 50px
 </div>
 </div>
 
+
 </div>
 </div>
 
@@ -86,4 +91,4 @@ Icon minimum size is height is 50px
 We have a fair bit of arrow/chevron icons used in the webiste for consistency use only Gilroy Bold font arrow <b class="t-bold">→	←	↑	↓ </b>
 </div>
 
-<h3 class ="t-bold t-right m-0"> Next: <a href="{{site.baseurl}}/illustrations/">Illustrations →</a></h3>
+<h3 class ="t-bold t-right m-0">  Next: <a href="">Illustrations  →</a></h3> 

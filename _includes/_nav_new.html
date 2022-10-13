@@ -14,8 +14,23 @@
                 
                 {% include components/menu-item.html title="Principles" url="/principles/" %}
                 {% include components/menu-item.html title="Colors" url="/colors/" %}
-                {% include components/menu-item.html title="Product Icons" url="/iconography/product/" %}
-                {% include components/menu-item.html title="Standard Icons" url="/iconography/standard/" %}                
+                
+                <li>
+                    <a class='l-flex flex-justify-between {% if page.url contains "/iconography/" %}is-uncollapsed{% endif %}{% if page.url == "/" %}t-c-w100{% endif %}'
+                        href="javascript:;">
+                        Iconography
+                    </a>
+                    <ul class='subnav__subnav__subnav bg-c-b50 {% if page.url == "/" %}bg-black{% endif %} t-0'>
+                        <!-- LEVEL 3 -->
+
+                        <li><a href="{{site.baseurl}}/iconography/product" class='{% if page.url =="/iconography/product/" %}is-active{% endif %}
+                    {% if page.url == "/" %}t-c-w100{% endif %}'>Product</a></li>
+                        <li><a href="{{site.baseurl}}/iconography/standard/" class='{% if page.url == "/iconography/standard/" %}is-active{% endif %}
+                    {% if page.url == "/" %}t-c-w100{% endif %}'>Standard</a></li>
+
+                    </ul>
+                </li>
+
                 {% include components/menu-item.html title="Illustrations" url="/illustrations/" %}
                 {% include components/menu-item.html title="Logos" url="/logos/" %}
                 {% include components/menu-item.html title="Mascot" url="/mascot/" %}
@@ -30,3 +45,4 @@
 
     </ul>
 </aside>
+

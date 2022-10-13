@@ -3,7 +3,6 @@ title: Principles
 layout: app_new
 toc: false
 ---
-
 <div class="container-fluid p-0">
 <h3 class="m-bottom-2 t-bold">Our Foundation</h3>
 
@@ -89,6 +88,7 @@ People have the freedom to choose how their digital content is shared.</p>
 <path d="M15.5 0.5C6.9375 0.5 0 7.4375 0 16C0 24.5625 6.9375 31.5 15.5 31.5C24.0625 31.5 31 24.5625 31 16C31 7.4375 24.0625 0.5 15.5 0.5ZM24.3375 24.8375C21.975 27.2 18.8375 28.5 15.5 28.5C12.1625 28.5 9.025 27.2 6.6625 24.8375C4.3 22.475 3 19.3375 3 16C3 12.6625 4.3 9.525 6.6625 7.1625C9.025 4.8 12.1625 3.5 15.5 3.5C18.8375 3.5 21.975 4.8 24.3375 7.1625C26.7 9.525 28 12.6625 28 16C28 19.3375 26.7 22.475 24.3375 24.8375ZM21.475 12.25L23.575 9.73125C24.1125 9.0875 23.3375 8.18125 22.6125 8.60625L17.6125 11.6062C17.125 11.9 17.125 12.6 17.6125 12.8938L22.6125 15.8938C23.3312 16.3188 24.1125 15.4187 23.575 14.7688L21.475 12.25ZM8.3875 15.8938L13.3875 12.8938C13.875 12.6 13.875 11.9 13.3875 11.6062L8.3875 8.60625C7.6625 8.175 6.8875 9.0875 7.425 9.73125L9.525 12.25L7.425 14.7688C6.88125 15.4187 7.6625 16.3188 8.3875 15.8938ZM22.65 18H8.35C7.8375 18 7.44375 18.4375 7.50625 18.9375C7.975 22.6375 11.1875 25.5 15.075 25.5H15.925C19.8125 25.5 23.025 22.6375 23.4937 18.9375C23.5562 18.4375 23.1625 18 22.65 18Z" fill="#00CAAA"/>
 </svg>
 
+
  <h5 class="t-bold">Fun & Irreverent</h5>
       <p>We are playful and don’t mind a little humor. We try to keep it PG-13, but no promises.</p>
       </div>
@@ -122,7 +122,6 @@ People have the freedom to choose how their digital content is shared.</p>
 </div>
 
 {% for principles in site.data.principles %}
-
 <div class="bg-c-g100 p-4 p-bottom-0 rounded-container">
  <div class="row m-bottom-4 flex">
   <div class="col-12 col-md-6">
@@ -145,4 +144,6 @@ People have the freedom to choose how their digital content is shared.</p>
 </div>
 {% endfor %}
 
-<h3 class ="t-bold t-right m-0"> Next: <a href="{{site.baseurl}}/colors/">Color →</a></h3>
+
+
+<h3 class ="t-bold t-right m-0">  Next: <a href="">Color →</a></h3> 

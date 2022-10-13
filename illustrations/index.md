@@ -26,6 +26,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
   </div>
 </div>
 
+
  <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
@@ -34,6 +35,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
   </div>
 </div>
   </div>
+
 
 <h4 class="m-bottom-2 t-bold">Representational UI</h4>
 <p>Representational UI’s are illustrations representing digital products, features & workflows.</p>
@@ -57,9 +59,10 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
 </div>
 </div>
 
+
    <div class="bg-c-g100  p-4 p-bottom-0 rounded-container">
   <h4 class="m-bottom-2 t-bold">Colors </h4>
-  <p>Once downloaded, illustrations are recolored using the Dreamhost’s brand color palette. Visit the <a href="{{site.baseurl}}/colors/">color page</a> to learn more about how to use colors.</p>
+  <p>Once downloaded, illustrations are recolored using the Dreamhost’s brand color palette. Visit the <a>color page</a> to learn more about how to use colors.</p>
    <div class="row m-bottom-4">
     <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
@@ -116,6 +119,11 @@ Don’t use illustrations directly after download without recoloring to fit the 
       </div>
 </div>
 
+
+
+
+
+
 <h3 class="t-bold">Templates</h3>
 <div class=" bg-c-g100 p-4 rounded-container m-bottom-4">
 
@@ -137,6 +145,7 @@ Don’t use illustrations directly after download without recoloring to fit the 
      <img class="flex m-auto m-bottom-4" src="{{site.baseurl}}/assets/images/illustration_new/template_03.svg" alt="Linkedin and Instagram Template" />
 </div>
 
+
 <div class="p-bottom-4">
 <h4 class="t-bold">Twitter Template</h4>
 <p>Use this template when creating a Twitter Graphics.</p>
@@ -151,6 +160,10 @@ Don’t use illustrations directly after download without recoloring to fit the 
 </div>
 </div>
 
+
+
+
+
 <div class=" bg-c-g100 p-4 rounded-container m-bottom-4">
 
 <div class="p-bottom-4">
@@ -163,7 +176,6 @@ Don’t use illustrations directly after download without recoloring to fit the 
 When exporting an image make sure to select the correct format of the illustration.</p>
 
 <b class="t-bold">Step 2: Export the image</b>
-
 <p>
 When exporting the an illustrataion make sure to follow the instructions that was given. For example blog images, we follow a JPG format.</p>
 </div>
@@ -175,7 +187,9 @@ When exporting the an illustrataion make sure to follow the instructions that wa
 
 </div>
 
+
 </div>
 </div>
 
-<h3 class ="t-bold t-right m-0"> Next: <a href="{{site.baseurl}}/logos/">Logo →</a></h3>
+
+<h3 class ="t-bold t-right m-0">  Next: <a href="">Logo →</a></h3> 

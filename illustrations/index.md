@@ -62,7 +62,7 @@ in their execution. They should evoke feelings of friendliness and warmth. When 
 
    <div class="bg-c-g100  p-4 p-bottom-0 rounded-container">
   <h4 class="m-bottom-2 t-bold">Colors </h4>
-  <p>Once downloaded, illustrations are recolored using the Dreamhost’s brand color palette. Visit the <a>color page</a> to learn more about how to use colors.</p>
+   <p>Once downloaded, illustrations are recolored using the Dreamhost’s brand color palette. Visit the <a href="{{site.baseurl}}/colors/">color page</a> to learn more about how to use colors.</p>
    <div class="row m-bottom-4">
     <div class="col-12 col-md-6">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
@@ -192,4 +192,4 @@ When exporting the an illustrataion make sure to follow the instructions that wa
 </div>
 
 
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Logo →</a></h3> 
+<h3 class ="t-bold t-right m-0"> Next: <a href="{{site.baseurl}}/logos/">Logo →</a></h3>

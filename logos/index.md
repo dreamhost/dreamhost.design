@@ -4,7 +4,6 @@ layout: app_new
 toc: false
 ---
 
-
 <div class="container-fluid p-0">
 
 <p class="m-bottom-4">The DreamHost logo plays the role of our company’s handshake. It’s typically the first thing a potential customer sees and allows them to distinguish our products and services from our competitors’. Keeping the logo’s usage clean and consistent throughout all of our materials is an important step to building strong brand recognition.</p>
@@ -12,7 +11,6 @@ toc: false
 <p>Our company name is DreamHost. It is not Dreamhost Web Hosting, Dreamhost,
 DreamHost LLC, New Dream Network, or
 New Dream Networks. The DreamHost brand name uses upper camel ase. Both the D and the H should always capitalized with no space in between.</p>
-
 
 <div class="bg-c-g100  p-4 p-bottom-2  m-bottom-4  rounded-container">
   <h4 class="m-bottom-2 t-bold">Primary Logo</h4>
@@ -58,7 +56,6 @@ New Dream Networks. The DreamHost brand name uses upper camel ase. Both the D an
   </div>
 </div>
 
-
 <div class="bg-c-g100  p-4 p-bottom-2  m-bottom-4  rounded-container ">
   <h4 class="m-bottom-2 t-bold">Logo Mark</h4>
   <p>Our logomark is a moon-shaped icon or symbol that does not contain our company name. Popular third-party examples include Apple’s apple and Nike’s swoosh.</p>
@@ -87,7 +84,6 @@ New Dream Networks. The DreamHost brand name uses upper camel ase. Both the D an
          <p class="rounded-pill col-12 col-md-2 p-2 bg-c-b300 t-center t-c-w100 ">Format: <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/logo_new/logo_mark_svgs.zip" download>SVG</a> | <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/logo_new/logo_mark_pngs.zip" download>PNG</a> </p>
 
 </div>
-
 
 <h4 class="m-bottom-2 t-bold">Implementation</h4>
 <p>Our company name is DreamHost. It is not Dreamhost Web Hosting, Dreamhost,
@@ -177,7 +173,6 @@ Don’t create own version.</p>
  
 </div>
 
-
 <div class="bg-c-g100  p-4 p-bottom-2  m-bottom-4  rounded-container ">
   <h4 class="m-bottom-2 t-bold">Minimum sizes</h4>
   <p>Keeping the logo visual integrity it should not be set lower than  150px width in digital or 30mm in print. </p>
@@ -192,7 +187,6 @@ Don’t create own version.</p>
    <img class="flex m-auto p-2 w-100" src="{{site.baseurl}}/assets/images/logo_new/min_size_print.svg" alt="Min Print Size" />
    </div>
   </div>
-
 
 </div>
 </div>
@@ -212,13 +206,8 @@ Don’t create own version.</p>
    </div>
   </div>
 
-
 </div>
 </div>
 
-
-
-
-
 </div>
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Mascot  →</a></h3> 
+<h3 class ="t-bold t-right m-0"> Next: <a href="{{site.baseurl}}/mascot/">Mascot →</a></h3>

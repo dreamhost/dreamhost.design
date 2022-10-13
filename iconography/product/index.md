@@ -1,5 +1,5 @@
 ---
-title: Iconography
+title: Product Icons
 layout: app_new
 toc: false
 ---
@@ -11,15 +11,15 @@ toc: false
 <p>Product icons are designed to represent DreamHost-specific products. It is generally utilized on the website and paired with the product name. Download our full product icons <a href="{{site.baseurl}}/assets/downloads/icons/product/all-product-icons.svg" alt="All Product Icons" download>here</a>.</p>
  <div class="row m-bottom-4">
 
-
 {% for icons in site.data.icons %}
+
   <div class="col-6 col-md-3">
   <div class="bg-c-g100 rounded-top">
    <img class="flex m-auto p-2 w-100" src="{{site.baseurl}}/assets/images/icons_new/product/display/{{icons.url}}" alt="{{icons.name}}" />
    </div>
    <p class="rounded-bottom p-2 bg-c-b300 t-center t-c-w100 ">Format: <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/icons_new/product/{{icons.url}}" download>SVG</a> </p>
   </div>
-  {% endfor %}   
+  {% endfor %}
 
  </div>
   <div class="bg-c-g100  p-4 p-bottom-0  rounded-container">
@@ -106,4 +106,4 @@ toc: false
  </div>
 
 </div>
-<h3 class ="t-bold t-right m-0">  Next: <a href="">Iconography Standard  →</a></h3> 
+<h3 class ="t-bold t-right m-0">  Next: <a href="{{site.baseurl}}/iconography/standard/">Standard Icons  →</a></h3>

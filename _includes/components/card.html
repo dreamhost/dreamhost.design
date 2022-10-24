@@ -1,0 +1,9 @@
+<div class= "Card bg-c-w100 rounded-container p-0 ">
+	<div class="">
+	 <img class="flex m-auto" src="{{site.baseurl}}{{ include.src }}" alt="Illustration Color Do" />
+	</div>
+	<div class='border-c-{% if include.accent=="blue"%}b300{% endif %}{% if include.accent=="red"%}r300{% endif %} border-top-3 border-solid p-4'>
+	<h5 class='t-bold t-c-{% if include.accent=="blue"%}b300{% endif %}{% if include.accent=="red"%}r300{% endif %}'>{{include.title}}</h5>
+	<p>{{include.description}}</p>
+	</div>
+</div>

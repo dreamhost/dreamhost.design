@@ -1,5 +1,5 @@
 ---
-title: Typography
+title: Marketing Typography 
 layout: app_new
 toc: false
 ---
@@ -38,7 +38,7 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
 </div>
   </div>
 
-{% for type in site.data.typography %}
+{% for type in site.data.typography_marketing %}
  <div class = "bg-c-g100 p-4 m-bottom-2">
  <div class="row flex flex-align-center">
   <p class="col-5 col-md-3 {{type.font_size}} {{type.font_weight}} ">{{type.style}}</p>
@@ -49,19 +49,19 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
   </div>
 {% endfor %}
 
- <h3 class="t-bold m-bottom-2 m-top-4">Text & Background Pairing</h3>
+ <h3 class="t-medium m-bottom-2 m-top-4">Text & Background Pairing</h3>
  <p>Providing good contrast between background and texts colors will improve readability. Text should be clearly distinguishable from the background. Visit the <a href="{{site.baseurl}}/colors/">color page</a> to learn more about colors.
 </p>
 
 <div class="m-bottom-4">
-{% for pairs in site.data.colors_paring %}
+{% for pairs in site.data.colors_paring_marketing %}
 <div class="row">
 <p class="col-12 col-md-3 flex flex-align-center t-1 t-2__m m-top-2">{{pairs.bg_name}}</p>
 
 
 <span class="col-4 col-md-3 border border-c-b50  border-size-1 flex flex-align-center t-1 t-2__m {{pairs.bg_color}} {{pairs.font_color}}">
 <p>
-<b class="t-bold">{{pairs.treatment}}</b><br/>
+<b class="t-medium">{{pairs.treatment}}</b><br/>
 {{pairs.base_color}}</p>
 </span>
 <span class="col-4 col-md-3 border border-c-b50  border-size-1 flex flex-align-center t-1 t-2__m p-top-2 b-bottom-2 {{pairs.bg_color}}">
@@ -69,7 +69,7 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
 {% for emphasis in pairs.emphasis %}
 <div class="{{emphasis.font_color}} ">
 <p>
-<b class="t-bold">Emphasis</b><br/>
+<b class="t-medium">Emphasis</b><br/>
 {{emphasis.color_name}}</p>
 </div>
 {% endfor %}
@@ -78,7 +78,7 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
 <span class="col-4 col-md-3 t-c-r300 border border-c-b50 border-size-1 flex flex-align-center t-1 t-2__m {{pairs.bg_color}}">
 {% for error in pairs.error %}
 <p class="{{error.font_color}}">
-<b class="t-bold">{{error.heading}}</b><br/>
+<b class="t-medium">{{error.heading}}</b><br/>
 {{error.color_name}}</p>
 {% endfor %}
 
@@ -124,3 +124,4 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
 <img  src="{{site.baseurl}}/assets/images/typography_new/example.svg">
 </div>
 
+<h3 class ="t-bold t-right m-0">  Next: <a href="{{site.baseurl}}/typography/product">Products Typography →</a></h3> 

@@ -276,3 +276,7 @@ For product images, use vibrant or neon colors. The colors should clearly pop an
 		{% include components/card.html accent="red" title="Don’t" description="Don’t use overly sterile workspaces." src="/assets/images/photography/photograph-example-38.jpg" %}
 	</div>
 </div>
+
+
+
+<h3 class ="t-bold t-right m-0">  Next: <a href="{{site.baseurl}}/typography/marketing">Marketing Typography →</a></h3> 

@@ -18,7 +18,7 @@ of our written communications. It’s what makes reading easier, establishing co
   <p>Gilroy is a modern sans-serif typeface that we use on our website, blog, and printed collateral.</p><p> 
 Note that we use various weights of the Gilroy font family. For headers, we use “Bold” and “Semi-Bold” and for body texts, we use “Medium”.
 </p>
-         <p class="rounded-pill col-12 col-md-3 p-2 bg-c-b300 t-center t-c-w100 "><a class="t-c-w100"  href ="https://www.fontspring.com/fonts/radomir-tinkov/gilroy">Full Version on Font Spring →  </a></p>
+         <p class="rounded-pill col-12 col-md-4 p-2 bg-c-b300 t-center t-c-w100 "><a class="t-c-w100"  href ="https://www.fontspring.com/fonts/radomir-tinkov/gilroy">Full Version on Font Spring →  </a></p>
          
  </div>
 
@@ -54,7 +54,7 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
 </p>
 
 <div class="m-bottom-4">
-{% for pairs in site.data.colors_paring_marketing %}
+{% for pairs in site.data.colors_paring %}
 <div class="row">
 <p class="col-12 col-md-3 flex flex-align-center t-1 t-2__m m-top-2">{{pairs.bg_name}}</p>
 

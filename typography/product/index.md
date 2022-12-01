@@ -18,7 +18,7 @@ of our written communications. It’s what makes reading easier, establishing co
   <p>Ubuntu is a versatile display font that we use for headlines on our website, blog, and printed collateral.</p><p> 
 Note that we only use the ‘Medium’ weight of the Ubuntu font family. If you feel the need to use a thinner or heavier weight, please contact the design team before doing so.
 </p>
-         <p class="rounded-pill col-12 col-md-3 p-2 bg-c-b300 t-center t-c-w100 "><a class="t-c-w100"  href ="https://fonts.google.com/specimen/Ubuntu">Download on Google Fonts →  </a></p>
+         <p class="rounded-pill col-12 col-md-4 p-2 bg-c-b300 t-center t-c-w100 "><a class="t-c-w100"  href ="https://fonts.google.com/specimen/Ubuntu">Download on Google Fonts →  </a></p>
          
  </div>
 
@@ -27,7 +27,7 @@ Note that we only use the ‘Medium’ weight of the Ubuntu font family. If you 
   <p>Proxima Nova is a light, easy-to-read font that we use for written content on our website, blog, and printed collateral.</p><p> 
 Note that we only use the ‘Regular’ weight of the Proxima Nova font family. If you feel the need to use a thinner or heavier weight, please contact the design team before doing so.
 </p>
-         <p class="rounded-pill col-12 col-md-3 p-2 bg-c-b300 t-center t-c-w100 "><a class="t-c-w100"  href ="https://fonts.adobe.com/fonts/proxima-nova">Full Version on Adobe Fonts →  </a></p>
+         <p class="rounded-pill col-12 col-md-4 p-2 bg-c-b300 t-center t-c-w100 "><a class="t-c-w100"  href ="https://fonts.adobe.com/fonts/proxima-nova">Full Version on Adobe Fonts →  </a></p>
          
  </div>
 
@@ -65,7 +65,7 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
 </p>
 
 <div class="m-bottom-4">
-{% for pairs in site.data.colors_paring_product %}
+{% for pairs in site.data.colors_paring %}
 <div class="row">
 <p class="col-12 col-md-3 flex flex-align-center t-1 t-2__m m-top-2">{{pairs.bg_name}}</p>
 

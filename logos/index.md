@@ -84,7 +84,7 @@ New Dream Networks. The DreamHost brand name uses upper camel ase. Both the D an
    </div>
   </div>
 </div>
-         <p class="rounded-pill col-12 col-md-2 p-2 bg-c-b300 t-center t-c-w100 ">Format: <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/logo_new/logo_mark_svgs.zip" download>SVG</a> | <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/logo_new/logo_mark_pngs.zip" download>PNG</a> </p>
+         <p class="rounded-pill col-12 col-md-3 p-2 bg-c-b300 t-center t-c-w100 ">Format: <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/logo_new/logo_mark_svgs.zip" download>SVG</a> | <a class="t-c-w100"  href ="{{site.baseurl}}/assets/downloads/logo_new/logo_mark_pngs.zip" download>PNG</a> </p>
 
 </div>
 

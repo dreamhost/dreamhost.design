@@ -1,0 +1,50 @@
+[
+  {
+  "style": "h1",
+  "weight": "Bold",
+  "size": "40",
+  "line_height": "48",
+  "font_family":"Ubuntu",
+  "font_weight":"bold"
+  },
+  {
+  "style": "h2",
+  "weight": "Medium",
+  "size": "32",
+  "line_height": "40",
+  "font_family":"Ubuntu",
+  "font_weight":"500"
+  },
+  {
+  "style": "h3",
+  "weight": "Medium",
+  "size": "24",
+  "line_height": "32",
+  "font_family":"Ubuntu",
+  "font_weight":"500"
+  },
+  {
+  "style": "h4",
+  "weight": "Regular",
+  "size": "20",
+  "line_height": "32",
+  "font_family":"Ubuntu",
+  "font_weight":"regular"
+  },
+  {
+  "style": "Larger Body",
+  "weight": "Regular",
+  "size": "16",
+  "line_height": "25",
+  "font_family":"Proxima Nova",
+  "font_weight":"regular"
+  },
+  {
+  "style": "Regular Body",
+  "weight": "Regular",
+  "size": "15",
+  "line_height": "25",
+  "font_family":"Proxima Nova",
+  "font_weight":"regular"
+  }
+  ]

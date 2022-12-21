@@ -191,48 +191,35 @@ $(function() {
 
 });
 
-function unsecuredCopyToClipboard(text) {
-  const textArea = document.createElement("textarea");
-  textArea.value = text;
-  document.body.appendChild(textArea);
-  textArea.focus();
-  textArea.select();
-  try {
-    document.execCommand('copy');
-  } catch (err) {
-    console.error('Unable to copy to clipboard', err);
-  }
-  document.body.removeChild(textArea);
+function copyToClipboard(textToCopy) {
+	// navigator clipboard api needs a secure context (https)
+	if (navigator.clipboard && window.isSecureContext) {
+			// navigator clipboard api method'
+			return navigator.clipboard.writeText(textToCopy);
+	} else {
+			// text area method
+			let textArea = document.createElement("textarea");
+			textArea.value = textToCopy;
+			// make the textarea out of viewport
+			textArea.style.position = "fixed";
+			textArea.style.left = "-999999px";
+			textArea.style.top = "-999999px";
+			document.body.appendChild(textArea);
+			textArea.focus();
+			textArea.select();
+			return new Promise((res, rej) => {
+					// here the magic happens
+					document.execCommand('copy') ? res() : rej();
+					textArea.remove();
+			});
+	}
 }
-
-const unsecuredCopyToClipboard = (text) => {
-  const textArea = document.createElement("textarea");
-  textArea.value = text;
-  document.body.appendChild(textArea);
-  textArea.focus();
-  textArea.select();
-  try {
-    document.execCommand("copy");
-  } catch (err) {
-    console.error("Unable to copy to clipboard", err);
-  }
-  document.body.removeChild(textArea);
-};
-
 
 // create an event listener for the .copy-to-clipboard element
 $('.copy-to-clipboard').on('click', function() {
 	// grab text inside .hex-code child element
 	var hexCode = $(this).find('.hex-code').text();
 	// copy the text to the clipboard
-	if (window.isSecureContext && navigator.clipboard) {
-    navigator.clipboard.writeText(hexCode).then(function() {
-			console.log('Async: Copying to clipboard was successful!');
-		}, function(err) {
-			console.error('Async: Could not copy text: ', err);
-		});
-  } else {
-    unsecuredCopyToClipboard(hexCode);
-  }
+	copyToClipboard(hexCode);
 });
 

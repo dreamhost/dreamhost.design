@@ -97,8 +97,8 @@ New Dream Networks. The DreamHost brand name uses upper camel ase. Both the D an
 <div class="bg-c-g100  p-4 p-bottom-0  rounded-container">
   <h4 class="m-bottom-2 t-bold">Dont’s</h4>
   <p>Here are the samples of what not to do with the DreamHost Logo.</p>
-   <div class="row m-bottom-4">
-    <div class="col-12 col-md-4">
+   <div class="row m-bottom-4 ">
+    <div class="col-12 col-md-4 flex">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
        <img class="flex m-auto" src="{{site.baseurl}}/assets/images/logo_new/logo_dont01.svg" alt="Logo Dont's #1" />
@@ -106,11 +106,11 @@ New Dream Networks. The DreamHost brand name uses upper camel ase. Both the D an
       <div class="border-c-r300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-r300">Don't</h5>
       <p>
-Don’t use old logo.</p>
+Do not use the old logos.</p>
       </div>
      </div>
     </div>
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4 flex">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
        <img class="flex m-auto" src="{{site.baseurl}}/assets/images/logo_new/logo_dont02.svg" alt="Logo Dont's #2" />
@@ -118,11 +118,11 @@ Don’t use old logo.</p>
       <div class="border-c-r300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-r300">Don't</h5>
       <p>
-Don’t use Wordmark alone.</p>
+Do not change the logo colors.</p>
       </div>
      </div>
    </div>
-   <div class="col-12 col-md-4">
+   <div class="col-12 col-md-4 flex">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
        <img class="flex m-auto" src="{{site.baseurl}}/assets/images/logo_new/logo_dont03.svg" alt="Logo Dont's #3" />
@@ -130,14 +130,14 @@ Don’t use Wordmark alone.</p>
       <div class="border-c-r300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-r300">Don't</h5>
       <p>
-Don’t rotate or distort it.</p>
+Do not create new versions of the logo.</p>
       </div>
      </div>
    </div>
  </div>
 
 <div class="row m-bottom-4">
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 flex">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
        <img class="flex m-auto" src="{{site.baseurl}}/assets/images/logo_new/logo_dont04.svg" alt="Logo Dont's #4" />
@@ -145,11 +145,11 @@ Don’t rotate or distort it.</p>
       <div class="border-c-r300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-r300">Don't</h5>
       <p>
-Don’t use in low contrast.</p>
+Do not rotate or distort the logo.</p>
       </div>
      </div>
     </div>
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-4 flex">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
        <img class="flex m-auto" src="{{site.baseurl}}/assets/images/logo_new/logo_dont05.svg" alt="Logo Dont's #5" />
@@ -157,11 +157,11 @@ Don’t use in low contrast.</p>
       <div class="border-c-r300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-r300">Don't</h5>
       <p>
-Don’t use on busy images.</p>
+Do not add effects to the logo.</p>
       </div>
      </div>
    </div>
-   <div class="col-12 col-md-4">
+   <div class="col-12 col-md-4 flex">
      <div class= "Card bg-c-w100 rounded-container p-0 ">
       <div class= "p-4">
        <img class="flex m-auto" src="{{site.baseurl}}/assets/images/logo_new/logo_dont06.svg" alt="Logo Dont's #6" />
@@ -169,7 +169,7 @@ Don’t use on busy images.</p>
       <div class="border-c-r300 border-top-3 border-solid p-4">
       <h5 class="t-bold t-c-r300">Don't</h5>
       <p>
-Don’t create own version.</p>
+Do not change the logo type.</p>
       </div>
      </div>
    </div>

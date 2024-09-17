@@ -13,14 +13,7 @@ of our written communications. It’s what makes reading easier, establishing co
 
 
  </div>
-  <div class="bg-c-g100  p-4 m-bottom-4 rounded-container">
-  <h3 class="m-bottom-2 t-bold">Ubuntu</h3>
-  <p>Ubuntu is a versatile display font that we use for headlines on our website, blog, and printed collateral.</p><p> 
-Note that we only use the ‘Medium’ weight of the Ubuntu font family. If you feel the need to use a thinner or heavier weight, please contact the design team before doing so.
-</p>
-         <p class="rounded-pill col-12 col-md-4 p-2 bg-c-b300 t-center t-c-w100 "><a class="t-c-w100"  href ="https://fonts.google.com/specimen/Ubuntu">Download on Google Fonts →  </a></p>
-         
- </div>
+
 
   <div class="bg-c-g100  p-4 m-bottom-4 rounded-container">
   <h3 class="m-bottom-2 t-bold">Proxima Nova</h3>
@@ -70,26 +63,26 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
 <p class="col-12 col-md-3 flex flex-align-center t-1 t-2__m m-top-2">{{pairs.bg_name}}</p>
 
 
-<span style ="font-family:Ubuntu;" class="col-4 col-md-3 border border-c-b50  border-size-1 flex flex-align-center t-1 t-2__m {{pairs.bg_color}} {{pairs.font_color}}">
+<span class="col-4 col-md-3 border border-c-b50  border-size-1 flex flex-align-center t-1 t-2__m {{pairs.bg_color}} {{pairs.font_color}}">
 <p>
-<b style ="font-family:Ubuntu;"  class="t-medium">{{pairs.treatment}}</b><br/>
+<b class="t-medium">{{pairs.treatment}}</b><br/>
 {{pairs.base_color}}</p>
 </span>
-<span style ="font-family:Ubuntu;"  class="col-4 col-md-3 border border-c-b50  border-size-1 flex flex-align-center t-1 t-2__m p-top-2 b-bottom-2 {{pairs.bg_color}}">
+<span class="col-4 col-md-3 border border-c-b50  border-size-1 flex flex-align-center t-1 t-2__m p-top-2 b-bottom-2 {{pairs.bg_color}}">
 <div>
 {% for emphasis in pairs.emphasis %}
-<div style ="font-family:Ubuntu;" class="{{emphasis.font_color}} ">
+<div class="{{emphasis.font_color}} ">
 <p>
-<b style ="font-family:Ubuntu;" class="t-medium">Emphasis</b><br/>
+<b class="t-medium">Emphasis</b><br/>
 {{emphasis.color_name}}</p>
 </div>
 {% endfor %}
 </div>
 </span>
-<span style ="font-family:Ubuntu;"  class="col-4 col-md-3 t-c-r300 border border-c-b50 border-size-1 flex flex-align-center t-1 t-2__m {{pairs.bg_color}}">
+<span class="col-4 col-md-3 t-c-r300 border border-c-b50 border-size-1 flex flex-align-center t-1 t-2__m {{pairs.bg_color}}">
 {% for error in pairs.error %}
-<p style ="font-family:Ubuntu;"  class="{{error.font_color}}">
-<b style ="font-family:Ubuntu;"  class="t-medium">{{error.heading}}</b><br/>
+<p class="{{error.font_color}}">
+<b class="t-medium">{{error.heading}}</b><br/>
 {{error.color_name}}</p>
 {% endfor %}
 
@@ -106,6 +99,5 @@ Hierarchy is the organization of the text. It’s how we establish an order of i
 <h3 class="t-bold">Examples</h3>
 <p>In this example, we break down the usage of sizes, colors, weight, and informational hierarchy of one Dreamhost Web Panel section.</p>
 <div class = "flex flex-justify-center">
-<img  src="{{site.baseurl}}/assets/images/typography_new/example_2.svg">
+<img  src="{{site.baseurl}}/assets/images/typography_new/example_3.svg">
 </div>
-

@@ -1,5 +1,5 @@
 <button class='copy-to-clipboard p-2 p-x-4 rounded-pill shadow-default t-left {{include.color.bg}} {{include.class}} {% if include.color.text-color=="white"%} t-c-w100{% else %}t-black{% endif %} border-0 colorpill flex flex-row'>
-	<span class="flex-grow-1">
+	<span class="flex-grow-1 {{include.color.text-color}}">
 				<span class="t-bold l-block">{{include.color.name}}</span>
 				<span class="hex-code l-block">{{include.color.hex}}</span>
 	</span>
